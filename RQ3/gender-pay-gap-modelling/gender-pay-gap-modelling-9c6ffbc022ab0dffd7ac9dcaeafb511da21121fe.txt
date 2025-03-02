@@ -1,0 +1,177 @@
+Run Command: python  models.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 8
+Not Covered Sklearn Invoked API Number: 0/8
+Covered Sklearn Invoked API Number: 8/8
+
+Compatible Sklearn Invoked API Number: 7/8
+Unknown Compatible Sklearn Invoked API Number: 0/8
+
+Incompatible Sklearn Invoked API Number: 1/8
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.py has 8 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: LinearRegression(normalize=True)                                                   |
+|                                                                                                    |
+| Location: At Line 11 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, fit_intercept=True, normalize='deprecated', copy_X=True, n_jobs=N |
+| one, positive=False)                                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, fit_intercept=True, copy_X=True, n_jobs=None, positive=False)     |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: LinearRegression()                                                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: DecisionTreeRegressor(random_state=1, max_depth=10, min_samples_split=10)          |
+|                                                                                                    |
+| Location: At Line 12 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, criterion='squared_error', splitter='best', max_depth=None, min_s |
+| amples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state= |
+| None, max_leaf_nodes=None, min_impurity_decrease=0.0, ccp_alpha=0.0)                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, criterion='squared_error', splitter='best', max_depth=None, min_s |
+| amples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state= |
+| None, max_leaf_nodes=None, min_impurity_decrease=0.0, ccp_alpha=0.0)                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: AdaBoostRegressor(random_state=1)                                                  |
+|                                                                                                    |
+| Location: At Line 13 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (base_estimator=None, *, n_estimators=50, learning_rate=1.0, loss='li |
+| near', random_state=None)                                                                          |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (estimator=None, *, n_estimators=50, learning_rate=1.0, loss='linear' |
+| , random_state=None, base_estimator='deprecated')                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: GradientBoostingRegressor(random_state=1)                                          |
+|                                                                                                    |
+| Location: At Line 14 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, loss='squared_error', learning_rate=0.1, n_estimators=100, subsam |
+| ple=1.0, criterion='friedman_mse', min_samples_split=2, min_samples_leaf=1, min_weight_fraction_le |
+| af=0.0, max_depth=3, min_impurity_decrease=0.0, init=None, random_state=None, max_features=None, a |
+| lpha=0.9, verbose=0, max_leaf_nodes=None, warm_start=False, validation_fraction=0.1, n_iter_no_cha |
+| nge=None, tol=0.0001, ccp_alpha=0.0)                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, loss='squared_error', learning_rate=0.1, n_estimators=100, subsam |
+| ple=1.0, criterion='friedman_mse', min_samples_split=2, min_samples_leaf=1, min_weight_fraction_le |
+| af=0.0, max_depth=3, min_impurity_decrease=0.0, init=None, random_state=None, max_features=None, a |
+| lpha=0.9, verbose=0, max_leaf_nodes=None, warm_start=False, validation_fraction=0.1, n_iter_no_cha |
+| nge=None, tol=0.0001, ccp_alpha=0.0)                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: RandomForestRegressor(random_state=1)                                              |
+|                                                                                                    |
+| Location: At Line 15 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=True, oob_score=False, n_jobs=None, random_state=None |
+| , verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=True, oob_score=False, n_jobs=None, random_state=None |
+| , verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: ExtraTreesRegressor(bootstrap=False, max_features=0.7500000000000001, min_samples_ |
+| leaf=1, min_samples_split=2, n_estimators=100)                                                     |
+|                                                                                                    |
+| Location: At Line 16 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=False, oob_score=False, n_jobs=None, random_state=Non |
+| e, verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=False, oob_score=False, n_jobs=None, random_state=Non |
+| e, verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: ExtraTreesRegressor(bootstrap=True, max_features=0.6000000000000001, min_samples_l |
+| eaf=1, min_samples_split=9, n_estimators=100)                                                      |
+|                                                                                                    |
+| Location: At Line 21 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=False, oob_score=False, n_jobs=None, random_state=Non |
+| e, verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (n_estimators=100, *, criterion='squared_error', max_depth=None, min_ |
+| samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0, max_leaf_node |
+| s=None, min_impurity_decrease=0.0, bootstrap=False, oob_score=False, n_jobs=None, random_state=Non |
+| e, verbose=0, warm_start=False, ccp_alpha=0.0, max_samples=None)                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: SVR(gamma=9e-05, C=10, epsilon=0.2)                                                |
+|                                                                                                    |
+| Location: At Line 25 in gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe/models.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

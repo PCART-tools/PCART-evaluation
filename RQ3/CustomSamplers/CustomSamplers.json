@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/CustomSamplers",
+    "runCommand": "python plotSizeVsRT.py",
+    "runFilePath":"",
+    "libName": "numpy",
+    "currentVersion": "1.9.3",
+    "targetVersion": "1.10.1",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/cs1.9.3",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/cs1.10.1"
+}

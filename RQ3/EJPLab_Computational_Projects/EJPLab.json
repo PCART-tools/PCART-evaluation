@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/EJPLab_Computational_Projects",
+    "runCommand": "python extract_model_embeddings.py google-bert/bert-base-uncased",
+    "runFilePath":"",
+    "libName": "polars",
+    "currentVersion": "0.16.18",
+    "targetVersion": "0.17.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/EJLab0.16.18",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/EJLab0.17.0"
+}

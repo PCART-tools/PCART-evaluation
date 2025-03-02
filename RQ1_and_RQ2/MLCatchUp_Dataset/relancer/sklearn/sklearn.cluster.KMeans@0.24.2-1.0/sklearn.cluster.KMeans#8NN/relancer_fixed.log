@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#8NN/KMeans#8NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#8NN'), ('notebook', 'KMeans#8NN'), ('text', '  File "KMeans#8NN.py", line 62, in <module>\n    knnErrorEval(None)  #新增\n  File "KMeans#8NN.py", line 55, in knnErrorEval\n    clustering_model = KMeans(\nTypeError: __init__() got an unexpected keyword argument \'precompute_distances\'\n')])
+  File "KMeans#8NN.py", line 62, in <module>
+Error inducing API short name: knnErrorEval, line no: 62
+  File "KMeans#8NN.py", line 55, in knnErrorEval
+Error inducing API short name: KMeans, line no: 55
+Error inducing API fqn: sklearn.cluster.KMeans, line no: 55
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['n_clusters', 'max_iter', 'precompute_distances', 'n_jobs']
+Prev Params: None
+Prev Repair Action: None
+Line No: 55
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['n_clusters', 'max_iter', 'precompute_distances', 'n_jobs']
+EXPP: ['n_clusters', 'max_iter', 'precompute_distances', 'n_jobs']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m0.905s
+user    0m2.877s
+sys     0m9.398s

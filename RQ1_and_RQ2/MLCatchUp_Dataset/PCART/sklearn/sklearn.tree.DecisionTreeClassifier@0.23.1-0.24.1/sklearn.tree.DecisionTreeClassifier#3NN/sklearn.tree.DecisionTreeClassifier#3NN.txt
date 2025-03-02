@@ -1,0 +1,245 @@
+Run Command: python  DecisionTreeClassifier3NN.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 11
+Not Covered Sklearn Invoked API Number: 0/11
+Covered Sklearn Invoked API Number: 11/11
+
+Compatible Sklearn Invoked API Number: 10/11
+Unknown Compatible Sklearn Invoked API Number: 0/11
+
+Incompatible Sklearn Invoked API Number: 1/11
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py has 11 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: DecisionTreeClassifier()                                                           |
+|                                                                                                    |
+| Location: At Line 18 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, presort= |
+| 'deprecated', ccp_alpha=0.0)                                                                       |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, ccp_alph |
+| a=0.0)                                                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: LogisticRegression()                                                               |
+|                                                                                                    |
+| Location: At Line 19 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (penalty='l2', *, dual=False, tol=0.0001, C=1.0, fit_intercept=True, |
+|  intercept_scaling=1, class_weight=None, random_state=None, solver='lbfgs', max_iter=100, multi_cl |
+| ass='auto', verbose=0, warm_start=False, n_jobs=None, l1_ratio=None)                               |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (penalty='l2', *, dual=False, tol=0.0001, C=1.0, fit_intercept=True, |
+|  intercept_scaling=1, class_weight=None, random_state=None, solver='lbfgs', max_iter=100, multi_cl |
+| ass='auto', verbose=0, warm_start=False, n_jobs=None, l1_ratio=None)                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: ExtraTreesClassifier()                                                             |
+|                                                                                                    |
+| Location: At Line 20 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=False, oob_score=False, n_jobs=No |
+| ne, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples= |
+| None)                                                                                              |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=False, oob_score=False, n_jobs=No |
+| ne, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples= |
+| None)                                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: RandomForestClassifier()                                                           |
+|                                                                                                    |
+| Location: At Line 21 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=True, oob_score=False, n_jobs=Non |
+| e, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=True, oob_score=False, n_jobs=Non |
+| e, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: RidgeClassifier(alpha=1, solver='cholesky')                                        |
+|                                                                                                    |
+| Location: At Line 22 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (alpha=1.0, *, fit_intercept=True, normalize=False, copy_X=True, max |
+| _iter=None, tol=0.001, class_weight=None, solver='auto', random_state=None)                        |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (alpha=1.0, *, fit_intercept=True, normalize=False, copy_X=True, max |
+| _iter=None, tol=0.001, class_weight=None, solver='auto', random_state=None)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: SVC(random_state=42)                                                               |
+|                                                                                                    |
+| Location: At Line 23 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinki |
+| ng=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter= |
+| -1, decision_function_shape='ovr', break_ties=False, random_state=None)                            |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinki |
+| ng=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter= |
+| -1, decision_function_shape='ovr', break_ties=False, random_state=None)                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: DecisionTreeClassifier(random_state=42, max_depth=None, splitter='random', min_sam |
+| ples_split=10, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=10, max_leaf_nodes=N |
+| one, min_impurity_decrease=0.0005, presort=False)                                                  |
+|                                                                                                    |
+| Location: At Line 27 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, presort= |
+| 'deprecated', ccp_alpha=0.0)                                                                       |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, ccp_alph |
+| a=0.0)                                                                                             |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: DecisionTreeClassifier(random_state=42, max_depth=None, splitter='random', mi |
+| n_samples_split=10, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=10, max_leaf_no |
+| des=None, min_impurity_decrease=0.0005)                                                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: ExtraTreesClassifier(random_state=42, n_estimators=50, max_depth=10, min_samples_s |
+| plit=10, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='sqrt', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, bootstrap=True, oob_score=False, warm_start=False)                   |
+|                                                                                                    |
+| Location: At Line 39 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=False, oob_score=False, n_jobs=No |
+| ne, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples= |
+| None)                                                                                              |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=False, oob_score=False, n_jobs=No |
+| ne, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples= |
+| None)                                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: LogisticRegression(random_state=42, penalty='l2', dual=False, tol=0.01, C=1.0, fit |
+| _intercept=True, intercept_scaling=10.0, class_weight=None, solver='liblinear', max_iter=100, mult |
+| i_class='ovr')                                                                                     |
+|                                                                                                    |
+| Location: At Line 53 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (penalty='l2', *, dual=False, tol=0.0001, C=1.0, fit_intercept=True, |
+|  intercept_scaling=1, class_weight=None, random_state=None, solver='lbfgs', max_iter=100, multi_cl |
+| ass='auto', verbose=0, warm_start=False, n_jobs=None, l1_ratio=None)                               |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (penalty='l2', *, dual=False, tol=0.0001, C=1.0, fit_intercept=True, |
+|  intercept_scaling=1, class_weight=None, random_state=None, solver='lbfgs', max_iter=100, multi_cl |
+| ass='auto', verbose=0, warm_start=False, n_jobs=None, l1_ratio=None)                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: RandomForestClassifier(random_state=42, n_estimators=10, max_depth=10, min_sample |
+| s_split=20, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes= |
+| None, min_impurity_decrease=0.0, bootstrap=True, oob_score=False)                                  |
+|                                                                                                    |
+| Location: At Line 66 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=True, oob_score=False, n_jobs=Non |
+| e, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (n_estimators=100, *, criterion='gini', max_depth=None, min_samples_ |
+| split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=Non |
+| e, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=True, oob_score=False, n_jobs=Non |
+| e, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: RidgeClassifier(random_state=42, alpha=10.0, fit_intercept=False, normalize=False |
+| , copy_X=True, max_iter=10, solver='sparse_cg')                                                    |
+|                                                                                                    |
+| Location: At Line 79 in sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier3NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (alpha=1.0, *, fit_intercept=True, normalize=False, copy_X=True, max |
+| _iter=None, tol=0.001, class_weight=None, solver='auto', random_state=None)                        |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (alpha=1.0, *, fit_intercept=True, normalize=False, copy_X=True, max |
+| _iter=None, tol=0.001, class_weight=None, solver='auto', random_state=None)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

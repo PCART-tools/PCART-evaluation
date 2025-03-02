@@ -1,0 +1,45 @@
+Run Command: python  DecisionTreeClassifier4NN.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 1
+Not Covered Sklearn Invoked API Number: 0/1
+Covered Sklearn Invoked API Number: 1/1
+
+Compatible Sklearn Invoked API Number: 0/1
+Unknown Compatible Sklearn Invoked API Number: 0/1
+
+Incompatible Sklearn Invoked API Number: 1/1
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: sklearn.tree.DecisionTreeClassifier#4NN/DecisionTreeClassifier4NN.py has 1 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None, max_fe |
+| atures=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, min_samples_ |
+| leaf=1, min_samples_split=42, min_weight_fraction_leaf=0.0, presort=False, random_state=10, splitt |
+| er='best')                                                                                         |
+|                                                                                                    |
+| Location: At Line 39 in sklearn.tree.DecisionTreeClassifier#4NN/DecisionTreeClassifier4NN.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, presort= |
+| 'deprecated', ccp_alpha=0.0)                                                                       |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='gini', splitter='best', max_depth=None, min_samples_s |
+| plit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, ma |
+| x_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, ccp_alph |
+| a=0.0)                                                                                             |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None, m |
+| ax_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, min_sam |
+| ples_leaf=1, min_samples_split=42, min_weight_fraction_leaf=0.0, random_state=10, splitter='best') |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/polars-book-cn",
+    "runCommand": "python days_month.py",
+    "runFilePath":"",
+    "libName": "polars",
+    "currentVersion": "0.16.18",
+    "targetVersion": "0.17.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/pb0.16.18",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/pb0.17.0"
+}

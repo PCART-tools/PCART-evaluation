@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/matplotlib/p1/SDOML-88a9db67e6de94ae3481cd4c36ad8f0a55894c69",
+    "runCommand": "python aia_fits_to_np.py --src . --target . --scale 512",
+    "runFilePath":"",
+    "libName": "matplotlib",
+    "currentVersion": "3.2.2",
+    "targetVersion": "3.3.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/sdoml3.2.2",
+    "targetEnv": "/home/nuaa/anaconda3/envs/sdoml3.3.0"
+}

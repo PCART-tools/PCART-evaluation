@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#5NN/KMeans#5NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#5NN'), ('notebook', 'KMeans#5NN'), ('text', '  File "KMeans#5NN.py", line 27, in <module>\n    temp=ClusteringAlgorithmPool(x1,None,x2,None,None,None,None)   #新增\n  File "KMeans#5NN.py", line 22, in __init__\n    self.kmeans_obj = KMeans(n_clusters=self.n_cluster, max_iter=100, random_state=self.random_state,\nTypeError: __init__() got an unexpected keyword argument \'n_jobs\'\n')])
+  File "KMeans#5NN.py", line 27, in <module>
+Error inducing API short name: ClusteringAlgorithmPool, line no: 27
+  File "KMeans#5NN.py", line 22, in __init__
+Error inducing API short name: KMeans, line no: 22
+Error inducing API fqn: sklearn.cluster.KMeans, line no: 22
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['n_clusters', 'max_iter', 'random_state', 'n_jobs']
+Prev Params: None
+Prev Repair Action: None
+Line No: 22
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['n_clusters', 'max_iter', 'random_state', 'n_jobs']
+EXPP: ['n_clusters', 'max_iter', 'random_state', 'n_jobs']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m0.906s
+user    0m2.681s
+sys     0m9.172s

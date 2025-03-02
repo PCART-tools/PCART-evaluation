@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/scipy/p3/qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030",
+    "runCommand": "python qho.py",
+    "runFilePath":"",
+    "libName": "scipy",
+    "currentVersion": "1.8.1",
+    "targetVersion": "1.9.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/qho1.8.1",
+    "targetEnv": "/home/nuaa/anaconda3/envs/qho1.9.0"
+}

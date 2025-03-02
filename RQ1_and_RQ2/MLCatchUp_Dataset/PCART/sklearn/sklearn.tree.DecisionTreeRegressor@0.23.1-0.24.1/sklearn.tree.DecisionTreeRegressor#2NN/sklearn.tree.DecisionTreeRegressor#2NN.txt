@@ -1,0 +1,58 @@
+Run Command: python  DecisionTreeRegressor2NN.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 2
+Not Covered Sklearn Invoked API Number: 0/2
+Covered Sklearn Invoked API Number: 2/2
+
+Compatible Sklearn Invoked API Number: 1/2
+Unknown Compatible Sklearn Invoked API Number: 0/2
+
+Incompatible Sklearn Invoked API Number: 1/2
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: sklearn.tree.DecisionTreeRegressor#2NN/DecisionTreeRegressor2NN.py has 2 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: DecisionTreeRegressor(criterion='mse', max_depth=max_depth, max_features=None, max |
+| _leaf_nodes=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort=F |
+| alse, random_state=None, splitter='best')                                                          |
+|                                                                                                    |
+| Location: At Line 40 in sklearn.tree.DecisionTreeRegressor#2NN/DecisionTreeRegressor2NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, presort='deprecated', ccp_al |
+| pha=0.0)                                                                                           |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, ccp_alpha=0.0)               |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: DecisionTreeRegressor(criterion='mse', max_depth=max_depth, max_features=None |
+| , max_leaf_nodes=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, rand |
+| om_state=None, splitter='best')                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: regressor.fit(x_train, y_train)                                                    |
+|                                                                                                    |
+| Location: At Line 45 in sklearn.tree.DecisionTreeRegressor#2NN/DecisionTreeRegressor2NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted=None)      |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted='deprecate |
+| d')                                                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

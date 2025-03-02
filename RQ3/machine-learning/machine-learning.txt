@@ -1,0 +1,504 @@
+Run Command: python  sci.py
+Total File Number: 1
+Total Numpy Invoked API Number: 17
+Not Covered Numpy Invoked API Number: 0/17
+Covered Numpy Invoked API Number: 17/17
+
+Compatible Numpy Invoked API Number: 16/17
+Unknown Compatible Numpy Invoked API Number: 0/17
+
+Incompatible Numpy Invoked API Number: 1/17
+-> Successfully Repaired Numpy Invoked API number: 1/1
+-> Failed to Repair Numpy Invoked API Number: 0/1
+-> Unknown Repair Status Numpy Invoked API Number: 0/1
+
+======================================================================================================
+|                    File #1: machine-learning/sci.py has 17 Numpy-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: np.array([[1, 2], [3, 4]])                                                         |
+|                                                                                                    |
+| Location: At Line 9 in machine-learning/sci.py                                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.arange(9)                                                                       |
+|                                                                                                    |
+| Location: At Line 19 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=.. |
+| .,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_co |
+| ,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[ |
+| floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*,like:_ |
+| SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Like_co,step: |
+| _TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[timedelta64]', '(start:dat |
+| etime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray |
+| [datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArrayFunc=...)->NDArray[Any]', '(stop: |
+| Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(stop:_FloatLike_co, |
+| /,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(stop:_IntLike_co,/,*,d |
+| type:None=...,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*, |
+| dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64]'], 'numpy.multiarray.arange': [' |
+| (start:Any,stop:Any,step:Any=...,dtype:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]' |
+| , '(start:Any,stop:Any,step:Any=...,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(start:_FloatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like |
+| :_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntL |
+| ike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_T |
+| D64Like_co,stop:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)-> |
+| NDArray[timedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,lik |
+| e:_SupportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArra |
+| yFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floatin |
+| g[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[signedintege |
+| r[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64 |
+| ]']}                                                                                               |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:A |
+| ny=...,dtype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_Fl |
+| oatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc |
+| =...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:No |
+| ne=...,*,like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,sto |
+| p:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[t |
+| imedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_S |
+| upportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArr |
+| ayFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=... |
+| )->NDArray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[floating[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...) |
+| ->NDArray[timedelta64]'], 'numpy.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,dtype:DTyp |
+| eLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=...,dt |
+| ype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_c |
+| o,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->ND |
+| Array[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*, |
+| like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Li |
+| ke_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[timedelta6 |
+| 4]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_SupportsAr |
+| rayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArrayFunc=.. |
+| .)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=...)->NDArra |
+| y[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[float |
+| ing[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[signe |
+| dinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray |
+| [timedelta64]']}                                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: np.arange(9).reshape((3, 3))                                                       |
+|                                                                                                    |
+| Location: At Line 19 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.__init__.generic.reshape': ['(self:_ScalarType,*shape:Support |
+| sIndex,order:_OrderACF=...)->ndarray[Any,_dtype[_ScalarType]]', '(self:_ScalarType,shape:_ShapeLik |
+| e,/,*,order:_OrderACF=...)->ndarray[Any,_dtype[_ScalarType]]'], 'numpy.__init__.ndarray.reshape':  |
+| ['(self,*shape:SupportsIndex,order:_OrderACF=...)->ndarray[Any,_DType_co]', '(self,shape:_ShapeLik |
+| e,/,*,order:_OrderACF=...)->ndarray[Any,_DType_co]']}                                              |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.__init__.generic.reshape': ['(self:_ScalarType,*shape:Support |
+| sIndex,order:_OrderACF=...)->ndarray[Any,_dtype[_ScalarType]]', '(self:_ScalarType,shape:_ShapeLik |
+| e,/,*,order:_OrderACF=...)->ndarray[Any,_dtype[_ScalarType]]'], 'numpy.__init__.ndarray.reshape':  |
+| ['(self,*shape:SupportsIndex,order:_OrderACF=...)->ndarray[Any,_DType_co]', '(self,shape:_ShapeLik |
+| e,/,*,order:_OrderACF=...)->ndarray[Any,_DType_co]']}                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: np.diag([1, 0, 1])                                                                 |
+|                                                                                                    |
+| Location: At Line 19 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (v, k=0)                                                             |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (v, k=0)                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: np.diag(spec)                                                                      |
+|                                                                                                    |
+| Location: At Line 22 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (v, k=0)                                                             |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (v, k=0)                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: np.allclose(arr, svd_mat)                                                          |
+|                                                                                                    |
+| Location: At Line 25 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, b, rtol=1e-05, atol=1e-08, equal_nan=False)                      |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, b, rtol=1e-05, atol=1e-08, equal_nan=False)                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: np.sin(x)                                                                          |
+|                                                                                                    |
+| Location: At Line 35 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.array_api._elementwise_functions.sin': ['(x:Array,/)->Array'] |
+| , 'numpy.array_api.sin': ['(x:Array,/)->Array']}                                                   |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.array_api._elementwise_functions.sin': ['(x:Array,/)->Array'] |
+| , 'numpy.array_api.sin': ['(x:Array,/)->Array']}                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: np.arange(-10, 10, 0.1)                                                            |
+|                                                                                                    |
+| Location: At Line 37 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=.. |
+| .,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_co |
+| ,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[ |
+| floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*,like:_ |
+| SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Like_co,step: |
+| _TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[timedelta64]', '(start:dat |
+| etime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray |
+| [datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArrayFunc=...)->NDArray[Any]', '(stop: |
+| Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(stop:_FloatLike_co, |
+| /,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(stop:_IntLike_co,/,*,d |
+| type:None=...,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*, |
+| dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64]'], 'numpy.multiarray.arange': [' |
+| (start:Any,stop:Any,step:Any=...,dtype:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]' |
+| , '(start:Any,stop:Any,step:Any=...,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(start:_FloatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like |
+| :_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntL |
+| ike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_T |
+| D64Like_co,stop:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)-> |
+| NDArray[timedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,lik |
+| e:_SupportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArra |
+| yFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floatin |
+| g[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[signedintege |
+| r[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64 |
+| ]']}                                                                                               |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:A |
+| ny=...,dtype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_Fl |
+| oatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc |
+| =...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:No |
+| ne=...,*,like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,sto |
+| p:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[t |
+| imedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_S |
+| upportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArr |
+| ayFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=... |
+| )->NDArray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[floating[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...) |
+| ->NDArray[timedelta64]'], 'numpy.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,dtype:DTyp |
+| eLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=...,dt |
+| ype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_c |
+| o,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->ND |
+| Array[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*, |
+| like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Li |
+| ke_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[timedelta6 |
+| 4]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_SupportsAr |
+| rayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArrayFunc=.. |
+| .)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=...)->NDArra |
+| y[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[float |
+| ing[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[signe |
+| dinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray |
+| [timedelta64]']}                                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: np.linspace(-10, 10, num=20)                                                       |
+|                                                                                                    |
+| Location: At Line 71 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis |
+| =0)                                                                                                |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis |
+| =0)                                                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: np.random.randn(xdata.size)                                                       |
+|                                                                                                    |
+| Location: At Line 72 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.random.RandomState.randn': ['(self)->float', '(self,*args:int |
+| )->ndarray[Any,dtype[float64]]'], 'numpy.random.mtrand.RandomState.randn': ['(self)->float', '(sel |
+| f,*args:int)->ndarray[Any,dtype[float64]]']}                                                       |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.random.RandomState.randn': ['(self)->float', '(self,*args:int |
+| )->ndarray[Any,dtype[float64]]'], 'numpy.random.mtrand.RandomState.randn': ['(self)->float', '(sel |
+| f,*args:int)->ndarray[Any,dtype[float64]]']}                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: np.sin(x)                                                                         |
+|                                                                                                    |
+| Location: At Line 75 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.array_api._elementwise_functions.sin': ['(x:Array,/)->Array'] |
+| , 'numpy.array_api.sin': ['(x:Array,/)->Array']}                                                   |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.array_api._elementwise_functions.sin': ['(x:Array,/)->Array'] |
+| , 'numpy.array_api.sin': ['(x:Array,/)->Array']}                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: np.random.normal(size=1000)                                                       |
+|                                                                                                    |
+| Location: At Line 85 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: np.arange(-4, 5)                                                                  |
+|                                                                                                    |
+| Location: At Line 86 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=.. |
+| .,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_co |
+| ,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[ |
+| floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*,like:_ |
+| SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Like_co,step: |
+| _TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[timedelta64]', '(start:dat |
+| etime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray |
+| [datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArrayFunc=...)->NDArray[Any]', '(stop: |
+| Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(stop:_FloatLike_co, |
+| /,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(stop:_IntLike_co,/,*,d |
+| type:None=...,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*, |
+| dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64]'], 'numpy.multiarray.arange': [' |
+| (start:Any,stop:Any,step:Any=...,dtype:DTypeLike=...,*,like:_SupportsArrayFunc=...)->NDArray[Any]' |
+| , '(start:Any,stop:Any,step:Any=...,dtype:_DTypeLike[_SCT]=...,*,like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(start:_FloatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like |
+| :_SupportsArrayFunc=...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntL |
+| ike_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_T |
+| D64Like_co,stop:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:_SupportsArrayFunc=...)-> |
+| NDArray[timedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,lik |
+| e:_SupportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:_SupportsArra |
+| yFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:_SupportsArrayFunc=...)->NDA |
+| rray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[floatin |
+| g[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[signedintege |
+| r[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:_SupportsArrayFunc=...)->NDArray[timedelta64 |
+| ]']}                                                                                               |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,d |
+| type:DTypeLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:A |
+| ny=...,dtype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_Fl |
+| oatLike_co,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc |
+| =...)->NDArray[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:No |
+| ne=...,*,like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,sto |
+| p:_TD64Like_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[t |
+| imedelta64]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_S |
+| upportsArrayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArr |
+| ayFunc=...)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=... |
+| )->NDArray[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[floating[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[signedinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...) |
+| ->NDArray[timedelta64]'], 'numpy.multiarray.arange': ['(start:Any,stop:Any,step:Any=...,dtype:DTyp |
+| eLike=...,*,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(start:Any,stop:Any,step:Any=...,dt |
+| ype:_DTypeLike[_SCT]=...,*,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(start:_FloatLike_c |
+| o,stop:_FloatLike_co,step:_FloatLike_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->ND |
+| Array[floating[Any]]', '(start:_IntLike_co,stop:_IntLike_co,step:_IntLike_co=...,dtype:None=...,*, |
+| like:None|_SupportsArrayFunc=...)->NDArray[signedinteger[Any]]', '(start:_TD64Like_co,stop:_TD64Li |
+| ke_co,step:_TD64Like_co=...,dtype:None=...,*,like:None|_SupportsArrayFunc=...)->NDArray[timedelta6 |
+| 4]', '(start:datetime64,stop:datetime64,step:datetime64=...,dtype:None=...,*,like:None|_SupportsAr |
+| rayFunc=...)->NDArray[datetime64]', '(stop:Any,/,*,dtype:DTypeLike,like:None|_SupportsArrayFunc=.. |
+| .)->NDArray[Any]', '(stop:Any,/,*,dtype:_DTypeLike[_SCT],like:None|_SupportsArrayFunc=...)->NDArra |
+| y[_SCT]', '(stop:_FloatLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[float |
+| ing[Any]]', '(stop:_IntLike_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray[signe |
+| dinteger[Any]]', '(stop:_TD64Like_co,/,*,dtype:None=...,like:None|_SupportsArrayFunc=...)->NDArray |
+| [timedelta64]']}                                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: np.histogram(a, bins=bins, normed=True)                                           |
+|                                                                                                    |
+| Location: At Line 88 in machine-learning/sci.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, bins=10, range=None, normed=None, weights=None, density=None)    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, bins=10, range=None, density=None, weights=None)                 |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: np.histogram(a, bins=bins)                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: np.median(a)                                                                      |
+|                                                                                                    |
+| Location: At Line 103 in machine-learning/sci.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, overwrite_input=False, keepdims=False)      |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, overwrite_input=False, keepdims=False)      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: np.random.normal(0, 1, size=100)                                                  |
+|                                                                                                    |
+| Location: At Line 117 in machine-learning/sci.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: np.random.normal(1, 1, size=10)                                                   |
+|                                                                                                    |
+| Location: At Line 118 in machine-learning/sci.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
+| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
+| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
+| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
+| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
+| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
+| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
+| ..)->float']}                                                                                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

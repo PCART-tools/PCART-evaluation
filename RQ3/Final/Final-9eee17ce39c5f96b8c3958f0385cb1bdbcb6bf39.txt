@@ -1,0 +1,1302 @@
+Run Command: python  final.py
+Total File Number: 5
+Total Sklearn Invoked API Number: 109
+Not Covered Sklearn Invoked API Number: 57/109
+Covered Sklearn Invoked API Number: 52/109
+
+Compatible Sklearn Invoked API Number: 50/52
+Unknown Compatible Sklearn Invoked API Number: 0/52
+
+Incompatible Sklearn Invoked API Number: 2/52
+-> Successfully Repaired Sklearn Invoked API number: 2/2
+-> Failed to Repair Sklearn Invoked API Number: 0/2
+-> Unknown Repair Status Sklearn Invoked API Number: 0/2
+
+======================================================================================================
+|   File #1: Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/final.py has 0 Sklearn-Invoked API(s)    |
+======================================================================================================
+
+
+======================================================================================================
+|  File #2: Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/wrangle.py has 0 Sklearn-Invoked API(s)   |
+======================================================================================================
+
+
+======================================================================================================
+|  File #3: Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py has 58 Sklearn-Invoked API(s)  |
+======================================================================================================
+| Invoked API #1: train_test_split(df, test_size=0.2, random_state=825)                              |
+|                                                                                                    |
+| Location: At Line 36 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: train_test_split(train, test_size=0.25, random_state=825)                          |
+|                                                                                                    |
+| Location: At Line 38 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: mean_squared_error(y_train.colonies_lost, y_train.baseline_mean, squared=False)    |
+|                                                                                                    |
+| Location: At Line 80 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_mean, squared=Fal |
+| se)                                                                                                |
+|                                                                                                    |
+| Location: At Line 81 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: mean_squared_error(y_train.colonies_lost, y_train.baseline_median, squared=False)  |
+|                                                                                                    |
+| Location: At Line 87 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_median, squared=F |
+| alse)                                                                                              |
+|                                                                                                    |
+| Location: At Line 88 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: LinearRegression(normalize=True)                                                   |
+|                                                                                                    |
+| Location: At Line 103 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, fit_intercept=True, normalize='deprecated', copy_X=True, n_jobs=N |
+| one, positive=False)                                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, fit_intercept=True, copy_X=True, n_jobs=None, positive=False)     |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: LinearRegression()                                                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: lm.fit(X_train, y_train.colonies_lost)                                             |
+|                                                                                                    |
+| Location: At Line 105 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: lm.predict(X_train)                                                                |
+|                                                                                                    |
+| Location: At Line 107 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: lm.predict(X_validate)                                                            |
+|                                                                                                    |
+| Location: At Line 109 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lm, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 112 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lm, sq |
+| uared=False)                                                                                       |
+|                                                                                                    |
+| Location: At Line 114 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: LassoLars(alpha=1, random_state=825)                                              |
+|                                                                                                    |
+| Location: At Line 125 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize='deprecat |
+| ed', precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, posit |
+| ive=False, jitter=None, random_state=None)                                                         |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize='deprecat |
+| ed', precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, posit |
+| ive=False, jitter=None, random_state=None)                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: lars.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 127 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, Xy=None)                                                       |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, Xy=None)                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: lars.predict(X_train)                                                             |
+|                                                                                                    |
+| Location: At Line 129 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: lars.predict(X_validate)                                                          |
+|                                                                                                    |
+| Location: At Line 131 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lars, square |
+| d=False)                                                                                           |
+|                                                                                                    |
+| Location: At Line 133 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #18: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lars,  |
+| squared=False)                                                                                     |
+|                                                                                                    |
+| Location: At Line 135 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #19: TweedieRegressor(alpha=5, power=1, warm_start=True)                               |
+|                                                                                                    |
+| Location: At Line 147 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, power=0.0, alpha=1.0, fit_intercept=True, link='auto', max_iter=1 |
+| 00, tol=0.0001, warm_start=False, verbose=0)                                                       |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, power=0.0, alpha=1.0, fit_intercept=True, link='auto', solver='lb |
+| fgs', max_iter=100, tol=0.0001, warm_start=False, verbose=0)                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #20: glm.fit(X_train, y_train.colonies_lost)                                           |
+|                                                                                                    |
+| Location: At Line 149 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #21: glm.predict(X_train)                                                              |
+|                                                                                                    |
+| Location: At Line 151 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #22: glm.predict(X_validate)                                                           |
+|                                                                                                    |
+| Location: At Line 153 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #23: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_glm, squared |
+| =False)                                                                                            |
+|                                                                                                    |
+| Location: At Line 155 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #24: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_glm, s |
+| quared=False)                                                                                      |
+|                                                                                                    |
+| Location: At Line 157 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #25: PolynomialFeatures(degree=2)                                                      |
+|                                                                                                    |
+| Location: At Line 170 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #26: pf.fit_transform(X_train)                                                         |
+|                                                                                                    |
+| Location: At Line 172 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #27: pf.transform(X_validate)                                                          |
+|                                                                                                    |
+| Location: At Line 174 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #28: LinearRegression(normalize=True)                                                  |
+|                                                                                                    |
+| Location: At Line 177 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, fit_intercept=True, normalize='deprecated', copy_X=True, n_jobs=N |
+| one, positive=False)                                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, fit_intercept=True, copy_X=True, n_jobs=None, positive=False)     |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: LinearRegression()                                                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #29: lm2.fit(X_train_degree2, y_train.colonies_lost)                                   |
+|                                                                                                    |
+| Location: At Line 179 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #30: lm2.predict(X_train_degree2)                                                      |
+|                                                                                                    |
+| Location: At Line 181 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #31: lm2.predict(X_validate_degree2)                                                   |
+|                                                                                                    |
+| Location: At Line 183 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #32: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lm2, squared |
+| =False)                                                                                            |
+|                                                                                                    |
+| Location: At Line 186 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #33: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lm2, s |
+| quared=False)                                                                                      |
+|                                                                                                    |
+| Location: At Line 188 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #34: LassoLars(alpha=1, random_state=825)                                              |
+|                                                                                                    |
+| Location: At Line 205 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize='deprecat |
+| ed', precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, posit |
+| ive=False, jitter=None, random_state=None)                                                         |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize='deprecat |
+| ed', precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, posit |
+| ive=False, jitter=None, random_state=None)                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #35: lars.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 207 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, Xy=None)                                                       |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, Xy=None)                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #36: lars.predict(X_test)                                                              |
+|                                                                                                    |
+| Location: At Line 209 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #37: mean_squared_error(y_test.colonies_lost, y_test.colonies_lost_pred_lars, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 212 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #38: mean_squared_error(y_train.colonies_lost, y_train.baseline_mean, squared=False)   |
+|                                                                                                    |
+| Location: At Line 213 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #39: mean_squared_error(y_train.colonies_lost, y_train.baseline_mean, squared=False)   |
+|                                                                                                    |
+| Location: At Line 250 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #40: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_mean, squared=Fa |
+| lse)                                                                                               |
+|                                                                                                    |
+| Location: At Line 251 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #41: mean_squared_error(y_train.colonies_lost, y_train.baseline_median, squared=False) |
+|                                                                                                    |
+| Location: At Line 257 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #42: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_median, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 258 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #43: SelectKBest(f_regression, k=k)                                                    |
+|                                                                                                    |
+| Location: At Line 266 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (score_func=<function f_classif at 0x7fbc95458c10>, *, k=10)          |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (score_func=<function f_classif at 0x7f7817084670>, *, k=10)          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #44: kbest.fit(X, y)                                                                   |
+|                                                                                                    |
+| Location: At Line 268 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y)                                                                |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y)                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #45: kbest.get_support()                                                               |
+|                                                                                                    |
+| Location: At Line 270 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (indices=False)                                                       |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (indices=False)                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #46: LinearRegression()                                                                |
+|                                                                                                    |
+| Location: At Line 278 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, fit_intercept=True, normalize='deprecated', copy_X=True, n_jobs=N |
+| one, positive=False)                                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, fit_intercept=True, copy_X=True, n_jobs=None, positive=False)     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #47: RFE(LinearRegression(), n_features_to_select=n_features_to_select)                |
+|                                                                                                    |
+| Location: At Line 278 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (estimator, *, n_features_to_select=None, step=1, verbose=0, importan |
+| ce_getter='auto')                                                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (estimator, *, n_features_to_select=None, step=1, verbose=0, importan |
+| ce_getter='auto')                                                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #48: rfe.fit(X, y)                                                                     |
+|                                                                                                    |
+| Location: At Line 280 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, **fit_params)                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, **fit_params)                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #49: rfe.get_support()                                                                 |
+|                                                                                                    |
+| Location: At Line 282 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (indices=False)                                                       |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (indices=False)                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #50: LinearRegression()                                                                |
+|                                                                                                    |
+| Location: At Line 326 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #51: GridSearchCV(LinearRegression(), params, cv=5)                                    |
+|                                                                                                    |
+| Location: At Line 326 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #52: grid.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 328 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #53: LassoLars()                                                                       |
+|                                                                                                    |
+| Location: At Line 346 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #54: GridSearchCV(LassoLars(), params, cv=5)                                           |
+|                                                                                                    |
+| Location: At Line 346 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #55: grid.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 348 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #56: TweedieRegressor()                                                                |
+|                                                                                                    |
+| Location: At Line 367 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #57: GridSearchCV(TweedieRegressor(), params, cv=5, scoring='neg_root_mean_squared_err |
+| or')                                                                                               |
+|                                                                                                    |
+| Location: At Line 367 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #58: grid.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 369 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/explore.py                 |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #4: Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py has 9 Sklearn-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: LinearRegression()                                                                 |
+|                                                                                                    |
+| Location: At Line 16 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: GridSearchCV(LinearRegression(), params, cv=5)                                     |
+|                                                                                                    |
+| Location: At Line 16 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: grid.fit(X_train, y_train.colonies_lost)                                           |
+|                                                                                                    |
+| Location: At Line 18 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: LassoLars()                                                                        |
+|                                                                                                    |
+| Location: At Line 36 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: GridSearchCV(LassoLars(), params, cv=5)                                            |
+|                                                                                                    |
+| Location: At Line 36 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: grid.fit(X_train, y_train.colonies_lost)                                           |
+|                                                                                                    |
+| Location: At Line 38 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: TweedieRegressor()                                                                 |
+|                                                                                                    |
+| Location: At Line 58 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: GridSearchCV(TweedieRegressor(), params, cv=5, scoring='neg_root_mean_squared_erro |
+| r')                                                                                                |
+|                                                                                                    |
+| Location: At Line 58 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: grid.fit(X_train, y_train.colonies_lost)                                           |
+|                                                                                                    |
+| Location: At Line 60 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/grid_search.py              |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #5: Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py has 42 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: train_test_split(df, test_size=0.2, random_state=825)                              |
+|                                                                                                    |
+| Location: At Line 17 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: train_test_split(train_validate, test_size=0.25, random_state=825)                 |
+|                                                                                                    |
+| Location: At Line 19 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: MinMaxScaler()                                                                     |
+|                                                                                                    |
+| Location: At Line 27 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (feature_range=(0, 1), *, copy=True, clip=False)                      |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (feature_range=(0, 1), *, copy=True, clip=False)                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: scaler.fit(train[columns])                                                         |
+|                                                                                                    |
+| Location: At Line 29 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None)                                                           |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None)                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: scaler.transform(train[columns])                                                   |
+|                                                                                                    |
+| Location: At Line 31 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: scaler.transform(validate[columns])                                                |
+|                                                                                                    |
+| Location: At Line 32 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: scaler.transform(test[columns])                                                    |
+|                                                                                                    |
+| Location: At Line 33 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: mean_squared_error(y_train.colonies_lost, y_train.baseline_mean, squared=False)    |
+|                                                                                                    |
+| Location: At Line 60 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_mean, squared=Fal |
+| se)                                                                                                |
+|                                                                                                    |
+| Location: At Line 61 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: mean_squared_error(y_train.colonies_lost, y_train.baseline_median, squared=False) |
+|                                                                                                    |
+| Location: At Line 67 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_median, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 68 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: mean_squared_error(y_train.colonies_lost, y_train.baseline_mean, squared=False)   |
+|                                                                                                    |
+| Location: At Line 87 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_mean, squared=Fa |
+| lse)                                                                                               |
+|                                                                                                    |
+| Location: At Line 88 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: mean_squared_error(y_train.colonies_lost, y_train.baseline_median, squared=False) |
+|                                                                                                    |
+| Location: At Line 94 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: mean_squared_error(y_validate.colonies_lost, y_validate.baseline_median, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 95 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: LinearRegression(normalize=True)                                                  |
+|                                                                                                    |
+| Location: At Line 111 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: lm.fit(X_train, y_train.colonies_lost)                                            |
+|                                                                                                    |
+| Location: At Line 113 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #18: lm.predict(X_train)                                                               |
+|                                                                                                    |
+| Location: At Line 115 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #19: lm.predict(X_validate)                                                            |
+|                                                                                                    |
+| Location: At Line 117 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #20: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lm, squared= |
+| False)                                                                                             |
+|                                                                                                    |
+| Location: At Line 120 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #21: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lm, sq |
+| uared=False)                                                                                       |
+|                                                                                                    |
+| Location: At Line 122 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #22: LassoLars(alpha=1)                                                                |
+|                                                                                                    |
+| Location: At Line 133 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #23: lars.fit(X_train, y_train.colonies_lost)                                          |
+|                                                                                                    |
+| Location: At Line 135 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #24: lars.predict(X_train)                                                             |
+|                                                                                                    |
+| Location: At Line 137 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #25: lars.predict(X_validate)                                                          |
+|                                                                                                    |
+| Location: At Line 139 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #26: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lars, square |
+| d=False)                                                                                           |
+|                                                                                                    |
+| Location: At Line 141 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #27: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lars,  |
+| squared=False)                                                                                     |
+|                                                                                                    |
+| Location: At Line 143 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #28: TweedieRegressor(power=1, alpha=0)                                                |
+|                                                                                                    |
+| Location: At Line 155 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #29: glm.fit(X_train, y_train.colonies_lost)                                           |
+|                                                                                                    |
+| Location: At Line 157 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #30: glm.predict(X_train)                                                              |
+|                                                                                                    |
+| Location: At Line 159 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #31: glm.predict(X_validate)                                                           |
+|                                                                                                    |
+| Location: At Line 161 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #32: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_glm, squared |
+| =False)                                                                                            |
+|                                                                                                    |
+| Location: At Line 163 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #33: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_glm, s |
+| quared=False)                                                                                      |
+|                                                                                                    |
+| Location: At Line 165 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #34: PolynomialFeatures(degree=5)                                                      |
+|                                                                                                    |
+| Location: At Line 178 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #35: pf.fit_transform(X_train)                                                         |
+|                                                                                                    |
+| Location: At Line 180 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #36: pf.transform(X_validate)                                                          |
+|                                                                                                    |
+| Location: At Line 182 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #37: LinearRegression(normalize=True)                                                  |
+|                                                                                                    |
+| Location: At Line 185 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #38: lm5.fit(X_train_degree5, y_train.colonies_lost)                                   |
+|                                                                                                    |
+| Location: At Line 187 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #39: lm5.predict(X_train_degree5)                                                      |
+|                                                                                                    |
+| Location: At Line 189 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #40: lm5.predict(X_validate_degree5)                                                   |
+|                                                                                                    |
+| Location: At Line 191 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #41: mean_squared_error(y_train.colonies_lost, y_train.colonies_lost_pred_lm5, squared |
+| =False)                                                                                            |
+|                                                                                                    |
+| Location: At Line 194 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #42: mean_squared_error(y_validate.colonies_lost, y_validate.colonies_lost_pred_lm5, s |
+| quared=False)                                                                                      |
+|                                                                                                    |
+| Location: At Line 196 in Final-9eee17ce39c5f96b8c3958f0385cb1bdbcb6bf39/regression_models.py       |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

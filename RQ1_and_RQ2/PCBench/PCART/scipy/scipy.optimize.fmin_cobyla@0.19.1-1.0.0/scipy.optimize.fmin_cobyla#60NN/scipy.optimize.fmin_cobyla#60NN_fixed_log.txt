@@ -1,0 +1,11 @@
+fmin_cobyla(func=objective, x0=x0, cons=constraints, args=(), consargs=None, rhobeg=rhobeg, rhoend=rhoend, iprint=iprint, maxfun=maxfun, disp=disp), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/scipy1.0.0/lib/python3.6/site-packages/scipy/optimize/cobyla.py", line 167, in fmin_cobyla
+    **opts)
+  File "/dataset/zhang/anaconda3/envs/scipy1.0.0/lib/python3.6/site-packages/scipy/optimize/cobyla.py", line 252, in _minimize_cobyla
+    rhoend=rhoend, iprint=iprint, maxfun=maxfun,
+UnboundLocalError: local variable 'iprint' referenced before assignment
+
+

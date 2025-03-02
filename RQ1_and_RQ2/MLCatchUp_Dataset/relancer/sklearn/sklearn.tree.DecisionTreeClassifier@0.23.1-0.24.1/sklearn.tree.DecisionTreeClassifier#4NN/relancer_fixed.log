@@ -1,0 +1,25 @@
+--- Running sklearn/sklearn.tree.DecisionTreeClassifier@0.23.1-0.24.1/sklearn.tree.DecisionTreeClassifier#4NN/DecisionTreeClassifier#4NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.tree.DecisionTreeClassifier@0.23.1-0.24.1/sklearn.tree.DecisionTreeClassifier#4NN'), ('notebook', 'DecisionTreeClassifier#4NN'), ('text', '  File "DecisionTreeClassifier#4NN.py", line 39, in <module>\n    dtc = DecisionTreeClassifier(class_weight=None, criterion=\'gini\', max_depth=None,\n  File "/dataset/he/envs/ml_sklearn_0.24.1/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f\n    return f(*args, **kwargs)\nTypeError: __init__() got an unexpected keyword argument \'presort\'\n')])
+  File "DecisionTreeClassifier#4NN.py", line 39, in <module>
+Error inducing API short name: DecisionTreeClassifier, line no: 39
+Error inducing API fqn: sklearn.tree.DecisionTreeClassifier, line no: 39
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['class_weight', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+Prev Params: None
+Prev Repair Action: None
+Line No: 39
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['class_weight', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+EXPP: ['class_weight', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m0.934s
+user    0m3.477s
+sys     0m11.137s

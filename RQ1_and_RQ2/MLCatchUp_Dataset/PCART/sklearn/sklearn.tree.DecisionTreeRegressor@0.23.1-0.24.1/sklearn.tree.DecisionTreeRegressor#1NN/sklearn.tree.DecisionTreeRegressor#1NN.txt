@@ -1,0 +1,150 @@
+Run Command: python  DecisionTreeRegressor1NN.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 8
+Not Covered Sklearn Invoked API Number: 0/8
+Covered Sklearn Invoked API Number: 8/8
+
+Compatible Sklearn Invoked API Number: 6/8
+Unknown Compatible Sklearn Invoked API Number: 0/8
+
+Incompatible Sklearn Invoked API Number: 2/8
+-> Successfully Repaired Sklearn Invoked API number: 2/2
+-> Failed to Repair Sklearn Invoked API Number: 0/2
+-> Unknown Repair Status Sklearn Invoked API Number: 0/2
+
+======================================================================================================
+|File #1: sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py has 8 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: DecisionTreeRegressor(presort=True)                                                |
+|                                                                                                    |
+| Location: At Line 13 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, presort='deprecated', ccp_al |
+| pha=0.0)                                                                                           |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, ccp_alpha=0.0)               |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: DecisionTreeRegressor()                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: lr_t.fit(X, y)                                                                     |
+|                                                                                                    |
+| Location: At Line 14 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted=None)      |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted='deprecate |
+| d')                                                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: lr_t.predict(X)                                                                    |
+|                                                                                                    |
+| Location: At Line 15 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (X, check_input=True)                                                |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (X, check_input=True)                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: mean_squared_error(y, y_t)                                                         |
+|                                                                                                    |
+| Location: At Line 16 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average |
+| ', squared=True)                                                                                   |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average |
+| ', squared=True)                                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: DecisionTreeRegressor(presort=False)                                               |
+|                                                                                                    |
+| Location: At Line 20 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, presort='deprecated', ccp_al |
+| pha=0.0)                                                                                           |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (*, criterion='mse', splitter='best', max_depth=None, min_samples_sp |
+| lit=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max |
+| _leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, ccp_alpha=0.0)               |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: DecisionTreeRegressor()                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: lr_f.fit(X, y)                                                                     |
+|                                                                                                    |
+| Location: At Line 21 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted=None)      |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (X, y, sample_weight=None, check_input=True, X_idx_sorted='deprecate |
+| d')                                                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: lr_f.predict(X)                                                                    |
+|                                                                                                    |
+| Location: At Line 22 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (X, check_input=True)                                                |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (X, check_input=True)                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: mean_squared_error(y, y_f)                                                         |
+|                                                                                                    |
+| Location: At Line 23 in sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor1NN.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.23.1 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average |
+| ', squared=True)                                                                                   |
+|                                                                                                    |
+| Definition @0.24.1 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average |
+| ', squared=True)                                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

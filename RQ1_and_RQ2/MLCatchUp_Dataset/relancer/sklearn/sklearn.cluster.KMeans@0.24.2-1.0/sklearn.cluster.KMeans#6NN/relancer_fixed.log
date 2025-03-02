@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#6NN/KMeans#6NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#6NN'), ('notebook', 'KMeans#6NN'), ('text', '  File "KMeans#6NN.py", line 26, in <module>\n    iter_kmeans()    #新增\n  File "KMeans#6NN.py", line 22, in iter_kmeans\n    kmeans = KMeans(n_clusters=4, max_iter=counter, n_init=1, random_state=10, init=\'random\',\nTypeError: __init__() got an unexpected keyword argument \'precompute_distances\'\n')])
+  File "KMeans#6NN.py", line 26, in <module>
+Error inducing API short name: iter_kmeans, line no: 26
+  File "KMeans#6NN.py", line 22, in iter_kmeans
+Error inducing API short name: KMeans, line no: 22
+Error inducing API fqn: sklearn.cluster.KMeans, line no: 22
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['n_clusters', 'max_iter', 'n_init', 'random_state', 'init', 'precompute_distances']
+Prev Params: None
+Prev Repair Action: None
+Line No: 22
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['n_clusters', 'max_iter', 'n_init', 'random_state', 'init', 'precompute_distances']
+EXPP: ['n_clusters', 'max_iter', 'n_init', 'random_state', 'init', 'precompute_distances']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m1.329s
+user    0m3.438s
+sys     0m10.777s

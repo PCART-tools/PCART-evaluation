@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/scipy/p2/giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4",
+    "runCommand": "python msd_log_calc.py",
+    "runFilePath":"barcoded_yeast_reanalysis",
+    "libName": "scipy",
+    "currentVersion": "1.9.3",
+    "targetVersion": "1.10.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/giant1.9.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/giant1.10.0"
+}

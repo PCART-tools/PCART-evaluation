@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.tree.DecisionTreeClassifier@0.23.1-0.24.1/sklearn.tree.DecisionTreeClassifier#3NN/DecisionTreeClassifier#3NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.tree.DecisionTreeClassifier@0.23.1-0.24.1/sklearn.tree.DecisionTreeClassifier#3NN'), ('notebook', 'DecisionTreeClassifier#3NN'), ('text', '  File "DecisionTreeClassifier#3NN.py", line 90, in <module>\n    temp=TitanicModelService()  #新增\n  File "DecisionTreeClassifier#3NN.py", line 27, in __init__\n    (\'DecisionTreeClassifier\', DecisionTreeClassifier(\n  File "/dataset/he/envs/ml_sklearn_0.24.1/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f\n    return f(*args, **kwargs)\nTypeError: __init__() got an unexpected keyword argument \'presort\'\n')])
+  File "DecisionTreeClassifier#3NN.py", line 90, in <module>
+Error inducing API short name: TitanicModelService, line no: 90
+  File "DecisionTreeClassifier#3NN.py", line 27, in __init__
+Error inducing API short name: , line no: 27
+Error inducing API fqn: sklearn.tree.DecisionTreeClassifier, line no: 27
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['random_state', 'max_depth', 'splitter', 'min_samples_split', 'min_samples_leaf', 'min_weight_fraction_leaf', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'presort']
+Prev Params: None
+Prev Repair Action: None
+Line No: 27
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['random_state', 'max_depth', 'splitter', 'min_samples_split', 'min_samples_leaf', 'min_weight_fraction_leaf', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'presort']
+EXPP: ['random_state', 'max_depth', 'splitter', 'min_samples_split', 'min_samples_leaf', 'min_weight_fraction_leaf', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'presort']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m1.053s
+user    0m3.577s
+sys     0m12.079s

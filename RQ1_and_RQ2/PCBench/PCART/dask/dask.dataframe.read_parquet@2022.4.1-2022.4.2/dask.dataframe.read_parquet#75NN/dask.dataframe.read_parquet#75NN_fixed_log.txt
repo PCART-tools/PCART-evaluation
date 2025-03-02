@@ -1,0 +1,17 @@
+dd.read_parquet('./example.parquet', None, filters=None, categories=None, index=None, storage_options=None, engine='auto', gather_statistics=None, ignore_metadata_file=False, metadata_task_size=None, split_row_groups=None), validate error: /dataset/zhang/anaconda3/envs/dask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/core.py:351: FutureWarning: ``gather_statistics`` is deprecated and will be removed in a future release. Please use ``calculate_divisions`` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/dask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/core.py", line 429, in read_parquet
+    read_metadata_result = engine.read_metadata(
+  File "/dataset/zhang/anaconda3/envs/dask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 358, in read_metadata
+    parts, stats, common_kwargs = cls._construct_collection_plan(dataset_info)
+  File "/dataset/zhang/anaconda3/envs/dask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 1143, in _construct_collection_plan
+    gather_statistics = _set_gather_statistics(
+  File "/dataset/zhang/anaconda3/envs/dask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/utils.py", line 753, in _set_gather_statistics
+    or (int(split_row_groups) > 1 and aggregation_depth)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+

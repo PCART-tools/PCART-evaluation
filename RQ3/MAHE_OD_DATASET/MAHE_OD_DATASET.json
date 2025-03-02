@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/pandas/p5/MAHE_OD_DATASET-973b5d959a0530abda941e5258abdd09febd5dac",
+    "runCommand": "python datavisualizer.py",
+    "runFilePath":"",
+    "libName": "pandas",
+    "currentVersion": "1.5.3",
+    "targetVersion": "2.0.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/mahe1.5.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/mahe2.0.0"
+}

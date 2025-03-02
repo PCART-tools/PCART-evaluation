@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/machine-learning",
+    "runCommand": "python sci.py",
+    "runFilePath":"",
+    "libName": "numpy",
+    "currentVersion": "1.23.5",
+    "targetVersion": "1.24.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/ml1.23.5",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/ml1.24.0"
+}

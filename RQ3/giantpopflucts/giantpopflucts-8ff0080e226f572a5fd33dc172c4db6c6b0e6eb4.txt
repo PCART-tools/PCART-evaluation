@@ -1,0 +1,97 @@
+Run Command: python  msd_log_calc.py
+Total File Number: 9
+Total Scipy Invoked API Number: 3
+Not Covered Scipy Invoked API Number: 2/3
+Covered Scipy Invoked API Number: 1/3
+
+Compatible Scipy Invoked API Number: 0/1
+Unknown Compatible Scipy Invoked API Number: 0/1
+
+Incompatible Scipy Invoked API Number: 1/1
+-> Successfully Repaired Scipy Invoked API number: 0/1
+-> Failed to Repair Scipy Invoked API Number: 0/1
+-> Unknown Repair Status Scipy Invoked API Number: 1/1
+
+======================================================================================================
+|File #1: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/plot_rawdisplacements.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #2: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/plot_msd.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #3: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/scaling_var.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #4: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/msd_log_calc.py has 1 Scipy-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: sp.optimize.dual_annealing(lambda theta: add_obj(theta), bounds, local_search_opti |
+| ons={'method': 'L-BFGS-B'})                                                                        |
+|                                                                                                    |
+| Location: At Line 113 in giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_re |
+| analysis/msd_log_calc.py                                                                           |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.9.3 <dynamic>: (func, bounds, args=(), maxiter=1000, minimizer_kwargs=None, initial_ |
+| temp=5230.0, restart_temp_ratio=2e-05, visit=2.62, accept=-5.0, maxfun=10000000.0, seed=None, no_l |
+| ocal_search=False, callback=None, x0=None, local_search_options=None)                              |
+|                                                                                                    |
+| Definition @1.10.0 <dynamic>: (func, bounds, args=(), maxiter=1000, minimizer_kwargs=None, initial |
+| _temp=5230.0, restart_temp_ratio=2e-05, visit=2.62, accept=-5.0, maxfun=10000000.0, seed=None, no_ |
+| local_search=False, callback=None, x0=None)                                                        |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Unknown>: sp.optimize.dual_annealing(lambda theta: add_obj(theta), bounds)                 |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #5: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/get_frequencies.py has 2 Scipy-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: scipy.stats.norm()                                                                 |
+|                                                                                                    |
+| Location: At Line 42 in giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_rea |
+| nalysis/get_frequencies.py                                                                         |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: scipy.stats.norm().ppf(1 - 0.05 / len(df_freq))                                    |
+|                                                                                                    |
+| Location: At Line 42 in giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_rea |
+| nalysis/get_frequencies.py                                                                         |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #6: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/stan_model/plot_rawdisplacements.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #7: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/stan_model/linear_model_noncentered.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #8: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/stan_model/plot_alphas.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #9: giantpopflucts-8ff0080e226f572a5fd33dc172c4db6c6b0e6eb4/barcoded_yeast_reanalysis/stan_model/plot_variance_components.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+

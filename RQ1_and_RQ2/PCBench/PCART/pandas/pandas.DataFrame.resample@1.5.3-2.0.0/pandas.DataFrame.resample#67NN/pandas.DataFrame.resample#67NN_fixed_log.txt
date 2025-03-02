@@ -1,0 +1,13 @@
+DataFrame.resample('3T', 0, None, None, 'start', None, None, None, None, None, origin='start_day').sum(), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/resample.py", line 888, in sum
+    return self._downsample("sum", numeric_only=numeric_only, min_count=min_count)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/resample.py", line 1270, in _downsample
+    ax = self.ax
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/resample.py", line 189, in __getattr__
+    return object.__getattribute__(self, attr)
+AttributeError: 'DatetimeIndexResampler' object has no attribute 'ax'
+
+

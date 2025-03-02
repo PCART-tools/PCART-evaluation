@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/recommendation-engine-using-social-graph",
+    "runCommand": "python get_graph_030.py",
+    "runFilePath":"",
+    "libName": "networkx",
+    "currentVersion": "1.11",
+    "targetVersion": "2.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/recommendation1.11",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/recommendation2.0"
+}

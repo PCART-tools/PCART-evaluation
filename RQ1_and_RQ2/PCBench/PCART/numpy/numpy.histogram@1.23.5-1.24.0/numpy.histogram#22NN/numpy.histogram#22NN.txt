@@ -1,0 +1,76 @@
+Run Command: python  histogramNN.py
+Total File Number: 1
+Total Numpy Invoked API Number: 2
+Not Covered Numpy Invoked API Number: 0/2
+Covered Numpy Invoked API Number: 2/2
+
+Compatible Numpy Invoked API Number: 1/2
+Unknown Compatible Numpy Invoked API Number: 0/2
+
+Incompatible Numpy Invoked API Number: 1/2
+-> Successfully Repaired Numpy Invoked API number: 0/1
+-> Failed to Repair Numpy Invoked API Number: 0/1
+-> Unknown Repair Status Numpy Invoked API Number: 1/1
+
+===============================================================================================================================================================================
+|                                                   File #1: numpy.histogram#22NN/histogramNN.py has 2 Numpy-Invoked API(s)                                                   |
+===============================================================================================================================================================================
+| Invoked API #1: np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])                                                                                                                    |
+|                                                                                                                                                                             |
+| Location: At Line 2 in numpy.histogram#22NN/histogramNN.py                                                                                                                  |
+|                                                                                                                                                                             |
+| Coverage: Yes                                                                                                                                                               |
+|                                                                                                                                                                             |
+| Definition @1.23.5 <static>: {'numpy.core.defchararray.array': ['(obj,itemsize=None,copy=True,unicode=None,order=None)'], 'numpy.defchararray.array': ['(obj,itemsize=None, |
+| copy=True,unicode=None,order=None)'], 'numpy.core.records.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byte |
+| order=None,copy=True)'], 'numpy.records.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=Tr |
+| ue)'], 'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=... |
+| )->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(o |
+| bject:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype |
+| :None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any |
+| ,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SC |
+| T],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMo |
+| de=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.ma.array': ['(data,dtype=None,copy=False,order=None,mask=nomask,fill_value=None,kee |
+| p_mask=True,hard_mask=False,shrink=True,subok=True,ndmin=0)'], 'numpy.ma.core.array': ['(data,dtype=None,copy=False,order=None,mask=nomask,fill_value=None,keep_mask=True,h |
+| ard_mask=False,shrink=True,subok=True,ndmin=0)']}                                                                                                                           |
+|                                                                                                                                                                             |
+| Definition @1.24.0 <static>: {'numpy.core.defchararray.array': ['(obj,itemsize=None,copy=True,unicode=None,order=None)'], 'numpy.defchararray.array': ['(obj,itemsize=None, |
+| copy=True,unicode=None,order=None)'], 'numpy.core.records.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byte |
+| order=None,copy=True)'], 'numpy.records.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=Tr |
+| ue)'], 'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFun |
+| c=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->N |
+| DArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDAr |
+| ray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', ' |
+| (object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiar |
+| ray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(o |
+| bject:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_A |
+| rrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Arra |
+| yType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None= |
+| ...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.ma.array': ['(data,dtype=None,cop |
+| y=False,order=None,mask=nomask,fill_value=None,keep_mask=True,hard_mask=False,shrink=True,subok=True,ndmin=0)'], 'numpy.ma.core.array': ['(data,dtype=None,copy=False,order |
+| =None,mask=nomask,fill_value=None,keep_mask=True,hard_mask=False,shrink=True,subok=True,ndmin=0)']}                                                                         |
+|                                                                                                                                                                             |
+| Compatible: Yes                                                                                                                                                             |
+|                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                                             |
+| Invoked API #2: np.histogram(a, bins, range, normed, weights, density=density)                                                                                              |
+|                                                                                                                                                                             |
+| Location: At Line 8 in numpy.histogram#22NN/histogramNN.py                                                                                                                  |
+|                                                                                                                                                                             |
+| Coverage: Yes                                                                                                                                                               |
+|                                                                                                                                                                             |
+| Definition @1.23.5 <static>: {'numpy.histogram': ['(a,bins=10,range=None,normed=None,weights=None,density=None)']}                                                          |
+|                                                                                                                                                                             |
+| Definition @1.24.0 <static>: {'numpy.histogram': ['(a,bins=10,range=None,density=None,weights=None)']}                                                                      |
+|                                                                                                                                                                             |
+| Compatible: No                                                                                                                                                              |
+|                                                                                                                                                                             |
+| Repair <Unknown>: np.histogram(a, bins, range, weights=weights, density=density)                                                                                            |
+|                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+

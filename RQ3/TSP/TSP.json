@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/networkx/p1/TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b",
+    "runCommand": "python src/ctfds.py",
+    "runFilePath":"src",
+    "libName": "networkx",
+    "currentVersion": "2.8.8",
+    "targetVersion": "3.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/tsp2.8.8",
+    "targetEnv": "/home/nuaa/anaconda3/envs/tsp3.0"
+}

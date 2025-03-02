@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#3NN/KMeans#3NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.cluster.KMeans@0.24.2-1.0/sklearn.cluster.KMeans#3NN'), ('notebook', 'KMeans#3NN'), ('text', '  File "KMeans#3NN.py", line 29, in <module>\n    best_original_kmeans(x,data)   #新增\n  File "KMeans#3NN.py", line 21, in best_original_kmeans\n    kmeans = km(n_clusters=i, n_jobs=-1, n_init=20, verbose=False, tol=0.000001)\nTypeError: __init__() got an unexpected keyword argument \'n_jobs\'\n')])
+  File "KMeans#3NN.py", line 29, in <module>
+Error inducing API short name: best_original_kmeans, line no: 29
+  File "KMeans#3NN.py", line 21, in best_original_kmeans
+Error inducing API short name: km, line no: 21
+Error inducing API fqn: UNKNOWN, line no: 21
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: []
+Prev Params: None
+Prev Repair Action: None
+Line No: 21
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:[]
+EXPP: []
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m0.880s
+user    0m2.516s
+sys     0m8.269s

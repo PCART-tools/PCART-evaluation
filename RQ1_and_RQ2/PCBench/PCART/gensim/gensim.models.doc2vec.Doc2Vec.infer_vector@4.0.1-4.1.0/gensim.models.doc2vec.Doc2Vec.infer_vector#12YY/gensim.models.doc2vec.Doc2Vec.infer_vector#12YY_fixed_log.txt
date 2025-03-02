@@ -1,0 +1,10 @@
+model.infer_vector(doc_words, 0.025, min_alpha=0.0001, epochs=1), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 13, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/gensim4.1.0/lib/python3.8/site-packages/gensim/models/doc2vec.py", line 649, in infer_vector
+    train_document_dm(
+  File "gensim/models/doc2vec_inner.pyx", line 504, in gensim.models.doc2vec_inner.train_document_dm
+AttributeError: 'Doc2Vec' object has no attribute 'shrink_windows'
+
+

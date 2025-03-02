@@ -1,0 +1,117 @@
+Run Command: python  report_all_results.py --all_figures results_simple-gallery
+Total File Number: 11
+Total Scipy Invoked API Number: 3
+Not Covered Scipy Invoked API Number: 0/3
+Covered Scipy Invoked API Number: 3/3
+
+Compatible Scipy Invoked API Number: 2/3
+Unknown Compatible Scipy Invoked API Number: 0/3
+
+Incompatible Scipy Invoked API Number: 1/3
+-> Successfully Repaired Scipy Invoked API number: 1/1
+-> Failed to Repair Scipy Invoked API Number: 0/1
+-> Unknown Repair Status Scipy Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/run_cached_script.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #2: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/report_all_results.py has 3 Scipy-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: scipy.stats.shapiro(group[energy_feature], a=None, reta=False)                     |
+|                                                                                                    |
+| Location: At Line 187 in greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/report_all_result |
+| s.py                                                                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (x, a=None, reta=False)                                              |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (x)                                                                   |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: scipy.stats.shapiro(group[energy_feature])                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: scipy.stats.mannwhitneyu(df_experiment_pivot[energy_feature], group[energy_feature |
+| ], use_continuity=True)                                                                            |
+|                                                                                                    |
+| Location: At Line 188 in greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/report_all_result |
+| s.py                                                                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (x, y, use_continuity=True, alternative=None)                        |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (x, y, use_continuity=True, alternative=None)                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: scipy.stats.ttest_ind(df_experiment_pivot[energy_feature], group[energy_feature],  |
+| equal_var=False)                                                                                   |
+|                                                                                                    |
+| Location: At Line 190 in greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/report_all_result |
+| s.py                                                                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate')               |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate')                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #3: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/writely-pro-view_holder.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #4: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/hold.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #5: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/simplegallery.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #6: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/gnucash.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #7: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/acrylicpaint.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #8: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/talalarmo.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #9: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/test_helper.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #10: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/__init__.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #11: greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8/tests/uhabits.py has 0 Scipy-Invoked API(s)|
+======================================================================================================
+
+

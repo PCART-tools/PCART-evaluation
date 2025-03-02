@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/gistable",
+    "runCommand": "python snippet.py",
+    "runFilePath":"",
+    "libName": "numpy",
+    "currentVersion": "1.23.5",
+    "targetVersion": "1.24.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/gistable1.23.5",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/gistable1.24.0"
+}

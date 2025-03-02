@@ -1,0 +1,28 @@
+aiohttp.TCPConnector(enable_cleanup_closed=False, keepalive_timeout=30, fingerprint=None, verify_ssl=True, ttl_dns_cache=10, limit=100, use_dns_cache=True, resolve=object(), ssl_context=None, local_addr=None, force_close=False, limit_per_host=0, resolver=None, family=0), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/aiohttp3.0.0/lib/python3.6/site-packages/aiohttp/connector.py", line 616, in __init__
+    fingerprint)
+  File "/dataset/zhang/anaconda3/envs/aiohttp3.0.0/lib/python3.6/site-packages/aiohttp/client_reqrep.py", line 127, in _merge_ssl_params
+    "got {!r} instead.".format(ssl))
+TypeError: ssl should be SSLContext, bool, Fingerprint or None, got <object object at 0x7f35b41c6690> instead.
+
+
+aiohttp.ClientSession(connector=connector), Failed to load pkl in current version2.3.10: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/aiohttp2.3.10/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/aiohttp2.3.10/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp2.3.10/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp2.3.10/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
+
+

@@ -1,0 +1,551 @@
+Run Command: python  plot_results.py
+Total File Number: 8
+Total Matplotlib Invoked API Number: 26
+Not Covered Matplotlib Invoked API Number: 0/26
+Covered Matplotlib Invoked API Number: 26/26
+
+Compatible Matplotlib Invoked API Number: 25/26
+Unknown Compatible Matplotlib Invoked API Number: 0/26
+
+Incompatible Matplotlib Invoked API Number: 1/26
+-> Successfully Repaired Matplotlib Invoked API number: 1/1
+-> Failed to Repair Matplotlib Invoked API Number: 0/1
+-> Unknown Repair Status Matplotlib Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.py has 26 Matplotlib-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: matplotlib.use('agg', warn=False, force=True)                                      |
+|                                                                                                    |
+| Location: At Line 30 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <dynamic>: (backend, warn=<deprecated parameter>, force=True)                    |
+|                                                                                                    |
+| Definition @3.3.0 <dynamic>: (backend, *, force=True)                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: matplotlib.use('agg', force=True)                                             |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: plt.figure(constrained_layout=False)                                               |
+|                                                                                                    |
+| Location: At Line 58 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <dynamic>: (num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, fr |
+| ameon=True, FigureClass=<class 'matplotlib.figure.Figure'>, clear=False, **kwargs)                 |
+|                                                                                                    |
+| Definition @3.3.0 <dynamic>: (num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, fr |
+| ameon=True, FigureClass=<class 'matplotlib.figure.Figure'>, clear=False, **kwargs)                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: fig1.add_gridspec(nrows=1, ncols=1, left=0.01, right=0.4)                          |
+|                                                                                                    |
+| Location: At Line 59 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows,ncols,**kwargs |
+| )']}                                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows=1,ncols=1,**kw |
+| args)']}                                                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: fig1.add_gridspec(nrows=1, ncols=1, left=0.54, right=0.93)                         |
+|                                                                                                    |
+| Location: At Line 60 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows,ncols,**kwargs |
+| )']}                                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows=1,ncols=1,**kw |
+| args)']}                                                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: fig1.add_gridspec(nrows=1, ncols=1, left=0.95, right=0.99)                         |
+|                                                                                                    |
+| Location: At Line 61 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows,ncols,**kwargs |
+| )']}                                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_gridspec': ['(self,nrows=1,ncols=1,**kw |
+| args)']}                                                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: fig1.add_subplot(gs1[0, 0])                                                        |
+|                                                                                                    |
+| Location: At Line 65 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: fig1.add_subplot(gs2[0, 0])                                                        |
+|                                                                                                    |
+| Location: At Line 66 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: fig1.add_subplot(gs3[0, 0])                                                        |
+|                                                                                                    |
+| Location: At Line 67 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.figure.Figure.add_subplot': ['(self,*args,**kwargs)']}    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: ax3.plot([], [], '-k', linewidth=1, label='Analytical')                            |
+|                                                                                                    |
+| Location: At Line 70 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: ax3.plot([], [], 'ok', label='Mpsa/Mpfa', markersize=4)                           |
+|                                                                                                    |
+| Location: At Line 71 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: ax1.plot(p_exact[:, 0], p_exact[:, t + 1], color=color)                           |
+|                                                                                                    |
+| Location: At Line 79 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: ax1.plot(p_numer[:, 0], p_numer[:, t + 1], 'o', markersize=3, color=color)        |
+|                                                                                                    |
+| Location: At Line 80 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: ax2.plot(ux_exact[:, 0], ux_exact[:, t + 1], color=color)                         |
+|                                                                                                    |
+| Location: At Line 83 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: ax2.plot(ux_numer[:, 0], ux_numer[:, t + 1], 'o', markersize=3, color=color)      |
+|                                                                                                    |
+| Location: At Line 84 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: ax3.plot([], [], color=color, label='t = {} s'.format(np.int(times)))             |
+|                                                                                                    |
+| Location: At Line 87 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
+| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
+| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
+| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: ax1.tick_params(axis='both', which='major')                                       |
+|                                                                                                    |
+| Location: At Line 90 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
+| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
+| ='both',**kwargs)"]}                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
+| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
+| ='both',**kwargs)"]}                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: ax1.set_xlabel('$x\\,/\\,a$')                                                     |
+|                                                                                                    |
+| Location: At Line 91 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,label |
+| pad=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,labelp |
+| ad=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_xlabel': ['(self,xlabel,fontdict |
+| =None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryAxis.set_xlabel': ['(se |
+| lf,xlabel,fontdict=None,labelpad=None,**kwargs)']}                                                 |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,label |
+| pad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_xlabel': ['(self,xlabel,fontdict= |
+| None,labelpad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_xlabel': [ |
+| '(self,xlabel,fontdict=None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryA |
+| xis.set_xlabel': ['(self,xlabel,fontdict=None,labelpad=None,**kwargs)']}                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #18: ax1.set_ylabel('$a\\,p\\,/\\,F$')                                                 |
+|                                                                                                    |
+| Location: At Line 92 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,label |
+| pad=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,labelp |
+| ad=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_ylabel': ['(self,ylabel,fontdict |
+| =None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryAxis.set_ylabel': ['(se |
+| lf,ylabel,fontdict=None,labelpad=None,**kwargs)']}                                                 |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,label |
+| pad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_ylabel': ['(self,ylabel,fontdict= |
+| None,labelpad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_ylabel': [ |
+| '(self,ylabel,fontdict=None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryA |
+| xis.set_ylabel': ['(self,ylabel,fontdict=None,labelpad=None,**kwargs)']}                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #19: FormatStrFormatter('%.4f')                                                        |
+|                                                                                                    |
+| Location: At Line 94 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <dynamic>: (fmt)                                                                 |
+|                                                                                                    |
+| Definition @3.3.0 <dynamic>: (fmt)                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #20: ax2.yaxis.set_major_formatter(FormatStrFormatter('%.4f'))                         |
+|                                                                                                    |
+| Location: At Line 94 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.axis.Axis.set_major_formatter': ['(self,formatter)']}     |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.axis.Axis.set_major_formatter': ['(self,formatter)']}     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #21: ax2.tick_params(axis='both', which='major')                                       |
+|                                                                                                    |
+| Location: At Line 95 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
+| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
+| ='both',**kwargs)"]}                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
+| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
+| ='both',**kwargs)"]}                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #22: ax2.set_xlabel('$x\\,/\\,a$')                                                     |
+|                                                                                                    |
+| Location: At Line 96 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,label |
+| pad=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,labelp |
+| ad=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_xlabel': ['(self,xlabel,fontdict |
+| =None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryAxis.set_xlabel': ['(se |
+| lf,xlabel,fontdict=None,labelpad=None,**kwargs)']}                                                 |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.axes.Axes.set_xlabel': ['(self,xlabel,fontdict=None,label |
+| pad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_xlabel': ['(self,xlabel,fontdict= |
+| None,labelpad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_xlabel': [ |
+| '(self,xlabel,fontdict=None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryA |
+| xis.set_xlabel': ['(self,xlabel,fontdict=None,labelpad=None,**kwargs)']}                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #23: ax2.set_ylabel('$u_x\\,/\\,a$')                                                   |
+|                                                                                                    |
+| Location: At Line 97 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,label |
+| pad=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,labelp |
+| ad=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_ylabel': ['(self,ylabel,fontdict |
+| =None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryAxis.set_ylabel': ['(se |
+| lf,ylabel,fontdict=None,labelpad=None,**kwargs)']}                                                 |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.axes.Axes.set_ylabel': ['(self,ylabel,fontdict=None,label |
+| pad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._axes.Axes.set_ylabel': ['(self,ylabel,fontdict= |
+| None,labelpad=None,*,loc=None,**kwargs)'], 'matplotlib.axes._secondarySecondaryAxis.set_ylabel': [ |
+| '(self,ylabel,fontdict=None,labelpad=None,**kwargs)'], 'matplotlib.axes._secondary_axes.SecondaryA |
+| xis.set_ylabel': ['(self,ylabel,fontdict=None,labelpad=None,**kwargs)']}                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #24: ax3.legend(loc='center left', frameon=False)                                      |
+|                                                                                                    |
+| Location: At Line 99 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results.p |
+| y                                                                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.legend': ['(*args,**kwargs)'], 'plt.legend': ['(*a |
+| rgs,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes.Ax |
+| es.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*args,**kwargs |
+| )']}                                                                                               |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.legend': ['(*args,**kwargs)'], 'plt.legend': ['(*a |
+| rgs,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes.Ax |
+| es.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*args,**kwargs |
+| )']}                                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #25: ax3.axis('off')                                                                   |
+|                                                                                                    |
+| Location: At Line 100 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results. |
+| py                                                                                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.axis': ['(*args,emit=True,**kwargs)'], 'plt.axis': |
+|  ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args,emit=True,* |
+| *kwargs)']}                                                                                        |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.axis': ['(*args,emit=True,**kwargs)'], 'plt.axis': |
+|  ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args,emit=True,* |
+| *kwargs)']}                                                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #26: fig1.savefig(output_folder + output_files, bbox_inches='tight')                   |
+|                                                                                                    |
+| Location: At Line 105 in simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/plot_results. |
+| py                                                                                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <static>: {'matplotlib.pyplot.savefig': ['(*args,**kwargs)'], 'plt.savefig': ['( |
+| *args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None,**kwargs)' |
+| ], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], 'matplotli |
+| b.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}                         |
+|                                                                                                    |
+| Definition @3.3.0 <static>: {'matplotlib.pyplot.savefig': ['(*args,**kwargs)'], 'plt.savefig': ['( |
+| *args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None,**kwargs)' |
+| ], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], 'matplotli |
+| b.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #2: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/analytical.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #3: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/export_results.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #4: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/data.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #5: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/main.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #6: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/create_grid.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #7: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/discretization.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+
+======================================================================================================
+|File #8: simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0/ex_4_2/solve.py has 0 Matplotlib-Invoked API(s)|
+======================================================================================================
+
+

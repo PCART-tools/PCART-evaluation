@@ -1,0 +1,25 @@
+--- Running sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#3NN/DecisionTreeRegressor#3NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#3NN'), ('notebook', 'DecisionTreeRegressor#3NN'), ('text', '  File "DecisionTreeRegressor#3NN.py", line 34, in <module>\n    housing_model=DecisionTreeRegressor(criterion=\'mse\', max_depth=None, max_features=None,     #此处有调整\n  File "/dataset/he/envs/ml_sklearn_0.24.1/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f\n    return f(*args, **kwargs)\nTypeError: __init__() got an unexpected keyword argument \'presort\'\n')])
+  File "DecisionTreeRegressor#3NN.py", line 34, in <module>
+Error inducing API short name: DecisionTreeRegressor, line no: 34
+Error inducing API fqn: sklearn.tree.DecisionTreeRegressor, line no: 34
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+Prev Params: None
+Prev Repair Action: None
+Line No: 34
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+EXPP: ['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_impurity_decrease', 'min_impurity_split', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m1.129s
+user    0m3.316s
+sys     0m9.583s

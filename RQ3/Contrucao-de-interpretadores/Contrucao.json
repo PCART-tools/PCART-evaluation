@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/pandas/p4/Contrucao-de-interpretadores-9882e5f919f0b8ada1b84ed979f41d9ef1d1e49c",
+    "runCommand": "python main.py",
+    "runFilePath":"Tf-IDF",
+    "libName": "pandas",
+    "currentVersion": "1.5.3",
+    "targetVersion": "2.0.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/contrucao1.5.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/contrucao2.0.0"
+}

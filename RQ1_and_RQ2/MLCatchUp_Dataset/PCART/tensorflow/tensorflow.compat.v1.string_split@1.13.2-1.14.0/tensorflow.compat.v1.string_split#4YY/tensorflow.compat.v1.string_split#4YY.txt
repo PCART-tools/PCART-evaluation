@@ -1,0 +1,39 @@
+Run Command: python  string_split#4YY.py
+Total File Number: 1
+Total Tensorflow Invoked API Number: 1
+Not Covered Tensorflow Invoked API Number: 0/1
+Covered Tensorflow Invoked API Number: 1/1
+
+Compatible Tensorflow Invoked API Number: 1/1
+Unknown Compatible Tensorflow Invoked API Number: 0/1
+
+Incompatible Tensorflow Invoked API Number: 0/1
+-> Successfully Repaired Tensorflow Invoked API number: 0/0
+-> Failed to Repair Tensorflow Invoked API Number: 0/0
+-> Unknown Repair Status Tensorflow Invoked API Number: 0/0
+
+======================================================================================================
+| File #1: tensorflow.compat.v1.string_split#4YY/string_split#4YY.py has 1 Tensorflow-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: tf.compat.v1.string_split([path], delimiter='/')                                   |
+|                                                                                                    |
+| Location: At Line 20 in tensorflow.compat.v1.string_split#4YY/string_split#4YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.ops.string_ops.string_split': ["(source,delimiter |
+| ='',skip_empty=True)"], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,delimiter,sk |
+| ip_empty=True,name=None)']}                                                                        |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.ops.string_ops.string_split': ['(source,sep=None, |
+| skip_empty=True,delimiter=None)'], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,d |
+| elimiter,skip_empty=True,name=None)'], 'tensorflow.python.ops.ragged.ragged_string_ops.string_spli |
+| t': ["(source,sep=None,skip_empty=True,delimiter=None,result_type='SparseTensor',name=None)"], 'te |
+| nsorflow.ragged_string_ops.string_split': ["(source,sep=None,skip_empty=True,delimiter=None,result |
+| _type='SparseTensor',name=None)"]}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

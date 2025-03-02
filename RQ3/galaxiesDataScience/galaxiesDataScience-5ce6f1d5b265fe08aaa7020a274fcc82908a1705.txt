@@ -1,0 +1,352 @@
+Run Command: python  getGeometricDistances.py ell.csv sp.csv Width output.csv
+Total File Number: 1
+Total Numpy Invoked API Number: 16
+Not Covered Numpy Invoked API Number: 0/16
+Covered Numpy Invoked API Number: 16/16
+
+Compatible Numpy Invoked API Number: 13/16
+Unknown Compatible Numpy Invoked API Number: 1/16
+
+Incompatible Numpy Invoked API Number: 2/16
+-> Successfully Repaired Numpy Invoked API number: 2/2
+-> Failed to Repair Numpy Invoked API Number: 0/2
+-> Unknown Repair Status Numpy Invoked API Number: 0/2
+
+======================================================================================================
+|File #1: galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricDistances.py has 16 Numpy-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: numpy.array([columns])                                                             |
+|                                                                                                    |
+| Location: At Line 14 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: numpy.savetxt(outFile, numpy.array([columns]), delimiter=',', fmt='%s')            |
+|                                                                                                    |
+| Location: At Line 14 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ', encoding=None)                                                               |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ', encoding=None)                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: numpy.histogram(data1[metric])                                                     |
+|                                                                                                    |
+| Location: At Line 17 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, bins=10, range=None, normed=None, weights=None, density=None)    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, bins=10, range=None, density=None, weights=None)                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: numpy.histogram(data2[metric])                                                     |
+|                                                                                                    |
+| Location: At Line 18 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, bins=10, range=None, normed=None, weights=None, density=None)    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, bins=10, range=None, density=None, weights=None)                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: numpy.concatenate((bins1, bins2))                                                  |
+|                                                                                                    |
+| Location: At Line 19 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.AxisConcatenator.concatenate': ['(*a:ArrayLike,axis:SupportsI |
+| ndex=...,out:None=...)->NDArray[Any]', '(*a:ArrayLike,axis:SupportsIndex=...,out:_ArrayType=...)-> |
+| _ArrayType'], 'numpy.lib.index_tricks.AxisConcatenator.concatenate': ['(*a:ArrayLike,axis:Supports |
+| Index=...,out:None=...)->NDArray[Any]', '(*a:ArrayLike,axis:SupportsIndex=...,out:_ArrayType=...)- |
+| >_ArrayType']}                                                                                     |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.AxisConcatenator.concatenate': ['(*a:ArrayLike,axis:SupportsI |
+| ndex=...,out:None=...)->NDArray[Any]', '(*a:ArrayLike,axis:SupportsIndex=...,out:_ArrayType=...)-> |
+| _ArrayType'], 'numpy.lib.index_tricks.AxisConcatenator.concatenate': ['(*a:ArrayLike,axis:Supports |
+| Index=...,out:None=...)->NDArray[Any]', '(*a:ArrayLike,axis:SupportsIndex=...,out:_ArrayType=...)- |
+| >_ArrayType']}                                                                                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: numpy.min(both)                                                                    |
+|                                                                                                    |
+| Location: At Line 22 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: numpy.max(both)                                                                    |
+|                                                                                                    |
+| Location: At Line 22 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: numpy.histogram(ell[metric], bins=n, range=rnge, normed=True)                      |
+|                                                                                                    |
+| Location: At Line 23 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, bins=10, range=None, normed=None, weights=None, density=None)    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, bins=10, range=None, density=None, weights=None)                 |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: numpy.histogram(ell[metric], bins=n, range=rnge)                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: numpy.histogram(sp[metric], bins=n, range=rnge, normed=True)                       |
+|                                                                                                    |
+| Location: At Line 24 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, bins=10, range=None, normed=None, weights=None, density=None)    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, bins=10, range=None, density=None, weights=None)                 |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: numpy.histogram(sp[metric], bins=n, range=rnge)                               |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: numpy.minimum(hist1, hist2)                                                       |
+|                                                                                                    |
+| Location: At Line 28 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {}                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {}                                                                    |
+|                                                                                                    |
+| Compatible: Unknown                                                                                |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: numpy.sum(dy * dx)                                                                |
+|                                                                                                    |
+| Location: At Line 31 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<n |
+| o value>, where=<no value>)                                                                        |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<n |
+| o value>, where=<no value>)                                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: numpy.max(hist1)                                                                  |
+|                                                                                                    |
+| Location: At Line 33 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: numpy.max(hist2)                                                                  |
+|                                                                                                    |
+| Location: At Line 34 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: numpy.max(dy)                                                                     |
+|                                                                                                    |
+| Location: At Line 35 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: numpy.array([results])                                                            |
+|                                                                                                    |
+| Location: At Line 45 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: numpy.savetxt(f_handle, numpy.array([results]), delimiter=',', fmt='%s')          |
+|                                                                                                    |
+| Location: At Line 45 in galaxiesDataScience-5ce6f1d5b265fe08aaa7020a274fcc82908a1705/getGeometricD |
+| istances.py                                                                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ', encoding=None)                                                               |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ', encoding=None)                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

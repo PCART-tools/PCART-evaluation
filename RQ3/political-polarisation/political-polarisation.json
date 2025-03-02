@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/political-polarisation",
+    "runCommand": "python analyze_hashtag.py",
+    "runFilePath":"",
+    "libName": "networkx",
+    "currentVersion": "2.8.8",
+    "targetVersion": "3.0.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/political2.8.8",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/political3.0.0"
+}

@@ -1,0 +1,36 @@
+df.take([0, 3], 0, is_copy=None), Failed to load pkl in target version2.0.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 432, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'pandas.core.indexes.numeric'
+
+[2.0.0]df.take([0, 3], 0, is_copy=None), generate new pkl failed: Traceback (most recent call last):
+  File "takeNN.py", line 9, in <module>
+    df.take([0, 3], 0, is_copy=None)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/generic.py", line 3907, in take
+    nv.validate_take((), kwargs)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/compat/numpy/function.py", line 80, in __call__
+    validate_kwargs(fname, kwargs, self.defaults)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/util/_validators.py", line 162, in validate_kwargs
+    _check_for_invalid_keys(fname, kwargs, compat_args)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/util/_validators.py", line 136, in _check_for_invalid_keys
+    raise TypeError(f"{fname}() got an unexpected keyword argument '{bad_arg}'")
+TypeError: take() got an unexpected keyword argument 'is_copy'
+
+df.take([0, 3], 0, is_copy=None), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 9, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/dill/_dill.py", line 432, in find_class
+    return StockUnpickler.find_class(self, module, name)
+ModuleNotFoundError: No module named 'pandas.core.indexes.numeric'
+
+

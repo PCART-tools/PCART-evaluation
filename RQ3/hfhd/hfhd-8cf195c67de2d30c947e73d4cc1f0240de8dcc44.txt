@@ -1,0 +1,454 @@
+Run Command: python  main_test.py
+Total File Number: 6
+Total Pandas Invoked API Number: 25
+Not Covered Pandas Invoked API Number: 5/25
+Covered Pandas Invoked API Number: 20/25
+
+Compatible Pandas Invoked API Number: 15/20
+Unknown Compatible Pandas Invoked API Number: 0/20
+
+Incompatible Pandas Invoked API Number: 5/20
+-> Successfully Repaired Pandas Invoked API number: 5/5
+-> Failed to Repair Pandas Invoked API Number: 0/5
+-> Unknown Repair Status Pandas Invoked API Number: 0/5
+
+======================================================================================================
+|  File #1: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/main_test.py has 0 Pandas-Invoked API(s)   |
+======================================================================================================
+
+
+======================================================================================================
+|   File #2: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py has 5 Pandas-Invoked API(s)    |
+======================================================================================================
+| Invoked API #1: pd.to_datetime(index)                                                              |
+|                                                                                                    |
+| Location: At Line 178 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pd.DataFrame(rt_data, index=index)                                                 |
+|                                                                                                    |
+| Location: At Line 179 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: pd.DataFrame(rt_data, index=index).dropna()                                        |
+|                                                                                                    |
+| Location: At Line 179 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: pd.Series(data_pa.flatten(), index=index)                                          |
+|                                                                                                    |
+| Location: At Line 315 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: pd.DataFrame(data_pa, index=index)                                                 |
+|                                                                                                    |
+| Location: At Line 317 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hf.py                  |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|  File #3: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py has 20 Pandas-Invoked API(s)   |
+======================================================================================================
+| Invoked API #1: pd.DataFrame(self.sigma_sq_resid)                                                  |
+|                                                                                                    |
+| Location: At Line 196 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pd.to_datetime(sr.index, unit=self.freq)                                           |
+|                                                                                                    |
+| Location: At Line 197 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool | |
+|  None' = None, format: 'str | None' = None, exact: 'bool' = True, unit: 'str | None' = None, infer |
+| _datetime_format: 'bool' = False, origin='unix', cache: 'bool' = True) -> 'DatetimeIndex | Series  |
+| | DatetimeScalar | NaTType | None'                                                                 |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool'  |
+| = False, format: 'str | None' = None, exact: 'bool | lib.NoDefault' = <no_default>, unit: 'str | N |
+| one' = None, infer_datetime_format: 'lib.NoDefault | bool' = <no_default>, origin: 'str' = 'unix', |
+|  cache: 'bool' = True) -> 'DatetimeIndex | Series | DatetimeScalar | NaTType | None'               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: sr.between_time('9:30', '16:00', include_start=True, include_end=True)             |
+|                                                                                                    |
+| Location: At Line 199 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (start_time, end_time, include_start: 'bool_t | lib.NoDefault' = <no_ |
+| default>, include_end: 'bool_t | lib.NoDefault' = <no_default>, inclusive: 'IntervalClosedType | N |
+| one' = None, axis=None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (start_time, end_time, inclusive: 'IntervalClosedType' = 'both', axis |
+| : 'Axis | None' = None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: sr.between_time('9:30', '16:00')                                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: sr.resample('1d')                                                                  |
+|                                                                                                    |
+| Location: At Line 202 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, loffset=None, base: 'int | No |
+| ne' = None, on: 'Level' = None, level: 'Level' = None, origin: 'str | TimestampConvertibleTypes' = |
+|  'start_day', offset: 'TimedeltaConvertibleTypes | None' = None, group_keys: 'bool | lib.NoDefault |
+| ' = <no_default>) -> 'Resampler'                                                                   |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, on: 'Level' = None, level: 'L |
+| evel' = None, origin: 'str | TimestampConvertibleTypes' = 'start_day', offset: 'TimedeltaConvertib |
+| leTypes | None' = None, group_keys: 'bool' = False) -> 'Resampler'                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: sr.resample('1d').sum()                                                            |
+|                                                                                                    |
+| Location: At Line 202 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (numeric_only: 'bool | lib.NoDefault' = <no_default>, min_count: 'int |
+| ' = 0, *args, **kwargs)                                                                            |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (numeric_only: 'bool' = False, min_count: 'int' = 0, *args, **kwargs) |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: pd.DataFrame(self.sigma_sq_industry)                                               |
+|                                                                                                    |
+| Location: At Line 204 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: pd.to_datetime(si.index, unit=self.freq)                                           |
+|                                                                                                    |
+| Location: At Line 205 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool | |
+|  None' = None, format: 'str | None' = None, exact: 'bool' = True, unit: 'str | None' = None, infer |
+| _datetime_format: 'bool' = False, origin='unix', cache: 'bool' = True) -> 'DatetimeIndex | Series  |
+| | DatetimeScalar | NaTType | None'                                                                 |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool'  |
+| = False, format: 'str | None' = None, exact: 'bool | lib.NoDefault' = <no_default>, unit: 'str | N |
+| one' = None, infer_datetime_format: 'lib.NoDefault | bool' = <no_default>, origin: 'str' = 'unix', |
+|  cache: 'bool' = True) -> 'DatetimeIndex | Series | DatetimeScalar | NaTType | None'               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: si.between_time('9:30', '16:00', include_start=True, include_end=True)             |
+|                                                                                                    |
+| Location: At Line 207 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (start_time, end_time, include_start: 'bool_t | lib.NoDefault' = <no_ |
+| default>, include_end: 'bool_t | lib.NoDefault' = <no_default>, inclusive: 'IntervalClosedType | N |
+| one' = None, axis=None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (start_time, end_time, inclusive: 'IntervalClosedType' = 'both', axis |
+| : 'Axis | None' = None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: si.between_time('9:30', '16:00')                                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: si.resample('1d')                                                                  |
+|                                                                                                    |
+| Location: At Line 210 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, loffset=None, base: 'int | No |
+| ne' = None, on: 'Level' = None, level: 'Level' = None, origin: 'str | TimestampConvertibleTypes' = |
+|  'start_day', offset: 'TimedeltaConvertibleTypes | None' = None, group_keys: 'bool | lib.NoDefault |
+| ' = <no_default>) -> 'Resampler'                                                                   |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, on: 'Level' = None, level: 'L |
+| evel' = None, origin: 'str | TimestampConvertibleTypes' = 'start_day', offset: 'TimedeltaConvertib |
+| leTypes | None' = None, group_keys: 'bool' = False) -> 'Resampler'                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: si.resample('1d').sum()                                                           |
+|                                                                                                    |
+| Location: At Line 210 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (numeric_only: 'bool | lib.NoDefault' = <no_default>, min_count: 'int |
+| ' = 0, *args, **kwargs)                                                                            |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (numeric_only: 'bool' = False, min_count: 'int' = 0, *args, **kwargs) |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: pd.DataFrame(self.sigma_sq_factor)                                                |
+|                                                                                                    |
+| Location: At Line 212 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: pd.to_datetime(sf.index, unit=self.freq)                                          |
+|                                                                                                    |
+| Location: At Line 213 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool | |
+|  None' = None, format: 'str | None' = None, exact: 'bool' = True, unit: 'str | None' = None, infer |
+| _datetime_format: 'bool' = False, origin='unix', cache: 'bool' = True) -> 'DatetimeIndex | Series  |
+| | DatetimeScalar | NaTType | None'                                                                 |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool'  |
+| = False, format: 'str | None' = None, exact: 'bool | lib.NoDefault' = <no_default>, unit: 'str | N |
+| one' = None, infer_datetime_format: 'lib.NoDefault | bool' = <no_default>, origin: 'str' = 'unix', |
+|  cache: 'bool' = True) -> 'DatetimeIndex | Series | DatetimeScalar | NaTType | None'               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: sf.between_time('9:30', '16:00', include_start=True, include_end=True)            |
+|                                                                                                    |
+| Location: At Line 215 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (start_time, end_time, include_start: 'bool_t | lib.NoDefault' = <no_ |
+| default>, include_end: 'bool_t | lib.NoDefault' = <no_default>, inclusive: 'IntervalClosedType | N |
+| one' = None, axis=None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (start_time, end_time, inclusive: 'IntervalClosedType' = 'both', axis |
+| : 'Axis | None' = None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: sf.between_time('9:30', '16:00')                                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: sf.resample('1d')                                                                 |
+|                                                                                                    |
+| Location: At Line 218 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, loffset=None, base: 'int | No |
+| ne' = None, on: 'Level' = None, level: 'Level' = None, origin: 'str | TimestampConvertibleTypes' = |
+|  'start_day', offset: 'TimedeltaConvertibleTypes | None' = None, group_keys: 'bool | lib.NoDefault |
+| ' = <no_default>) -> 'Resampler'                                                                   |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (rule, axis: 'Axis' = 0, closed: 'str | None' = None, label: 'str | N |
+| one' = None, convention: 'str' = 'start', kind: 'str | None' = None, on: 'Level' = None, level: 'L |
+| evel' = None, origin: 'str | TimestampConvertibleTypes' = 'start_day', offset: 'TimedeltaConvertib |
+| leTypes | None' = None, group_keys: 'bool' = False) -> 'Resampler'                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: sf.resample('1d').sum()                                                           |
+|                                                                                                    |
+| Location: At Line 218 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (numeric_only: 'bool | lib.NoDefault' = <no_default>, min_count: 'int |
+| ' = 0, *args, **kwargs)                                                                            |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (numeric_only: 'bool' = False, min_count: 'int' = 0, *args, **kwargs) |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: pd.DataFrame(self.price)                                                          |
+|                                                                                                    |
+| Location: At Line 312 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: pd.DataFrame(self.cum_feature)                                                    |
+|                                                                                                    |
+| Location: At Line 313 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data=None, index: 'Axes | None' = None, columns: 'Axes | None' = Non |
+| e, dtype: 'Dtype | None' = None, copy: 'bool | None' = None) -> 'None'                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #18: pd.to_datetime(self.price.index, unit=self.freq)                                  |
+|                                                                                                    |
+| Location: At Line 314 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool | |
+|  None' = None, format: 'str | None' = None, exact: 'bool' = True, unit: 'str | None' = None, infer |
+| _datetime_format: 'bool' = False, origin='unix', cache: 'bool' = True) -> 'DatetimeIndex | Series  |
+| | DatetimeScalar | NaTType | None'                                                                 |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (arg: 'DatetimeScalarOrArrayConvertible | DictConvertible', errors: ' |
+| DateTimeErrorChoices' = 'raise', dayfirst: 'bool' = False, yearfirst: 'bool' = False, utc: 'bool'  |
+| = False, format: 'str | None' = None, exact: 'bool | lib.NoDefault' = <no_default>, unit: 'str | N |
+| one' = None, infer_datetime_format: 'lib.NoDefault | bool' = <no_default>, origin: 'str' = 'unix', |
+|  cache: 'bool' = True) -> 'DatetimeIndex | Series | DatetimeScalar | NaTType | None'               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #19: self.price.between_time('9:30', '16:00', include_start=True, include_end=True)    |
+|                                                                                                    |
+| Location: At Line 318 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (start_time, end_time, include_start: 'bool_t | lib.NoDefault' = <no_ |
+| default>, include_end: 'bool_t | lib.NoDefault' = <no_default>, inclusive: 'IntervalClosedType | N |
+| one' = None, axis=None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (start_time, end_time, inclusive: 'IntervalClosedType' = 'both', axis |
+| : 'Axis | None' = None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: self.price.between_time('9:30', '16:00')                                      |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #20: self.cum_feature.between_time('9:30', '16:00', include_start=True, include_end=Tr |
+| ue)                                                                                                |
+|                                                                                                    |
+| Location: At Line 321 in hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/sim.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (start_time, end_time, include_start: 'bool_t | lib.NoDefault' = <no_ |
+| default>, include_end: 'bool_t | lib.NoDefault' = <no_default>, inclusive: 'IntervalClosedType | N |
+| one' = None, axis=None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (start_time, end_time, inclusive: 'IntervalClosedType' = 'both', axis |
+| : 'Axis | None' = None) -> 'NDFrameT'                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: self.cum_feature.between_time('9:30', '16:00')                                |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #4: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/__init__.py has 0 Pandas-Invoked API(s) |
+======================================================================================================
+
+
+======================================================================================================
+|  File #5: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/loss.py has 0 Pandas-Invoked API(s)   |
+======================================================================================================
+
+
+======================================================================================================
+|   File #6: hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44/hfhd/hd.py has 0 Pandas-Invoked API(s)    |
+======================================================================================================
+
+

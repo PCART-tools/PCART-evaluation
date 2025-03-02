@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/sklearn/p3/gender-pay-gap-modelling-9c6ffbc022ab0dffd7ac9dcaeafb511da21121fe",
+    "runCommand": "python models.py",
+    "runFilePath":"",
+    "libName": "sklearn",
+    "currentVersion": "1.1.3",
+    "targetVersion": "1.2.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/gender1.1.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/gender1.2.0"
+}

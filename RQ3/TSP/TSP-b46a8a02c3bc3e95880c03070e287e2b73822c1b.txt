@@ -1,0 +1,118 @@
+Run Command: python  src/ctfds.py
+Total File Number: 1
+Total Networkx Invoked API Number: 7
+Not Covered Networkx Invoked API Number: 0/7
+Covered Networkx Invoked API Number: 7/7
+
+Compatible Networkx Invoked API Number: 6/7
+Unknown Compatible Networkx Invoked API Number: 0/7
+
+Incompatible Networkx Invoked API Number: 1/7
+-> Successfully Repaired Networkx Invoked API number: 1/1
+-> Failed to Repair Networkx Invoked API Number: 0/1
+-> Unknown Repair Status Networkx Invoked API Number: 0/1
+
+======================================================================================================
+|  File #1: TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py has 7 Networkx-Invoked API(s)  |
+======================================================================================================
+| Invoked API #1: nx.minimum_spanning_tree(graph)                                                    |
+|                                                                                                    |
+| Location: At Line 10 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, weight='weight', algorithm='kruskal', ignore_nan=False)           |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, weight='weight', algorithm='kruskal', ignore_nan=False)             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: nx.degree(minSpanTree)                                                             |
+|                                                                                                    |
+| Location: At Line 13 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, nbunch=None, weight=None)                                         |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, nbunch=None, weight=None)                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: nx.subgraph(graph, oddDegreeVertices)                                              |
+|                                                                                                    |
+| Location: At Line 17 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, nbunch)                                                           |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, nbunch)                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: nx.min_weight_matching(oddVertexSubgraph, maxcardinality=True)                     |
+|                                                                                                    |
+| Location: At Line 20 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, maxcardinality=None, weight='weight')                             |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, weight='weight')                                                    |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: nx.min_weight_matching(oddVertexSubgraph)                                     |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: nx.MultiGraph(minSpanTree)                                                         |
+|                                                                                                    |
+| Location: At Line 23 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (incoming_graph_data=None, multigraph_input=None, **attr)             |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (incoming_graph_data=None, multigraph_input=None, **attr)               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: combinedGraph.add_edge(edge[0], edge[1], weight=graph[edge[0]][edge[1]]['weight']) |
+|                                                                                                    |
+| Location: At Line 25 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (u_for_edge, v_for_edge, key=None, **attr)                            |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (u_for_edge, v_for_edge, key=None, **attr)                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: nx.eulerian_circuit(combinedGraph, source=1)                                       |
+|                                                                                                    |
+| Location: At Line 28 in TSP-b46a8a02c3bc3e95880c03070e287e2b73822c1b/src/ctfds.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, source=None, keys=False)                                          |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, source=None, keys=False)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

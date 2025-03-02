@@ -1,0 +1,37 @@
+np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
+  File "dynamicMatch.py", line 172, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 76, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+[1.24.0]np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), load new pkl failed: Traceback (most recent call last):
+  File "dynamicMatch.py", line 172, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 76, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+
+np.histogram(a, bins=bins, range=range), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
+  File "dynamicMatch.py", line 172, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 76, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+[1.24.0]np.histogram(a, bins=bins, range=range), load new pkl failed: Traceback (most recent call last):
+  File "dynamicMatch.py", line 172, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 76, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+np.histogram(a, bins=bins, range=range), addValueError: Traceback (most recent call last):
+  File "addValueForAPI.py", line 253, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a.b(y).c(z)拆分成a.b(y), a.b(y).c(z)
+  File "addValueForAPI.py", line 63, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+

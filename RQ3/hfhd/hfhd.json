@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/pandas/p2/hfhd-8cf195c67de2d30c947e73d4cc1f0240de8dcc44",
+    "runCommand": "python main_test.py",
+    "runFilePath":"",
+    "libName": "pandas",
+    "currentVersion": "1.5.3",
+    "targetVersion": "2.0.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/hfhd1.5.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/hfhd2.0.0"
+}

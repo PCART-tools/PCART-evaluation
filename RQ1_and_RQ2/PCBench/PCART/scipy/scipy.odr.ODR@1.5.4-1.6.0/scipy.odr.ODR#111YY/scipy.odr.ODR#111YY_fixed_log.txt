@@ -1,0 +1,52 @@
+ODR(data, linear_model, beta0, delta0=None, ifixb=ifixb, ifixx=ifixx, job=job, iprint=iprint, errfile=errfile, rptfile=rptfile, ndigit=ndigit, taufac=taufac, sstol=sstol, partol=partol), Failed to load pkl in current version1.5.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  [Previous line repeated 328 more times]
+RecursionError: maximum recursion depth exceeded
+
+[1.6.0]ODR(data, linear_model, beta0, delta0=None, ifixb=ifixb, ifixx=ifixx, job=job, iprint=iprint, errfile=errfile, rptfile=rptfile, ndigit=ndigit, taufac=taufac, sstol=sstol, partol=partol), load new pkl failed: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/scipy1.6.0/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/scipy1.6.0/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+odr.run(), Failed to load pkl in current version1.5.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  File "/dataset/zhang/anaconda3/envs/scipy1.5.4/lib/python3.6/site-packages/scipy/odr/odrpack.py", line 289, in __getattr__
+    if attr in self.meta:
+  [Previous line repeated 328 more times]
+RecursionError: maximum recursion depth exceeded
+
+[1.6.0]odr.run(), load new pkl failed: Traceback (most recent call last):
+  File "dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/scipy1.6.0/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/scipy1.6.0/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+

@@ -1,0 +1,539 @@
+Run Command: python  script.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 35
+Not Covered Sklearn Invoked API Number: 0/35
+Covered Sklearn Invoked API Number: 35/35
+
+Compatible Sklearn Invoked API Number: 34/35
+Unknown Compatible Sklearn Invoked API Number: 0/35
+
+Incompatible Sklearn Invoked API Number: 1/35
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py has 35 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: train_test_split(epidemic_days, world_cases, test_size=0.25, shuffle=False)        |
+|                                                                                                    |
+| Location: At Line 79 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: SVR(shrinking=True, kernel='poly', gamma=0.01, epsilon=1, degree=5, C=0.1)         |
+|                                                                                                    |
+| Location: At Line 81 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: svm_confirmed.fit(X_train_confirmed, y_train_confirmed)                            |
+|                                                                                                    |
+| Location: At Line 82 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: svm_confirmed.predict(forecast)                                                    |
+|                                                                                                    |
+| Location: At Line 83 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: svm_confirmed.predict(X_test_confirmed)                                            |
+|                                                                                                    |
+| Location: At Line 85 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: mean_absolute_error(svm_test_pred, y_test_confirmed)                               |
+|                                                                                                    |
+| Location: At Line 89 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: mean_squared_error(svm_test_pred, y_test_confirmed)                                |
+|                                                                                                    |
+| Location: At Line 90 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: train_test_split(epidemic_days, world_deaths, test_size=0.25, shuffle=False)       |
+|                                                                                                    |
+| Location: At Line 95 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: SVR(shrinking=True, kernel='poly', gamma=0.01, epsilon=1, degree=5, C=0.1)         |
+|                                                                                                    |
+| Location: At Line 97 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: svm_deaths.fit(X_train_deaths, y_train_deaths)                                    |
+|                                                                                                    |
+| Location: At Line 98 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: svm_deaths.predict(forecast)                                                      |
+|                                                                                                    |
+| Location: At Line 99 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: svm_deaths.predict(X_test_deaths)                                                 |
+|                                                                                                    |
+| Location: At Line 101 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: mean_absolute_error(svm_test_pred, y_test_confirmed)                              |
+|                                                                                                    |
+| Location: At Line 105 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: mean_squared_error(svm_test_pred, y_test_confirmed)                               |
+|                                                                                                    |
+| Location: At Line 106 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #15: train_test_split(epidemic_days, world_recovered, test_size=0.25, shuffle=False)   |
+|                                                                                                    |
+| Location: At Line 111 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*arrays, test_size=None, train_size=None, random_state=None, shuffle |
+| =True, stratify=None)                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #16: SVR(shrinking=True, kernel='poly', gamma=0.01, epsilon=1, degree=5, C=0.1)        |
+|                                                                                                    |
+| Location: At Line 113 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, kernel='rbf', degree=3, gamma='scale', coef0=0.0, tol=0.001, C=1. |
+| 0, epsilon=0.1, shrinking=True, cache_size=200, verbose=False, max_iter=-1)                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #17: svm_recovered.fit(X_train_recovered, y_train_recovered)                           |
+|                                                                                                    |
+| Location: At Line 114 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #18: svm_recovered.predict(forecast)                                                   |
+|                                                                                                    |
+| Location: At Line 115 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #19: svm_recovered.predict(X_test_recovered)                                           |
+|                                                                                                    |
+| Location: At Line 117 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #20: mean_absolute_error(svm_test_pred, y_test_confirmed)                              |
+|                                                                                                    |
+| Location: At Line 121 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #21: mean_squared_error(svm_test_pred, y_test_confirmed)                               |
+|                                                                                                    |
+| Location: At Line 122 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #22: PolynomialFeatures(degree=3)                                                      |
+|                                                                                                    |
+| Location: At Line 127 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #23: poly.fit_transform(X_train_confirmed)                                             |
+|                                                                                                    |
+| Location: At Line 128 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #24: poly.fit_transform(X_test_confirmed)                                              |
+|                                                                                                    |
+| Location: At Line 129 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #25: poly.fit_transform(forecast)                                                      |
+|                                                                                                    |
+| Location: At Line 130 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #26: PolynomialFeatures(degree=4)                                                      |
+|                                                                                                    |
+| Location: At Line 132 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (degree=2, *, interaction_only=False, include_bias=True, order='C')   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #27: bayesian_poly.fit_transform(X_train_confirmed)                                    |
+|                                                                                                    |
+| Location: At Line 133 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #28: bayesian_poly.fit_transform(X_test_confirmed)                                     |
+|                                                                                                    |
+| Location: At Line 134 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #29: bayesian_poly.fit_transform(forecast)                                             |
+|                                                                                                    |
+| Location: At Line 135 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y=None, **fit_params)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #30: LinearRegression(normalize=True, fit_intercept=False)                             |
+|                                                                                                    |
+| Location: At Line 138 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (*, fit_intercept=True, normalize='deprecated', copy_X=True, n_jobs=N |
+| one, positive=False)                                                                               |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (*, fit_intercept=True, copy_X=True, n_jobs=None, positive=False)     |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: LinearRegression(fit_intercept=False)                                         |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #31: linear_model.fit(poly_X_train_confirmed, y_train_confirmed)                       |
+|                                                                                                    |
+| Location: At Line 139 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X, y, sample_weight=None)                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #32: linear_model.predict(poly_X_test_confirmed)                                       |
+|                                                                                                    |
+| Location: At Line 140 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #33: linear_model.predict(poly_future_forcast)                                         |
+|                                                                                                    |
+| Location: At Line 141 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (X)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #34: mean_absolute_error(test_linear_pred, y_test_confirmed)                           |
+|                                                                                                    |
+| Location: At Line 142 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| )                                                                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #35: mean_squared_error(test_linear_pred, y_test_confirmed)                            |
+|                                                                                                    |
+| Location: At Line 143 in covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb/script.py      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (y_true, y_pred, *, sample_weight=None, multioutput='uniform_average' |
+| , squared=True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

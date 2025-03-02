@@ -1,0 +1,104 @@
+sp.symbols('x y z'), Failed to load pkl in target version0.7.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 8, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[0.7.4]sp.symbols('x y z'), generate new pkl failed: Traceback (most recent call last):
+  File "cseYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+
+sp.sin(x), Failed to load pkl in target version0.7.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 8, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[0.7.4]sp.sin(x), generate new pkl failed: Traceback (most recent call last):
+  File "cseYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+sp.sin(x), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 5, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+
+sp.cos(y), Failed to load pkl in target version0.7.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 8, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[0.7.4]sp.cos(y), generate new pkl failed: Traceback (most recent call last):
+  File "cseYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+sp.cos(y), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 5, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+
+sp.cse(exprs=expr, symbols=None, optimizations=None), Failed to load pkl in target version0.7.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 8, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[0.7.4]sp.cse(exprs=expr, symbols=None, optimizations=None), generate new pkl failed: Traceback (most recent call last):
+  File "cseYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/sympy0.7.4/lib/python3.3/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+

@@ -1,0 +1,7 @@
+--- Running tensorflow/tensorflow.compat.v1.string_split@1.13.2-1.14.0/tensorflow.compat.v1.string_split#4YY/string_split#4YY, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'tensorflow/tensorflow.compat.v1.string_split@1.13.2-1.14.0/tensorflow.compat.v1.string_split#4YY'), ('notebook', 'string_split#4YY'), ('text', '')])
+[INFO] This case is fully fixed!
+
+real    0m1.514s
+user    0m2.391s
+sys     0m5.748s

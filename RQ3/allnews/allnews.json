@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/allnews",
+    "runCommand": "python train_fastext.py --epochs=1  --corpus=data/corpus_100k",
+    "runFilePath":"",
+    "libName": "gensim",
+    "currentVersion": "3.8.3",
+    "targetVersion": "4.0.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/allnews3.8.3",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/allnews4.0.0"
+}

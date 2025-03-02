@@ -1,0 +1,7 @@
+create_model(model_name='DynamicModel'), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+TypeError: create_model() missing 1 required positional argument: '__model_name'
+
+

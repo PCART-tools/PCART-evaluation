@@ -1,0 +1,27 @@
+--- Running sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#1NN/DecisionTreeRegressor#1NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#1NN'), ('notebook', 'DecisionTreeRegressor#1NN'), ('text', '  File "DecisionTreeRegressor#1NN.py", line 27, in <module>\n    presort_()  #新增\n  File "DecisionTreeRegressor#1NN.py", line 13, in presort_\n    lr_t=DecisionTreeRegressor(presort=True)\n  File "/dataset/he/envs/ml_sklearn_0.24.1/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f\n    return f(*args, **kwargs)\nTypeError: __init__() got an unexpected keyword argument \'presort\'\n')])
+  File "DecisionTreeRegressor#1NN.py", line 27, in <module>
+Error inducing API short name: presort_, line no: 27
+  File "DecisionTreeRegressor#1NN.py", line 13, in presort_
+Error inducing API short name: DecisionTreeRegressor, line no: 13
+Error inducing API fqn: sklearn.tree.DecisionTreeRegressor, line no: 13
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['presort']
+Prev Params: None
+Prev Repair Action: None
+Line No: 13
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['presort']
+EXPP: ['presort']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m1.138s
+user    0m3.792s
+sys     0m12.332s

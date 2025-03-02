@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/pandas/p3/scrapping-jojo-main",
+    "runCommand": "python jojo.py",
+    "runFilePath":"",
+    "libName": "pandas",
+    "currentVersion": "1.5.3",
+    "targetVersion": "2.0.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/scrapping1.5.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/scrapping2.0.0"
+}

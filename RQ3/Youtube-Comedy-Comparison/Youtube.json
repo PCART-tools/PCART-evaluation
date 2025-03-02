@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/Youtube-Comedy-Comparison",
+    "runCommand": "python FuunyClusters.py",
+    "runFilePath":"",
+    "libName": "gensim",
+    "currentVersion": "0.12.3",
+    "targetVersion": "0.12.4",
+    "currentEnv": " /dataset/zhang/anaconda3/envs/ycc0.12.3",
+    "targetEnv": " /dataset/zhang/anaconda3/envs/ycc0.12.4"
+}

@@ -1,0 +1,104 @@
+Run Command: python  qho.py
+Total File Number: 2
+Total Scipy Invoked API Number: 5
+Not Covered Scipy Invoked API Number: 1/5
+Covered Scipy Invoked API Number: 4/5
+
+Compatible Scipy Invoked API Number: 2/4
+Unknown Compatible Scipy Invoked API Number: 0/4
+
+Incompatible Scipy Invoked API Number: 2/4
+-> Successfully Repaired Scipy Invoked API number: 2/2
+-> Failed to Repair Scipy Invoked API Number: 0/2
+-> Unknown Repair Status Scipy Invoked API Number: 0/2
+
+======================================================================================================
+|File #1: qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/mult_banded.py has 1 Scipy-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: solve_banded((l, u), ab, b)                                                        |
+|                                                                                                    |
+| Location: At Line 70 in qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/mult_banded.py        |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|  File #2: qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/qho.py has 4 Scipy-Invoked API(s)   |
+======================================================================================================
+| Invoked API #1: solve_banded((1, 1), ab, b, overwrite_ab=True, overwrite_b=True, debug=False, chec |
+| k_finite=True)                                                                                     |
+|                                                                                                    |
+| Location: At Line 63 in qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/qho.py                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.8.1 <dynamic>: (l_and_u, ab, b, overwrite_ab=False, overwrite_b=False, debug=None, c |
+| heck_finite=True)                                                                                  |
+|                                                                                                    |
+| Definition @1.9.0 <dynamic>: (l_and_u, ab, b, overwrite_ab=False, overwrite_b=False, check_finite= |
+| True)                                                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: solve_banded((1, 1), ab, b, overwrite_ab=True, overwrite_b=True, check_finite |
+| =True)                                                                                             |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: solve_banded((1, 1), ab, b, overwrite_ab=True, overwrite_b=True, debug=False, chec |
+| k_finite=True)                                                                                     |
+|                                                                                                    |
+| Location: At Line 80 in qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/qho.py                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.8.1 <dynamic>: (l_and_u, ab, b, overwrite_ab=False, overwrite_b=False, debug=None, c |
+| heck_finite=True)                                                                                  |
+|                                                                                                    |
+| Definition @1.9.0 <dynamic>: (l_and_u, ab, b, overwrite_ab=False, overwrite_b=False, check_finite= |
+| True)                                                                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: solve_banded((1, 1), ab, b, overwrite_ab=True, overwrite_b=True, check_finite |
+| =True)                                                                                             |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: fmin_bfgs(qho.cost, u, qho.grad, args=(), gtol=1e-06, norm=np.inf, epsilon=1e-07,  |
+| maxiter=1000, full_output=0, disp=1, retall=0, callback=None)                                      |
+|                                                                                                    |
+| Location: At Line 146 in qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/qho.py               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.8.1 <dynamic>: (f, x0, fprime=None, args=(), gtol=1e-05, norm=inf, epsilon=1.4901161 |
+| 193847656e-08, maxiter=None, full_output=0, disp=1, retall=0, callback=None)                       |
+|                                                                                                    |
+| Definition @1.9.0 <dynamic>: (f, x0, fprime=None, args=(), gtol=1e-05, norm=inf, epsilon=1.4901161 |
+| 193847656e-08, maxiter=None, full_output=0, disp=1, retall=0, callback=None)                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: fmin_bfgs(qho.cost, u, qho.grad, args=(), gtol=1e-06, norm=np.inf, epsilon=1e-07,  |
+| maxiter=1000, full_output=0, disp=1, retall=0, callback=None)                                      |
+|                                                                                                    |
+| Location: At Line 168 in qho-control-6256ad191e17d99b2c7cd28042e9dc65cc912030/qho.py               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.8.1 <dynamic>: (f, x0, fprime=None, args=(), gtol=1e-05, norm=inf, epsilon=1.4901161 |
+| 193847656e-08, maxiter=None, full_output=0, disp=1, retall=0, callback=None)                       |
+|                                                                                                    |
+| Definition @1.9.0 <dynamic>: (f, x0, fprime=None, args=(), gtol=1e-05, norm=inf, epsilon=1.4901161 |
+| 193847656e-08, maxiter=None, full_output=0, disp=1, retall=0, callback=None)                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

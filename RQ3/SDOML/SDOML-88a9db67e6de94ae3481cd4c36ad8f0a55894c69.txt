@@ -1,0 +1,46 @@
+Run Command: python  aia_fits_to_np.py --src . --target . --scale 512
+Total File Number: 2
+Total Matplotlib Invoked API Number: 2
+Not Covered Matplotlib Invoked API Number: 1/2
+Covered Matplotlib Invoked API Number: 1/2
+
+Compatible Matplotlib Invoked API Number: 0/1
+Unknown Compatible Matplotlib Invoked API Number: 0/1
+
+Incompatible Matplotlib Invoked API Number: 1/1
+-> Successfully Repaired Matplotlib Invoked API number: 1/1
+-> Failed to Repair Matplotlib Invoked API Number: 0/1
+-> Unknown Repair Status Matplotlib Invoked API Number: 0/1
+
+======================================================================================================
+|File #1: SDOML-88a9db67e6de94ae3481cd4c36ad8f0a55894c69/aia_fits_to_np.py has 1 Matplotlib-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: matplotlib.use('agg', warn=False, force=True)                                      |
+|                                                                                                    |
+| Location: At Line 16 in SDOML-88a9db67e6de94ae3481cd4c36ad8f0a55894c69/aia_fits_to_np.py           |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.2 <dynamic>: (backend, warn=<deprecated parameter>, force=True)                    |
+|                                                                                                    |
+| Definition @3.3.0 <dynamic>: (backend, *, force=True)                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: matplotlib.use('agg', force=True)                                             |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+
+======================================================================================================
+|File #2: SDOML-88a9db67e6de94ae3481cd4c36ad8f0a55894c69/hmi_fits_to_np.py has 1 Matplotlib-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: matplotlib.use('agg', warn=False, force=True)                                      |
+|                                                                                                    |
+| Location: At Line 14 in SDOML-88a9db67e6de94ae3481cd4c36ad8f0a55894c69/hmi_fits_to_np.py           |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

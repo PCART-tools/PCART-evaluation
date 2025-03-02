@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/scipy/p1/greenbenchmark-0afcf5d859a9b3fcf6a569d93819597e6afbefa8",
+    "runCommand": "python report_all_results.py --all_figures results_simple-gallery",
+    "runFilePath":"",
+    "libName": "scipy",
+    "currentVersion": "0.19.1",
+    "targetVersion": "1.0.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/green0.19.1",
+    "targetEnv": "/home/nuaa/anaconda3/envs/green1.0.0"
+}

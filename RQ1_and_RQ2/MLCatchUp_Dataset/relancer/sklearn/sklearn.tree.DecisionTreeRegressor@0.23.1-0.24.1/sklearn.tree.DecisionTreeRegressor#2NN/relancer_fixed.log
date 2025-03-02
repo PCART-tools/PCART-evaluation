@@ -1,0 +1,25 @@
+--- Running sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#2NN/DecisionTreeRegressor#2NN, strategy: relancer
+[ERR MSG]: OrderedDict([('project', 'sklearn/sklearn.tree.DecisionTreeRegressor@0.23.1-0.24.1/sklearn.tree.DecisionTreeRegressor#2NN'), ('notebook', 'DecisionTreeRegressor#2NN'), ('text', '  File "DecisionTreeRegressor#2NN.py", line 40, in <module>\n    regressor=DecisionTreeRegressor(criterion=\'mse\', max_depth=max_depth, max_features=None,   #此处有调整\n  File "/dataset/he/envs/ml_sklearn_0.24.1/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f\n    return f(*args, **kwargs)\nTypeError: __init__() got an unexpected keyword argument \'presort\'\n')])
+  File "DecisionTreeRegressor#2NN.py", line 40, in <module>
+Error inducing API short name: DecisionTreeRegressor, line no: 40
+Error inducing API fqn: sklearn.tree.DecisionTreeRegressor, line no: 40
+*** TypeError: PLACEHOLDER
+Repair Action: arg_name
+Key Params: ['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+Prev Params: None
+Prev Repair Action: None
+Line No: 40
+Prev Line No: 0
+GitHub Candidates:
+[]
+KP:['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+EXPP: ['criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'presort', 'random_state', 'splitter']
+APIDoc Candidates:
+[]
+All Solution Candidates:
+[]
+[INFO] This case cannot be fixed!
+
+real    0m1.267s
+user    0m3.728s
+sys     0m10.653s

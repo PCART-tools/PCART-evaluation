@@ -1,0 +1,298 @@
+Run Command: python  string_split#3YY.py
+Total File Number: 1
+Total Tensorflow Invoked API Number: 14
+Not Covered Tensorflow Invoked API Number: 0/14
+Covered Tensorflow Invoked API Number: 14/14
+
+Compatible Tensorflow Invoked API Number: 14/14
+Unknown Compatible Tensorflow Invoked API Number: 0/14
+
+Incompatible Tensorflow Invoked API Number: 0/14
+-> Successfully Repaired Tensorflow Invoked API number: 0/0
+-> Failed to Repair Tensorflow Invoked API Number: 0/0
+-> Unknown Repair Status Tensorflow Invoked API Number: 0/0
+
+======================================================================================================
+|File #1: tensorflow.compat.v1.string_split#3YY/string_split#3YY.py has 14 Tensorflow-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: tf.compat.v1.Graph()                                                               |
+|                                                                                                    |
+| Location: At Line 35 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: tf.compat.v1.Graph().as_default()                                                  |
+|                                                                                                    |
+| Location: At Line 35 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.SummaryWriter.as_default': ['(self)']}             |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.NoopSummaryWriter.as_default': ['(self)'], 'tensor |
+| flow.python.ops.summary_ops_v2.ResourceSummaryWriter.as_default': ['(self)'], 'tensorflow.python.o |
+| ps.summary_ops_v2.SummaryWriter.as_default': ['(self)']}                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: tf.constant(['abc', 'def', 'fghijklm', 'z', ''])                                   |
+|                                                                                                    |
+| Location: At Line 36 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: tf.compat.v1.string_split(string_tensor, delimiter='')                             |
+|                                                                                                    |
+| Location: At Line 37 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.ops.string_ops.string_split': ["(source,delimiter |
+| ='',skip_empty=True)"], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,delimiter,sk |
+| ip_empty=True,name=None)']}                                                                        |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.ops.string_ops.string_split': ['(source,sep=None, |
+| skip_empty=True,delimiter=None)'], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,d |
+| elimiter,skip_empty=True,name=None)'], 'tensorflow.python.ops.ragged.ragged_string_ops.string_spli |
+| t': ["(source,sep=None,skip_empty=True,delimiter=None,result_type='SparseTensor',name=None)"], 'te |
+| nsorflow.ragged_string_ops.string_split': ["(source,sep=None,skip_empty=True,delimiter=None,result |
+| _type='SparseTensor',name=None)"]}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: tf.compat.v1.Graph()                                                               |
+|                                                                                                    |
+| Location: At Line 41 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: tf.compat.v1.Graph().as_default()                                                  |
+|                                                                                                    |
+| Location: At Line 41 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.SummaryWriter.as_default': ['(self)']}             |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.NoopSummaryWriter.as_default': ['(self)'], 'tensor |
+| flow.python.ops.summary_ops_v2.ResourceSummaryWriter.as_default': ['(self)'], 'tensorflow.python.o |
+| ps.summary_ops_v2.SummaryWriter.as_default': ['(self)']}                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #7: tf.constant(['abc', 'def', 'fghijklm', 'z', ''])                                   |
+|                                                                                                    |
+| Location: At Line 42 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #8: tf.compat.v1.string_split(string_tensor, delimiter='')                             |
+|                                                                                                    |
+| Location: At Line 43 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.ops.string_ops.string_split': ["(source,delimiter |
+| ='',skip_empty=True)"], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,delimiter,sk |
+| ip_empty=True,name=None)']}                                                                        |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.ops.string_ops.string_split': ['(source,sep=None, |
+| skip_empty=True,delimiter=None)'], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,d |
+| elimiter,skip_empty=True,name=None)'], 'tensorflow.python.ops.ragged.ragged_string_ops.string_spli |
+| t': ["(source,sep=None,skip_empty=True,delimiter=None,result_type='SparseTensor',name=None)"], 'te |
+| nsorflow.ragged_string_ops.string_split': ["(source,sep=None,skip_empty=True,delimiter=None,result |
+| _type='SparseTensor',name=None)"]}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #9: tf.constant(['abc', 'def', 'fghijklm', 'z', ''])                                   |
+|                                                                                                    |
+| Location: At Line 47 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #10: tf.compat.v1.string_split(string_tensor, delimiter='')                            |
+|                                                                                                    |
+| Location: At Line 48 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.ops.string_ops.string_split': ["(source,delimiter |
+| ='',skip_empty=True)"], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,delimiter,sk |
+| ip_empty=True,name=None)']}                                                                        |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.ops.string_ops.string_split': ['(source,sep=None, |
+| skip_empty=True,delimiter=None)'], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,d |
+| elimiter,skip_empty=True,name=None)'], 'tensorflow.python.ops.ragged.ragged_string_ops.string_spli |
+| t': ["(source,sep=None,skip_empty=True,delimiter=None,result_type='SparseTensor',name=None)"], 'te |
+| nsorflow.ragged_string_ops.string_split': ["(source,sep=None,skip_empty=True,delimiter=None,result |
+| _type='SparseTensor',name=None)"]}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #11: tf.compat.v1.Graph()                                                              |
+|                                                                                                    |
+| Location: At Line 55 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.autograph.pyct.cfg.Graph': ["(collections.namedtu |
+| ple('Graph',['entry','exit','error','index','stmt_prev','stmt_next']))"], 'tensorflow.python.frame |
+| work.ops.Graph': ['(self)']}                                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #12: tf.compat.v1.Graph().as_default()                                                 |
+|                                                                                                    |
+| Location: At Line 55 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.SummaryWriter.as_default': ['(self)']}             |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession. |
+| as_default': ['(self)'], 'tensorflow.python.client.session.BaseSession.as_default': ['(self)'], 't |
+| ensorflow.python.framework.ops.Graph.as_default': ['(self)'], 'tensorflow.python.framework.func_gr |
+| aph.FuncGraph.as_default': ['(self)'], 'tensorflow.python.ops.template._EagerTemplateVariableStore |
+| .as_default': ['(self)'], 'tensorflow.python.ops.variable_scope.EagerVariableStore.as_default': [' |
+| (self)'], 'tensorflow.python.ops.summary_ops_v2.NoopSummaryWriter.as_default': ['(self)'], 'tensor |
+| flow.python.ops.summary_ops_v2.ResourceSummaryWriter.as_default': ['(self)'], 'tensorflow.python.o |
+| ps.summary_ops_v2.SummaryWriter.as_default': ['(self)']}                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #13: tf.constant([], dtype=tf.string)                                                  |
+|                                                                                                    |
+| Location: At Line 56 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.constant': ["(value,dtype=None,shape=None,name='Const',v |
+| erify_shape=False)"]}                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #14: tf.compat.v1.string_split(string_tensor, delimiter='')                            |
+|                                                                                                    |
+| Location: At Line 57 in tensorflow.compat.v1.string_split#3YY/string_split#3YY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.ops.string_ops.string_split': ["(source,delimiter |
+| ='',skip_empty=True)"], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,delimiter,sk |
+| ip_empty=True,name=None)']}                                                                        |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.ops.string_ops.string_split': ['(source,sep=None, |
+| skip_empty=True,delimiter=None)'], 'tensorflow.python.ops.gen_string_ops.string_split': ['(input,d |
+| elimiter,skip_empty=True,name=None)'], 'tensorflow.python.ops.ragged.ragged_string_ops.string_spli |
+| t': ["(source,sep=None,skip_empty=True,delimiter=None,result_type='SparseTensor',name=None)"], 'te |
+| nsorflow.ragged_string_ops.string_split': ["(source,sep=None,skip_empty=True,delimiter=None,result |
+| _type='SparseTensor',name=None)"]}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/matplotlib/p2/simulations-0b0f40d88388924b5e42df9cd9ac8b1306633ee0",
+    "runCommand": "python plot_results.py",
+    "runFilePath":"ex_4_2",
+    "libName": "matplotlib",
+    "currentVersion": "3.2.2",
+    "targetVersion": "3.3.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/simulation3.2.2",
+    "targetEnv": "/home/nuaa/anaconda3/envs/simulation3.3.0"
+}

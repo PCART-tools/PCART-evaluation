@@ -1,0 +1,2 @@
+remove_parameter precompute_distances for KMeans
+remove_parameter n_jobs for KMeans

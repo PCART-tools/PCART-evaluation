@@ -1,0 +1,16 @@
+tf.data.Dataset.random(seed=4, name=None).take(10), Failed to load pkl in current version2.11.1: 2025-01-10 01:00:10.536401: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-01-10 01:00:10.688447: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-01-10 01:00:11.356769: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/local/cuda/lib64:/usr/local/cuda/lib64
+2025-01-10 01:00:11.356858: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/local/cuda/lib64:/usr/local/cuda/lib64
+2025-01-10 01:00:11.356864: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Traceback (most recent call last):
+  File "/home/zhang/CC/Python/PCART4/Dynamic/tf.data.Dataset.random#6YY/dynamicMatch.py", line 161, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.11.1/lib/python3.9/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.11.1/lib/python3.9/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+

@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/zhang/Proj/django-selenium-testing",
+    "runCommand": "python proxy.py",
+    "runFilePath":"",
+    "libName": "tornado",
+    "currentVersion": "3.1",
+    "targetVersion": "5.0",
+    "currentEnv": "/dataset/zhang/anaconda3/envs/dst3.1",
+    "targetEnv": "/dataset/zhang/anaconda3/envs/dst5.0"
+}

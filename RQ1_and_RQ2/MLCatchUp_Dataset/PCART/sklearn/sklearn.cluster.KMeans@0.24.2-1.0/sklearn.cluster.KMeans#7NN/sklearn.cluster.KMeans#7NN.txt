@@ -1,0 +1,40 @@
+Run Command: python  KMeans7NN.py
+Total File Number: 1
+Total Sklearn Invoked API Number: 1
+Not Covered Sklearn Invoked API Number: 0/1
+Covered Sklearn Invoked API Number: 1/1
+
+Compatible Sklearn Invoked API Number: 0/1
+Unknown Compatible Sklearn Invoked API Number: 0/1
+
+Incompatible Sklearn Invoked API Number: 1/1
+-> Successfully Repaired Sklearn Invoked API number: 1/1
+-> Failed to Repair Sklearn Invoked API Number: 0/1
+-> Unknown Repair Status Sklearn Invoked API Number: 0/1
+
+======================================================================================================
+|           File #1: sklearn.cluster.KMeans#7NN/KMeans7NN.py has 1 Sklearn-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: KMeans(n_clusters=number_clusters, init='random', n_init=1, max_iter=100, tol=0.00 |
+| 1, precompute_distances=False, verbose=0, random_state=None, copy_x=True, algorithm='full', n_jobs |
+| =4)                                                                                                |
+|                                                                                                    |
+| Location: At Line 51 in sklearn.cluster.KMeans#7NN/KMeans7NN.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.24.2 <dynamic>: (n_clusters=8, *, init='k-means++', n_init=10, max_iter=300, tol=0.0 |
+| 001, precompute_distances='deprecated', verbose=0, random_state=None, copy_x=True, n_jobs='depreca |
+| ted', algorithm='auto')                                                                            |
+|                                                                                                    |
+| Definition @1.0 <dynamic>: (n_clusters=8, *, init='k-means++', n_init=10, max_iter=300, tol=0.0001 |
+| , verbose=0, random_state=None, copy_x=True, algorithm='auto')                                     |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: KMeans(n_clusters=number_clusters, init='random', n_init=1, max_iter=100, tol |
+| =0.001, verbose=0, random_state=None, copy_x=True, algorithm='full')                               |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+
+

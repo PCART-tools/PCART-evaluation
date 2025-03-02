@@ -1,0 +1,7 @@
+lasso_path(X, y, 0.001, 100, [5.0, 1.0, 0.5], 'auto', None, None, None, True, None, verbose=False, return_models=False), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 12, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+TypeError: lasso_path() got multiple values for argument 'coef_init'
+
+

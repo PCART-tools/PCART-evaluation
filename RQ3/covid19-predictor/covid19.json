@@ -1,0 +1,10 @@
+{
+    "projPath": "/home/nuaa/Projects/PCART-project-cases/new/sklearn/p5/covid19-predictor-9c35111d1dbec6a3a01be14cfbd729dd9467c5fb",
+    "runCommand": "python script.py",
+    "runFilePath":"",
+    "libName": "sklearn",
+    "currentVersion": "1.1.3",
+    "targetVersion": "1.2.0",
+    "currentEnv": "/home/nuaa/anaconda3/envs/covid1.1.3",
+    "targetEnv": "/home/nuaa/anaconda3/envs/covid1.2.0"
+}
