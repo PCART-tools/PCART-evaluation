@@ -1,5 +1,5 @@
 --- Running polars.DataFrame.write_json#30NN/write_jsonNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'polars.DataFrame.write_json#30NN'), ('notebook', 'write_jsonNN'), ('text', '  File "write_jsonNN.py", line 3, in <module>\n    df.write_json(file=\'output.json\', json_lines=None, to_string=None, row_oriented=False, pretty=False)\nTypeError: write_json() got an unexpected keyword argument \'json_lines\'\n')])
+[ERR MSG]: OrderedDict([('project', 'polars.DataFrame.write_json#30NN'), ('notebook', 'write_jsonNN'), ('text', '  File "write_jsonNN.py", line 3, in <module>\n    df.write_json(file=\'./output.json\', json_lines=None, to_string=None, row_oriented=False, pretty=False)\nTypeError: write_json() got an unexpected keyword argument \'json_lines\'\n')])
   File "write_jsonNN.py", line 3, in <module>
 Error inducing API short name: write_json, line no: 3
 Error inducing API fqn: UNKNOWN, line no: 3
@@ -22,5 +22,5 @@ All Solution Candidates:
 
 
 real	0m0.393s
-user	0m0.362s
-sys	0m0.031s
+user	0m0.347s
+sys	0m0.046s

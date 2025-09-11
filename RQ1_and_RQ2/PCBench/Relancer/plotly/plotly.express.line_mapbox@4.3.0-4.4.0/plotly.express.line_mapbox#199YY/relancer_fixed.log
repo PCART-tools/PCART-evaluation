@@ -1,8 +1,14 @@
 --- Running plotly.express.line_mapbox#199YY/line_mapboxYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'plotly.express.line_mapbox#199YY'), ('notebook', 'line_mapboxYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'plotly.express.line_mapbox#199YY'), ('notebook', 'line_mapboxYY'), ('text', '  File "line_mapboxYY.py", line 2, in <module>\n    us_cities = pd.read_csv(\'./us-cities-top-1k.csv\')\n  File "/dataset/zhang/anaconda3/envs/Rplotly4.4.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 685, in parser_f\n    return _read(filepath_or_buffer, kwds)\n  File "/dataset/zhang/anaconda3/envs/Rplotly4.4.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 457, in _read\n    parser = TextFileReader(fp_or_buf, **kwds)\n  File "/dataset/zhang/anaconda3/envs/Rplotly4.4.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 895, in __init__\n    self._make_engine(self.engine)\n  File "/dataset/zhang/anaconda3/envs/Rplotly4.4.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 1135, in _make_engine\n    self._engine = CParserWrapper(self.f, **self.options)\n  File "/dataset/zhang/anaconda3/envs/Rplotly4.4.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 1917, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__\n  File "pandas/_libs/parsers.pyx", line 689, in pandas._libs.parsers.TextReader._setup_parser_source\nFileNotFoundError: [Errno 2] File b\'./us-cities-top-1k.csv\' does not exist: b\'./us-cities-top-1k.csv\'\n')])
+  File "line_mapboxYY.py", line 2, in <module>
+Error inducing API short name: read_csv, line no: 2
+Error inducing API fqn: pandas.read_csv, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m1.290s
-user	0m2.392s
-sys	0m5.811s
+real	0m0.668s
+user	0m1.848s
+sys	0m6.425s

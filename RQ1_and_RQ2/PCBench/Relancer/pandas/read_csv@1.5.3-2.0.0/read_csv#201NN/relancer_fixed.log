@@ -1,5 +1,5 @@
 --- Running read_csv#201NN/read_csvNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#201NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(comment=None, filepath_or_buffer=\'/home/zhang/Packages/tensorflow_file/dev.csv\', quoting=0, date_parser=None, usecols=None, parse_dates=None, prefix=None, false_values=None, quotechar=\'"\', na_filter=True, cache_dates=True, sep=\',\', true_values=None, keep_default_na=True, delimiter=None, chunksize=None, engine=None, escapechar=None, encoding=None, low_memory=True, dayfirst=False, infer_datetime_format=False, dtype=None, on_bad_lines=None, header=\'infer\', squeeze=None, skiprows=None, decimal=\'.\', dialect=None, thousands=None, doublequote=True, compression=\'infer\', keep_date_col=False, names=None, verbose=False, skip_blank_lines=True, lineterminator=None, nrows=None, na_values=None, error_bad_lines=None, warn_bad_lines=None, skipinitialspace=False, iterator=False, converters=None, index_col=None, mangle_dupe_cols=True, skipfooter=0, delim_whitespace=False, encoding_errors=\'strict\')\nTypeError: read_csv() got an unexpected keyword argument \'prefix\'\n')])
+[ERR MSG]: OrderedDict([('project', 'read_csv#201NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(comment=None, filepath_or_buffer=\'./dev.csv\', quoting=0, date_parser=None, usecols=None, parse_dates=None, prefix=None, false_values=None, quotechar=\'"\', na_filter=True, cache_dates=True, sep=\',\', true_values=None, keep_default_na=True, delimiter=None, chunksize=None, engine=None, escapechar=None, encoding=None, low_memory=True, dayfirst=False, infer_datetime_format=False, dtype=None, on_bad_lines=None, header=\'infer\', squeeze=None, skiprows=None, decimal=\'.\', dialect=None, thousands=None, doublequote=True, compression=\'infer\', keep_date_col=False, names=None, verbose=False, skip_blank_lines=True, lineterminator=None, nrows=None, na_values=None, error_bad_lines=None, warn_bad_lines=None, skipinitialspace=False, iterator=False, converters=None, index_col=None, mangle_dupe_cols=True, skipfooter=0, delim_whitespace=False, encoding_errors=\'strict\')\nTypeError: read_csv() got an unexpected keyword argument \'prefix\'\n')])
   File "read_csvNN.py", line 2, in <module>
 Error inducing API short name: read_csv, line no: 2
 Error inducing API fqn: pandas.read_csv, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.664s
-user	0m1.799s
-sys	0m5.526s
+real	0m0.689s
+user	0m1.730s
+sys	0m6.214s

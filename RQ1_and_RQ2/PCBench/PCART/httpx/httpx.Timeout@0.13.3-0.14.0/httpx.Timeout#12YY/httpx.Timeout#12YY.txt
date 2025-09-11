@@ -12,30 +12,38 @@ Incompatible Httpx Invoked API Number: 0/1
 -> Failed to Repair Httpx Invoked API Number: 0/0
 -> Unknown Repair Status Httpx Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: httpx.Timeout#12YY/TimeoutYY.py has 1 Httpx-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: httpx.Timeout(None, write_timeout=5.0)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 2 in httpx.Timeout#12YY/TimeoutYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.13.3 <dynamic>: (timeout: Union[float, NoneType, Tuple[Union[float, NoneType], Union[float, NoneType], Union[float, NoneType], Union[float, NoneType]], Forwa |
-| rdRef('Timeout')] = None, *, connect_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7fba40639d30>, read_timeout: Union[Non |
-| eType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7fba40639d30>, write_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._confi |
-| g.UnsetType object at 0x7fba40639d30>, pool_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7fba40639d30>)                  |
-|                                                                                                                                                                             |
-| Definition @0.14.0 <dynamic>: (timeout: Union[float, NoneType, Tuple[Union[float, NoneType], Union[float, NoneType], Union[float, NoneType], Union[float, NoneType]], Forwa |
-| rdRef('Timeout'), httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>, *, connect: Union[NoneType, float, httpx._config.UnsetType] = <httpx._conf |
-| ig.UnsetType object at 0x7f14b3d0b040>, read: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>, write: Union[NoneType,  |
-| float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>, pool: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType obje |
-| ct at 0x7f14b3d0b040>, connect_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>, read_timeout: Union[NoneType, |
-|  float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>, write_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.Unse |
-| tType object at 0x7f14b3d0b040>, pool_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f14b3d0b040>)                        |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: httpx.Timeout#12YY/TimeoutYY.py has 1 Httpx-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: httpx.Timeout(None, write_timeout=5.0)                                             |
+|                                                                                                    |
+| Location: At Line 2 in httpx.Timeout#12YY/TimeoutYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.13.3 <dynamic>: (timeout: Union[float, NoneType, Tuple[Union[float, NoneType], Union |
+| [float, NoneType], Union[float, NoneType], Union[float, NoneType]], ForwardRef('Timeout')] = None, |
+|  *, connect_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType ob |
+| ject at 0x7f09a6d6b3a0>, read_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._c |
+| onfig.UnsetType object at 0x7f09a6d6b3a0>, write_timeout: Union[NoneType, float, httpx._config.Uns |
+| etType] = <httpx._config.UnsetType object at 0x7f09a6d6b3a0>, pool_timeout: Union[NoneType, float, |
+|  httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f09a6d6b3a0>)                    |
+|                                                                                                    |
+| Definition @0.14.0 <dynamic>: (timeout: Union[float, NoneType, Tuple[Union[float, NoneType], Union |
+| [float, NoneType], Union[float, NoneType], Union[float, NoneType]], ForwardRef('Timeout'), httpx._ |
+| config.UnsetType] = <httpx._config.UnsetType object at 0x7f06932e4640>, *, connect: Union[NoneType |
+| , float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f06932e4640>, read: Unio |
+| n[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f06932e4640>,  |
+| write: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f06 |
+| 932e4640>, pool: Union[NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object |
+|  at 0x7f06932e4640>, connect_timeout: Union[NoneType, float, httpx._config.UnsetType] = <httpx._co |
+| nfig.UnsetType object at 0x7f06932e4640>, read_timeout: Union[NoneType, float, httpx._config.Unset |
+| Type] = <httpx._config.UnsetType object at 0x7f06932e4640>, write_timeout: Union[NoneType, float,  |
+| httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f06932e4640>, pool_timeout: Union |
+| [NoneType, float, httpx._config.UnsetType] = <httpx._config.UnsetType object at 0x7f06932e4640>)   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

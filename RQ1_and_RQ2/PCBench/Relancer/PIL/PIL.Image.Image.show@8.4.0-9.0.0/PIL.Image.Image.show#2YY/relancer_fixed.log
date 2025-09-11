@@ -1,8 +1,14 @@
 --- Running PIL.Image.Image.show#2YY/showYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.show#2YY'), ('notebook', 'showYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.show#2YY'), ('notebook', 'showYY'), ('text', '  File "showYY.py", line 2, in <module>\n    image = Image.open(\'./example.jpg\')\n  File "/dataset/zhang/anaconda3/envs/RPIL9.0.0/lib/python3.8/site-packages/PIL/Image.py", line 2953, in open\n    fp = builtins.open(filename, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.jpg\'\n')])
+  File "showYY.py", line 2, in <module>
+Error inducing API short name: open, line no: 2
+Error inducing API fqn: PIL.Image.open, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.399s
-user	0m0.375s
-sys	0m0.024s
+real	0m0.337s
+user	0m0.301s
+sys	0m0.036s

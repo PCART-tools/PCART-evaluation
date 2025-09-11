@@ -12,21 +12,23 @@ Incompatible Matplotlib Invoked API Number: 0/1
 -> Failed to Repair Matplotlib Invoked API Number: 0/0
 -> Unknown Repair Status Matplotlib Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                           File #1: matplotlib.gridspec.GridSpec#1YY/GridSpecYY.py has 1 Matplotlib-Invoked API(s)                                           |
-===============================================================================================================================================================================
-| Invoked API #1: gridspec.GridSpec(2, 2)                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 3 in matplotlib.gridspec.GridSpec#1YY/GridSpecYY.py                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.1.2 <dynamic>: (nrows, ncols, left=None, bottom=None, right=None, top=None, wspace=None, hspace=None, width_ratios=None, height_ratios=None)                  |
-|                                                                                                                                                                             |
-| Definition @2.2.0 <dynamic>: (nrows, ncols, figure=None, left=None, bottom=None, right=None, top=None, wspace=None, hspace=None, width_ratios=None, height_ratios=None)     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|      File #1: matplotlib.gridspec.GridSpec#1YY/GridSpecYY.py has 1 Matplotlib-Invoked API(s)       |
+======================================================================================================
+| Invoked API #1: gridspec.GridSpec(2, 2)                                                            |
+|                                                                                                    |
+| Location: At Line 3 in matplotlib.gridspec.GridSpec#1YY/GridSpecYY.py                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.1.2 <dynamic>: (nrows, ncols, left=None, bottom=None, right=None, top=None, wspace=N |
+| one, hspace=None, width_ratios=None, height_ratios=None)                                           |
+|                                                                                                    |
+| Definition @2.2.0 <dynamic>: (nrows, ncols, figure=None, left=None, bottom=None, right=None, top=N |
+| one, wspace=None, hspace=None, width_ratios=None, height_ratios=None)                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

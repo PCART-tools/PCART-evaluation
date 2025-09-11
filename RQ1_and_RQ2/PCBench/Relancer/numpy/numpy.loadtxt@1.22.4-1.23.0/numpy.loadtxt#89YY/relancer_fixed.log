@@ -1,8 +1,14 @@
 --- Running numpy.loadtxt#89YY/loadtxtYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.loadtxt#89YY'), ('notebook', 'loadtxtYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.loadtxt#89YY'), ('notebook', 'loadtxtYY'), ('text', '  File "loadtxtYY.py", line 2, in <module>\n    data = np.loadtxt(fname=\'data.txt\', dtype=float, comments=\'#\', delimiter=\',\', converters=None, skiprows=2, usecols=(0, 1), unpack=True, ndmin=2)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.23.0/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1301, in loadtxt\n    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.23.0/lib/python3.8/site-packages/numpy/lib/npyio.py", line 955, in _read\n    fh = np.lib._datasource.open(fname, \'rt\', encoding=encoding)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.23.0/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open\n    return ds.open(path, mode, encoding=encoding, newline=newline)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.23.0/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open\n    raise FileNotFoundError(f"{path} not found.")\nFileNotFoundError: data.txt not found.\n')])
+  File "loadtxtYY.py", line 2, in <module>
+Error inducing API short name: loadtxt, line no: 2
+Error inducing API fqn: numpy.loadtxt, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.400s
-user	0m0.830s
-sys	0m2.615s
+real	0m0.445s
+user	0m0.744s
+sys	0m1.746s

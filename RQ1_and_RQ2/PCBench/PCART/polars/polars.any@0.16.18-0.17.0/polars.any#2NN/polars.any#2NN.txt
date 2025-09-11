@@ -12,23 +12,23 @@ Incompatible Polars Invoked API Number: 1/1
 -> Failed to Repair Polars Invoked API Number: 0/1
 -> Unknown Repair Status Polars Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                                        File #1: polars.any#2NN/anyNN.py has 1 Polars-Invoked API(s)                                                         |
-===============================================================================================================================================================================
-| Invoked API #1: pl.any(name='a')                                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.any#2NN/anyNN.py                                                                                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | Sequence[str] | Sequence[Expr] | Expr') -> 'Expr'                                                                              |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (columns: 'str | Sequence[str] | Sequence[Expr] | Expr') -> 'Expr'                                                                            |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: pl.any(columns='a')                                                                                                                                    |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                    File #1: polars.any#2NN/anyNN.py has 1 Polars-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: pl.any(name='a')                                                                   |
+|                                                                                                    |
+| Location: At Line 2 in polars.any#2NN/anyNN.py                                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | Sequence[str] | Sequence[Expr] | Expr') -> 'Expr'     |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (columns: 'str | Sequence[str] | Sequence[Expr] | Expr') -> 'Expr'   |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: pl.any(columns='a')                                                           |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

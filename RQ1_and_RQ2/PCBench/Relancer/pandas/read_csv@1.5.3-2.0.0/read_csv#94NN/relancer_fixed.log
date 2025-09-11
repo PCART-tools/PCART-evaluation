@@ -1,5 +1,5 @@
 --- Running read_csv#94NN/read_csvNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#94NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'/home/zhang/Packages/tensorflow_file/dev.csv\', false_values=None, iterator=False, lineterminator=None, dialect=None, keep_date_col=False, skipinitialspace=False, na_values=None, index_col=None, engine=None, mangle_dupe_cols=True, decimal=\'.\', skiprows=None, prefix=None, nrows=None, squeeze=None, infer_datetime_format=False, true_values=None, compression=\'infer\', date_parser=None, parse_dates=None, comment=None, delimiter=None, names=None, converters=None, encoding_errors=\'strict\', escapechar=None, keep_default_na=True, cache_dates=True, dtype=None, verbose=False, chunksize=None, dayfirst=False, skip_blank_lines=True, usecols=None, doublequote=True, quotechar=\'"\', quoting=0, sep=\',\', na_filter=True, thousands=None, header=\'infer\', skipfooter=0, encoding=None)\nTypeError: read_csv() got an unexpected keyword argument \'mangle_dupe_cols\'\n')])
+[ERR MSG]: OrderedDict([('project', 'read_csv#94NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'./dev.csv\', false_values=None, iterator=False, lineterminator=None, dialect=None, keep_date_col=False, skipinitialspace=False, na_values=None, index_col=None, engine=None, mangle_dupe_cols=True, decimal=\'.\', skiprows=None, prefix=None, nrows=None, squeeze=None, infer_datetime_format=False, true_values=None, compression=\'infer\', date_parser=None, parse_dates=None, comment=None, delimiter=None, names=None, converters=None, encoding_errors=\'strict\', escapechar=None, keep_default_na=True, cache_dates=True, dtype=None, verbose=False, chunksize=None, dayfirst=False, skip_blank_lines=True, usecols=None, doublequote=True, quotechar=\'"\', quoting=0, sep=\',\', na_filter=True, thousands=None, header=\'infer\', skipfooter=0, encoding=None)\nTypeError: read_csv() got an unexpected keyword argument \'mangle_dupe_cols\'\n')])
   File "read_csvNN.py", line 2, in <module>
 Error inducing API short name: read_csv, line no: 2
 Error inducing API fqn: pandas.read_csv, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.627s
-user	0m1.620s
-sys	0m5.148s
+real	0m0.665s
+user	0m1.564s
+sys	0m4.841s

@@ -12,53 +12,66 @@ Incompatible Numpy Invoked API Number: 0/2
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: numpy.average#8YY/averageYY.py has 2 Numpy-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([1, 2, 3, 4, 5])                                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.average#8YY/averageYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.22.4 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :ArrayLike=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArra |
-| y[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[_SCT]', '(objec |
-| t:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:ArrayLike=...)->_ArrayType', '(object:object,dtype:None=...,*,c |
-| opy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dtype:DTypeLike,*,cop |
-| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,or |
-| der:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=.. |
-| .,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:i |
-| nt=...,like:ArrayLike=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->ND |
-| Array[Any]']}                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.23.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArra |
-| yFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=.. |
-| .)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType' |
-| , '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarra |
-| y.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]', '(object:A |
-| ny,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SC |
-| T],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None= |
-| ...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyM |
-| ode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.average(a, axis=axis, weights=weights)                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 6 in numpy.average#8YY/averageYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.22.4 <dynamic>: (a, axis=None, weights=None, returned=False)                                                                                                  |
-|                                                                                                                                                                             |
-| Definition @1.23.0 <dynamic>: (a, axis=None, weights=None, returned=False, *, keepdims=<no value>)                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: numpy.average#8YY/averageYY.py has 2 Numpy-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: np.array([1, 2, 3, 4, 5])                                                          |
+|                                                                                                    |
+| Location: At Line 2 in numpy.average#8YY/averageYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.22.4 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[ |
+| Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bo |
+| ol=...,ndmin:int=...,like:ArrayLike=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=... |
+| ,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)-> |
+| NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:L[True],ndmin:int=...,like:ArrayLike=...)->_ArrayType', '(object:object,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArra |
+| y[Any]'], 'numpy.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order: |
+| _OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[Any]', '(object:Any,dtype |
+| :_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
+| :ArrayLike=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[_SCT]', '(object: |
+| _ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=. |
+| ..,like:ArrayLike=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,orde |
+| r:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->NDArray[Any]']}                 |
+|                                                                                                    |
+| Definition @1.23.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.average(a, axis=axis, weights=weights)                                          |
+|                                                                                                    |
+| Location: At Line 6 in numpy.average#8YY/averageYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.22.4 <dynamic>: (a, axis=None, weights=None, returned=False)                         |
+|                                                                                                    |
+| Definition @1.23.0 <dynamic>: (a, axis=None, weights=None, returned=False, *, keepdims=<no value>) |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

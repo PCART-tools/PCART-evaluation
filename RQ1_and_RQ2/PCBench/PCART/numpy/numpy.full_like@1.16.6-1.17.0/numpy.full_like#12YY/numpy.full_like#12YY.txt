@@ -12,21 +12,21 @@ Incompatible Numpy Invoked API Number: 0/1
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                   File #1: numpy.full_like#12YY/full_likeYY.py has 1 Numpy-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: np.full_like(a=[1, 2, 3], fill_value=5, dtype=int, order='C')                                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.full_like#12YY/full_likeYY.py                                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.16.6 <dynamic>: (a, fill_value, dtype=None, order='K', subok=True)                                                                                            |
-|                                                                                                                                                                             |
-| Definition @1.17.0 <dynamic>: (a, fill_value, dtype=None, order='K', subok=True, shape=None)                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: numpy.full_like#12YY/full_likeYY.py has 1 Numpy-Invoked API(s)               |
+======================================================================================================
+| Invoked API #1: np.full_like(a=[1, 2, 3], fill_value=5, dtype=int, order='C')                      |
+|                                                                                                    |
+| Location: At Line 2 in numpy.full_like#12YY/full_likeYY.py                                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.16.6 <dynamic>: (a, fill_value, dtype=None, order='K', subok=True)                   |
+|                                                                                                    |
+| Definition @1.17.0 <dynamic>: (a, fill_value, dtype=None, order='K', subok=True, shape=None)       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

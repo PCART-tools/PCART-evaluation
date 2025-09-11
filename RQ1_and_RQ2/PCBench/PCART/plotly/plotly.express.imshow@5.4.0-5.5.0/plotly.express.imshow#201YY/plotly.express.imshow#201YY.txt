@@ -12,26 +12,31 @@ Incompatible Plotly Invoked API Number: 0/1
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                File #1: plotly.express.imshow#201YY/imshowYY.py has 1 Plotly-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: px.imshow(img_rgb, None, None, None, {}, None, None, None, facet_col=None, facet_col_wrap=None, facet_col_spacing=None, facet_row_spacing=None, color_conti |
-| nuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, template=None, width=None, height=None)                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 4 in plotly.express.imshow#201YY/imshowYY.py                                                                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @5.4.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, animation_frame=None, facet_col=None, facet_col_wrap=None, facet_col_spaci |
-| ng=None, facet_row_spacing=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, template=None, width=None, height=None, aspect= |
-| None, contrast_rescaling=None, binary_string=None, binary_backend='auto', binary_compression_level=4, binary_format='png')                                                  |
-|                                                                                                                                                                             |
-| Definition @5.5.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, animation_frame=None, facet_col=None, facet_col_wrap=None, facet_col_spaci |
-| ng=None, facet_row_spacing=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, template=None, width=None, height=None, aspect= |
-| None, contrast_rescaling=None, binary_string=None, binary_backend='auto', binary_compression_level=4, binary_format='png', text_auto=False)                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: plotly.express.imshow#201YY/imshowYY.py has 1 Plotly-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: px.imshow(img_rgb, None, None, None, {}, None, None, None, facet_col=None, facet_c |
+| ol_wrap=None, facet_col_spacing=None, facet_row_spacing=None, color_continuous_scale=None, color_c |
+| ontinuous_midpoint=None, range_color=None, title=None, template=None, width=None, height=None)     |
+|                                                                                                    |
+| Location: At Line 4 in plotly.express.imshow#201YY/imshowYY.py                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @5.4.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, a |
+| nimation_frame=None, facet_col=None, facet_col_wrap=None, facet_col_spacing=None, facet_row_spacin |
+| g=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, |
+|  template=None, width=None, height=None, aspect=None, contrast_rescaling=None, binary_string=None, |
+|  binary_backend='auto', binary_compression_level=4, binary_format='png')                           |
+|                                                                                                    |
+| Definition @5.5.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, a |
+| nimation_frame=None, facet_col=None, facet_col_wrap=None, facet_col_spacing=None, facet_row_spacin |
+| g=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, |
+|  template=None, width=None, height=None, aspect=None, contrast_rescaling=None, binary_string=None, |
+|  binary_backend='auto', binary_compression_level=4, binary_format='png', text_auto=False)          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

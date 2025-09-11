@@ -1,5 +1,5 @@
 --- Running tf.contrib.data.make_csv_dataset#18NN/make_csv_datasetNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'tf.contrib.data.make_csv_dataset#18NN'), ('notebook', 'make_csv_datasetNN'), ('text', '  File "make_csv_datasetNN.py", line 2, in <module>\n    tf.contrib.data.make_csv_dataset(\'/home/zhang/Packages/tensorflow_file/dev.csv\',  1, column_names=None, column_defaults=None, label_name=None, select_columns=None, field_delim=\',\', use_quote_delim=True, na_value=\'\', header=True, num_epochs=None, shuffle=True, shuffle_buffer_size=10000, shuffle_seed=None, prefetch_buffer_size=1, num_parallel_reads=1, num_parallel_parser_calls=2, sloppy=False, num_rows_for_inference=1)\nTypeError: make_csv_dataset() got an unexpected keyword argument \'num_parallel_parser_calls\'\n')])
+[ERR MSG]: OrderedDict([('project', 'tf.contrib.data.make_csv_dataset#18NN'), ('notebook', 'make_csv_datasetNN'), ('text', '  File "make_csv_datasetNN.py", line 2, in <module>\n    tf.contrib.data.make_csv_dataset(\'./dev.csv\',  1, column_names=None, column_defaults=None, label_name=None, select_columns=None, field_delim=\',\', use_quote_delim=True, na_value=\'\', header=True, num_epochs=None, shuffle=True, shuffle_buffer_size=10000, shuffle_seed=None, prefetch_buffer_size=1, num_parallel_reads=1, num_parallel_parser_calls=2, sloppy=False, num_rows_for_inference=1)\nTypeError: make_csv_dataset() got an unexpected keyword argument \'num_parallel_parser_calls\'\n')])
   File "make_csv_datasetNN.py", line 2, in <module>
 Error inducing API short name: make_csv_dataset, line no: 2
 Error inducing API fqn: tensorflow.contrib.data.make_csv_dataset, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m2.606s
-user	0m3.419s
-sys	0m5.090s
+real	0m2.390s
+user	0m3.330s
+sys	0m6.182s

@@ -12,21 +12,21 @@ Incompatible Matplotlib Invoked API Number: 0/1
 -> Failed to Repair Matplotlib Invoked API Number: 0/0
 -> Unknown Repair Status Matplotlib Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                              File #1: matplotlib.pyplot.xticks#6YY/xticksYY.py has 1 Matplotlib-Invoked API(s)                                              |
-===============================================================================================================================================================================
-| Invoked API #1: plt.xticks(ticks=ticks, labels=labels)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 4 in matplotlib.pyplot.xticks#6YY/xticksYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.5.3 <dynamic>: (ticks=None, labels=None, **kwargs)                                                                                                            |
-|                                                                                                                                                                             |
-| Definition @3.6.0 <dynamic>: (ticks=None, labels=None, *, minor=False, **kwargs)                                                                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|         File #1: matplotlib.pyplot.xticks#6YY/xticksYY.py has 1 Matplotlib-Invoked API(s)          |
+======================================================================================================
+| Invoked API #1: plt.xticks(ticks=ticks, labels=labels)                                             |
+|                                                                                                    |
+| Location: At Line 4 in matplotlib.pyplot.xticks#6YY/xticksYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.5.3 <dynamic>: (ticks=None, labels=None, **kwargs)                                   |
+|                                                                                                    |
+| Definition @3.6.0 <dynamic>: (ticks=None, labels=None, *, minor=False, **kwargs)                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -1,6 +1,6 @@
-tf.data.Dataset.from_tensors('foo').repeat(), Failed to load pkl in current version2.5.3: 2025-01-10 00:30:11.978632: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+tf.data.Dataset.from_tensors('foo').repeat(), Failed to load pkl in current version2.5.3: 2025-08-02 11:00:48.092932: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
 Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
@@ -9,9 +9,9 @@ Traceback (most recent call last):
 EOFError: Ran out of input
 
 
-tf.data.Dataset.range(3).repeat(3), Failed to load pkl in current version2.5.3: 2025-01-10 00:30:31.385978: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+tf.data.Dataset.range(3).repeat(3), Failed to load pkl in current version2.5.3: 2025-08-02 11:01:13.041024: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
 Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
@@ -20,9 +20,42 @@ Traceback (most recent call last):
 EOFError: Ran out of input
 
 
-tf.data.experimental.choose_from_datasets(datasets, choice_dataset), Failed to load pkl in current version2.5.3: 2025-01-10 00:30:46.549013: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+tf.data.experimental.choose_from_datasets(datasets, choice_dataset), Failed to load pkl in current version2.5.3: 2025-08-02 11:01:34.302454: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
 Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+tf.data.Dataset.from_tensors('foo').repeat(), Failed to load pkl in current version2.5.3: 2025-08-02 23:47:55.494646: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+tf.data.Dataset.range(3).repeat(3), Failed to load pkl in current version2.5.3: 2025-08-02 23:48:21.310203: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+tf.data.experimental.choose_from_datasets(datasets, choice_dataset), Failed to load pkl in current version2.5.3: 2025-08-02 23:48:42.999612: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/tensorflow2.5.3/lib/python3.8/site-packages/dill/_dill.py", line 287, in load
     return Unpickler(file, ignore=ignore, **kwds).load()

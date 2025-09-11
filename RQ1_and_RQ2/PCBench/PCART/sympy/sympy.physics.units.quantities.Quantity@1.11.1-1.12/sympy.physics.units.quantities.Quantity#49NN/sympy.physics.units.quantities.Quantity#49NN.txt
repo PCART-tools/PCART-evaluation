@@ -12,25 +12,28 @@ Incompatible Sympy Invoked API Number: 1/1
 -> Failed to Repair Sympy Invoked API Number: 0/1
 -> Unknown Repair Status Sympy Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                       File #1: sympy.physics.units.quantities.Quantity#49NN/QuantityNN.py has 1 Sympy-Invoked API(s)                                        |
-===============================================================================================================================================================================
-| Invoked API #1: Quantity('velocity', None, None, None, None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False)            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in sympy.physics.units.quantities.Quantity#49NN/QuantityNN.py                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.11.1 <dynamic>: (name, abbrev=None, dimension=None, scale_factor=None, latex_repr=None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation |
-| _repr=None, is_prefixed=False, **assumptions)                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.12 <dynamic>: (name, abbrev=None, latex_repr=None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False, **assu |
-| mptions)                                                                                                                                                                    |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: Quantity('velocity', None, None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False)                   |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|   File #1: sympy.physics.units.quantities.Quantity#49NN/QuantityNN.py has 1 Sympy-Invoked API(s)   |
+======================================================================================================
+| Invoked API #1: Quantity('velocity', None, None, None, None, pretty_unicode_repr=None, pretty_asci |
+| i_repr=None, mathml_presentation_repr=None, is_prefixed=False)                                     |
+|                                                                                                    |
+| Location: At Line 2 in sympy.physics.units.quantities.Quantity#49NN/QuantityNN.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.11.1 <dynamic>: (name, abbrev=None, dimension=None, scale_factor=None, latex_repr=No |
+| ne, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=F |
+| alse, **assumptions)                                                                               |
+|                                                                                                    |
+| Definition @1.12 <dynamic>: (name, abbrev=None, latex_repr=None, pretty_unicode_repr=None, pretty_ |
+| ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False, **assumptions)                  |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: Quantity('velocity', None, None, pretty_unicode_repr=None, pretty_ascii_repr= |
+| None, mathml_presentation_repr=None, is_prefixed=False)                                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

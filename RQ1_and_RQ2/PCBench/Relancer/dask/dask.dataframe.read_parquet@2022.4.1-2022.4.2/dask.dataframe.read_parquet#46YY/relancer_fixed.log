@@ -1,8 +1,14 @@
 --- Running dask.dataframe.read_parquet#46YY/read_parquetYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#46YY'), ('notebook', 'read_parquetYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#46YY'), ('notebook', 'read_parquetYY'), ('text', '  File "read_parquetYY.py", line 2, in <module>\n    ddf = dd.read_parquet(\'./example.parquet\',  None,  None,  None,  None,  None,  \'auto\',  None, ignore_metadata_file=False)\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/core.py", line 429, in read_parquet\n    read_metadata_result = engine.read_metadata(\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 338, in read_metadata\n    dataset_info = cls._collect_dataset_info(\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 864, in _collect_dataset_info\n    ds = pa_ds.dataset(\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/pyarrow/dataset.py", line 616, in dataset\n    return _filesystem_dataset(source, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/pyarrow/dataset.py", line 368, in _filesystem_dataset\n    fs, paths_or_selector = _ensure_multiple_sources(source, filesystem)\n  File "/dataset/zhang/anaconda3/envs/Rdask2022.4.2/lib/python3.8/site-packages/pyarrow/dataset.py", line 287, in _ensure_multiple_sources\n    raise FileNotFoundError(info.path)\nFileNotFoundError: /home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/dask.dataframe.read_parquet#46YY/example.parquet\n')])
+  File "read_parquetYY.py", line 2, in <module>
+Error inducing API short name: read_parquet, line no: 2
+Error inducing API fqn: dask.dataframe.read_parquet, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.779s
-user	0m1.955s
-sys	0m6.784s
+real	0m0.832s
+user	0m1.926s
+sys	0m5.996s

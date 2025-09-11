@@ -1,5 +1,5 @@
 np.array([1, 2, 3, 4, 5]), Failed to load pkl in target version1.8.0: Traceback (most recent call last):
-  File "dynamicMatch.py", line 8, in <module>
+  File "dynamicMatch.py", line 15, in <module>
     import dill
   File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
     from ._dill import (
@@ -20,7 +20,49 @@ SyntaxError: invalid syntax
 
 
 np.in1d(array1, array2, assume_unique=False), Failed to load pkl in target version1.8.0: Traceback (most recent call last):
-  File "dynamicMatch.py", line 8, in <module>
+  File "dynamicMatch.py", line 15, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[1.8.0]np.in1d(array1, array2, assume_unique=False), generate new pkl failed: Traceback (most recent call last):
+  File "in1dYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+
+np.array([1, 2, 3, 4, 5]), Failed to load pkl in target version1.8.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 15, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+[1.8.0]np.array([1, 2, 3, 4, 5]), generate new pkl failed: Traceback (most recent call last):
+  File "in1dYY.py", line 2, in <module>
+    import dill
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
+    from ._dill import (
+  File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/_dill.py", line 338
+    dispatch: typing.Dict[type, typing.Callable[[Pickler, typing.Any], None]] \
+            ^
+SyntaxError: invalid syntax
+
+
+np.in1d(array1, array2, assume_unique=False), Failed to load pkl in target version1.8.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 15, in <module>
     import dill
   File "/dataset/zhang/anaconda3/envs/numpy1.8.0/lib/python3.4/site-packages/dill/__init__.py", line 26, in <module>
     from ._dill import (

@@ -12,56 +12,61 @@ Incompatible Torch Invoked API Number: 1/3
 -> Failed to Repair Torch Invoked API Number: 0/1
 -> Unknown Repair Status Torch Invoked API Number: 1/1
 
-===============================================================================================================================================================================
-|                                               File #1: torch.cuda.synchronize#1YY/synchronizeYY.py has 3 Torch-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: torch.randn(3, 3)                                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 2 in torch.cuda.synchronize#1YY/synchronizeYY.py                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.1 <static>: {'torch.onnx.symbolic.randn': ['(g,*shapes)']}                                                                                                  |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <static>: {'torch.__init__.randn': ['(*size:_int,generator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_devi |
-| ce,str,None]=None,requires_grad:bool=False)->Tensor', '(*size:_int,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,re |
-| quires_grad:bool=False)->Tensor', '(size:_size,*,generator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None, |
-| requires_grad:bool=False)->Tensor', '(size:_size,*,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,requires_grad:bool |
-| =False)->Tensor']}                                                                                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Unknown>: torch.randn()                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: torch.randn(3, 3).cuda()                                                                                                                                    |
-|                                                                                                                                                                             |
-| Location: At Line 2 in torch.cuda.synchronize#1YY/synchronizeYY.py                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.1 <static>: {'torch.nn.utils.rnn.PackedSequence.cuda': ['(self,*args,**kwargs)'], 'torch.nn.Module.cuda': ['(self,device=None)'], 'torch.nn.modules.module. |
-| Module.cuda': ['(self,device=None)']}                                                                                                                                       |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <static>: {'torch.__init__.Tensor.cuda': ['(self,device:Optional[_device]=None,non_blocking:bool=False)->Tensor']}                                        |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: torch.cuda.synchronize()                                                                                                                                    |
-|                                                                                                                                                                             |
-| Location: At Line 4 in torch.cuda.synchronize#1YY/synchronizeYY.py                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.1 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (device=None)                                                                                                                                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: torch.cuda.synchronize#1YY/synchronizeYY.py has 3 Torch-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: torch.randn(3, 3)                                                                  |
+|                                                                                                    |
+| Location: At Line 2 in torch.cuda.synchronize#1YY/synchronizeYY.py                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.1 <static>: {'torch.onnx.symbolic.randn': ['(g,*shapes)']}                         |
+|                                                                                                    |
+| Definition @1.1.0 <static>: {'torch.__init__.randn': ['(*size:_int,generator:Generator,out:Optiona |
+| l[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,require |
+| s_grad:bool=False)->Tensor', '(*size:_int,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layou |
+| t=strided,device:Union[_device,str,None]=None,requires_grad:bool=False)->Tensor', '(size:_size,*,g |
+| enerator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[ |
+| _device,str,None]=None,requires_grad:bool=False)->Tensor', '(size:_size,*,out:Optional[Tensor]=Non |
+| e,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,requires_grad:bool=F |
+| alse)->Tensor']}                                                                                   |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Unknown>: torch.randn()                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: torch.randn(3, 3).cuda()                                                           |
+|                                                                                                    |
+| Location: At Line 2 in torch.cuda.synchronize#1YY/synchronizeYY.py                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.1 <static>: {'torch.nn.utils.rnn.PackedSequence.cuda': ['(self,*args,**kwargs)'],  |
+| 'torch.nn.Module.cuda': ['(self,device=None)'], 'torch.nn.modules.module.Module.cuda': ['(self,dev |
+| ice=None)']}                                                                                       |
+|                                                                                                    |
+| Definition @1.1.0 <static>: {'torch.__init__.Tensor.cuda': ['(self,device:Optional[_device]=None,n |
+| on_blocking:bool=False)->Tensor']}                                                                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: torch.cuda.synchronize()                                                           |
+|                                                                                                    |
+| Location: At Line 4 in torch.cuda.synchronize#1YY/synchronizeYY.py                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.1 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (device=None)                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

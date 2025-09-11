@@ -12,35 +12,37 @@ Incompatible Polars Invoked API Number: 0/2
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: polars.Expr.clip#1YY/clipYY.py has 2 Polars-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: pl.col('a')                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.clip#1YY/clipYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pl.col('a').clip(1, 10)                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.clip#1YY/clipYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (min_val: 'int | float', max_val: 'int | float') -> 'Self'                                                                                   |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (lower_bound: 'int | float', upper_bound: 'int | float') -> 'Self'                                                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: polars.Expr.clip#1YY/clipYY.py has 2 Polars-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: pl.col('a')                                                                        |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.clip#1YY/clipYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pl.col('a').clip(1, 10)                                                            |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.clip#1YY/clipYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (min_val: 'int | float', max_val: 'int | float') -> 'Self'          |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (lower_bound: 'int | float', upper_bound: 'int | float') -> 'Self'   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

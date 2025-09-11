@@ -37,23 +37,27 @@ Incompatible Numpy Invoked API Number: 1/2
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @1.23.5 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
-| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
-| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
-| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
-| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
-| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
-| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
-| ..)->float']}                                                                                      |
+| Definition @1.23.5 <static>: {'numpy.random.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=.. |
+| .,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc |
+| :float=...,scale:float=...,size:None=...)->float'], 'numpy.random.mtrand.RandomState.normal': ['(s |
+| elf,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any |
+| ,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.Gen |
+| erator.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLi |
+| ke=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float' |
+| ], 'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLike |
+| Float_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:f |
+| loat=...,size:None=...)->float']}                                                                  |
 |                                                                                                    |
-| Definition @1.24.0 <static>: {'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFl |
-| oat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', ' |
-| (self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.RandomState.normal': [' |
-| (self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[A |
-| ny,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.m |
-| trand.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:No |
-| ne|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=. |
-| ..)->float']}                                                                                      |
+| Definition @1.24.0 <static>: {'numpy.random.RandomState.normal': ['(self,loc:_ArrayLikeFloat_co=.. |
+| .,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc |
+| :float=...,scale:float=...,size:None=...)->float'], 'numpy.random.mtrand.RandomState.normal': ['(s |
+| elf,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLike=...)->ndarray[Any |
+| ,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float'], 'numpy.random.Gen |
+| erator.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLikeFloat_co=...,size:None|_ShapeLi |
+| ke=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:float=...,size:None=...)->float' |
+| ], 'numpy.random._generator.Generator.normal': ['(self,loc:_ArrayLikeFloat_co=...,scale:_ArrayLike |
+| Float_co=...,size:None|_ShapeLike=...)->ndarray[Any,dtype[float64]]', '(self,loc:float=...,scale:f |
+| loat=...,size:None=...)->float']}                                                                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |

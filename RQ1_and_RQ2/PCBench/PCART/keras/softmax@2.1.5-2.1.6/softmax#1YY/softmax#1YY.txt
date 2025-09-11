@@ -12,35 +12,35 @@ Incompatible Keras Invoked API Number: 0/2
 -> Failed to Repair Keras Invoked API Number: 0/0
 -> Unknown Repair Status Keras Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                        File #1: softmax#1YY/softmaxYY.py has 2 Keras-Invoked API(s)                                                         |
-===============================================================================================================================================================================
-| Invoked API #1: K.variable(data)                                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 4 in softmax#1YY/softmaxYY.py                                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.1.5 <dynamic>: (value, dtype=None, name=None, constraint=None)                                                                                                |
-|                                                                                                                                                                             |
-| Definition @2.1.6 <dynamic>: (value, dtype=None, name=None, constraint=None)                                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: K.softmax(tensor)                                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 5 in softmax#1YY/softmaxYY.py                                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.1.5 <static>: {'keras.backend.softmax': ['(x)']}                                                                                                              |
-|                                                                                                                                                                             |
-| Definition @2.1.6 <static>: {'keras.backend.softmax': ['(x,axis=-1)']}                                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                    File #1: softmax#1YY/softmaxYY.py has 2 Keras-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: K.variable(data)                                                                   |
+|                                                                                                    |
+| Location: At Line 4 in softmax#1YY/softmaxYY.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.1.5 <dynamic>: (value, dtype=None, name=None, constraint=None)                       |
+|                                                                                                    |
+| Definition @2.1.6 <dynamic>: (value, dtype=None, name=None, constraint=None)                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: K.softmax(tensor)                                                                  |
+|                                                                                                    |
+| Location: At Line 5 in softmax#1YY/softmaxYY.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.1.5 <static>: {'keras.backend.softmax': ['(x)']}                                     |
+|                                                                                                    |
+| Definition @2.1.6 <static>: {'keras.backend.softmax': ['(x,axis=-1)']}                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

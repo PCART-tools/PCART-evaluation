@@ -1,6 +1,6 @@
 --- Running scipy.linalg.solve#28NN/solveNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'scipy.linalg.solve#28NN'), ('notebook', 'solveNN'), ('text', '  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#28NN/solveNN.py", line 4, in <module>\n    x = scipy.linalg.solve(a,  b,  False,  False,  False, overwrite_b=False, check_finite=True)\nTypeError: solve() got multiple values for argument \'overwrite_b\'\n')])
-  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#28NN/solveNN.py", line 4, in <module>
+[ERR MSG]: OrderedDict([('project', 'scipy.linalg.solve#28NN'), ('notebook', 'solveNN'), ('text', '  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#28NN/solveNN.py", line 4, in <module>\n    x = scipy.linalg.solve(a,  b,  False,  False,  False, overwrite_b=False, check_finite=True)\nTypeError: solve() got multiple values for argument \'overwrite_b\'\n')])
+  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#28NN/solveNN.py", line 4, in <module>
 Error inducing API short name: solve, line no: 4
 Error inducing API fqn: scipy.linalg.solve, line no: 4
 *** TypeError: PLACEHOLDER
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.546s
-user	0m2.465s
-sys	0m9.879s
+real	0m0.543s
+user	0m2.404s
+sys	0m9.873s

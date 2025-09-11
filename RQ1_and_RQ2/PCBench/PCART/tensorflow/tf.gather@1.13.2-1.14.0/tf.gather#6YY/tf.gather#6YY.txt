@@ -12,59 +12,67 @@ Incompatible Tensorflow Invoked API Number: 0/3
 -> Failed to Repair Tensorflow Invoked API Number: 0/0
 -> Unknown Repair Status Tensorflow Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: tf.gather#6YY/gatherYY.py has 3 Tensorflow-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: tf.constant([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tf.gather#6YY/gatherYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.2 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)                                                                             |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: tf.constant([0, 2])                                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 3 in tf.gather#6YY/gatherYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.2 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)                                                                             |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: tf.gather(data, indices=indices, validate_indices=None)                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 4 in tf.gather#6YY/gatherYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.2 <static>: {'tensorflow.python.keras.backend.gather': ['(reference,indices)'], 'tensorflow.python.ops.gen_array_ops.gather': ['(params,indices,validate_i |
-| ndices=True,name=None)'], 'tensorflow.python.ops.array_ops.gather': ['(params,indices,validate_indices=None,name=None,axis=0)'], 'tensorflow.python.ops.tensor_array_ops.Te |
-| nsorArray.gather': ['(self,indices,name=None)'], 'tensorflow.python.ops.tensor_array_ops._EagerTensorArray.gather': ['(self,indices,name=None)'], 'tensorflow.python.ops.te |
-| nsor_array_ops._GraphTensorArray.gather': ['(self,indices,name=None)'], 'tensorflow.python.ops.tensor_array_ops._GraphTensorArrayV2.gather': ['(self,indices,name=None)'],  |
-| 'tensorflow.python.ops.ragged.ragged_array_ops.gather': ['(params,indices,validate_indices=None,axis=0,name=None)'], 'tensorflow.python.ragged.ragged_array_ops.gather': [' |
-| (params,indices,validate_indices=None,axis=0,name=None)']}                                                                                                                  |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <static>: {'tensorflow.python.keras.backend.gather': ['(reference,indices)'], 'tensorflow.python.ops.gen_array_ops.gather': ['(params,indices,validate_i |
-| ndices=True,name=None)'], 'tensorflow.python.ops.array_ops.gather': ['(params,indices,validate_indices=None,name=None,axis=None,batch_dims=0)'], 'tensorflow.python.ops.ten |
-| sor_array_ops.TensorArray.gather': ['(self,indices,name=None)'], 'tensorflow.python.ops.tensor_array_ops._EagerTensorArray.gather': ['(self,indices,name=None)'], 'tensorfl |
-| ow.python.ops.tensor_array_ops._GraphTensorArray.gather': ['(self,indices,name=None)'], 'tensorflow.python.ops.tensor_array_ops._GraphTensorArrayV2.gather': ['(self,indice |
-| s,name=None)'], 'tensorflow.python.ops.ragged.ragged_gather_ops.gather': ['(params,indices,validate_indices=None,axis=0,batch_dims=0,name=None)'], 'tensorflow.python.ragge |
-| d.ragged_gather_ops.gather': ['(params,indices,validate_indices=None,axis=0,batch_dims=0,name=None)']}                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: tf.gather#6YY/gatherYY.py has 3 Tensorflow-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: tf.constant([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                     |
+|                                                                                                    |
+| Location: At Line 2 in tf.gather#6YY/gatherYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)    |
+|                                                                                                    |
+| Definition @1.14.0 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: tf.constant([0, 2])                                                                |
+|                                                                                                    |
+| Location: At Line 3 in tf.gather#6YY/gatherYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)    |
+|                                                                                                    |
+| Definition @1.14.0 <dynamic>: (value, dtype=None, shape=None, name='Const', verify_shape=False)    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: tf.gather(data, indices=indices, validate_indices=None)                            |
+|                                                                                                    |
+| Location: At Line 4 in tf.gather#6YY/gatherYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.2 <static>: {'tensorflow.python.keras.backend.gather': ['(reference,indices)'], ' |
+| tensorflow.python.ops.array_ops.gather': ['(params,indices,validate_indices=None,name=None,axis=0) |
+| '], 'tensorflow.python.ops.gen_array_ops.gather': ['(params,indices,validate_indices=True,name=Non |
+| e)'], 'tensorflow.python.ops.tensor_array_ops.TensorArray.gather': ['(self,indices,name=None)'], ' |
+| tensorflow.python.ops.tensor_array_ops._EagerTensorArray.gather': ['(self,indices,name=None)'], 't |
+| ensorflow.python.ops.tensor_array_ops._GraphTensorArray.gather': ['(self,indices,name=None)'], 'te |
+| nsorflow.python.ops.tensor_array_ops._GraphTensorArrayV2.gather': ['(self,indices,name=None)'], 't |
+| ensorflow.python.ops.ragged.ragged_array_ops.gather': ['(params,indices,validate_indices=None,axis |
+| =0,name=None)'], 'tensorflow.python.ragged.ragged_array_ops.gather': ['(params,indices,validate_in |
+| dices=None,axis=0,name=None)']}                                                                    |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'tensorflow.python.keras.backend.gather': ['(reference,indices)'], ' |
+| tensorflow.python.ops.array_ops.gather': ['(params,indices,validate_indices=None,name=None,axis=No |
+| ne,batch_dims=0)'], 'tensorflow.python.ops.gen_array_ops.gather': ['(params,indices,validate_indic |
+| es=True,name=None)'], 'tensorflow.python.ops.tensor_array_ops.TensorArray.gather': ['(self,indices |
+| ,name=None)'], 'tensorflow.python.ops.tensor_array_ops._EagerTensorArray.gather': ['(self,indices, |
+| name=None)'], 'tensorflow.python.ops.tensor_array_ops._GraphTensorArray.gather': ['(self,indices,n |
+| ame=None)'], 'tensorflow.python.ops.tensor_array_ops._GraphTensorArrayV2.gather': ['(self,indices, |
+| name=None)'], 'tensorflow.python.ops.ragged.ragged_gather_ops.gather': ['(params,indices,validate_ |
+| indices=None,axis=0,batch_dims=0,name=None)'], 'tensorflow.python.ragged.ragged_gather_ops.gather' |
+| : ['(params,indices,validate_indices=None,axis=0,batch_dims=0,name=None)']}                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

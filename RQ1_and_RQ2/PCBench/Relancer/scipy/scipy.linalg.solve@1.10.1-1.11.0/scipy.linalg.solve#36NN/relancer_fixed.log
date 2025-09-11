@@ -1,6 +1,6 @@
 --- Running scipy.linalg.solve#36NN/solveNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'scipy.linalg.solve#36NN'), ('notebook', 'solveNN'), ('text', '  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#36NN/solveNN.py", line 4, in <module>\n    x = scipy.linalg.solve(a,  b,  False,  False,  False,  False, check_finite=True, assume_a=\'gen\')\nTypeError: solve() got multiple values for argument \'check_finite\'\n')])
-  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#36NN/solveNN.py", line 4, in <module>
+[ERR MSG]: OrderedDict([('project', 'scipy.linalg.solve#36NN'), ('notebook', 'solveNN'), ('text', '  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#36NN/solveNN.py", line 4, in <module>\n    x = scipy.linalg.solve(a,  b,  False,  False,  False,  False, check_finite=True, assume_a=\'gen\')\nTypeError: solve() got multiple values for argument \'check_finite\'\n')])
+  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.linalg.solve#36NN/solveNN.py", line 4, in <module>
 Error inducing API short name: solve, line no: 4
 Error inducing API fqn: scipy.linalg.solve, line no: 4
 *** TypeError: PLACEHOLDER
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.534s
-user	0m1.987s
-sys	0m7.835s
+real	0m0.542s
+user	0m2.118s
+sys	0m8.630s

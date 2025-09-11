@@ -1,5 +1,5 @@
 G.add_edges_from([(1, 2), (2, 3)]), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 933, in add_edges_from
@@ -19,7 +19,38 @@ AttributeError: 'Graph' object has no attribute '_node'
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 647, in set_node_attributes
+    for n in G:
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 381, in __iter__
+    return iter(self._node)
+AttributeError: 'Graph' object has no attribute '_node'
+
+
+G.add_edges_from([(1, 2), (2, 3)]), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 933, in add_edges_from
+    if u not in self._node:
+AttributeError: 'Graph' object has no attribute '_node'
+
+
+nx.set_node_attributes(G=G, name='color', values=values), validate error: Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 643, in set_node_attributes
+    G.nodes[n][name] = values[n]
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 717, in nodes
+    nodes = NodeView(self)
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/reportviews.py", line 168, in __init__
+    self._nodes = graph._node
+AttributeError: 'Graph' object has no attribute '_node'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 647, in set_node_attributes

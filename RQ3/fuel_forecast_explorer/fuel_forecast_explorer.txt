@@ -75,11 +75,11 @@ Incompatible Pandas Invoked API Number: 4/16
 | , max_cols: 'int | None' = None, memory_usage: 'bool | str | None' = None, show_counts: 'bool | No |
 | ne' = None, null_counts: 'bool | None' = None) -> 'None'                                           |
 |                                                                                                    |
-| Definition @2.0.0 <static>: {'pandas.io.pytables.HDFStore.info': ['(self)->str'], 'pandas.core.ser |
-| ies.Series.info': ['(self,verbose:bool|None=None,buf:IO[str]|None=None,max_cols:int|None=None,memo |
-| ry_usage:bool|str|None=None,show_counts:bool=True)->None'], 'pandas.core.frame.DataFrame.info': [' |
-| (self,verbose:bool|None=None,buf:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bo |
-| ol|str|None=None,show_counts:bool|None=None)->None']}                                              |
+| Definition @2.0.0 <static>: {'pandas.core.frame.DataFrame.info': ['(self,verbose:bool|None=None,bu |
+| f:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bo |
+| ol|None=None)->None'], 'pandas.core.series.Series.info': ['(self,verbose:bool|None=None,buf:IO[str |
+| ]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bool=True)->None'], |
+|  'pandas.io.pytables.HDFStore.info': ['(self)->str']}                                              |
 |                                                                                                    |
 | Compatible: No                                                                                     |
 |                                                                                                    |
@@ -97,11 +97,11 @@ Incompatible Pandas Invoked API Number: 4/16
 | , max_cols: 'int | None' = None, memory_usage: 'bool | str | None' = None, show_counts: 'bool | No |
 | ne' = None, null_counts: 'bool | None' = None) -> 'None'                                           |
 |                                                                                                    |
-| Definition @2.0.0 <static>: {'pandas.io.pytables.HDFStore.info': ['(self)->str'], 'pandas.core.ser |
-| ies.Series.info': ['(self,verbose:bool|None=None,buf:IO[str]|None=None,max_cols:int|None=None,memo |
-| ry_usage:bool|str|None=None,show_counts:bool=True)->None'], 'pandas.core.frame.DataFrame.info': [' |
-| (self,verbose:bool|None=None,buf:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bo |
-| ol|str|None=None,show_counts:bool|None=None)->None']}                                              |
+| Definition @2.0.0 <static>: {'pandas.core.frame.DataFrame.info': ['(self,verbose:bool|None=None,bu |
+| f:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bo |
+| ol|None=None)->None'], 'pandas.core.series.Series.info': ['(self,verbose:bool|None=None,buf:IO[str |
+| ]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bool=True)->None'], |
+|  'pandas.io.pytables.HDFStore.info': ['(self)->str']}                                              |
 |                                                                                                    |
 | Compatible: No                                                                                     |
 |                                                                                                    |
@@ -141,11 +141,11 @@ Incompatible Pandas Invoked API Number: 4/16
 | , max_cols: 'int | None' = None, memory_usage: 'bool | str | None' = None, show_counts: 'bool | No |
 | ne' = None, null_counts: 'bool | None' = None) -> 'None'                                           |
 |                                                                                                    |
-| Definition @2.0.0 <static>: {'pandas.io.pytables.HDFStore.info': ['(self)->str'], 'pandas.core.ser |
-| ies.Series.info': ['(self,verbose:bool|None=None,buf:IO[str]|None=None,max_cols:int|None=None,memo |
-| ry_usage:bool|str|None=None,show_counts:bool=True)->None'], 'pandas.core.frame.DataFrame.info': [' |
-| (self,verbose:bool|None=None,buf:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bo |
-| ol|str|None=None,show_counts:bool|None=None)->None']}                                              |
+| Definition @2.0.0 <static>: {'pandas.core.frame.DataFrame.info': ['(self,verbose:bool|None=None,bu |
+| f:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bo |
+| ol|None=None)->None'], 'pandas.core.series.Series.info': ['(self,verbose:bool|None=None,buf:IO[str |
+| ]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bool=True)->None'], |
+|  'pandas.io.pytables.HDFStore.info': ['(self)->str']}                                              |
 |                                                                                                    |
 | Compatible: No                                                                                     |
 |                                                                                                    |
@@ -299,11 +299,11 @@ Incompatible Pandas Invoked API Number: 4/16
 | , max_cols: 'int | None' = None, memory_usage: 'bool | str | None' = None, show_counts: 'bool | No |
 | ne' = None, null_counts: 'bool | None' = None) -> 'None'                                           |
 |                                                                                                    |
-| Definition @2.0.0 <static>: {'pandas.io.pytables.HDFStore.info': ['(self)->str'], 'pandas.core.ser |
-| ies.Series.info': ['(self,verbose:bool|None=None,buf:IO[str]|None=None,max_cols:int|None=None,memo |
-| ry_usage:bool|str|None=None,show_counts:bool=True)->None'], 'pandas.core.frame.DataFrame.info': [' |
-| (self,verbose:bool|None=None,buf:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bo |
-| ol|str|None=None,show_counts:bool|None=None)->None']}                                              |
+| Definition @2.0.0 <static>: {'pandas.core.frame.DataFrame.info': ['(self,verbose:bool|None=None,bu |
+| f:WriteBuffer[str]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bo |
+| ol|None=None)->None'], 'pandas.core.series.Series.info': ['(self,verbose:bool|None=None,buf:IO[str |
+| ]|None=None,max_cols:int|None=None,memory_usage:bool|str|None=None,show_counts:bool=True)->None'], |
+|  'pandas.io.pytables.HDFStore.info': ['(self)->str']}                                              |
 |                                                                                                    |
 | Compatible: No                                                                                     |
 |                                                                                                    |
@@ -369,18 +369,23 @@ Incompatible Pandas Invoked API Number: 4/16
 |                                                                                                    |
 | Definition @1.5.3 <dynamic>: (values) -> 'Series'                                                  |
 |                                                                                                    |
-| Definition @2.0.0 <static>: {'pandas.core.series.Series.isin': ['(self,values)->Series'], 'pandas. |
-| core.algorithms.isin': ['(comps:AnyArrayLike,values:AnyArrayLike)->npt.NDArray[np.bool_]'], 'panda |
-| s.core.frame.DataFrame.isin': ['(self,values:Series|DataFrame|Sequence|Mapping)->DataFrame'], 'pan |
-| das.core.arrays.datetimelike.DatetimeLikeArrayMixin.isin': ['(self,values)->npt.NDArray[np.bool_]' |
-| ], 'pandas.core.arrays.string_arrow.ArrowStringArray.isin': ['(self,values)->npt.NDArray[np.bool_] |
-| '], 'pandas.core.arrays.interval.IntervalArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'p |
-| andas.core.arrays.base.ExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.cor |
-| e.arrays.masked.BaseMaskedArray.isin': ['(self,values)->BooleanArray'], 'pandas.core.arrays.catego |
-| rical.Categorical.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.arrow.array |
-| .ArrowExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.indexes.base.In |
-| dex.isin': ['(self,values,level=None)->npt.NDArray[np.bool_]'], 'pandas.core.indexes.multi.MultiIn |
-| dex.isin': ['(self,values,level=None)->npt.NDArray[np.bool_]']}                                    |
+| Definition @2.0.0 <static>: {'pandas.core.frame.DataFrame.isin': ['(self,values:Series|DataFrame|S |
+| equence|Mapping)->DataFrame'], 'pandas.core.series.Series.isin': ['(self,values)->Series'], 'panda |
+| s.core.algorithms.isin': ['(comps:AnyArrayLike,values:AnyArrayLike)->npt.NDArray[np.bool_]'], 'pan |
+| das.core.arrays.Categorical.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.c |
+| ategorical.Categorical.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.ArrowS |
+| tringArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.string_arrow.Arrow |
+| StringArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.datetimelike.Date |
+| timeLikeArrayMixin.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.BaseMasked |
+| Array.isin': ['(self,values)->BooleanArray'], 'pandas.core.arrays.masked.BaseMaskedArray.isin': [' |
+| (self,values)->BooleanArray'], 'pandas.core.arrays.IntervalArray.isin': ['(self,values)->npt.NDArr |
+| ay[np.bool_]'], 'pandas.core.arrays.interval.IntervalArray.isin': ['(self,values)->npt.NDArray[np. |
+| bool_]'], 'pandas.core.arrays.ExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pan |
+| das.core.arrays.base.ExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core. |
+| arrays.ArrowExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.arrays.ar |
+| row.array.ArrowExtensionArray.isin': ['(self,values)->npt.NDArray[np.bool_]'], 'pandas.core.indexe |
+| s.multi.MultiIndex.isin': ['(self,values,level=None)->npt.NDArray[np.bool_]'], 'pandas.core.indexe |
+| s.base.Index.isin': ['(self,values,level=None)->npt.NDArray[np.bool_]']}                           |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |

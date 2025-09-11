@@ -1,8 +1,16 @@
 --- Running numpy.load#3YY/loadYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.load#3YY'), ('notebook', 'loadYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.load#3YY'), ('notebook', 'loadYY'), ('text', '  File "loadYY.py", line 7, in <module>\n    main()\n  File "loadYY.py", line 4, in main\n    loaded_data = np.load(\'./example.npy\',  None)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.10.0/lib/python3.6/site-packages/numpy/lib/npyio.py", line 362, in load\n    fid = open(file, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.npy\'\n')])
+  File "loadYY.py", line 7, in <module>
+Error inducing API short name: main, line no: 7
+  File "loadYY.py", line 4, in main
+Error inducing API short name: load, line no: 4
+Error inducing API fqn: numpy.load, line no: 4
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.406s
-user	0m1.475s
-sys	0m4.130s
+real	0m0.462s
+user	0m1.704s
+sys	0m4.343s

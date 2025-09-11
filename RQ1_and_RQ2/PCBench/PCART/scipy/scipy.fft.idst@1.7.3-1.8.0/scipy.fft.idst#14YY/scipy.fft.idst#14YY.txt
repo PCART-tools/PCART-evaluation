@@ -12,21 +12,23 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                      File #1: scipy.fft.idst#14YY/idstYY.py has 1 Scipy-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: idst(x=x, type=type, n=n, axis=axis)                                                                                                                        |
-|                                                                                                                                                                             |
-| Location: At Line 9 in scipy.fft.idst#14YY/idstYY.py                                                                                                                        |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.7.3 <dynamic>: (x, type=2, n=None, axis=-1, norm=None, overwrite_x=False, workers=None)                                                                       |
-|                                                                                                                                                                             |
-| Definition @1.8.0 <dynamic>: (x, type=2, n=None, axis=-1, norm=None, overwrite_x=False, workers=None, orthogonalize=None)                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: scipy.fft.idst#14YY/idstYY.py has 1 Scipy-Invoked API(s)                  |
+======================================================================================================
+| Invoked API #1: idst(x=x, type=type, n=n, axis=axis)                                               |
+|                                                                                                    |
+| Location: At Line 9 in scipy.fft.idst#14YY/idstYY.py                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.7.3 <dynamic>: (x, type=2, n=None, axis=-1, norm=None, overwrite_x=False, workers=No |
+| ne)                                                                                                |
+|                                                                                                    |
+| Definition @1.8.0 <dynamic>: (x, type=2, n=None, axis=-1, norm=None, overwrite_x=False, workers=No |
+| ne, orthogonalize=None)                                                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,41 +12,45 @@ Incompatible Torch Invoked API Number: 1/2
 -> Failed to Repair Torch Invoked API Number: 0/1
 -> Unknown Repair Status Torch Invoked API Number: 1/1
 
-===============================================================================================================================================================================
-|                                                    File #1: torch.btrifact#2YY/btrifactYY.py has 2 Torch-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: torch.randn(2, 3, 3)                                                                                                                                        |
-|                                                                                                                                                                             |
-| Location: At Line 2 in torch.btrifact#2YY/btrifactYY.py                                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.1 <static>: {'torch.onnx.symbolic.randn': ['(g,*shapes)']}                                                                                                  |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <static>: {'torch.__init__.randn': ['(*size:_int,generator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_devi |
-| ce,str,None]=None,requires_grad:bool=False)->Tensor', '(*size:_int,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,re |
-| quires_grad:bool=False)->Tensor', '(size:_size,*,generator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None, |
-| requires_grad:bool=False)->Tensor', '(size:_size,*,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,requires_grad:bool |
-| =False)->Tensor']}                                                                                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Unknown>: torch.randn()                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: torch.btrifact(A=A)                                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 3 in torch.btrifact#2YY/btrifactYY.py                                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.1 <dynamic>: (A: torch.Tensor, info: Union[torch.Tensor, NoneType] = None, pivot: bool = True) -> Tuple[torch.Tensor, torch.Tensor]                         |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (A, pivot=True, out=None)                                                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: torch.btrifact#2YY/btrifactYY.py has 2 Torch-Invoked API(s)                |
+======================================================================================================
+| Invoked API #1: torch.randn(2, 3, 3)                                                               |
+|                                                                                                    |
+| Location: At Line 2 in torch.btrifact#2YY/btrifactYY.py                                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.1 <static>: {'torch.onnx.symbolic.randn': ['(g,*shapes)']}                         |
+|                                                                                                    |
+| Definition @1.1.0 <static>: {'torch.__init__.randn': ['(*size:_int,generator:Generator,out:Optiona |
+| l[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,require |
+| s_grad:bool=False)->Tensor', '(*size:_int,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layou |
+| t=strided,device:Union[_device,str,None]=None,requires_grad:bool=False)->Tensor', '(size:_size,*,g |
+| enerator:Generator,out:Optional[Tensor]=None,dtype:_dtype=None,layout:layout=strided,device:Union[ |
+| _device,str,None]=None,requires_grad:bool=False)->Tensor', '(size:_size,*,out:Optional[Tensor]=Non |
+| e,dtype:_dtype=None,layout:layout=strided,device:Union[_device,str,None]=None,requires_grad:bool=F |
+| alse)->Tensor']}                                                                                   |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Unknown>: torch.randn()                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: torch.btrifact(A=A)                                                                |
+|                                                                                                    |
+| Location: At Line 3 in torch.btrifact#2YY/btrifactYY.py                                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.1 <dynamic>: (A: torch.Tensor, info: Union[torch.Tensor, NoneType] = None, pivot:  |
+| bool = True) -> Tuple[torch.Tensor, torch.Tensor]                                                  |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (A, pivot=True, out=None)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

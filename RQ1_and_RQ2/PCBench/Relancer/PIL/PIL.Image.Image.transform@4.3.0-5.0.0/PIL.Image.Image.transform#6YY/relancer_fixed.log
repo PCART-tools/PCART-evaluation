@@ -1,8 +1,14 @@
 --- Running PIL.Image.Image.transform#6YY/transformYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.transform#6YY'), ('notebook', 'transformYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.transform#6YY'), ('notebook', 'transformYY'), ('text', '  File "transformYY.py", line 2, in <module>\n    image = Image.open(\'example.jpg\')\n  File "/dataset/zhang/anaconda3/envs/RPIL5.0.0/lib/python3.8/site-packages/PIL/Image.py", line 2543, in open\n    fp = builtins.open(filename, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'example.jpg\'\n')])
+  File "transformYY.py", line 2, in <module>
+Error inducing API short name: open, line no: 2
+Error inducing API fqn: PIL.Image.open, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.308s
-user	0m0.282s
-sys	0m0.027s
+real	0m0.332s
+user	0m0.300s
+sys	0m0.032s

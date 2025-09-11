@@ -1,8 +1,14 @@
 --- Running rich.syntax.Syntax.from_path#20YY/from_pathYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'rich.syntax.Syntax.from_path#20YY'), ('notebook', 'from_pathYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'rich.syntax.Syntax.from_path#20YY'), ('notebook', 'from_pathYY'), ('text', '  File "from_pathYY.py", line 2, in <module>\n    syntax_obj = Syntax.from_path(path=\'./example.py\', encoding=\'utf-8\', theme=\'monokai\', dedent=False, line_numbers=True)\n  File "/dataset/zhang/anaconda3/envs/Rrich11.1.0/lib/python3.8/site-packages/rich/syntax.py", line 303, in from_path\n    with open(path, "rt", encoding=encoding) as code_file:\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.py\'\n')])
+  File "from_pathYY.py", line 2, in <module>
+Error inducing API short name: from_path, line no: 2
+Error inducing API fqn: rich.syntax.Syntax.from_path, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.491s
-user	0m0.443s
-sys	0m0.048s
+real	0m0.373s
+user	0m0.338s
+sys	0m0.035s

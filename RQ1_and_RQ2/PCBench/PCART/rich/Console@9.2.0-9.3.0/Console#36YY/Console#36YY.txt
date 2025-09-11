@@ -12,57 +12,67 @@ Incompatible Rich Invoked API Number: 0/3
 -> Failed to Repair Rich Invoked API Number: 0/0
 -> Unknown Repair Status Rich Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                        File #1: Console#36YY/ConsoleYY.py has 3 Rich-Invoked API(s)                                                         |
-===============================================================================================================================================================================
-| Invoked API #1: ReprHighlighter()                                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.2.0 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @9.3.0 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: Theme()                                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.2.0 <dynamic>: (styles: Mapping[str, Union[str, ForwardRef('Style')]] = None, inherit: bool = True)                                                           |
-|                                                                                                                                                                             |
-| Definition @9.3.0 <dynamic>: (styles: Mapping[str, Union[str, ForwardRef('Style')]] = None, inherit: bool = True)                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: Console(color_system='auto', force_terminal=None, log_path=True, record=False, force_jupyter=None, highlighter=ReprHighlighter(), file=sys.stdout, theme=Th |
-| eme(), height=25, legacy_windows=None, log_time=True, width=80, tab_size=4, log_time_format='[%X]', markup=True, emoji=True, highlight=True)                                |
-|                                                                                                                                                                             |
-| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.2.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jup |
-| yter: bool = None, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = Tru |
-| e, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterType' |
-| ), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f7884b31820>, legacy_windows: bool = None, safe_box: bool = True, _environ: Dict[str, str] = None)            |
-|                                                                                                                                                                             |
-| Definition @9.3.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jup |
-| yter: bool = None, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = Tru |
-| e, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterType' |
-| ), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f0f6cbe0370>, legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetim |
-| e] = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                                                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                    File #1: Console#36YY/ConsoleYY.py has 3 Rich-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: ReprHighlighter()                                                                  |
+|                                                                                                    |
+| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.2.0 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @9.3.0 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: Theme()                                                                            |
+|                                                                                                    |
+| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.2.0 <dynamic>: (styles: Mapping[str, Union[str, ForwardRef('Style')]] = None, inheri |
+| t: bool = True)                                                                                    |
+|                                                                                                    |
+| Definition @9.3.0 <dynamic>: (styles: Mapping[str, Union[str, ForwardRef('Style')]] = None, inheri |
+| t: bool = True)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: Console(color_system='auto', force_terminal=None, log_path=True, record=False, for |
+| ce_jupyter=None, highlighter=ReprHighlighter(), file=sys.stdout, theme=Theme(), height=25, legacy_ |
+| windows=None, log_time=True, width=80, tab_size=4, log_time_format='[%X]', markup=True, emoji=True |
+| , highlight=True)                                                                                  |
+|                                                                                                    |
+| Location: At Line 5 in Console#36YY/ConsoleYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.2.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jupyter: bool = None, theme: |
+|  rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: i |
+| nt = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, log |
+| _time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[Forwa |
+| rdRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f04dffa9b50>, |
+|  legacy_windows: bool = None, safe_box: bool = True, _environ: Dict[str, str] = None)              |
+|                                                                                                    |
+| Definition @9.3.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jupyter: bool = None, theme: |
+|  rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: i |
+| nt = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, log |
+| _time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[Forwa |
+| rdRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f94d115c880>, |
+|  legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetime] |
+|  = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

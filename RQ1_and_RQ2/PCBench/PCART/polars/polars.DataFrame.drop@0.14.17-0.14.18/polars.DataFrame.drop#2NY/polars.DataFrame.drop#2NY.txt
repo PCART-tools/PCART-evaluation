@@ -12,39 +12,41 @@ Incompatible Polars Invoked API Number: 1/2
 -> Failed to Repair Polars Invoked API Number: 0/1
 -> Unknown Repair Status Polars Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                                  File #1: polars.DataFrame.drop#2NY/dropNY.py has 2 Polars-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: pl.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [5, 4, 3, 2, 1], 'C': [2, 3, 4, 5, 6]})                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.DataFrame.drop#2NY/dropNY.py                                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.14.17 <dynamic>: (data: 'dict[str, Sequence[Any]] | Sequence[Any] | np.ndarray[Any, Any] | pa.Table | pd.DataFrame | pli.Series | None' = None, columns: 'Col |
-| umnsType | None' = None, orient: 'Orientation | None' = None)                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.14.18 <dynamic>: (data: 'dict[str, Sequence[Any]] | Sequence[Any] | np.ndarray[Any, Any] | pa.Table | pd.DataFrame | pli.Series | None' = None, columns: 'Col |
-| umnsType | None' = None, orient: 'Orientation | None' = None)                                                                                                               |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: df.drop(name='B')                                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 3 in polars.DataFrame.drop#2NY/dropNY.py                                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.14.17 <dynamic>: (name: 'str | list[str]') -> 'DF'                                                                                                            |
-|                                                                                                                                                                             |
-| Definition @0.14.18 <dynamic>: (columns: 'str | list[str]') -> 'DF'                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: df.drop(columns='B')                                                                                                                                   |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: polars.DataFrame.drop#2NY/dropNY.py has 2 Polars-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: pl.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [5, 4, 3, 2, 1], 'C': [2, 3, 4, 5, 6]})   |
+|                                                                                                    |
+| Location: At Line 2 in polars.DataFrame.drop#2NY/dropNY.py                                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.14.17 <dynamic>: (data: 'dict[str, Sequence[Any]] | Sequence[Any] | np.ndarray[Any,  |
+| Any] | pa.Table | pd.DataFrame | pli.Series | None' = None, columns: 'ColumnsType | None' = None,  |
+| orient: 'Orientation | None' = None)                                                               |
+|                                                                                                    |
+| Definition @0.14.18 <dynamic>: (data: 'dict[str, Sequence[Any]] | Sequence[Any] | np.ndarray[Any,  |
+| Any] | pa.Table | pd.DataFrame | pli.Series | None' = None, columns: 'ColumnsType | None' = None,  |
+| orient: 'Orientation | None' = None)                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: df.drop(name='B')                                                                  |
+|                                                                                                    |
+| Location: At Line 3 in polars.DataFrame.drop#2NY/dropNY.py                                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.14.17 <dynamic>: (name: 'str | list[str]') -> 'DF'                                   |
+|                                                                                                    |
+| Definition @0.14.18 <dynamic>: (columns: 'str | list[str]') -> 'DF'                                |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: df.drop(columns='B')                                                          |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

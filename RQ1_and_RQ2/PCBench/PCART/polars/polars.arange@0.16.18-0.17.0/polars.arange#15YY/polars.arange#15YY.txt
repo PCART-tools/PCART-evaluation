@@ -12,23 +12,23 @@ Incompatible Polars Invoked API Number: 0/1
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: polars.arange#15YY/arangeYY.py has 1 Polars-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: pl.arange(0, 3, 1, dtype=None)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.arange#15YY/arangeYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (low: 'int | Expr | Series', high: 'int | Expr | Series', step: 'int' = 1, *, eager: 'bool' = False, dtype: 'PolarsDataType | None' = None)  |
-| -> 'Expr | Series'                                                                                                                                                          |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (start: 'int | Expr | Series', end: 'int | Expr | Series', step: 'int' = 1, *, eager: 'bool' = False, dtype: 'PolarsDataType | None' = None)  |
-| -> 'Expr | Series'                                                                                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: polars.arange#15YY/arangeYY.py has 1 Polars-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: pl.arange(0, 3, 1, dtype=None)                                                     |
+|                                                                                                    |
+| Location: At Line 2 in polars.arange#15YY/arangeYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (low: 'int | Expr | Series', high: 'int | Expr | Series', step: 'in |
+| t' = 1, *, eager: 'bool' = False, dtype: 'PolarsDataType | None' = None) -> 'Expr | Series'        |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (start: 'int | Expr | Series', end: 'int | Expr | Series', step: 'in |
+| t' = 1, *, eager: 'bool' = False, dtype: 'PolarsDataType | None' = None) -> 'Expr | Series'        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

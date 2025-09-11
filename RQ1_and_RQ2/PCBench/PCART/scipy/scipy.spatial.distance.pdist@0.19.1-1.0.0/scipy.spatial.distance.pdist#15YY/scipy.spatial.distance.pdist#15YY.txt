@@ -12,21 +12,21 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                              File #1: scipy.spatial.distance.pdist#15YY/pdistYY.py has 1 Scipy-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: pdist(X, 'euclidean', None, None, None)                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 3 in scipy.spatial.distance.pdist#15YY/pdistYY.py                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.19.1 <dynamic>: (X, metric='euclidean', p=None, w=None, V=None, VI=None)                                                                                      |
-|                                                                                                                                                                             |
-| Definition @1.0.0 <dynamic>: (X, metric='euclidean', *args, **kwargs)                                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: scipy.spatial.distance.pdist#15YY/pdistYY.py has 1 Scipy-Invoked API(s)          |
+======================================================================================================
+| Invoked API #1: pdist(X, 'euclidean', None, None, None)                                            |
+|                                                                                                    |
+| Location: At Line 3 in scipy.spatial.distance.pdist#15YY/pdistYY.py                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (X, metric='euclidean', p=None, w=None, V=None, VI=None)             |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (X, metric='euclidean', *args, **kwargs)                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

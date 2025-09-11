@@ -1,5 +1,18 @@
 pd.date_range('1/1/2018', '1/08/2018', None, None, None, False, None, None, inclusive=None), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 945, in date_range
+    dtarr = DatetimeArray._generate_range(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/arrays/datetimes.py", line 420, in _generate_range
+    left_inclusive, right_inclusive = validate_inclusive(inclusive)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/util/_validators.py", line 420, in validate_inclusive
+    raise ValueError(
+ValueError: Inclusive has to be either 'both', 'neither', 'left' or 'right'
+
+
+pd.date_range('1/1/2018', '1/08/2018', None, None, None, False, None, None, inclusive=None), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 945, in date_range

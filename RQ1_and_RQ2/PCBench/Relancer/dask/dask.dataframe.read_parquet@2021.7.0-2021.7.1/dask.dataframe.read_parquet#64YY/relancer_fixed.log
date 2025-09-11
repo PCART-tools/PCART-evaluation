@@ -1,8 +1,14 @@
 --- Running dask.dataframe.read_parquet#64YY/read_parquetYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#64YY'), ('notebook', 'read_parquetYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#64YY'), ('notebook', 'read_parquetYY'), ('text', '  File "read_parquetYY.py", line 2, in <module>\n    ddf = dd.read_parquet(\'./example.parquet\', columns=None, filters=None, categories=None, index=None, storage_options=None, engine=\'auto\', gather_statistics=None, split_row_groups=None, read_from_paths=None)\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/dask/dataframe/io/parquet/core.py", line 316, in read_parquet\n    read_metadata_result = engine.read_metadata(\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 542, in read_metadata\n    ) = cls._gather_metadata(\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 1788, in _gather_metadata\n    dataset, base, fns = _get_dataset_object(paths, fs, filters, dataset_kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/dask/dataframe/io/parquet/arrow.py", line 1756, in _get_dataset_object\n    dataset = pq.ParquetDataset(paths[0], filesystem=fs, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/pyarrow/parquet.py", line 1244, in __init__\n    self.metadata_path) = _make_manifest(\n  File "/dataset/zhang/anaconda3/envs/Rdask2021.7.1/lib/python3.8/site-packages/pyarrow/parquet.py", line 1440, in _make_manifest\n    raise OSError(\'Passed non-file path: {}\'\nOSError: Passed non-file path: /home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/dask.dataframe.read_parquet#64YY/example.parquet\n')])
+  File "read_parquetYY.py", line 2, in <module>
+Error inducing API short name: read_parquet, line no: 2
+Error inducing API fqn: dask.dataframe.read_parquet, line no: 2
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.774s
-user	0m1.801s
-sys	0m5.815s
+real	0m0.855s
+user	0m1.832s
+sys	0m5.541s

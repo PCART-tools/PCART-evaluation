@@ -1,2 +1,2 @@
 from PIL import Image
-image = Image.open('/home/zhang/example.jpg', formats=None)
+image = Image.open('./example.jpg', formats=None)

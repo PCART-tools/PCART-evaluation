@@ -12,22 +12,23 @@ Incompatible Pandas Invoked API Number: 0/1
 -> Failed to Repair Pandas Invoked API Number: 0/0
 -> Unknown Repair Status Pandas Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                              File #1: core.arrays.SparseArray#1YY/SparseArrayYY.py has 1 Pandas-Invoked API(s)                                              |
-===============================================================================================================================================================================
-| Invoked API #1: SparseArray([0, 0, 1, 2])                                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 2 in core.arrays.SparseArray#1YY/SparseArrayYY.py                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.5.3 <dynamic>: (data, sparse_index=None, index=None, fill_value=None, kind: 'SparseIndexKind' = 'integer', dtype: 'Dtype | None' = None, copy: 'bool' = False |
-| ) -> 'None'                                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Definition @2.0.0 <dynamic>: (data, sparse_index=None, fill_value=None, kind: 'SparseIndexKind' = 'integer', dtype: 'Dtype | None' = None, copy: 'bool' = False) -> 'None'  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|         File #1: core.arrays.SparseArray#1YY/SparseArrayYY.py has 1 Pandas-Invoked API(s)          |
+======================================================================================================
+| Invoked API #1: SparseArray([0, 0, 1, 2])                                                          |
+|                                                                                                    |
+| Location: At Line 2 in core.arrays.SparseArray#1YY/SparseArrayYY.py                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (data, sparse_index=None, index=None, fill_value=None, kind: 'SparseI |
+| ndexKind' = 'integer', dtype: 'Dtype | None' = None, copy: 'bool' = False) -> 'None'               |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (data, sparse_index=None, fill_value=None, kind: 'SparseIndexKind' =  |
+| 'integer', dtype: 'Dtype | None' = None, copy: 'bool' = False) -> 'None'                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

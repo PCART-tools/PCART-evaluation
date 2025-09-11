@@ -1,8 +1,14 @@
 --- Running PIL.Image.Image.rotate#1YY/rotateYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.rotate#1YY'), ('notebook', 'rotateYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'PIL.Image.Image.rotate#1YY'), ('notebook', 'rotateYY'), ('text', '  File "rotateYY.py", line 2, in <module>\n    img = Image.open(\'./example.jpg\')\n  File "/dataset/zhang/anaconda3/envs/RPIL5.2.0/lib/python3.8/site-packages/PIL/Image.py", line 2580, in open\n    fp = builtins.open(filename, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.jpg\'\n')])
+  File "rotateYY.py", line 2, in <module>
+Error inducing API short name: open, line no: 2
+Error inducing API fqn: PIL.Image.open, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.304s
-user	0m0.267s
-sys	0m0.037s
+real	0m0.309s
+user	0m0.266s
+sys	0m0.043s

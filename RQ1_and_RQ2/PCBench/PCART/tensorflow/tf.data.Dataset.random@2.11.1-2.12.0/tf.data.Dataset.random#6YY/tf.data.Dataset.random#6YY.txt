@@ -12,41 +12,45 @@ Incompatible Tensorflow Invoked API Number: 0/2
 -> Failed to Repair Tensorflow Invoked API Number: 0/0
 -> Unknown Repair Status Tensorflow Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                               File #1: tf.data.Dataset.random#6YY/randomYY.py has 2 Tensorflow-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: tf.data.Dataset.random(seed=4, name=None)                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tf.data.Dataset.random#6YY/randomYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.11.1 <dynamic>: (seed=None, name=None)                                                                                                                        |
-|                                                                                                                                                                             |
-| Definition @2.12.0 <dynamic>: (seed=None, rerandomize_each_iteration=None, name=None)                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: tf.data.Dataset.random(seed=4, name=None).take(10)                                                                                                          |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tf.data.Dataset.random#6YY/randomYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.11.1 <static>: {'tensorflow.python.numpy_ops.take': ["(a,indices,axis=None,out=None,mode='clip')"], 'tensorflow.python.ops.numpy_ops.np_array_ops.take': ["(a |
-| ,indices,axis=None,out=None,mode='clip')"], 'tensorflow.python.data.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.DatasetV2.take': ['(self,count,nam |
-| e=None)'], 'tensorflow.python.data.ops.dataset_ops.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops.dataset_ops.DatasetV2.take': ['(self,count,name |
-| =None)']}                                                                                                                                                                   |
-|                                                                                                                                                                             |
-| Definition @2.12.0 <static>: {'tensorflow.python.numpy_ops.take': ["(a,indices,axis=None,out=None,mode='clip')"], 'tensorflow.python.ops.numpy_ops.np_array_ops.take': ["(a |
-| ,indices,axis=None,out=None,mode='clip')"], 'tensorflow.python.data.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.DatasetV2.take': ['(self,count,nam |
-| e=None)'], 'tensorflow.python.data.ops.dataset_ops.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops.dataset_ops.DatasetV2.take': ['(self,count,name |
-| =None)']}                                                                                                                                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: tf.data.Dataset.random#6YY/randomYY.py has 2 Tensorflow-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: tf.data.Dataset.random(seed=4, name=None)                                          |
+|                                                                                                    |
+| Location: At Line 2 in tf.data.Dataset.random#6YY/randomYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.11.1 <dynamic>: (seed=None, name=None)                                               |
+|                                                                                                    |
+| Definition @2.12.0 <dynamic>: (seed=None, rerandomize_each_iteration=None, name=None)              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: tf.data.Dataset.random(seed=4, name=None).take(10)                                 |
+|                                                                                                    |
+| Location: At Line 2 in tf.data.Dataset.random#6YY/randomYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.11.1 <static>: {'tensorflow.python.data.DatasetV1.take': ['(self,count,name=None)'], |
+|  'tensorflow.python.data.DatasetV2.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops. |
+| dataset_ops.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops.dataset_ops.D |
+| atasetV2.take': ['(self,count,name=None)'], 'tensorflow.python.numpy_ops.take': ["(a,indices,axis= |
+| None,out=None,mode='clip')"], 'tensorflow.python.ops.numpy_ops.np_array_ops.take': ["(a,indices,ax |
+| is=None,out=None,mode='clip')"]}                                                                   |
+|                                                                                                    |
+| Definition @2.12.0 <static>: {'tensorflow.python.data.DatasetV1.take': ['(self,count,name=None)'], |
+|  'tensorflow.python.data.DatasetV2.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops. |
+| dataset_ops.DatasetV1.take': ['(self,count,name=None)'], 'tensorflow.python.data.ops.dataset_ops.D |
+| atasetV2.take': ['(self,count,name=None)'], 'tensorflow.python.numpy_ops.take': ["(a,indices,axis= |
+| None,out=None,mode='clip')"], 'tensorflow.python.ops.numpy_ops.np_array_ops.take': ["(a,indices,ax |
+| is=None,out=None,mode='clip')"]}                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

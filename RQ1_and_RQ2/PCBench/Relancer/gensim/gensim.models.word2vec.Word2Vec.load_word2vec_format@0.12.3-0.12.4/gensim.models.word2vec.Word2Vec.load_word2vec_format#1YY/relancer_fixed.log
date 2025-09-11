@@ -1,8 +1,14 @@
 --- Running gensim.models.word2vec.Word2Vec.load_word2vec_format#1YY/load_word2vec_formatYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'gensim.models.word2vec.Word2Vec.load_word2vec_format#1YY'), ('notebook', 'load_word2vec_formatYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'gensim.models.word2vec.Word2Vec.load_word2vec_format#1YY'), ('notebook', 'load_word2vec_formatYY'), ('text', '  File "load_word2vec_formatYY.py", line 3, in <module>\n    model = Word2Vec.load_word2vec_format(fname)\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.12.4/lib/python3.6/site-packages/gensim/models/word2vec.py", line 1052, in load_word2vec_format\n    with utils.smart_open(fname) as fin:\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.12.4/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 503, in smart_open\n    return open(**locals())\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.12.4/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 184, in open\n    newline=newline,\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.12.4/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 363, in _shortcut_open\n    return _builtin_open(local_path, mode, buffering=buffering, **open_kwargs)\nFileNotFoundError: [Errno 2] No such file or directory: \'./glove.6B.50d.w2v.txt\'\n')])
+  File "load_word2vec_formatYY.py", line 3, in <module>
+Error inducing API short name: load_word2vec_format, line no: 3
+Error inducing API fqn: gensim.models.Word2Vec.load_word2vec_format, line no: 3
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m12.089s
-user	0m13.227s
-sys	0m5.652s
+real	0m0.717s
+user	0m2.211s
+sys	0m5.702s

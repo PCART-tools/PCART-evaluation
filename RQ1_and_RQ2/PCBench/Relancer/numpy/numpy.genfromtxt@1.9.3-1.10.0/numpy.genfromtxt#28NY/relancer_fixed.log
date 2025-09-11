@@ -1,8 +1,14 @@
 --- Running numpy.genfromtxt#28NY/genfromtxtNY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.genfromtxt#28NY'), ('notebook', 'genfromtxtNY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.genfromtxt#28NY'), ('notebook', 'genfromtxtNY'), ('text', '  File "genfromtxtNY.py", line 3, in <module>\n    with open(\'./data2.txt\', \'rb\') as f:\nFileNotFoundError: [Errno 2] No such file or directory: \'./data2.txt\'\n')])
+  File "genfromtxtNY.py", line 3, in <module>
+Error inducing API short name: open, line no: 3
+Error inducing API fqn: UNKNOWN, line no: 3
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.413s
-user	0m1.597s
-sys	0m4.714s
+real	0m0.452s
+user	0m1.737s
+sys	0m4.820s

@@ -12,37 +12,38 @@ Incompatible Numpy Invoked API Number: 0/2
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                         File #1: numpy.min#2YY/minYY.py has 2 Numpy-Invoked API(s)                                                          |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.min#2YY/minYY.py                                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.16.6 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.17.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.min(a=a)                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.min#2YY/minYY.py                                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.16.6 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>)                                                                             |
-|                                                                                                                                                                             |
-| Definition @1.17.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                     File #1: numpy.min#2YY/minYY.py has 2 Numpy-Invoked API(s)                     |
+======================================================================================================
+| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                        |
+|                                                                                                    |
+| Location: At Line 2 in numpy.min#2YY/minYY.py                                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.16.6 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Definition @1.17.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.min(a=a)                                                                        |
+|                                                                                                    |
+| Location: At Line 3 in numpy.min#2YY/minYY.py                                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.16.6 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>)    |
+|                                                                                                    |
+| Definition @1.17.0 <dynamic>: (a, axis=None, out=None, keepdims=<no value>, initial=<no value>, wh |
+| ere=<no value>)                                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

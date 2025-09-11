@@ -12,21 +12,21 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                 File #1: sklearn.preprocessing.PolynomialFeatures#4YY/PolynomialFeaturesYY.py has 1 Sklearn-Invoked API(s)                                  |
-===============================================================================================================================================================================
-| Invoked API #1: PolynomialFeatures(2, False)                                                                                                                                |
-|                                                                                                                                                                             |
-| Location: At Line 4 in sklearn.preprocessing.PolynomialFeatures#4YY/PolynomialFeaturesYY.py                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.20.4 <dynamic>: (degree=2, interaction_only=False, include_bias=True)                                                                                         |
-|                                                                                                                                                                             |
-| Definition @0.21.0 <dynamic>: (degree=2, interaction_only=False, include_bias=True, order='C')                                                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: sklearn.preprocessing.PolynomialFeatures#4YY/PolynomialFeaturesYY.py has 1 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: PolynomialFeatures(2, False)                                                       |
+|                                                                                                    |
+| Location: At Line 4 in sklearn.preprocessing.PolynomialFeatures#4YY/PolynomialFeaturesYY.py        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.20.4 <dynamic>: (degree=2, interaction_only=False, include_bias=True)                |
+|                                                                                                    |
+| Definition @0.21.0 <dynamic>: (degree=2, interaction_only=False, include_bias=True, order='C')     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -1,8 +1,14 @@
 --- Running flask.json.load#1YY/loadYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'flask.json.load#1YY'), ('notebook', 'loadYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'flask.json.load#1YY'), ('notebook', 'loadYY'), ('text', '  File "loadYY.py", line 3, in <module>\n    with open(file_path, \'r\', encoding=\'utf-8\') as text_file:\nFileNotFoundError: [Errno 2] No such file or directory: \'./test.json\'\n')])
+  File "loadYY.py", line 3, in <module>
+Error inducing API short name: open, line no: 3
+Error inducing API fqn: UNKNOWN, line no: 3
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.394s
-user	0m0.351s
-sys	0m0.044s
+real	0m0.444s
+user	0m0.395s
+sys	0m0.050s

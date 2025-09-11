@@ -1,6 +1,6 @@
 --- Running scipy.stats.rv_discrete#68NN/rv_discreteNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'scipy.stats.rv_discrete#68NN'), ('notebook', 'rv_discreteNN'), ('text', '  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.stats.rv_discrete#68NN/rv_discreteNN.py", line 2, in <module>\n    data = rv_discrete(0,  float(\'inf\'),  None,  None,  1e-08,  None,  1,  None,  None,  None, seed=None)\nTypeError: __new__() got multiple values for argument \'seed\'\n')])
-  File "/home/zhang/CC/Python/RepairTool/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.stats.rv_discrete#68NN/rv_discreteNN.py", line 2, in <module>
+[ERR MSG]: OrderedDict([('project', 'scipy.stats.rv_discrete#68NN'), ('notebook', 'rv_discreteNN'), ('text', '  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.stats.rv_discrete#68NN/rv_discreteNN.py", line 2, in <module>\n    data = rv_discrete(0,  float(\'inf\'),  None,  None,  1e-08,  None,  1,  None,  None,  None, seed=None)\nTypeError: __new__() got multiple values for argument \'seed\'\n')])
+  File "/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/scipy.stats.rv_discrete#68NN/rv_discreteNN.py", line 2, in <module>
 Error inducing API short name: rv_discrete, line no: 2
 Error inducing API fqn: scipy.stats.rv_discrete, line no: 2
 *** TypeError: PLACEHOLDER
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.835s
-user	0m3.041s
-sys	0m12.168s
+real	0m0.813s
+user	0m3.228s
+sys	0m11.978s

@@ -12,44 +12,51 @@ Incompatible Rich Invoked API Number: 0/2
 -> Failed to Repair Rich Invoked API Number: 0/0
 -> Unknown Repair Status Rich Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                       File #1: Console.rule#11YY/ruleYY.py has 2 Rich-Invoked API(s)                                                        |
-===============================================================================================================================================================================
-| Invoked API #1: Console()                                                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 2 in Console.rule#11YY/ruleYY.py                                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.3.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jup |
-| yter: bool = None, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = Tru |
-| e, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterType' |
-| ), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f0ca462c2e0>, legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetim |
-| e] = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                                                                                           |
-|                                                                                                                                                                             |
-| Definition @9.4.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jup |
-| yter: bool = None, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = Tru |
-| e, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterType' |
-| ), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fb9462e9460>, legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetim |
-| e] = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                                                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: console.rule(style='bold red', title='Section Title')                                                                                                       |
-|                                                                                                                                                                             |
-| Location: At Line 3 in Console.rule#11YY/ruleYY.py                                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.3.0 <static>: {'rich.console.Console.rule': ["(self,title:TextType='',*,characters:str='─',style:Union[str,Style]='rule.line')->None"]}                       |
-|                                                                                                                                                                             |
-| Definition @9.4.0 <static>: {'rich.console.Console.rule': ["(self,title:TextType='',*,characters:str='─',style:Union[str,Style]='rule.line',align:AlignMethod='center')->No |
-| ne"]}                                                                                                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                   File #1: Console.rule#11YY/ruleYY.py has 2 Rich-Invoked API(s)                   |
+======================================================================================================
+| Invoked API #1: Console()                                                                          |
+|                                                                                                    |
+| Location: At Line 2 in Console.rule#11YY/ruleYY.py                                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.3.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jupyter: bool = None, theme: |
+|  rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: i |
+| nt = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, log |
+| _time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[Forwa |
+| rdRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fe6b2627790>, |
+|  legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetime] |
+|  = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                    |
+|                                                                                                    |
+| Definition @9.4.0 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = None, force_jupyter: bool = None, theme: |
+|  rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: i |
+| nt = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, log |
+| _time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[Forwa |
+| rdRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fad6f5a6bb0>, |
+|  legacy_windows: bool = None, safe_box: bool = True, get_datetime: Callable[[], datetime.datetime] |
+|  = None, get_time: Callable[[], float] = None, _environ: Dict[str, str] = None)                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: console.rule(style='bold red', title='Section Title')                              |
+|                                                                                                    |
+| Location: At Line 3 in Console.rule#11YY/ruleYY.py                                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.3.0 <static>: {'rich.console.Console.rule': ["(self,title:TextType='',*,characters:s |
+| tr='─',style:Union[str,Style]='rule.line')->None"]}                                                |
+|                                                                                                    |
+| Definition @9.4.0 <static>: {'rich.console.Console.rule': ["(self,title:TextType='',*,characters:s |
+| tr='─',style:Union[str,Style]='rule.line',align:AlignMethod='center')->None"]}                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

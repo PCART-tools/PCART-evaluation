@@ -12,107 +12,124 @@ Incompatible Polars Invoked API Number: 1/6
 -> Failed to Repair Polars Invoked API Number: 0/1
 -> Unknown Repair Status Polars Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                                 File #1: polars.Expr.map_dict#3NN/map_dictNN.py has 6 Polars-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: pl.DataFrame({'country_code': ['FR', None, 'ES', 'DE']})                                                                                                    |
-|                                                                                                                                                                             |
-| Location: At Line 3 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (data: 'FrameInitTypes | None' = None, schema: 'SchemaDefinition | None' = None, *, schema_overrides: 'SchemaDict | None' = None, orient: 'O |
-| rientation | None' = None, infer_schema_length: 'int | None' = 100, nan_to_null: 'bool' = False)                                                                            |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (data: 'FrameInitTypes | None' = None, schema: 'SchemaDefinition | None' = None, *, schema_overrides: 'SchemaDict | None' = None, orient: 'Or |
-| ientation | None' = None, infer_schema_length: 'int | None' = 100, nan_to_null: 'bool' = False)                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pl.DataFrame({'country_code': ['FR', None, 'ES', 'DE']}).with_row_count()                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 3 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str' = 'row_nr', offset: 'int' = 0) -> 'Self'                                                                                        |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str' = 'row_nr', offset: 'int' = 0) -> 'Self'                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: pl.col('country_code')                                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #4: pl.col('country_code').map_dict(country_code_dict, dtype=None)                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (remapping: 'dict[Any, Any]', *, default: 'Any' = None, dtype: 'PolarsDataType | None' = None) -> 'Self'                                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (remapping: 'dict[Any, Any]', *, default: 'Any' = None, return_dtype: 'PolarsDataType | None' = None) -> 'Self'                               |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: pl.col('country_code').map_dict(country_code_dict, return_dtype=None)                                                                                  |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #5: pl.col('country_code').map_dict(country_code_dict, dtype=None).alias('remapped')                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <static>: {'polars.Expr.alias': ['(self,name:str)->Self'], 'polars.expr.expr.Expr.alias': ['(self,name:str)->Self'], 'polars.Series.alias': ['(self,nam |
-| e:str)->Series'], 'polars.series.series.Series.alias': ['(self,name:str)->Series']}                                                                                         |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <static>: {'polars.Expr.alias': ['(self,name:str)->Self'], 'polars.expr.expr.Expr.alias': ['(self,name:str)->Self'], 'polars.Series.alias': ['(self,name |
-| :str)->Series'], 'polars.series.series.Series.alias': ['(self,name:str)->Series']}                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #6: df.with_columns(pl.col('country_code').map_dict(country_code_dict, dtype=None).alias('remapped'))                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <static>: {'polars.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polar |
-| s.dataframe.frame.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polars.LazyFrame.with_colu |
-| mns': ['(self,exprs:str|PolarsExprType|PythonLiteral|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsExprType|PythonLiteral|S |
-| eries|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Self'], 'polars.lazyframe.frame.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLit |
-| eral|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsExprType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|Pyth |
-| onLiteral|Series|None)->Self']}                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <static>: {'polars.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polars |
-| .dataframe.frame.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polars.LazyFrame.with_colum |
-| ns': ['(self,exprs:str|PolarsExprType|PythonLiteral|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsExprType|PythonLiteral|Se |
-| ries|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Self'], 'polars.lazyframe.frame.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLite |
-| ral|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsExprType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|Pytho |
-| nLiteral|Series|None)->Self']}                                                                                                                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: polars.Expr.map_dict#3NN/map_dictNN.py has 6 Polars-Invoked API(s)             |
+======================================================================================================
+| Invoked API #1: pl.DataFrame({'country_code': ['FR', None, 'ES', 'DE']})                           |
+|                                                                                                    |
+| Location: At Line 3 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (data: 'FrameInitTypes | None' = None, schema: 'SchemaDefinition |  |
+| None' = None, *, schema_overrides: 'SchemaDict | None' = None, orient: 'Orientation | None' = None |
+| , infer_schema_length: 'int | None' = 100, nan_to_null: 'bool' = False)                            |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (data: 'FrameInitTypes | None' = None, schema: 'SchemaDefinition | N |
+| one' = None, *, schema_overrides: 'SchemaDict | None' = None, orient: 'Orientation | None' = None, |
+|  infer_schema_length: 'int | None' = 100, nan_to_null: 'bool' = False)                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pl.DataFrame({'country_code': ['FR', None, 'ES', 'DE']}).with_row_count()          |
+|                                                                                                    |
+| Location: At Line 3 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str' = 'row_nr', offset: 'int' = 0) -> 'Self'               |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str' = 'row_nr', offset: 'int' = 0) -> 'Self'                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: pl.col('country_code')                                                             |
+|                                                                                                    |
+| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: pl.col('country_code').map_dict(country_code_dict, dtype=None)                     |
+|                                                                                                    |
+| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (remapping: 'dict[Any, Any]', *, default: 'Any' = None, dtype: 'Pol |
+| arsDataType | None' = None) -> 'Self'                                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (remapping: 'dict[Any, Any]', *, default: 'Any' = None, return_dtype |
+| : 'PolarsDataType | None' = None) -> 'Self'                                                        |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: pl.col('country_code').map_dict(country_code_dict, return_dtype=None)         |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #5: pl.col('country_code').map_dict(country_code_dict, dtype=None).alias('remapped')   |
+|                                                                                                    |
+| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <static>: {'polars.Series.alias': ['(self,name:str)->Series'], 'polars.series. |
+| series.Series.alias': ['(self,name:str)->Series'], 'polars.Expr.alias': ['(self,name:str)->Self'], |
+|  'polars.expr.expr.Expr.alias': ['(self,name:str)->Self']}                                         |
+|                                                                                                    |
+| Definition @0.17.0 <static>: {'polars.Series.alias': ['(self,name:str)->Series'], 'polars.series.s |
+| eries.Series.alias': ['(self,name:str)->Series'], 'polars.Expr.alias': ['(self,name:str)->Self'],  |
+| 'polars.expr.expr.Expr.alias': ['(self,name:str)->Self']}                                          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #6: df.with_columns(pl.col('country_code').map_dict(country_code_dict, dtype=None).ali |
+| as('remapped'))                                                                                    |
+|                                                                                                    |
+| Location: At Line 4 in polars.Expr.map_dict#3NN/map_dictNN.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <static>: {'polars.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[In |
+| toExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polars.dataframe.frame.DataFra |
+| me.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_expr |
+| s:IntoExpr)->Self'], 'polars.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLiter |
+| al|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsE |
+| xprType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Sel |
+| f'], 'polars.lazyframe.frame.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLiter |
+| al|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsE |
+| xprType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Sel |
+| f']}                                                                                               |
+|                                                                                                    |
+| Definition @0.17.0 <static>: {'polars.DataFrame.with_columns': ['(self,exprs:IntoExpr|Iterable[Int |
+| oExpr]=None,*more_exprs:IntoExpr,**named_exprs:IntoExpr)->Self'], 'polars.dataframe.frame.DataFram |
+| e.with_columns': ['(self,exprs:IntoExpr|Iterable[IntoExpr]=None,*more_exprs:IntoExpr,**named_exprs |
+| :IntoExpr)->Self'], 'polars.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLitera |
+| l|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsEx |
+| prType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Self |
+| '], 'polars.lazyframe.frame.LazyFrame.with_columns': ['(self,exprs:str|PolarsExprType|PythonLitera |
+| l|Series|Iterable[str|PolarsExprType|PythonLiteral|Series|None]|None=None,*more_exprs:str|PolarsEx |
+| prType|PythonLiteral|Series|None,**named_exprs:str|PolarsExprType|PythonLiteral|Series|None)->Self |
+| ']}                                                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,21 +12,23 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                               File #1: scipy.sparse.linalg.minres#17YY/minresYY.py has 1 Scipy-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: minres(A, b=b, x0=x0, shift=0.0, tol=1e-05)                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 6 in scipy.sparse.linalg.minres#17YY/minresYY.py                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.19.1 <dynamic>: (A, b, x0=None, shift=0.0, tol=1e-05, maxiter=None, xtype=None, M=None, callback=None, show=False, check=False)                               |
-|                                                                                                                                                                             |
-| Definition @1.0.0 <dynamic>: (A, b, x0=None, shift=0.0, tol=1e-05, maxiter=None, M=None, callback=None, show=False, check=False)                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: scipy.sparse.linalg.minres#17YY/minresYY.py has 1 Scipy-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: minres(A, b=b, x0=x0, shift=0.0, tol=1e-05)                                        |
+|                                                                                                    |
+| Location: At Line 6 in scipy.sparse.linalg.minres#17YY/minresYY.py                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (A, b, x0=None, shift=0.0, tol=1e-05, maxiter=None, xtype=None, M=No |
+| ne, callback=None, show=False, check=False)                                                        |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (A, b, x0=None, shift=0.0, tol=1e-05, maxiter=None, M=None, callback= |
+| None, show=False, check=False)                                                                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

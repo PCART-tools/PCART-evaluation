@@ -12,21 +12,21 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                File #1: scipy.stats.variation#7YY/variationYY.py has 1 Scipy-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: variation(a, 0, nan_policy='propagate')                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 3 in scipy.stats.variation#7YY/variationYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.7.3 <dynamic>: (a, axis=0, nan_policy='propagate', ddof=0)                                                                                                    |
-|                                                                                                                                                                             |
-| Definition @1.8.0 <dynamic>: (a, axis=0, nan_policy='propagate', ddof=0, *, keepdims=False)                                                                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: scipy.stats.variation#7YY/variationYY.py has 1 Scipy-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: variation(a, 0, nan_policy='propagate')                                            |
+|                                                                                                    |
+| Location: At Line 3 in scipy.stats.variation#7YY/variationYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.7.3 <dynamic>: (a, axis=0, nan_policy='propagate', ddof=0)                           |
+|                                                                                                    |
+| Definition @1.8.0 <dynamic>: (a, axis=0, nan_policy='propagate', ddof=0, *, keepdims=False)        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

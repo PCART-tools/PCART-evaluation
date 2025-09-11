@@ -12,21 +12,22 @@ Incompatible Numpy Invoked API Number: 0/1
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                        File #1: numpy.load#1YY/loadYY.py has 1 Numpy-Invoked API(s)                                                         |
-===============================================================================================================================================================================
-| Invoked API #1: np.load('./example.npy')                                                                                                                                    |
-|                                                                                                                                                                             |
-| Location: At Line 4 in numpy.load#1YY/loadYY.py                                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.9.3 <dynamic>: (file, mmap_mode=None)                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.10.0 <dynamic>: (file, mmap_mode=None, allow_pickle=True, fix_imports=True, encoding='ASCII')                                                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                    File #1: numpy.load#1YY/loadYY.py has 1 Numpy-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: np.load('./example.npy')                                                           |
+|                                                                                                    |
+| Location: At Line 4 in numpy.load#1YY/loadYY.py                                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.9.3 <dynamic>: (file, mmap_mode=None)                                                |
+|                                                                                                    |
+| Definition @1.10.0 <dynamic>: (file, mmap_mode=None, allow_pickle=True, fix_imports=True, encoding |
+| ='ASCII')                                                                                          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

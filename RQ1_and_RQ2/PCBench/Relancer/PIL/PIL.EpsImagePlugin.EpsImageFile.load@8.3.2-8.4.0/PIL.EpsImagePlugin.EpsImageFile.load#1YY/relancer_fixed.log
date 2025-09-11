@@ -1,8 +1,14 @@
 --- Running PIL.EpsImagePlugin.EpsImageFile.load#1YY/loadYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'PIL.EpsImagePlugin.EpsImageFile.load#1YY'), ('notebook', 'loadYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'PIL.EpsImagePlugin.EpsImageFile.load#1YY'), ('notebook', 'loadYY'), ('text', '  File "loadYY.py", line 3, in <module>\n    eps_image = EpsImagePlugin.EpsImageFile(eps_path)\n  File "/dataset/zhang/anaconda3/envs/RPIL8.4.0/lib/python3.8/site-packages/PIL/ImageFile.py", line 109, in __init__\n    self.fp = open(fp, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.eps\'\n')])
+  File "loadYY.py", line 3, in <module>
+Error inducing API short name: EpsImageFile, line no: 3
+Error inducing API fqn: PIL.EpsImagePlugin.EpsImageFile, line no: 3
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.399s
-user	0m0.333s
-sys	0m0.066s
+real	0m0.336s
+user	0m0.311s
+sys	0m0.024s

@@ -14,6 +14,6 @@ APIDoc Candidates (only show top 10):
 [INFO] This case cannot be fixed!
 
 
-real	0m0.902s
-user	0m2.190s
-sys	0m6.794s
+real	0m0.925s
+user	0m1.964s
+sys	0m5.566s

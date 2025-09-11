@@ -12,35 +12,35 @@ Incompatible Requests Invoked API Number: 0/2
 -> Failed to Repair Requests Invoked API Number: 0/0
 -> Unknown Repair Status Requests Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                           File #1: requests.Response.iter_lines#6YY/iter_linesYY.py has 2 Requests-Invoked API(s)                                           |
-===============================================================================================================================================================================
-| Invoked API #1: requests.get(url, stream=True)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 3 in requests.Response.iter_lines#6YY/iter_linesYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.3 <dynamic>: (url, **kwargs)                                                                                                                                |
-|                                                                                                                                                                             |
-| Definition @2.5.0 <dynamic>: (url, **kwargs)                                                                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: response.iter_lines(chunk_size=512, decode_unicode=False)                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 4 in requests.Response.iter_lines#6YY/iter_linesYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.3 <dynamic>: (chunk_size=512, decode_unicode=None)                                                                                                          |
-|                                                                                                                                                                             |
-| Definition @2.5.0 <dynamic>: (chunk_size=512, decode_unicode=None, delimiter=None)                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|      File #1: requests.Response.iter_lines#6YY/iter_linesYY.py has 2 Requests-Invoked API(s)       |
+======================================================================================================
+| Invoked API #1: requests.get(url, stream=True)                                                     |
+|                                                                                                    |
+| Location: At Line 3 in requests.Response.iter_lines#6YY/iter_linesYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.3 <dynamic>: (url, **kwargs)                                                       |
+|                                                                                                    |
+| Definition @2.5.0 <dynamic>: (url, **kwargs)                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: response.iter_lines(chunk_size=512, decode_unicode=False)                          |
+|                                                                                                    |
+| Location: At Line 4 in requests.Response.iter_lines#6YY/iter_linesYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.3 <dynamic>: (chunk_size=512, decode_unicode=None)                                 |
+|                                                                                                    |
+| Definition @2.5.0 <dynamic>: (chunk_size=512, decode_unicode=None, delimiter=None)                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

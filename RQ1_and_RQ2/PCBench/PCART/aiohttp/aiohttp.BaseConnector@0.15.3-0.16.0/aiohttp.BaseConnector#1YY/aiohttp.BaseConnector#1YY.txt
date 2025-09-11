@@ -12,21 +12,23 @@ Incompatible Aiohttp Invoked API Number: 0/1
 -> Failed to Repair Aiohttp Invoked API Number: 0/0
 -> Unknown Repair Status Aiohttp Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                             File #1: aiohttp.BaseConnector#1YY/BaseConnectorYY.py has 1 Aiohttp-Invoked API(s)                                              |
-===============================================================================================================================================================================
-| Invoked API #1: aiohttp.BaseConnector()                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in aiohttp.BaseConnector#1YY/BaseConnectorYY.py                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.15.3 <dynamic>: (*, conn_timeout=None, keepalive_timeout=30, share_cookies=False, force_close=False, loop=None)                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.0 <dynamic>: (*, conn_timeout=None, keepalive_timeout=30, share_cookies=False, force_close=False, limit=None, loop=None)                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|         File #1: aiohttp.BaseConnector#1YY/BaseConnectorYY.py has 1 Aiohttp-Invoked API(s)         |
+======================================================================================================
+| Invoked API #1: aiohttp.BaseConnector()                                                            |
+|                                                                                                    |
+| Location: At Line 2 in aiohttp.BaseConnector#1YY/BaseConnectorYY.py                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.15.3 <dynamic>: (*, conn_timeout=None, keepalive_timeout=30, share_cookies=False, fo |
+| rce_close=False, loop=None)                                                                        |
+|                                                                                                    |
+| Definition @0.16.0 <dynamic>: (*, conn_timeout=None, keepalive_timeout=30, share_cookies=False, fo |
+| rce_close=False, limit=None, loop=None)                                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

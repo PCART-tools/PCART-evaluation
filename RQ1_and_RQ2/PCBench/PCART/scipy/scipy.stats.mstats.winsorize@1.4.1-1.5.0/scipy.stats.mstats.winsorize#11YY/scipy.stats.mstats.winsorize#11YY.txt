@@ -12,21 +12,22 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                            File #1: scipy.stats.mstats.winsorize#11YY/winsorizeYY.py has 1 Scipy-Invoked API(s)                                             |
-===============================================================================================================================================================================
-| Invoked API #1: winsorize(data, limits, inclusive, inplace=False)                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 6 in scipy.stats.mstats.winsorize#11YY/winsorizeYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.4.1 <dynamic>: (a, limits=None, inclusive=(True, True), inplace=False, axis=None)                                                                             |
-|                                                                                                                                                                             |
-| Definition @1.5.0 <dynamic>: (a, limits=None, inclusive=(True, True), inplace=False, axis=None, nan_policy='propagate')                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|        File #1: scipy.stats.mstats.winsorize#11YY/winsorizeYY.py has 1 Scipy-Invoked API(s)        |
+======================================================================================================
+| Invoked API #1: winsorize(data, limits, inclusive, inplace=False)                                  |
+|                                                                                                    |
+| Location: At Line 6 in scipy.stats.mstats.winsorize#11YY/winsorizeYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.4.1 <dynamic>: (a, limits=None, inclusive=(True, True), inplace=False, axis=None)    |
+|                                                                                                    |
+| Definition @1.5.0 <dynamic>: (a, limits=None, inclusive=(True, True), inplace=False, axis=None, na |
+| n_policy='propagate')                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

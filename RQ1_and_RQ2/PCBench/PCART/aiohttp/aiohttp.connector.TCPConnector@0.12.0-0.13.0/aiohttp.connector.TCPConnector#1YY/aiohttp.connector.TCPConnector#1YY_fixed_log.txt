@@ -1,10 +1,34 @@
 aiohttp.request('GET', url, connector=connector), Failed to load pkl in current version0.12.0: Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
   File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
 EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
+
+
+aiohttp.request('GET', url, connector=connector), Failed to load pkl in current version0.12.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.12.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 
 

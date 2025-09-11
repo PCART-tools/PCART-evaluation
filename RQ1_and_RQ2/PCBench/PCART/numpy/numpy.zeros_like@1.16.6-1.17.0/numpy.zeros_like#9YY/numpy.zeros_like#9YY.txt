@@ -12,37 +12,37 @@ Incompatible Numpy Invoked API Number: 0/2
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: numpy.zeros_like#9YY/zeros_likeYY.py has 2 Numpy-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6]])                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.zeros_like#9YY/zeros_likeYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.16.6 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.17.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.zeros_like(a=a, dtype=float, order='C')                                                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.zeros_like#9YY/zeros_likeYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.16.6 <dynamic>: (a, dtype=None, order='K', subok=True)                                                                                                        |
-|                                                                                                                                                                             |
-| Definition @1.17.0 <dynamic>: (a, dtype=None, order='K', subok=True, shape=None)                                                                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: numpy.zeros_like#9YY/zeros_likeYY.py has 2 Numpy-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6]])                                                   |
+|                                                                                                    |
+| Location: At Line 2 in numpy.zeros_like#9YY/zeros_likeYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.16.6 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Definition @1.17.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.zeros_like(a=a, dtype=float, order='C')                                         |
+|                                                                                                    |
+| Location: At Line 3 in numpy.zeros_like#9YY/zeros_likeYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.16.6 <dynamic>: (a, dtype=None, order='K', subok=True)                               |
+|                                                                                                    |
+| Definition @1.17.0 <dynamic>: (a, dtype=None, order='K', subok=True, shape=None)                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,23 +12,24 @@ Incompatible Matplotlib Invoked API Number: 1/1
 -> Failed to Repair Matplotlib Invoked API Number: 0/1
 -> Unknown Repair Status Matplotlib Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                    File #1: matplotlib.cbook.normalize_kwargs#7NN/normalize_kwargsNN.py has 1 Matplotlib-Invoked API(s)                                     |
-===============================================================================================================================================================================
-| Invoked API #1: normalize_kwargs(kw, alias_mapping, required=['alpha', 'linestyle', 'linewidth'])                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 4 in matplotlib.cbook.normalize_kwargs#7NN/normalize_kwargsNN.py                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.4.3 <dynamic>: (kw, alias_mapping=None, required=<deprecated parameter>, forbidden=<deprecated parameter>, allowed=<deprecated parameter>)                    |
-|                                                                                                                                                                             |
-| Definition @3.5.0 <dynamic>: (kw, alias_mapping=None)                                                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: normalize_kwargs(kw, alias_mapping)                                                                                                                    |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: matplotlib.cbook.normalize_kwargs#7NN/normalize_kwargsNN.py has 1 Matplotlib-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: normalize_kwargs(kw, alias_mapping, required=['alpha', 'linestyle', 'linewidth'])  |
+|                                                                                                    |
+| Location: At Line 4 in matplotlib.cbook.normalize_kwargs#7NN/normalize_kwargsNN.py                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.4.3 <dynamic>: (kw, alias_mapping=None, required=<deprecated parameter>, forbidden=< |
+| deprecated parameter>, allowed=<deprecated parameter>)                                             |
+|                                                                                                    |
+| Definition @3.5.0 <dynamic>: (kw, alias_mapping=None)                                              |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: normalize_kwargs(kw, alias_mapping)                                           |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

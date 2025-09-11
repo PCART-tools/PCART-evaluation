@@ -12,23 +12,25 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                     File #1: linear_model.LogisticRegression#20YY/LogisticRegressionYY.py has 1 Sklearn-Invoked API(s)                                      |
-===============================================================================================================================================================================
-| Invoked API #1: LogisticRegression('l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True)                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in linear_model.LogisticRegression#20YY/LogisticRegressionYY.py                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.1 <dynamic>: (penalty='l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True, intercept_scaling=1, class_weight=None, random_state=None, solver='liblinea |
-| r', max_iter=100, multi_class='ovr', verbose=0)                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @0.17 <dynamic>: (penalty='l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True, intercept_scaling=1, class_weight=None, random_state=None, solver='liblinear' |
-| , max_iter=100, multi_class='ovr', verbose=0, warm_start=False, n_jobs=1)                                                                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+| File #1: linear_model.LogisticRegression#20YY/LogisticRegressionYY.py has 1 Sklearn-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: LogisticRegression('l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True)        |
+|                                                                                                    |
+| Location: At Line 2 in linear_model.LogisticRegression#20YY/LogisticRegressionYY.py                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.1 <dynamic>: (penalty='l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True, in |
+| tercept_scaling=1, class_weight=None, random_state=None, solver='liblinear', max_iter=100, multi_c |
+| lass='ovr', verbose=0)                                                                             |
+|                                                                                                    |
+| Definition @0.17 <dynamic>: (penalty='l2', dual=False, tol=0.0001, C=1.0, fit_intercept=True, inte |
+| rcept_scaling=1, class_weight=None, random_state=None, solver='liblinear', max_iter=100, multi_cla |
+| ss='ovr', verbose=0, warm_start=False, n_jobs=1)                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -1,0 +1,24 @@
+pd.read_csv(keep_date_col=False, cache_dates=True, skipinitialspace=False, escapechar=None, skiprows=None, skip_blank_lines=True, header='infer', infer_datetime_format=False, engine=None, na_values=None, dialect=None, iterator=False, warn_bad_lines=None, filepath_or_buffer='./dev.csv', nrows=None, comment=None, chunksize=None, thousands=None, dayfirst=False, false_values=None, quoting=0, usecols=None, dtype=None, keep_default_na=True, prefix=None, doublequote=True, converters=None, true_values=None, encoding_errors='strict', delimiter=None, names=None, compression='infer', encoding=None, mangle_dupe_cols=True, sep=',', lineterminator=None, index_col=None, delim_whitespace=False, quotechar='"', decimal='.', skipfooter=0, verbose=False, error_bad_lines=None, parse_dates=None, squeeze=None, na_filter=True, on_bad_lines=None, date_parser=None), validate error: <string>:1: FutureWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 899, in read_csv
+    kwds_defaults = _refine_defaults_read(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 2002, in _refine_defaults_read
+    raise ValueError(f"Argument {on_bad_lines} is invalid for on_bad_lines")
+ValueError: Argument None is invalid for on_bad_lines
+
+
+pd.read_csv(keep_date_col=False, cache_dates=True, skipinitialspace=False, escapechar=None, skiprows=None, skip_blank_lines=True, header='infer', infer_datetime_format=False, engine=None, na_values=None, dialect=None, iterator=False, warn_bad_lines=None, filepath_or_buffer='./dev.csv', nrows=None, comment=None, chunksize=None, thousands=None, dayfirst=False, false_values=None, quoting=0, usecols=None, dtype=None, keep_default_na=True, prefix=None, doublequote=True, converters=None, true_values=None, encoding_errors='strict', delimiter=None, names=None, compression='infer', encoding=None, mangle_dupe_cols=True, sep=',', lineterminator=None, index_col=None, delim_whitespace=False, quotechar='"', decimal='.', skipfooter=0, verbose=False, error_bad_lines=None, parse_dates=None, squeeze=None, na_filter=True, on_bad_lines=None, date_parser=None), validate error: <string>:1: FutureWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 899, in read_csv
+    kwds_defaults = _refine_defaults_read(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 2002, in _refine_defaults_read
+    raise ValueError(f"Argument {on_bad_lines} is invalid for on_bad_lines")
+ValueError: Argument None is invalid for on_bad_lines
+
+

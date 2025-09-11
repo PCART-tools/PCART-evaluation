@@ -12,21 +12,22 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: scipy.stats.circstd#6YY/circstdYY.py has 1 Scipy-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: scipy.stats.circstd(samples, 6.283185307179586, 0)                                                                                                          |
-|                                                                                                                                                                             |
-| Location: At Line 3 in scipy.stats.circstd#6YY/circstdYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.3.3 <dynamic>: (samples, high=6.283185307179586, low=0, axis=None)                                                                                            |
-|                                                                                                                                                                             |
-| Definition @1.4.0 <dynamic>: (samples, high=6.283185307179586, low=0, axis=None, nan_policy='propagate')                                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: scipy.stats.circstd#6YY/circstdYY.py has 1 Scipy-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: scipy.stats.circstd(samples, 6.283185307179586, 0)                                 |
+|                                                                                                    |
+| Location: At Line 3 in scipy.stats.circstd#6YY/circstdYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.3.3 <dynamic>: (samples, high=6.283185307179586, low=0, axis=None)                   |
+|                                                                                                    |
+| Definition @1.4.0 <dynamic>: (samples, high=6.283185307179586, low=0, axis=None, nan_policy='propa |
+| gate')                                                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

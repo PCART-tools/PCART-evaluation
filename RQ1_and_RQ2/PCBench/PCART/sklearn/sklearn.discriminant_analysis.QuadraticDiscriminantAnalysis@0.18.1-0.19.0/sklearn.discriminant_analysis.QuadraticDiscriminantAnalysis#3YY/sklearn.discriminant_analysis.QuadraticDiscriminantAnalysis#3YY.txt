@@ -12,21 +12,23 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                  File #1: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis#3YY/QuadraticDiscriminantAnalysisYY.py has 1 Sklearn-Invoked API(s)                   |
-===============================================================================================================================================================================
-| Invoked API #1: QuadraticDiscriminantAnalysis(priors=None)                                                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 5 in sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis#3YY/QuadraticDiscriminantAnalysisYY.py                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.18.1 <dynamic>: (priors=None, reg_param=0.0, store_covariances=False, tol=0.0001)                                                                             |
-|                                                                                                                                                                             |
-| Definition @0.19.0 <dynamic>: (priors=None, reg_param=0.0, store_covariance=False, tol=0.0001, store_covariances=None)                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis#3YY/QuadraticDiscriminantAnalysisYY.py has 1 Sklearn-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: QuadraticDiscriminantAnalysis(priors=None)                                         |
+|                                                                                                    |
+| Location: At Line 5 in sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis#3YY/QuadraticDi |
+| scriminantAnalysisYY.py                                                                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.18.1 <dynamic>: (priors=None, reg_param=0.0, store_covariances=False, tol=0.0001)    |
+|                                                                                                    |
+| Definition @0.19.0 <dynamic>: (priors=None, reg_param=0.0, store_covariance=False, tol=0.0001, sto |
+| re_covariances=None)                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

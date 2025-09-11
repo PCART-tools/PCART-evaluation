@@ -12,21 +12,22 @@ Incompatible Tornado Invoked API Number: 0/1
 -> Failed to Repair Tornado Invoked API Number: 0/0
 -> Unknown Repair Status Tornado Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                    File #1: tornado.netutil.add_accept_handler#3YY/add_accept_handlerYY.py has 1 Tornado-Invoked API(s)                                     |
-===============================================================================================================================================================================
-| Invoked API #1: tornado.netutil.add_accept_handler(sock=sock, callback=accept_handler)                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 9 in tornado.netutil.add_accept_handler#3YY/add_accept_handlerYY.py                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.5.3 <static>: {'tornado.netutil.add_accept_handler': ['(sock,callback,io_loop=None)']}                                                                        |
-|                                                                                                                                                                             |
-| Definition @5.0 <static>: {'tornado.netutil.add_accept_handler': ['(sock,callback)']}                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: tornado.netutil.add_accept_handler#3YY/add_accept_handlerYY.py has 1 Tornado-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: tornado.netutil.add_accept_handler(sock=sock, callback=accept_handler)             |
+|                                                                                                    |
+| Location: At Line 9 in tornado.netutil.add_accept_handler#3YY/add_accept_handlerYY.py              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.5.3 <static>: {'tornado.netutil.add_accept_handler': ['(sock,callback,io_loop=None)' |
+| ]}                                                                                                 |
+|                                                                                                    |
+| Definition @5.0 <static>: {'tornado.netutil.add_accept_handler': ['(sock,callback)']}              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

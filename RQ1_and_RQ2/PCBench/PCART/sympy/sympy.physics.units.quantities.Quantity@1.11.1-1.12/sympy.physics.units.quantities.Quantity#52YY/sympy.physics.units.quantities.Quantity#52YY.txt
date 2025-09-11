@@ -12,24 +12,25 @@ Incompatible Sympy Invoked API Number: 0/1
 -> Failed to Repair Sympy Invoked API Number: 0/0
 -> Unknown Repair Status Sympy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                       File #1: sympy.physics.units.quantities.Quantity#52YY/QuantityYY.py has 1 Sympy-Invoked API(s)                                        |
-===============================================================================================================================================================================
-| Invoked API #1: Quantity('velocity', None, dimension=None, scale_factor=None, latex_repr=None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=N |
-| one, is_prefixed=False)                                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in sympy.physics.units.quantities.Quantity#52YY/QuantityYY.py                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.11.1 <dynamic>: (name, abbrev=None, dimension=None, scale_factor=None, latex_repr=None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation |
-| _repr=None, is_prefixed=False, **assumptions)                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.12 <dynamic>: (name, abbrev=None, latex_repr=None, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False, **assu |
-| mptions)                                                                                                                                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|   File #1: sympy.physics.units.quantities.Quantity#52YY/QuantityYY.py has 1 Sympy-Invoked API(s)   |
+======================================================================================================
+| Invoked API #1: Quantity('velocity', None, dimension=None, scale_factor=None, latex_repr=None, pre |
+| tty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False)   |
+|                                                                                                    |
+| Location: At Line 2 in sympy.physics.units.quantities.Quantity#52YY/QuantityYY.py                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.11.1 <dynamic>: (name, abbrev=None, dimension=None, scale_factor=None, latex_repr=No |
+| ne, pretty_unicode_repr=None, pretty_ascii_repr=None, mathml_presentation_repr=None, is_prefixed=F |
+| alse, **assumptions)                                                                               |
+|                                                                                                    |
+| Definition @1.12 <dynamic>: (name, abbrev=None, latex_repr=None, pretty_unicode_repr=None, pretty_ |
+| ascii_repr=None, mathml_presentation_repr=None, is_prefixed=False, **assumptions)                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

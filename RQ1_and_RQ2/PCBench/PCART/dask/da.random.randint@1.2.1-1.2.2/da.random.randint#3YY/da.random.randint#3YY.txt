@@ -12,21 +12,21 @@ Incompatible Dask Invoked API Number: 0/1
 -> Failed to Repair Dask Invoked API Number: 0/0
 -> Unknown Repair Status Dask Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                    File #1: da.random.randint#3YY/randintYY.py has 1 Dask-Invoked API(s)                                                    |
-===============================================================================================================================================================================
-| Invoked API #1: da.random.randint(0, 100)                                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 2 in da.random.randint#3YY/randintYY.py                                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.2.1 <dynamic>: (low, high=None, size=None, chunks='auto')                                                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.2.2 <dynamic>: (low, high=None, size=None, chunks='auto', dtype='l')                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|               File #1: da.random.randint#3YY/randintYY.py has 1 Dask-Invoked API(s)                |
+======================================================================================================
+| Invoked API #1: da.random.randint(0, 100)                                                          |
+|                                                                                                    |
+| Location: At Line 2 in da.random.randint#3YY/randintYY.py                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.2.1 <dynamic>: (low, high=None, size=None, chunks='auto')                            |
+|                                                                                                    |
+| Definition @1.2.2 <dynamic>: (low, high=None, size=None, chunks='auto', dtype='l')                 |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

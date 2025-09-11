@@ -12,21 +12,23 @@ Incompatible Aiohttp Invoked API Number: 0/1
 -> Failed to Repair Aiohttp Invoked API Number: 0/0
 -> Unknown Repair Status Aiohttp Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                              File #1: aiohttp.TCPConnector#5YY/TCPConnectorYY.py has 1 Aiohttp-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: aiohttp.TCPConnector(ssl_context=None)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 3 in aiohttp.TCPConnector#5YY/TCPConnectorYY.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.15.3 <dynamic>: (*args, verify_ssl=True, resolve=False, family=<AddressFamily.AF_INET: 2>, ssl_context=None, **kwargs)                                        |
-|                                                                                                                                                                             |
-| Definition @0.16.0 <dynamic>: (*, verify_ssl=True, fingerprint=None, resolve=False, family=<AddressFamily.AF_INET: 2>, ssl_context=None, **kwargs)                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: aiohttp.TCPConnector#5YY/TCPConnectorYY.py has 1 Aiohttp-Invoked API(s)          |
+======================================================================================================
+| Invoked API #1: aiohttp.TCPConnector(ssl_context=None)                                             |
+|                                                                                                    |
+| Location: At Line 3 in aiohttp.TCPConnector#5YY/TCPConnectorYY.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.15.3 <dynamic>: (*args, verify_ssl=True, resolve=False, family=<AddressFamily.AF_INE |
+| T: 2>, ssl_context=None, **kwargs)                                                                 |
+|                                                                                                    |
+| Definition @0.16.0 <dynamic>: (*, verify_ssl=True, fingerprint=None, resolve=False, family=<Addres |
+| sFamily.AF_INET: 2>, ssl_context=None, **kwargs)                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,50 +12,55 @@ Incompatible Rich Invoked API Number: 0/3
 -> Failed to Repair Rich Invoked API Number: 0/0
 -> Unknown Repair Status Rich Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                 File #1: Segment.apply_style#2YY/apply_styleYY.py has 3 Rich-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: Segment('Hello')                                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 3 in Segment.apply_style#2YY/apply_styleYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.8.2 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_control: bool = False)                                                    |
-|                                                                                                                                                                             |
-| Definition @9.9.0 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_control: bool = False)                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: Segment('World')                                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 3 in Segment.apply_style#2YY/apply_styleYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.8.2 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_control: bool = False)                                                    |
-|                                                                                                                                                                             |
-| Definition @9.9.0 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_control: bool = False)                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: Segment.apply_style(segments=segments)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 4 in Segment.apply_style#2YY/apply_styleYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.8.2 <dynamic>: (segments: Iterable[ForwardRef('Segment')], style: rich.style.Style = None) -> Iterable[ForwardRef('Segment')]                                 |
-|                                                                                                                                                                             |
-| Definition @9.9.0 <dynamic>: (segments: Iterable[ForwardRef('Segment')], style: rich.style.Style = None, post_style: rich.style.Style = None) -> Iterable[ForwardRef('Segme |
-| nt')]                                                                                                                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: Segment.apply_style#2YY/apply_styleYY.py has 3 Rich-Invoked API(s)             |
+======================================================================================================
+| Invoked API #1: Segment('Hello')                                                                   |
+|                                                                                                    |
+| Location: At Line 3 in Segment.apply_style#2YY/apply_styleYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.8.2 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_ |
+| control: bool = False)                                                                             |
+|                                                                                                    |
+| Definition @9.9.0 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_ |
+| control: bool = False)                                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: Segment('World')                                                                   |
+|                                                                                                    |
+| Location: At Line 3 in Segment.apply_style#2YY/apply_styleYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.8.2 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_ |
+| control: bool = False)                                                                             |
+|                                                                                                    |
+| Definition @9.9.0 <dynamic>: (text: str = '', style: Union[rich.style.Style, NoneType] = None, is_ |
+| control: bool = False)                                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: Segment.apply_style(segments=segments)                                             |
+|                                                                                                    |
+| Location: At Line 4 in Segment.apply_style#2YY/apply_styleYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.8.2 <dynamic>: (segments: Iterable[ForwardRef('Segment')], style: rich.style.Style = |
+|  None) -> Iterable[ForwardRef('Segment')]                                                          |
+|                                                                                                    |
+| Definition @9.9.0 <dynamic>: (segments: Iterable[ForwardRef('Segment')], style: rich.style.Style = |
+|  None, post_style: rich.style.Style = None) -> Iterable[ForwardRef('Segment')]                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

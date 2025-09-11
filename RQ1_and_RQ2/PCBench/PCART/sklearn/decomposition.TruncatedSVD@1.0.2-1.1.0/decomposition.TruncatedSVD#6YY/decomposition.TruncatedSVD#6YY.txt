@@ -12,21 +12,23 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                           File #1: decomposition.TruncatedSVD#6YY/TruncatedSVDYY.py has 1 Sklearn-Invoked API(s)                                            |
-===============================================================================================================================================================================
-| Invoked API #1: TruncatedSVD(algorithm='randomized', n_iter=7)                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 8 in decomposition.TruncatedSVD#6YY/TruncatedSVDYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.2 <dynamic>: (n_components=2, *, algorithm='randomized', n_iter=5, random_state=None, tol=0.0)                                                              |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (n_components=2, *, algorithm='randomized', n_iter=5, n_oversamples=10, power_iteration_normalizer='auto', random_state=None, tol=0.0)         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|       File #1: decomposition.TruncatedSVD#6YY/TruncatedSVDYY.py has 1 Sklearn-Invoked API(s)       |
+======================================================================================================
+| Invoked API #1: TruncatedSVD(algorithm='randomized', n_iter=7)                                     |
+|                                                                                                    |
+| Location: At Line 8 in decomposition.TruncatedSVD#6YY/TruncatedSVDYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.2 <dynamic>: (n_components=2, *, algorithm='randomized', n_iter=5, random_state=No |
+| ne, tol=0.0)                                                                                       |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (n_components=2, *, algorithm='randomized', n_iter=5, n_oversamples=1 |
+| 0, power_iteration_normalizer='auto', random_state=None, tol=0.0)                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

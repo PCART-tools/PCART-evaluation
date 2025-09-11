@@ -1,5 +1,22 @@
 nx.is_isomorphic(G1=G1, G2=G2, weighted=False), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/isomorph.py", line 222, in is_isomorphic
+    return gm.is_isomorphic()
+  File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/isomorphvf2.py", line 277, in is_isomorphic
+    x = next(self.isomorphisms_iter())
+  File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/isomorphvf2.py", line 287, in isomorphisms_iter
+    for mapping in self.match():
+  File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/isomorphvf2.py", line 307, in match
+    if self.semantic_feasibility(G1_node, G2_node):
+  File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/vf2userfunc.py", line 50, in _semantic_feasibility
+    nm = self.node_match(self.G1.node[G1_node], self.G2.node[G2_node])
+TypeError: 'bool' object is not callable
+
+
+nx.is_isomorphic(G1=G1, G2=G2, weighted=False), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/networkx1.6/lib/python3.8/site-packages/networkx/algorithms/isomorphism/isomorph.py", line 222, in is_isomorphic

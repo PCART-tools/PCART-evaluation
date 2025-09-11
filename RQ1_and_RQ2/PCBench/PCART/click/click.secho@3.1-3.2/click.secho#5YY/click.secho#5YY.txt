@@ -12,21 +12,21 @@ Incompatible Click Invoked API Number: 0/1
 -> Failed to Repair Click Invoked API Number: 0/0
 -> Unknown Repair Status Click Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                       File #1: click.secho#5YY/sechoYY.py has 1 Click-Invoked API(s)                                                        |
-===============================================================================================================================================================================
-| Invoked API #1: click.secho(text=text, file=file)                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 6 in click.secho#5YY/sechoYY.py                                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.1 <dynamic>: (text, file=None, nl=True, **styles)                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @3.2 <dynamic>: (text, file=None, nl=True, err=False, **styles)                                                                                                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                   File #1: click.secho#5YY/sechoYY.py has 1 Click-Invoked API(s)                   |
+======================================================================================================
+| Invoked API #1: click.secho(text=text, file=file)                                                  |
+|                                                                                                    |
+| Location: At Line 6 in click.secho#5YY/sechoYY.py                                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.1 <dynamic>: (text, file=None, nl=True, **styles)                                    |
+|                                                                                                    |
+| Definition @3.2 <dynamic>: (text, file=None, nl=True, err=False, **styles)                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

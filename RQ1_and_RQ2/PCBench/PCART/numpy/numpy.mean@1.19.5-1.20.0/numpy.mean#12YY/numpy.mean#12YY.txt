@@ -12,56 +12,59 @@ Incompatible Numpy Invoked API Number: 0/3
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 1/0
 
-===============================================================================================================================================================================
-|                                                        File #1: numpy.mean#12YY/meanYY.py has 3 Numpy-Invoked API(s)                                                        |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([1, 2, 3, 4, 5, 6])                                                                                                                                |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.mean#12YY/meanYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.19.5 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.20.0 <static>: {'numpy.__init__.array': ['(object:object,dtype:DTypeLike=...,*,copy:bool=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike |
-| =...)->ndarray']}                                                                                                                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.array([1, 2, 3, 4, 5, 6]).reshape(2, 3)                                                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.mean#12YY/meanYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.19.5 <static>: {'numpy.core.fromnumeric.reshape': ["(a,newshape,order='C')"], 'numpy.reshape': ["(a,newshape,order='C')"], 'numpy.ma.MaskedArray.reshape': [' |
-| (self,*s,**kwargs)'], 'numpy.ma.core.MaskedArray.reshape': ['(self,*s,**kwargs)'], 'numpy.ma.core.reshape': ["(a,new_shape,order='C')"], 'numpy.ma.reshape': ["(a,new_shape |
-| ,order='C')"]}                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Definition @1.20.0 <static>: {'numpy.__init__._ArrayOrScalarCommon.reshape': ['(self,*shape:int,order:_OrderACF=...)->ndarray', '(self,__shape:Sequence[int],*,order:_Order |
-| ACF=...)->ndarray']}                                                                                                                                                        |
-|                                                                                                                                                                             |
-| Compatible: Unknown                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Repair <Unknown>: ['np.array([1, 2, 3, 4, 5, 6]).reshape()', 'np.array([1, 2, 3, 4, 5, 6]).reshape(2)']                                                                     |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: np.mean(a, 1, dtype=np.float64, out=None)                                                                                                                   |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.mean#12YY/meanYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.19.5 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>)                                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.20.0 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                   File #1: numpy.mean#12YY/meanYY.py has 3 Numpy-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: np.array([1, 2, 3, 4, 5, 6])                                                       |
+|                                                                                                    |
+| Location: At Line 2 in numpy.mean#12YY/meanYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.19.5 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Definition @1.20.0 <static>: {'numpy.__init__.array': ['(object:object,dtype:DTypeLike=...,*,copy: |
+| bool=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:ArrayLike=...)->ndarray']}         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.array([1, 2, 3, 4, 5, 6]).reshape(2, 3)                                         |
+|                                                                                                    |
+| Location: At Line 2 in numpy.mean#12YY/meanYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.19.5 <static>: {'numpy.core.fromnumeric.reshape': ["(a,newshape,order='C')"], 'numpy |
+| .reshape': ["(a,newshape,order='C')"], 'numpy.ma.MaskedArray.reshape': ['(self,*s,**kwargs)'], 'nu |
+| mpy.ma.core.MaskedArray.reshape': ['(self,*s,**kwargs)'], 'numpy.ma.core.reshape': ["(a,new_shape, |
+| order='C')"], 'numpy.ma.reshape': ["(a,new_shape,order='C')"]}                                     |
+|                                                                                                    |
+| Definition @1.20.0 <static>: {'numpy.__init__._ArrayOrScalarCommon.reshape': ['(self,*shape:int,or |
+| der:_OrderACF=...)->ndarray', '(self,__shape:Sequence[int],*,order:_OrderACF=...)->ndarray']}      |
+|                                                                                                    |
+| Compatible: Unknown                                                                                |
+|                                                                                                    |
+| Repair <Unknown>: ['np.array([1, 2, 3, 4, 5, 6]).reshape()', 'np.array([1, 2, 3, 4, 5, 6]).reshape |
+| (2)']                                                                                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: np.mean(a, 1, dtype=np.float64, out=None)                                          |
+|                                                                                                    |
+| Location: At Line 3 in numpy.mean#12YY/meanYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.19.5 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>)            |
+|                                                                                                    |
+| Definition @1.20.0 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=< |
+| no value>)                                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -1,8 +1,14 @@
 --- Running read_csv#29YY/read_csvYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#29YY'), ('notebook', 'read_csvYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'read_csv#29YY'), ('notebook', 'read_csvYY'), ('text', '  File "read_csvYY.py", line 2, in <module>\n    pd.read_csv(\'./dev.csv\',  \',\',  None,  \'infer\',  None,  None, usecols=None)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper\n    return func(*args, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv\n    return _read(filepath_or_buffer, kwds)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 482, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 811, in __init__\n    self._engine = self._make_engine(self.engine)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine\n    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__\n    self._open_handles(src, kwds)\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles\n    self.handles = get_handle(\n  File "/dataset/zhang/anaconda3/envs/Rpandas1.3.0/lib/python3.8/site-packages/pandas/io/common.py", line 701, in get_handle\n    handle = open(\nFileNotFoundError: [Errno 2] No such file or directory: \'./dev.csv\'\n')])
+  File "read_csvYY.py", line 2, in <module>
+Error inducing API short name: read_csv, line no: 2
+Error inducing API fqn: pandas.read_csv, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.506s
-user	0m1.495s
-sys	0m5.391s
+real	0m0.590s
+user	0m1.631s
+sys	0m5.657s

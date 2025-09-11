@@ -12,21 +12,22 @@ Incompatible Numpy Invoked API Number: 0/1
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: numpy.nanprod#3YY/nanprodYY.py has 1 Numpy-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: np.nanprod([1, 2, np.nan, 4], 0)                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.nanprod#3YY/nanprodYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.21.6 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>)                                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.22.0 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)                                               |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: numpy.nanprod#3YY/nanprodYY.py has 1 Numpy-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: np.nanprod([1, 2, np.nan, 4], 0)                                                   |
+|                                                                                                    |
+| Location: At Line 2 in numpy.nanprod#3YY/nanprodYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.21.6 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>)            |
+|                                                                                                    |
+| Definition @1.22.0 <dynamic>: (a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<n |
+| o value>, where=<no value>)                                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

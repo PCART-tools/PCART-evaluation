@@ -12,23 +12,25 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                              File #1: linear_model.LassoLars#44YY/LassoLarsYY.py has 1 Sklearn-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: linear_model.LassoLars(1.0, fit_intercept=True, verbose=False, normalize=True, precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True)     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in linear_model.LassoLars#44YY/LassoLarsYY.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.22.2 <dynamic>: (alpha=1.0, fit_intercept=True, verbose=False, normalize=True, precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_p |
-| ath=True, positive=False)                                                                                                                                                   |
-|                                                                                                                                                                             |
-| Definition @0.23.0 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize=True, precompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fi |
-| t_path=True, positive=False, jitter=None, random_state=None)                                                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: linear_model.LassoLars#44YY/LassoLarsYY.py has 1 Sklearn-Invoked API(s)          |
+======================================================================================================
+| Invoked API #1: linear_model.LassoLars(1.0, fit_intercept=True, verbose=False, normalize=True, pre |
+| compute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True)                              |
+|                                                                                                    |
+| Location: At Line 2 in linear_model.LassoLars#44YY/LassoLarsYY.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.22.2 <dynamic>: (alpha=1.0, fit_intercept=True, verbose=False, normalize=True, preco |
+| mpute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, positive=False) |
+|                                                                                                    |
+| Definition @0.23.0 <dynamic>: (alpha=1.0, *, fit_intercept=True, verbose=False, normalize=True, pr |
+| ecompute='auto', max_iter=500, eps=2.220446049250313e-16, copy_X=True, fit_path=True, positive=Fal |
+| se, jitter=None, random_state=None)                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

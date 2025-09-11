@@ -1,8 +1,14 @@
 --- Running numpy.loadtxt#5YY/loadtxtYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.loadtxt#5YY'), ('notebook', 'loadtxtYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.loadtxt#5YY'), ('notebook', 'loadtxtYY'), ('text', '  File "loadtxtYY.py", line 2, in <module>\n    data = np.loadtxt(fname=\'./data.txt\', dtype=float, comments=\'#\', delimiter=\',\')\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.16.0/lib/python3.6/site-packages/numpy/lib/npyio.py", line 955, in loadtxt\n    fh = np.lib._datasource.open(fname, \'rt\', encoding=encoding)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.16.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 266, in open\n    return ds.open(path, mode, encoding=encoding, newline=newline)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.16.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 623, in open\n    raise IOError("%s not found." % path)\nOSError: ./data.txt not found.\n')])
+  File "loadtxtYY.py", line 2, in <module>
+Error inducing API short name: loadtxt, line no: 2
+Error inducing API fqn: numpy.loadtxt, line no: 2
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.482s
-user	0m1.869s
-sys	0m5.431s
+real	0m0.545s
+user	0m1.938s
+sys	0m5.371s

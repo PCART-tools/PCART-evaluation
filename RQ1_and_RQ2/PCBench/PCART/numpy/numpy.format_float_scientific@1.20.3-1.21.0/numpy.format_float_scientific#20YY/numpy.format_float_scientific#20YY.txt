@@ -12,21 +12,23 @@ Incompatible Numpy Invoked API Number: 0/1
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                     File #1: numpy.format_float_scientific#20YY/format_float_scientificYY.py has 1 Numpy-Invoked API(s)                                     |
-===============================================================================================================================================================================
-| Invoked API #1: np.format_float_scientific(x=x, precision=2, unique=True, trim='k', sign=False)                                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.format_float_scientific#20YY/format_float_scientificYY.py                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.20.3 <dynamic>: (x, precision=None, unique=True, trim='k', sign=False, pad_left=None, exp_digits=None)                                                        |
-|                                                                                                                                                                             |
-| Definition @1.21.0 <dynamic>: (x, precision=None, unique=True, trim='k', sign=False, pad_left=None, exp_digits=None, min_digits=None)                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: numpy.format_float_scientific#20YY/format_float_scientificYY.py has 1 Numpy-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: np.format_float_scientific(x=x, precision=2, unique=True, trim='k', sign=False)    |
+|                                                                                                    |
+| Location: At Line 3 in numpy.format_float_scientific#20YY/format_float_scientificYY.py             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.20.3 <dynamic>: (x, precision=None, unique=True, trim='k', sign=False, pad_left=None |
+| , exp_digits=None)                                                                                 |
+|                                                                                                    |
+| Definition @1.21.0 <dynamic>: (x, precision=None, unique=True, trim='k', sign=False, pad_left=None |
+| , exp_digits=None, min_digits=None)                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

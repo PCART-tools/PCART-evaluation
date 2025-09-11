@@ -12,23 +12,24 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                         File #1: scipy.stats.qmc.LatinHypercube#6YY/LatinHypercubeYY.py has 1 Scipy-Invoked API(s)                                          |
-===============================================================================================================================================================================
-| Invoked API #1: qmc.LatinHypercube(d, centered=centered, strength=strength)                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 7 in scipy.stats.qmc.LatinHypercube#6YY/LatinHypercubeYY.py                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.9.3 <dynamic>: (d: 'IntNumber', *, centered: 'bool' = False, strength: 'int' = 1, optimization: "Optional[Literal['random-cd']]" = None, seed: 'SeedType' = N |
-| one) -> 'None'                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Definition @1.10.0 <dynamic>: (d: 'IntNumber', *, centered: 'bool' = False, scramble: 'bool' = True, strength: 'int' = 1, optimization: "Optional[Literal[('random-cd', 'll |
-| oyd')]]" = None, seed: 'SeedType' = None) -> 'None'                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|     File #1: scipy.stats.qmc.LatinHypercube#6YY/LatinHypercubeYY.py has 1 Scipy-Invoked API(s)     |
+======================================================================================================
+| Invoked API #1: qmc.LatinHypercube(d, centered=centered, strength=strength)                        |
+|                                                                                                    |
+| Location: At Line 7 in scipy.stats.qmc.LatinHypercube#6YY/LatinHypercubeYY.py                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.9.3 <dynamic>: (d: 'IntNumber', *, centered: 'bool' = False, strength: 'int' = 1, op |
+| timization: "Optional[Literal['random-cd']]" = None, seed: 'SeedType' = None) -> 'None'            |
+|                                                                                                    |
+| Definition @1.10.0 <dynamic>: (d: 'IntNumber', *, centered: 'bool' = False, scramble: 'bool' = Tru |
+| e, strength: 'int' = 1, optimization: "Optional[Literal[('random-cd', 'lloyd')]]" = None, seed: 'S |
+| eedType' = None) -> 'None'                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

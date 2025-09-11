@@ -1,8 +1,14 @@
 --- Running plotly.figure_factory.create_choropleth#28YY/create_choroplethYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'plotly.figure_factory.create_choropleth#28YY'), ('notebook', 'create_choroplethYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'plotly.figure_factory.create_choropleth#28YY'), ('notebook', 'create_choroplethYY'), ('text', '  File "create_choroplethYY.py", line 5, in <module>\n    df_sample = pd.read_csv(\'./minoritymajority.csv\')\n  File "/dataset/zhang/anaconda3/envs/Rplotly2.5.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 709, in parser_f\n    return _read(filepath_or_buffer, kwds)\n  File "/dataset/zhang/anaconda3/envs/Rplotly2.5.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 449, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n  File "/dataset/zhang/anaconda3/envs/Rplotly2.5.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 818, in __init__\n    self._make_engine(self.engine)\n  File "/dataset/zhang/anaconda3/envs/Rplotly2.5.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 1049, in _make_engine\n    self._engine = CParserWrapper(self.f, **self.options)\n  File "/dataset/zhang/anaconda3/envs/Rplotly2.5.0/lib/python3.6/site-packages/pandas/io/parsers.py", line 1695, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n  File "pandas/_libs/parsers.pyx", line 402, in pandas._libs.parsers.TextReader.__cinit__\n  File "pandas/_libs/parsers.pyx", line 718, in pandas._libs.parsers.TextReader._setup_parser_source\nFileNotFoundError: File b\'./minoritymajority.csv\' does not exist\n')])
+  File "create_choroplethYY.py", line 5, in <module>
+Error inducing API short name: read_csv, line no: 5
+Error inducing API fqn: pandas.read_csv, line no: 5
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m2.054s
-user	0m3.114s
-sys	0m7.030s
+real	0m1.056s
+user	0m2.190s
+sys	0m6.951s

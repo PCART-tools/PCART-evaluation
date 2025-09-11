@@ -12,24 +12,26 @@ Incompatible Plotly Invoked API Number: 0/1
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                 File #1: plotly.express.imshow#32YY/imshowYY.py has 1 Plotly-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: px.imshow(img_rgb, None, None, origin=None, labels={}, x=None, y=None)                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 4 in plotly.express.imshow#32YY/imshowYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.9.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color=N |
-| one, title=None, template=None, width=None, height=None, aspect=None)                                                                                                       |
-|                                                                                                                                                                             |
-| Definition @4.10.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, color_continuous_scale=None, color_continuous_midpoint=None, range_color= |
-| None, title=None, template=None, width=None, height=None, aspect=None, contrast_rescaling=None, binary_string=None, binary_backend='auto', binary_compression_level=4, bina |
-| ry_format='png')                                                                                                                                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: plotly.express.imshow#32YY/imshowYY.py has 1 Plotly-Invoked API(s)             |
+======================================================================================================
+| Invoked API #1: px.imshow(img_rgb, None, None, origin=None, labels={}, x=None, y=None)             |
+|                                                                                                    |
+| Location: At Line 4 in plotly.express.imshow#32YY/imshowYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.9.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None, c |
+| olor_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, template |
+| =None, width=None, height=None, aspect=None)                                                       |
+|                                                                                                    |
+| Definition @4.10.0 <dynamic>: (img, zmin=None, zmax=None, origin=None, labels={}, x=None, y=None,  |
+| color_continuous_scale=None, color_continuous_midpoint=None, range_color=None, title=None, templat |
+| e=None, width=None, height=None, aspect=None, contrast_rescaling=None, binary_string=None, binary_ |
+| backend='auto', binary_compression_level=4, binary_format='png')                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

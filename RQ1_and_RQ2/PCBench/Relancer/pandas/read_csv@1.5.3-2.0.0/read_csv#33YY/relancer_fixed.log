@@ -1,8 +1,14 @@
 --- Running read_csv#33YY/read_csvYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#33YY'), ('notebook', 'read_csvYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'read_csv#33YY'), ('notebook', 'read_csvYY'), ('text', '  File "read_csvYY.py", line 2, in <module>\n    pd.read_csv(\'./dev.csv\', compression=\'infer\')\n  File "/dataset/zhang/anaconda3/envs/Rpandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv\n    return _read(filepath_or_buffer, kwds)\n  File "/dataset/zhang/anaconda3/envs/Rpandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n  File "/dataset/zhang/anaconda3/envs/Rpandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__\n    self._engine = self._make_engine(f, self.engine)\n  File "/dataset/zhang/anaconda3/envs/Rpandas2.0.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine\n    self.handles = get_handle(\n  File "/dataset/zhang/anaconda3/envs/Rpandas2.0.0/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle\n    handle = open(\nFileNotFoundError: [Errno 2] No such file or directory: \'./dev.csv\'\n')])
+  File "read_csvYY.py", line 2, in <module>
+Error inducing API short name: read_csv, line no: 2
+Error inducing API fqn: pandas.read_csv, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.538s
-user	0m1.509s
-sys	0m5.377s
+real	0m0.608s
+user	0m1.639s
+sys	0m6.341s

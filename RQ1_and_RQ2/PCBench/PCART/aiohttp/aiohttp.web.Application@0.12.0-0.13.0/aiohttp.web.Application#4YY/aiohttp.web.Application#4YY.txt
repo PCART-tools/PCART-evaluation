@@ -12,23 +12,23 @@ Incompatible Aiohttp Invoked API Number: 0/1
 -> Failed to Repair Aiohttp Invoked API Number: 0/0
 -> Unknown Repair Status Aiohttp Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                             File #1: aiohttp.web.Application#4YY/ApplicationYY.py has 1 Aiohttp-Invoked API(s)                                              |
-===============================================================================================================================================================================
-| Invoked API #1: web.Application(router=None)                                                                                                                                |
-|                                                                                                                                                                             |
-| Location: At Line 4 in aiohttp.web.Application#4YY/ApplicationYY.py                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.12.0 <dynamic>: (*, logger=<logging.Logger object at 0x7f7a38773c18>, loop=None, router=None, handler_factory=<class 'aiohttp.web.RequestHandlerFactory'>, ** |
-| kwargs)                                                                                                                                                                     |
-|                                                                                                                                                                             |
-| Definition @0.13.0 <dynamic>: (*, logger=<logging.Logger object at 0x7fc50794fc88>, loop=None, router=None, handler_factory=<class 'aiohttp.web.RequestHandlerFactory'>, mi |
-| ddlewares=(), **kwargs)                                                                                                                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|         File #1: aiohttp.web.Application#4YY/ApplicationYY.py has 1 Aiohttp-Invoked API(s)         |
+======================================================================================================
+| Invoked API #1: web.Application(router=None)                                                       |
+|                                                                                                    |
+| Location: At Line 4 in aiohttp.web.Application#4YY/ApplicationYY.py                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.12.0 <dynamic>: (*, logger=<logging.Logger object at 0x7f5d93529cf8>, loop=None, rou |
+| ter=None, handler_factory=<class 'aiohttp.web.RequestHandlerFactory'>, **kwargs)                   |
+|                                                                                                    |
+| Definition @0.13.0 <dynamic>: (*, logger=<logging.Logger object at 0x7ff9db48fda0>, loop=None, rou |
+| ter=None, handler_factory=<class 'aiohttp.web.RequestHandlerFactory'>, middlewares=(), **kwargs)   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

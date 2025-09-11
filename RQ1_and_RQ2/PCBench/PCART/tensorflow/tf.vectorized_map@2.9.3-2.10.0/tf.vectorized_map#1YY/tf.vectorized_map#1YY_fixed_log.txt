@@ -1,10 +1,21 @@
-tf.tensordot(a, a, 0), Failed to load pkl in current version2.9.3: 2025-01-10 00:21:06.170331: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+tf.tensordot(a, a, 0), Failed to load pkl in current version2.9.3: 2025-08-02 10:47:08.660749: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
-  File "/dataset/zhang/anaconda3/envs/tensorflow2.9.3/lib/python3.7/site-packages/dill/_dill.py", line 287, in load
+  File "/home/nuaa/.local/lib/python3.7/site-packages/dill/_dill.py", line 287, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
-  File "/dataset/zhang/anaconda3/envs/tensorflow2.9.3/lib/python3.7/site-packages/dill/_dill.py", line 442, in load
+  File "/home/nuaa/.local/lib/python3.7/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+tf.tensordot(a, a, 0), Failed to load pkl in current version2.9.3: 2025-08-02 23:34:33.834014: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/home/nuaa/.local/lib/python3.7/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/home/nuaa/.local/lib/python3.7/site-packages/dill/_dill.py", line 442, in load
     obj = StockUnpickler.load(self)
 EOFError: Ran out of input
 

@@ -12,21 +12,22 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                 File #1: scipy.cluster.vq.kmeans#3YY/kmeansYY.py has 1 Scipy-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: kmeans(obs=obs, k_or_guess=k_or_guess)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 6 in scipy.cluster.vq.kmeans#3YY/kmeansYY.py                                                                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.6.3 <dynamic>: (obs, k_or_guess, iter=20, thresh=1e-05, check_finite=True)                                                                                    |
-|                                                                                                                                                                             |
-| Definition @1.7.0 <dynamic>: (obs, k_or_guess, iter=20, thresh=1e-05, check_finite=True, *, seed=None)                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: scipy.cluster.vq.kmeans#3YY/kmeansYY.py has 1 Scipy-Invoked API(s)             |
+======================================================================================================
+| Invoked API #1: kmeans(obs=obs, k_or_guess=k_or_guess)                                             |
+|                                                                                                    |
+| Location: At Line 6 in scipy.cluster.vq.kmeans#3YY/kmeansYY.py                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.6.3 <dynamic>: (obs, k_or_guess, iter=20, thresh=1e-05, check_finite=True)           |
+|                                                                                                    |
+| Definition @1.7.0 <dynamic>: (obs, k_or_guess, iter=20, thresh=1e-05, check_finite=True, *, seed=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

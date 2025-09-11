@@ -12,21 +12,23 @@ Incompatible Loguru Invoked API Number: 0/1
 -> Failed to Repair Loguru Invoked API Number: 0/0
 -> Unknown Repair Status Loguru Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: loguru.logger.opt#5YY/optYY.py has 1 Loguru-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: logger.opt(ansi=False)                                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 2 in loguru.logger.opt#5YY/optYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.4.0 <dynamic>: (*, exception=None, record=False, lazy=False, ansi=False, raw=False, depth=0)                                                                  |
-|                                                                                                                                                                             |
-| Definition @0.4.1 <dynamic>: (*, exception=None, record=False, lazy=False, colors=False, raw=False, depth=0, ansi=False)                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: loguru.logger.opt#5YY/optYY.py has 1 Loguru-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: logger.opt(ansi=False)                                                             |
+|                                                                                                    |
+| Location: At Line 2 in loguru.logger.opt#5YY/optYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.4.0 <dynamic>: (*, exception=None, record=False, lazy=False, ansi=False, raw=False,  |
+| depth=0)                                                                                           |
+|                                                                                                    |
+| Definition @0.4.1 <dynamic>: (*, exception=None, record=False, lazy=False, colors=False, raw=False |
+| , depth=0, ansi=False)                                                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

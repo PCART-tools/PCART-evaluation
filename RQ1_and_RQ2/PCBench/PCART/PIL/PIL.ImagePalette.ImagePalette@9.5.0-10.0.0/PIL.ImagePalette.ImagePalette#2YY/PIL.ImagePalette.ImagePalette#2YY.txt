@@ -12,35 +12,35 @@ Incompatible Pil Invoked API Number: 0/2
 -> Failed to Repair Pil Invoked API Number: 0/0
 -> Unknown Repair Status Pil Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                            File #1: PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py has 2 Pil-Invoked API(s)                                            |
-===============================================================================================================================================================================
-| Invoked API #1: ImagePalette.ImagePalette('RGB')                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.5.0 <dynamic>: (mode='RGB', palette=None, size=0)                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @10.0.0 <dynamic>: (mode='RGB', palette=None)                                                                                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: ImagePalette.ImagePalette('RGB')                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 3 in PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @9.5.0 <dynamic>: (mode='RGB', palette=None, size=0)                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @10.0.0 <dynamic>: (mode='RGB', palette=None)                                                                                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|       File #1: PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py has 2 Pil-Invoked API(s)        |
+======================================================================================================
+| Invoked API #1: ImagePalette.ImagePalette('RGB')                                                   |
+|                                                                                                    |
+| Location: At Line 2 in PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.5.0 <dynamic>: (mode='RGB', palette=None, size=0)                                    |
+|                                                                                                    |
+| Definition @10.0.0 <dynamic>: (mode='RGB', palette=None)                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: ImagePalette.ImagePalette('RGB')                                                   |
+|                                                                                                    |
+| Location: At Line 3 in PIL.ImagePalette.ImagePalette#2YY/ImagePaletteYY.py                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @9.5.0 <dynamic>: (mode='RGB', palette=None, size=0)                                    |
+|                                                                                                    |
+| Definition @10.0.0 <dynamic>: (mode='RGB', palette=None)                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

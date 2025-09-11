@@ -672,9 +672,9 @@ Incompatible Sklearn Invoked API Number: 2/52
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @1.1.3 <dynamic>: (score_func=<function f_classif at 0x7fbc95458c10>, *, k=10)          |
+| Definition @1.1.3 <dynamic>: (score_func=<function f_classif at 0x7f09b432f820>, *, k=10)          |
 |                                                                                                    |
-| Definition @1.2.0 <dynamic>: (score_func=<function f_classif at 0x7f7817084670>, *, k=10)          |
+| Definition @1.2.0 <dynamic>: (score_func=<function f_classif at 0x7fbbb91bd430>, *, k=10)          |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |

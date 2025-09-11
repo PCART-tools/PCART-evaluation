@@ -12,22 +12,23 @@ Incompatible Plotly Invoked API Number: 0/1
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                  File #1: plotly.figure_factory.create_dendrogram#18YY/create_dendrogramYY.py has 1 Plotly-Invoked API(s)                                   |
-===============================================================================================================================================================================
-| Invoked API #1: ff.create_dendrogram(X, 'bottom', labels=None, colorscale=None, distfun=None)                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 9 in plotly.figure_factory.create_dendrogram#18YY/create_dendrogramYY.py                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.3.0 <dynamic>: (X, orientation='bottom', labels=None, colorscale=None, distfun=None, linkagefun=<function <lambda> at 0x7f8017ff6bf8>, hovertext=None)        |
-|                                                                                                                                                                             |
-| Definition @3.4.0 <dynamic>: (X, orientation='bottom', labels=None, colorscale=None, distfun=None, linkagefun=<function <lambda> at 0x7fa02295b730>, hovertext=None, color_ |
-| threshold=None)                                                                                                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: plotly.figure_factory.create_dendrogram#18YY/create_dendrogramYY.py has 1 Plotly-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: ff.create_dendrogram(X, 'bottom', labels=None, colorscale=None, distfun=None)      |
+|                                                                                                    |
+| Location: At Line 9 in plotly.figure_factory.create_dendrogram#18YY/create_dendrogramYY.py         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.3.0 <dynamic>: (X, orientation='bottom', labels=None, colorscale=None, distfun=None, |
+|  linkagefun=<function <lambda> at 0x7f0758201b70>, hovertext=None)                                 |
+|                                                                                                    |
+| Definition @3.4.0 <dynamic>: (X, orientation='bottom', labels=None, colorscale=None, distfun=None, |
+|  linkagefun=<function <lambda> at 0x7f164da066a8>, hovertext=None, color_threshold=None)           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

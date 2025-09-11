@@ -1,5 +1,35 @@
 ser.groupby(['a', 'b', 'a', 'b'], 0, level=None, as_index=True, sort=True, group_keys=False).mean(), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/groupby.py", line 1855, in mean
+    result = self._cython_agg_general(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/groupby.py", line 1507, in _cython_agg_general
+    new_mgr = data.grouped_reduce(array_func)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/internals/base.py", line 193, in grouped_reduce
+    res = func(arr)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/groupby.py", line 1490, in array_func
+    result = self.grouper._cython_operation(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/ops.py", line 955, in _cython_operation
+    cy_op = WrappedCythonOp(kind=kind, how=how, has_dropped_na=self.has_dropped_na)
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/ops.py", line 869, in has_dropped_na
+    return bool((self.group_info[0] < 0).any())
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/ops.py", line 873, in group_info
+    comp_ids, obs_group_ids = self._get_compressed_codes()
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/ops.py", line 897, in _get_compressed_codes
+    return ping.codes, np.arange(len(ping.group_index), dtype=np.intp)
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/grouper.py", line 671, in codes
+    return self._codes_and_uniques[0]
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/grouper.py", line 770, in _codes_and_uniques
+    elif self._uniques is not None:
+AttributeError: 'Grouping' object has no attribute '_uniques'
+
+
+ser.groupby(['a', 'b', 'a', 'b'], 0, level=None, as_index=True, sort=True, group_keys=False).mean(), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/groupby/groupby.py", line 1855, in mean

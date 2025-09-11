@@ -1,8 +1,14 @@
 --- Running PIL.ImageOps.autocontrast#4YY/autocontrastYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'PIL.ImageOps.autocontrast#4YY'), ('notebook', 'autocontrastYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'PIL.ImageOps.autocontrast#4YY'), ('notebook', 'autocontrastYY'), ('text', '  File "autocontrastYY.py", line 2, in <module>\n    image = Image.open(\'./example.jpg\')\n  File "/dataset/zhang/anaconda3/envs/RPIL8.0.0/lib/python3.8/site-packages/PIL/Image.py", line 2891, in open\n    fp = builtins.open(filename, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.jpg\'\n')])
+  File "autocontrastYY.py", line 2, in <module>
+Error inducing API short name: open, line no: 2
+Error inducing API fqn: PIL.Image.open, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.308s
-user	0m0.290s
-sys	0m0.018s
+real	0m0.318s
+user	0m0.288s
+sys	0m0.030s

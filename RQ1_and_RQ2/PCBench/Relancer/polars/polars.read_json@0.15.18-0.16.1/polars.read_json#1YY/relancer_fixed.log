@@ -1,8 +1,14 @@
 --- Running polars.read_json#1YY/read_jsonYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'polars.read_json#1YY'), ('notebook', 'read_jsonYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'polars.read_json#1YY'), ('notebook', 'read_jsonYY'), ('text', '  File "read_jsonYY.py", line 2, in <module>\n    df = pl.read_json(\'./output.json\')\n  File "/dataset/zhang/anaconda3/envs/Rpolars0.16.1/lib/python3.8/site-packages/polars/io.py", line 985, in read_json\n    return DataFrame._read_json(file)\n  File "/dataset/zhang/anaconda3/envs/Rpolars0.16.1/lib/python3.8/site-packages/polars/internals/dataframe/frame.py", line 959, in _read_json\n    self._df = PyDataFrame.read_json(file, False)\nFileNotFoundError: No such file or directory: ./output.json\n')])
+  File "read_jsonYY.py", line 2, in <module>
+Error inducing API short name: read_json, line no: 2
+Error inducing API fqn: polars.read_json, line no: 2
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.339s
-user	0m0.293s
-sys	0m0.046s
+real	0m0.375s
+user	0m0.337s
+sys	0m0.039s

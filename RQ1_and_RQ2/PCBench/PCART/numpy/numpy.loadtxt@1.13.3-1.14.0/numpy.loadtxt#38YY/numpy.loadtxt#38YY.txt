@@ -12,22 +12,23 @@ Incompatible Numpy Invoked API Number: 0/1
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: numpy.loadtxt#38YY/loadtxtYY.py has 1 Numpy-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: np.loadtxt('./data1.txt', float, '#', None, None, 0, usecols=None, unpack=False)                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.loadtxt#38YY/loadtxtYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.3 <dynamic>: (fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0)                |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <dynamic>: (fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='byte |
-| s')                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: numpy.loadtxt#38YY/loadtxtYY.py has 1 Numpy-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: np.loadtxt('./data1.txt', float, '#', None, None, 0, usecols=None, unpack=False)   |
+|                                                                                                    |
+| Location: At Line 2 in numpy.loadtxt#38YY/loadtxtYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.3 <dynamic>: (fname, dtype=<class 'float'>, comments='#', delimiter=None, convert |
+| ers=None, skiprows=0, usecols=None, unpack=False, ndmin=0)                                         |
+|                                                                                                    |
+| Definition @1.14.0 <dynamic>: (fname, dtype=<class 'float'>, comments='#', delimiter=None, convert |
+| ers=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='bytes')                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

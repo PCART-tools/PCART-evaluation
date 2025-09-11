@@ -1,5 +1,5 @@
 --- Running polars.read_json#5NN/read_jsonNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'polars.read_json#5NN'), ('notebook', 'read_jsonNN'), ('text', '  File "read_jsonNN.py", line 2, in <module>\n    df = pl.read_json(file=\'/home/zhang/output.json\', json_lines=None)\nTypeError: read_json() got an unexpected keyword argument \'json_lines\'\n')])
+[ERR MSG]: OrderedDict([('project', 'polars.read_json#5NN'), ('notebook', 'read_jsonNN'), ('text', '  File "read_jsonNN.py", line 2, in <module>\n    df = pl.read_json(file=\'./output.json\', json_lines=None)\nTypeError: read_json() got an unexpected keyword argument \'json_lines\'\n')])
   File "read_jsonNN.py", line 2, in <module>
 Error inducing API short name: read_json, line no: 2
 Error inducing API fqn: polars.read_json, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m1.341s
-user	0m0.628s
-sys	0m0.079s
+real	0m1.294s
+user	0m0.544s
+sys	0m0.139s

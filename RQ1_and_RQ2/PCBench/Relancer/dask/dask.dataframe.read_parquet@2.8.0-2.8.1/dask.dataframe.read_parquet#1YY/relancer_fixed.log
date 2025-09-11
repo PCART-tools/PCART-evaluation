@@ -1,8 +1,14 @@
 --- Running dask.dataframe.read_parquet#1YY/read_parquetYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#1YY'), ('notebook', 'read_parquetYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'dask.dataframe.read_parquet#1YY'), ('notebook', 'read_parquetYY'), ('text', '  File "read_parquetYY.py", line 2, in <module>\n    ddf = dd.read_parquet(\'./example.parquet\')\n  File "/dataset/zhang/anaconda3/envs/Rdask2.8.1/lib/python3.6/site-packages/dask/dataframe/io/parquet/core.py", line 224, in read_parquet\n    **kwargs\n  File "/dataset/zhang/anaconda3/envs/Rdask2.8.1/lib/python3.6/site-packages/dask/dataframe/io/parquet/arrow.py", line 139, in read_metadata\n    fs, paths, gather_statistics, filters, kwargs.get("dataset", {})\n  File "/dataset/zhang/anaconda3/envs/Rdask2.8.1/lib/python3.6/site-packages/dask/dataframe/io/parquet/arrow.py", line 118, in _determine_dataset_parts\n    dataset = pq.ParquetDataset(paths, filesystem=fs, **dataset_kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask2.8.1/lib/python3.6/site-packages/pyarrow/parquet.py", line 981, in __init__\n    open_file_func=partial(_open_dataset_file, self))\n  File "/dataset/zhang/anaconda3/envs/Rdask2.8.1/lib/python3.6/site-packages/pyarrow/parquet.py", line 1167, in _make_manifest\n    .format(path))\nOSError: Passed non-file path: /home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/dask.dataframe.read_parquet#1YY/./example.parquet\n')])
+  File "read_parquetYY.py", line 2, in <module>
+Error inducing API short name: read_parquet, line no: 2
+Error inducing API fqn: dask.dataframe.read_parquet, line no: 2
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.785s
-user	0m1.924s
-sys	0m6.877s
+real	0m0.853s
+user	0m2.017s
+sys	0m5.852s

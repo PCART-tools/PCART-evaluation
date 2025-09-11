@@ -12,37 +12,39 @@ Incompatible Numpy Invoked API Number: 0/2
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: numpy.savetxt#10YY/savetxtYY.py has 2 Numpy-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.savetxt#10YY/savetxtYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.3 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,formats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True) |
-| ']}                                                                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.savetxt('./example.txt', data, fmt='%.18e', delimiter=' ')                                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.savetxt#10YY/savetxtYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.13.3 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ')                                                     |
-|                                                                                                                                                                             |
-| Definition @1.14.0 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ', encoding=None)                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: numpy.savetxt#10YY/savetxtYY.py has 2 Numpy-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])                                        |
+|                                                                                                    |
+| Location: At Line 2 in numpy.savetxt#10YY/savetxtYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.3 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Definition @1.14.0 <static>: {'numpy.array': ['(obj,dtype=None,shape=None,offset=0,strides=None,fo |
+| rmats=None,names=None,titles=None,aligned=False,byteorder=None,copy=True)']}                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.savetxt('./example.txt', data, fmt='%.18e', delimiter=' ')                      |
+|                                                                                                    |
+| Location: At Line 3 in numpy.savetxt#10YY/savetxtYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.13.3 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ')                                                                              |
+|                                                                                                    |
+| Definition @1.14.0 <dynamic>: (fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', foot |
+| er='', comments='# ', encoding=None)                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

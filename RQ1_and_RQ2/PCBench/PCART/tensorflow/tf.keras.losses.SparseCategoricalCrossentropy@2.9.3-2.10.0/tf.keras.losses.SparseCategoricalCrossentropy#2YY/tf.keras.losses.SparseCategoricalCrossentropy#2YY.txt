@@ -12,21 +12,24 @@ Incompatible Tensorflow Invoked API Number: 0/1
 -> Failed to Repair Tensorflow Invoked API Number: 0/0
 -> Unknown Repair Status Tensorflow Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                        File #1: tf.keras.losses.SparseCategoricalCrossentropy#2YY/SparseCategoricalCrossentropyYY.py has 1 Tensorflow-Invoked API(s)                        |
-===============================================================================================================================================================================
-| Invoked API #1: tf.keras.losses.SparseCategoricalCrossentropy(False)                                                                                                        |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tf.keras.losses.SparseCategoricalCrossentropy#2YY/SparseCategoricalCrossentropyYY.py                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.9.3 <dynamic>: (from_logits=False, reduction='auto', name='sparse_categorical_crossentropy')                                                                  |
-|                                                                                                                                                                             |
-| Definition @2.10.0 <dynamic>: (from_logits=False, ignore_class=None, reduction='auto', name='sparse_categorical_crossentropy')                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: tf.keras.losses.SparseCategoricalCrossentropy#2YY/SparseCategoricalCrossentropyYY.py has 1 Tensorflow-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: tf.keras.losses.SparseCategoricalCrossentropy(False)                               |
+|                                                                                                    |
+| Location: At Line 2 in tf.keras.losses.SparseCategoricalCrossentropy#2YY/SparseCategoricalCrossent |
+| ropyYY.py                                                                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.9.3 <dynamic>: (from_logits=False, reduction='auto', name='sparse_categorical_crosse |
+| ntropy')                                                                                           |
+|                                                                                                    |
+| Definition @2.10.0 <dynamic>: (from_logits=False, ignore_class=None, reduction='auto', name='spars |
+| e_categorical_crossentropy')                                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

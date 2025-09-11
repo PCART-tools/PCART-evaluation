@@ -12,36 +12,39 @@ Incompatible Sklearn Invoked API Number: 0/2
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                     File #1: sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py has 2 Sklearn-Invoked API(s)                                     |
-===============================================================================================================================================================================
-| Invoked API #1: Normalizer(norm='l1')                                                                                                                                       |
-|                                                                                                                                                                             |
-| Location: At Line 4 in sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py                                                                                        |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.20.4 <dynamic>: (norm='l2', copy=True)                                                                                                                        |
-|                                                                                                                                                                             |
-| Definition @0.21.0 <dynamic>: (norm='l2', copy=True)                                                                                                                        |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: ColumnTransformer([('norm1', Normalizer(norm='l1'), [0, 1]), ('norm2', Normalizer(norm='l1'), slice(2, 4))], remainder='drop', sparse_threshold=0.3, n_jobs |
-| =None, transformer_weights=None)                                                                                                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 4 in sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py                                                                                        |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.20.4 <dynamic>: (transformers, remainder='drop', sparse_threshold=0.3, n_jobs=None, transformer_weights=None)                                                 |
-|                                                                                                                                                                             |
-| Definition @0.21.0 <dynamic>: (transformers, remainder='drop', sparse_threshold=0.3, n_jobs=None, transformer_weights=None, verbose=False)                                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py has 2 Sklearn-Invoked API(s) |
+======================================================================================================
+| Invoked API #1: Normalizer(norm='l1')                                                              |
+|                                                                                                    |
+| Location: At Line 4 in sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.20.4 <dynamic>: (norm='l2', copy=True)                                               |
+|                                                                                                    |
+| Definition @0.21.0 <dynamic>: (norm='l2', copy=True)                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: ColumnTransformer([('norm1', Normalizer(norm='l1'), [0, 1]), ('norm2', Normalizer( |
+| norm='l1'), slice(2, 4))], remainder='drop', sparse_threshold=0.3, n_jobs=None, transformer_weight |
+| s=None)                                                                                            |
+|                                                                                                    |
+| Location: At Line 4 in sklearn.compose.ColumnTransformer#19YY/ColumnTransformerYY.py               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.20.4 <dynamic>: (transformers, remainder='drop', sparse_threshold=0.3, n_jobs=None,  |
+| transformer_weights=None)                                                                          |
+|                                                                                                    |
+| Definition @0.21.0 <dynamic>: (transformers, remainder='drop', sparse_threshold=0.3, n_jobs=None,  |
+| transformer_weights=None, verbose=False)                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

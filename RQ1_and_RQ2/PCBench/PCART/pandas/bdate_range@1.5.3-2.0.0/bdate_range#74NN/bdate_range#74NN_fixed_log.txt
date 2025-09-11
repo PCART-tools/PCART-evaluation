@@ -1,5 +1,16 @@
 pd.bdate_range('1/1/2018', end='1/08/2018', periods=None, freq='B', tz=None, normalize=True, name=None, weekmask=None, holidays=None, closed=None, inclusive=None), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 1049, in bdate_range
+    return date_range(
+  File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 945, in date_range
+    dtarr = DatetimeArray._generate_range(
+TypeError: _generate_range() got an unexpected keyword argument 'closed'
+
+
+pd.bdate_range('1/1/2018', end='1/08/2018', periods=None, freq='B', tz=None, normalize=True, name=None, weekmask=None, holidays=None, closed=None, inclusive=None), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/pandas2.0.0/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 1049, in bdate_range

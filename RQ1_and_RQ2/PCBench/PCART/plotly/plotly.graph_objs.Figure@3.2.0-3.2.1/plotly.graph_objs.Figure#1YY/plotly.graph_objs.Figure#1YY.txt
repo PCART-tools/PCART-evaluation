@@ -12,21 +12,21 @@ Incompatible Plotly Invoked API Number: 0/1
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                File #1: plotly.graph_objs.Figure#1YY/FigureYY.py has 1 Plotly-Invoked API(s)                                                |
-===============================================================================================================================================================================
-| Invoked API #1: go.Figure()                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in plotly.graph_objs.Figure#1YY/FigureYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.2.0 <dynamic>: (data=None, layout=None, frames=None)                                                                                                          |
-|                                                                                                                                                                             |
-| Definition @3.2.1 <dynamic>: (data=None, layout=None, frames=None, skip_invalid=False)                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|           File #1: plotly.graph_objs.Figure#1YY/FigureYY.py has 1 Plotly-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: go.Figure()                                                                        |
+|                                                                                                    |
+| Location: At Line 2 in plotly.graph_objs.Figure#1YY/FigureYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.2.0 <dynamic>: (data=None, layout=None, frames=None)                                 |
+|                                                                                                    |
+| Definition @3.2.1 <dynamic>: (data=None, layout=None, frames=None, skip_invalid=False)             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

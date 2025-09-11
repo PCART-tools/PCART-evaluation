@@ -1,14 +1,14 @@
 np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
-  File "dynamicMatch.py", line 172, in <module>
+  File "dynamicMatch.py", line 188, in <module>
     lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
-  File "dynamicMatch.py", line 76, in departAPI
+  File "dynamicMatch.py", line 96, in departAPI
     for i in range(len(s)):
 TypeError: 'tuple' object is not callable
 
 np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), Failed to load pkl in target version1.24.0: Traceback (most recent call last):
-  File "dynamicMatch.py", line 172, in <module>
+  File "dynamicMatch.py", line 188, in <module>
     lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
-  File "dynamicMatch.py", line 76, in departAPI
+  File "dynamicMatch.py", line 96, in departAPI
     for i in range(len(s)):
 TypeError: 'tuple' object is not callable
 
@@ -20,16 +20,16 @@ TypeError: histogram() got an unexpected keyword argument 'normed'
 
 
 np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
-  File "dynamicMatch.py", line 172, in <module>
+  File "dynamicMatch.py", line 188, in <module>
     lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
-  File "dynamicMatch.py", line 76, in departAPI
+  File "dynamicMatch.py", line 96, in departAPI
     for i in range(len(s)):
 TypeError: 'tuple' object is not callable
 
 np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), Failed to load pkl in target version1.24.0: Traceback (most recent call last):
-  File "dynamicMatch.py", line 172, in <module>
+  File "dynamicMatch.py", line 188, in <module>
     lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
-  File "dynamicMatch.py", line 76, in departAPI
+  File "dynamicMatch.py", line 96, in departAPI
     for i in range(len(s)):
 TypeError: 'tuple' object is not callable
 
@@ -40,9 +40,58 @@ TypeError: 'tuple' object is not callable
 TypeError: histogram() got an unexpected keyword argument 'normed'
 
 np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), addValueError: Traceback (most recent call last):
-  File "addValueForAPI.py", line 253, in <module>
+  File "addValueForAPI.py", line 287, in <module>
     lst1=departAPI(callAPI) #将API按点进行拆分a.b(y).c(z)拆分成a.b(y), a.b(y).c(z)
-  File "addValueForAPI.py", line 63, in departAPI
+  File "addValueForAPI.py", line 93, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+
+np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
+  File "dynamicMatch.py", line 188, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 96, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), Failed to load pkl in target version1.24.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 188, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 96, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+[1.24.0]np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), generate new pkl failed: Traceback (most recent call last):
+  File "histogramNN.py", line 12, in <module>
+    (hist, bin_edges) = np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density)
+  File "<__array_function__ internals>", line 198, in histogram
+TypeError: histogram() got an unexpected keyword argument 'normed'
+
+
+np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), Failed to load pkl in current version1.23.5: Traceback (most recent call last):
+  File "dynamicMatch.py", line 188, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 96, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), Failed to load pkl in target version1.24.0: Traceback (most recent call last):
+  File "dynamicMatch.py", line 188, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a(x).b(y).c(z)拆分成a(x), a(x).b(y), a(x).b(y).c(z)
+  File "dynamicMatch.py", line 96, in departAPI
+    for i in range(len(s)):
+TypeError: 'tuple' object is not callable
+
+[1.24.0]np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), generate new pkl failed: Traceback (most recent call last):
+  File "histogramNN.py", line 12, in <module>
+    (hist, bin_edges) = np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density)
+  File "<__array_function__ internals>", line 198, in histogram
+TypeError: histogram() got an unexpected keyword argument 'normed'
+
+np.histogram(a, bins=bins, range=range, normed=normed, weights=weights, density=density), addValueError: Traceback (most recent call last):
+  File "addValueForAPI.py", line 287, in <module>
+    lst1=departAPI(callAPI) #将API按点进行拆分a.b(y).c(z)拆分成a.b(y), a.b(y).c(z)
+  File "addValueForAPI.py", line 93, in departAPI
     for i in range(len(s)):
 TypeError: 'tuple' object is not callable
 

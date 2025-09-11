@@ -12,39 +12,42 @@ Incompatible Pandas Invoked API Number: 0/2
 -> Failed to Repair Pandas Invoked API Number: 0/0
 -> Unknown Repair Status Pandas Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                           File #1: melt#8YY/meltYY.py has 2 Pandas-Invoked API(s)                                                           |
-===============================================================================================================================================================================
-| Invoked API #1: pd.DataFrame({'A': {0: 'a', 1: 'b', 2: 'c'}, 'B': {0: 1, 1: 3, 2: 5}, 'C': {0: 2, 1: 4, 2: 6}})                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 2 in melt#8YY/meltYY.py                                                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.5 <dynamic>: (data=None, index: Union[Collection, NoneType] = None, columns: Union[Collection, NoneType] = None, dtype: Union[str, numpy.dtype, ForwardRef( |
-| 'ExtensionDtype'), NoneType] = None, copy: bool = False)                                                                                                                    |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (data=None, index: Union[Collection, NoneType] = None, columns: Union[Collection, NoneType] = None, dtype: Union[ForwardRef('ExtensionDtype'), |
-|  str, numpy.dtype, Type[Union[str, float, int, complex, bool]], NoneType] = None, copy: bool = False)                                                                       |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pd.melt(df, id_vars=['A'], value_vars=['B'])                                                                                                                |
-|                                                                                                                                                                             |
-| Location: At Line 3 in melt#8YY/meltYY.py                                                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.0.5 <dynamic>: (frame: pandas.core.frame.DataFrame, id_vars=None, value_vars=None, var_name=None, value_name='value', col_level=None) -> pandas.core.frame.Da |
-| taFrame                                                                                                                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (frame: 'DataFrame', id_vars=None, value_vars=None, var_name=None, value_name='value', col_level=None, ignore_index: bool = True) -> 'DataFram |
-| e'                                                                                                                                                                          |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                      File #1: melt#8YY/meltYY.py has 2 Pandas-Invoked API(s)                       |
+======================================================================================================
+| Invoked API #1: pd.DataFrame({'A': {0: 'a', 1: 'b', 2: 'c'}, 'B': {0: 1, 1: 3, 2: 5}, 'C': {0: 2,  |
+| 1: 4, 2: 6}})                                                                                      |
+|                                                                                                    |
+| Location: At Line 2 in melt#8YY/meltYY.py                                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.5 <dynamic>: (data=None, index: Union[Collection, NoneType] = None, columns: Union |
+| [Collection, NoneType] = None, dtype: Union[str, numpy.dtype, ForwardRef('ExtensionDtype'), NoneTy |
+| pe] = None, copy: bool = False)                                                                    |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (data=None, index: Union[Collection, NoneType] = None, columns: Union |
+| [Collection, NoneType] = None, dtype: Union[ForwardRef('ExtensionDtype'), str, numpy.dtype, Type[U |
+| nion[str, float, int, complex, bool]], NoneType] = None, copy: bool = False)                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pd.melt(df, id_vars=['A'], value_vars=['B'])                                       |
+|                                                                                                    |
+| Location: At Line 3 in melt#8YY/meltYY.py                                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.0.5 <dynamic>: (frame: pandas.core.frame.DataFrame, id_vars=None, value_vars=None, v |
+| ar_name=None, value_name='value', col_level=None) -> pandas.core.frame.DataFrame                   |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (frame: 'DataFrame', id_vars=None, value_vars=None, var_name=None, va |
+| lue_name='value', col_level=None, ignore_index: bool = True) -> 'DataFrame'                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

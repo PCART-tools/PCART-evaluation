@@ -12,25 +12,27 @@ Incompatible Pandas Invoked API Number: 1/1
 -> Failed to Repair Pandas Invoked API Number: 0/1
 -> Unknown Repair Status Pandas Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                                     File #1: Timestamp#18NN/TimestampNN.py has 1 Pandas-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: pd.Timestamp(fold=None, freq=None, tz=None, ts_input='2017-01-01T12')                                                                                       |
-|                                                                                                                                                                             |
-| Location: At Line 2 in Timestamp#18NN/TimestampNN.py                                                                                                                        |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.5.3 <dynamic>: (ts_input=<object object at 0x7f0df1a68860>, freq=None, tz=None, unit=None, year=None, month=None, day=None, hour=None, minute=None, second=No |
-| ne, microsecond=None, nanosecond=None, tzinfo=None, *, fold=None)                                                                                                           |
-|                                                                                                                                                                             |
-| Definition @2.0.0 <dynamic>: (ts_input=<object object at 0x7f51c4aa1650>, year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, tzinfo=No |
-| ne, *, nanosecond=None, tz=None, unit=None, fold=None)                                                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: pd.Timestamp(fold=None, tz=None, ts_input='2017-01-01T12')                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: Timestamp#18NN/TimestampNN.py has 1 Pandas-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: pd.Timestamp(fold=None, freq=None, tz=None, ts_input='2017-01-01T12')              |
+|                                                                                                    |
+| Location: At Line 2 in Timestamp#18NN/TimestampNN.py                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (ts_input=<object object at 0x7f518232e860>, freq=None, tz=None, unit |
+| =None, year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, nan |
+| osecond=None, tzinfo=None, *, fold=None)                                                           |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (ts_input=<object object at 0x7fc78929e650>, year=None, month=None, d |
+| ay=None, hour=None, minute=None, second=None, microsecond=None, tzinfo=None, *, nanosecond=None, t |
+| z=None, unit=None, fold=None)                                                                      |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: pd.Timestamp(fold=None, tz=None, ts_input='2017-01-01T12')                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

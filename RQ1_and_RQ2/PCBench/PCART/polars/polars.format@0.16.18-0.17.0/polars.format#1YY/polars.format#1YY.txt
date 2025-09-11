@@ -12,21 +12,21 @@ Incompatible Polars Invoked API Number: 0/1
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: polars.format#1YY/formatYY.py has 1 Polars-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: pl.format('fo')                                                                                                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.format#1YY/formatYY.py                                                                                                                        |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (fstring: 'str', *args: 'Expr | str') -> 'Expr'                                                                                              |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (f_string: 'str', *args: 'Expr | str') -> 'Expr'                                                                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: polars.format#1YY/formatYY.py has 1 Polars-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: pl.format('fo')                                                                    |
+|                                                                                                    |
+| Location: At Line 2 in polars.format#1YY/formatYY.py                                               |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (fstring: 'str', *args: 'Expr | str') -> 'Expr'                     |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (f_string: 'str', *args: 'Expr | str') -> 'Expr'                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

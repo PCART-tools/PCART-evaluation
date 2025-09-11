@@ -1,11 +1,27 @@
-tf.data.Dataset.sample_from_datasets(datasets=[dataset1, dataset2], weights=[0.5, 0.5]), Failed to load pkl in current version2.11.1: 2025-01-09 23:50:56.456655: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+tf.data.Dataset.sample_from_datasets(datasets=[dataset1, dataset2], weights=[0.5, 0.5]), Failed to load pkl in current version2.11.1: 2025-08-02 09:57:19.871080: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-01-09 23:50:56.604452: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-01-09 23:50:57.299902: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/local/cuda/lib64:/usr/local/cuda/lib64
-2025-01-09 23:50:57.299991: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/local/cuda/lib64:/usr/local/cuda/lib64
-2025-01-09 23:50:57.300000: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2025-08-02 09:57:20.139572: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-02 09:57:21.375031: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2025-08-02 09:57:21.375259: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2025-08-02 09:57:21.375310: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
 Traceback (most recent call last):
-  File "/home/zhang/CC/Python/PCART4/Dynamic/tf.data.Dataset.sample_from_datasets#5YY/dynamicMatch.py", line 161, in <module>
+  File "/home/nuaa/Projects/PCART_Evaluation/RunPCBench/PCART7/Dynamic/tf.data.Dataset.sample_from_datasets#5YY/dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.11.1/lib/python3.9/site-packages/dill/_dill.py", line 287, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/tensorflow2.11.1/lib/python3.9/site-packages/dill/_dill.py", line 442, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+
+
+tf.data.Dataset.sample_from_datasets(datasets=[dataset1, dataset2], weights=[0.5, 0.5]), Failed to load pkl in current version2.11.1: 2025-08-02 22:45:10.575215: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-02 22:45:10.743447: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-02 22:45:11.645673: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2025-08-02 22:45:11.645830: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2025-08-02 22:45:11.645859: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Traceback (most recent call last):
+  File "/home/nuaa/Projects/PCART_Evaluation/RunPCBench/PCART7/Dynamic/tf.data.Dataset.sample_from_datasets#5YY/dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/tensorflow2.11.1/lib/python3.9/site-packages/dill/_dill.py", line 287, in load
     return Unpickler(file, ignore=ignore, **kwds).load()

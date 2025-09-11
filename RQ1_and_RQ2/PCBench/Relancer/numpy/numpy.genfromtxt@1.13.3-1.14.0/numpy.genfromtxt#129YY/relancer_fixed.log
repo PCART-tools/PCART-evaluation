@@ -1,8 +1,14 @@
 --- Running numpy.genfromtxt#129YY/genfromtxtYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.genfromtxt#129YY'), ('notebook', 'genfromtxtYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.genfromtxt#129YY'), ('notebook', 'genfromtxtYY'), ('text', '  File "genfromtxtYY.py", line 2, in <module>\n    data = np.genfromtxt(\'./data.csv\',  float,  \'#\',  \',\',  0,  0, converters=None, missing_values=None, filling_values=None, usecols=None, names=None, excludelist=None, deletechars=None, replace_space=\'_\', autostrip=False)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1684, in genfromtxt\n    fhd = iter(np.lib._datasource.open(fname, \'rt\', encoding=encoding))\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 260, in open\n    return ds.open(path, mode, encoding=encoding, newline=newline)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 616, in open\n    raise IOError("%s not found." % path)\nOSError: ./data.csv not found.\n')])
+  File "genfromtxtYY.py", line 2, in <module>
+Error inducing API short name: genfromtxt, line no: 2
+Error inducing API fqn: numpy.genfromtxt, line no: 2
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.490s
-user	0m1.489s
-sys	0m5.765s
+real	0m0.473s
+user	0m1.365s
+sys	0m4.932s

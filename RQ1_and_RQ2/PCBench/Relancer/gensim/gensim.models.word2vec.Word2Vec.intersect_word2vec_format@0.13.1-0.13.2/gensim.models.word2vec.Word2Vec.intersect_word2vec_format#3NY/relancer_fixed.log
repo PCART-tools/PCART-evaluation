@@ -1,8 +1,14 @@
 --- Running gensim.models.word2vec.Word2Vec.intersect_word2vec_format#3NY/intersect_word2vec_formatNY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'gensim.models.word2vec.Word2Vec.intersect_word2vec_format#3NY'), ('notebook', 'intersect_word2vec_formatNY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'gensim.models.word2vec.Word2Vec.intersect_word2vec_format#3NY'), ('notebook', 'intersect_word2vec_formatNY'), ('text', '  File "intersect_word2vec_formatNY.py", line 7, in <module>\n    model.intersect_word2vec_format(fname,  False)\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.13.2/lib/python3.6/site-packages/gensim/models/word2vec.py", line 1175, in intersect_word2vec_format\n    with utils.smart_open(fname) as fin:\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.13.2/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 503, in smart_open\n    return open(**locals())\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.13.2/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 184, in open\n    newline=newline,\n  File "/dataset/zhang/anaconda3/envs/Rgensim0.13.2/lib/python3.6/site-packages/smart_open/smart_open_lib.py", line 363, in _shortcut_open\n    return _builtin_open(local_path, mode, buffering=buffering, **open_kwargs)\nFileNotFoundError: [Errno 2] No such file or directory: \'./glove.6B.50d.w2v.txt\'\n')])
+  File "intersect_word2vec_formatNY.py", line 7, in <module>
+Error inducing API short name: intersect_word2vec_format, line no: 7
+Error inducing API fqn: UNKNOWN, line no: 7
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m9.645s
-user	0m11.049s
-sys	0m5.421s
+real	0m0.802s
+user	0m2.073s
+sys	0m5.585s

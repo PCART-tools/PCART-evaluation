@@ -1,8 +1,14 @@
 --- Running numpy.fromregex#3YY/fromregexYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'numpy.fromregex#3YY'), ('notebook', 'fromregexYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'numpy.fromregex#3YY'), ('notebook', 'fromregexYY'), ('text', '  File "fromregexYY.py", line 2, in <module>\n    result = np.fromregex(\'./data.txt\', regexp=\'(\\\\d+), (\\\\d+)\', dtype=[(\'num1\', int), (\'num2\', int)])\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/npyio.py", line 1447, in fromregex\n    file = np.lib._datasource.open(file, \'rt\', encoding=encoding)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 260, in open\n    return ds.open(path, mode, encoding=encoding, newline=newline)\n  File "/dataset/zhang/anaconda3/envs/Rnumpy1.14.0/lib/python3.6/site-packages/numpy/lib/_datasource.py", line 616, in open\n    raise IOError("%s not found." % path)\nOSError: ./data.txt not found.\n')])
+  File "fromregexYY.py", line 2, in <module>
+Error inducing API short name: fromregex, line no: 2
+Error inducing API fqn: numpy.fromregex, line no: 2
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.474s
-user	0m1.815s
-sys	0m6.745s
+real	0m0.455s
+user	0m1.397s
+sys	0m4.830s

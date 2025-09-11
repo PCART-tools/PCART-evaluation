@@ -12,35 +12,37 @@ Incompatible Polars Invoked API Number: 0/2
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: polars.Expr.reshape#1YY/reshapeYY.py has 2 Polars-Invoked API(s)                                                  |
-===============================================================================================================================================================================
-| Invoked API #1: pl.col('foo')                                                                                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.reshape#1YY/reshapeYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pl.col('foo').reshape((3, 3))                                                                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.reshape#1YY/reshapeYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (dims: 'tuple[int, ...]') -> 'Self'                                                                                                          |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (dimensions: 'tuple[int, ...]') -> 'Self'                                                                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|             File #1: polars.Expr.reshape#1YY/reshapeYY.py has 2 Polars-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: pl.col('foo')                                                                      |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.reshape#1YY/reshapeYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pl.col('foo').reshape((3, 3))                                                      |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.reshape#1YY/reshapeYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (dims: 'tuple[int, ...]') -> 'Self'                                 |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (dimensions: 'tuple[int, ...]') -> 'Self'                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,23 +12,25 @@ Incompatible Click Invoked API Number: 0/1
 -> Failed to Repair Click Invoked API Number: 0/0
 -> Unknown Repair Status Click Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: click.Command#9YY/CommandYY.py has 1 Click-Invoked API(s)                                                      |
-===============================================================================================================================================================================
-| Invoked API #1: click.Command(name='my_command', context_settings=None, callback=None)                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 2 in click.Command#9YY/CommandYY.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @7.0 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option= |
-| True, hidden=False, deprecated=False)                                                                                                                                       |
-|                                                                                                                                                                             |
-| Definition @7.1 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option= |
-| True, no_args_is_help=False, hidden=False, deprecated=False)                                                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                 File #1: click.Command#9YY/CommandYY.py has 1 Click-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: click.Command(name='my_command', context_settings=None, callback=None)             |
+|                                                                                                    |
+| Location: At Line 2 in click.Command#9YY/CommandYY.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @7.0 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, ep |
+| ilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option=True, hidden=False, depre |
+| cated=False)                                                                                       |
+|                                                                                                    |
+| Definition @7.1 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, ep |
+| ilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option=True, no_args_is_help=Fal |
+| se, hidden=False, deprecated=False)                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

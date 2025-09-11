@@ -1,8 +1,14 @@
 --- Running matplotlib.testing.compare.calculate_rms#1YY/calculate_rmsYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'matplotlib.testing.compare.calculate_rms#1YY'), ('notebook', 'calculate_rmsYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'matplotlib.testing.compare.calculate_rms#1YY'), ('notebook', 'calculate_rmsYY'), ('text', '  File "calculate_rmsYY.py", line 4, in <module>\n    expectedImage = np.array(Image.open(\'./example.png\'))\n  File "/dataset/zhang/anaconda3/envs/Rmatplotlib3.1.0/lib/python3.6/site-packages/PIL/Image.py", line 2975, in open\n    fp = builtins.open(filename, "rb")\nFileNotFoundError: [Errno 2] No such file or directory: \'./example.png\'\n')])
+  File "calculate_rmsYY.py", line 4, in <module>
+Error inducing API short name: array, line no: 4
+Error inducing API fqn: numpy.array, line no: 4
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m2.752s
-user	0m2.024s
-sys	0m5.775s
+real	0m1.566s
+user	0m1.729s
+sys	0m5.840s

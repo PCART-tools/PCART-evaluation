@@ -12,21 +12,23 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: scipy.stats.qmc.Sobol#3YY/SobolYY.py has 1 Scipy-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: qmc.Sobol(d, seed=seed)                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 5 in scipy.stats.qmc.Sobol#3YY/SobolYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.8.1 <dynamic>: (d: 'IntNumber', *, scramble: 'bool' = True, seed: 'SeedType' = None) -> 'None'                                                                |
-|                                                                                                                                                                             |
-| Definition @1.9.0 <dynamic>: (d: 'IntNumber', *, scramble: 'bool' = True, bits: 'Optional[IntNumber]' = None, seed: 'SeedType' = None) -> 'None'                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: scipy.stats.qmc.Sobol#3YY/SobolYY.py has 1 Scipy-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: qmc.Sobol(d, seed=seed)                                                            |
+|                                                                                                    |
+| Location: At Line 5 in scipy.stats.qmc.Sobol#3YY/SobolYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.8.1 <dynamic>: (d: 'IntNumber', *, scramble: 'bool' = True, seed: 'SeedType' = None) |
+|  -> 'None'                                                                                         |
+|                                                                                                    |
+| Definition @1.9.0 <dynamic>: (d: 'IntNumber', *, scramble: 'bool' = True, bits: 'Optional[IntNumbe |
+| r]' = None, seed: 'SeedType' = None) -> 'None'                                                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

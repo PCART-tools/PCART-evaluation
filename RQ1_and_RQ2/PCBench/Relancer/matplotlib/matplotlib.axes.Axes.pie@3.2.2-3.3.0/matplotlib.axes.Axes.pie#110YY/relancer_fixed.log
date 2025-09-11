@@ -3,6 +3,6 @@
 [INFO] This case is fully fixed!
 
 
-real	0m0.639s
-user	0m1.732s
-sys	0m5.669s
+real	0m0.995s
+user	0m1.739s
+sys	0m5.729s

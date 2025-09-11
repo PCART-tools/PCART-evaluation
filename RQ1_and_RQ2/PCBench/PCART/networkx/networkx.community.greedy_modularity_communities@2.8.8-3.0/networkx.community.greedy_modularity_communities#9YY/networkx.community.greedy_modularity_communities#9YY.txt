@@ -12,35 +12,38 @@ Incompatible Networkx Invoked API Number: 0/2
 -> Failed to Repair Networkx Invoked API Number: 0/0
 -> Unknown Repair Status Networkx Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                       File #1: networkx.community.greedy_modularity_communities#9YY/greedy_modularity_communitiesYY.py has 2 Networkx-Invoked API(s)                        |
-===============================================================================================================================================================================
-| Invoked API #1: nx.karate_club_graph()                                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 2 in networkx.community.greedy_modularity_communities#9YY/greedy_modularity_communitiesYY.py                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.8.8 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @3.0 <dynamic>: ()                                                                                                                                               |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: nx.community.greedy_modularity_communities(G=G, weight=None, resolution=1)                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 3 in networkx.community.greedy_modularity_communities#9YY/greedy_modularity_communitiesYY.py                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.8.8 <dynamic>: (G, weight=None, resolution=1, cutoff=1, best_n=None, n_communities=None)                                                                      |
-|                                                                                                                                                                             |
-| Definition @3.0 <dynamic>: (G, weight=None, resolution=1, cutoff=1, best_n=None)                                                                                            |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: networkx.community.greedy_modularity_communities#9YY/greedy_modularity_communitiesYY.py has 2 Networkx-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: nx.karate_club_graph()                                                             |
+|                                                                                                    |
+| Location: At Line 2 in networkx.community.greedy_modularity_communities#9YY/greedy_modularity_comm |
+| unitiesYY.py                                                                                       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: ()                                                                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: nx.community.greedy_modularity_communities(G=G, weight=None, resolution=1)         |
+|                                                                                                    |
+| Location: At Line 3 in networkx.community.greedy_modularity_communities#9YY/greedy_modularity_comm |
+| unitiesYY.py                                                                                       |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.8.8 <dynamic>: (G, weight=None, resolution=1, cutoff=1, best_n=None, n_communities=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (G, weight=None, resolution=1, cutoff=1, best_n=None)                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,43 +12,51 @@ Incompatible Polars Invoked API Number: 1/2
 -> Failed to Repair Polars Invoked API Number: 0/1
 -> Unknown Repair Status Polars Invoked API Number: 1/1
 
-===============================================================================================================================================================================
-|                                               File #1: polars.Expr.str.contains#3NN/containsNN.py has 2 Polars-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: pl.col('s')                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.str.contains#3NN/containsNN.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: a.str.contains('AA', False)                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 3 in polars.Expr.str.contains#3NN/containsNN.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <static>: {'polars.expr.string.ExprStringNameSpace.contains': ['(self,pattern:str|Expr,literal:bool=False,strict:bool=True)->Expr'], 'polars.expr.binar |
-| y.ExprBinaryNameSpace.contains': ['(self,lit:bytes)->Expr'], 'polars.expr.list.ExprListNameSpace.contains': ['(self,item:float|str|bool|int|date|datetime|time|Expr)->Expr' |
-| ], 'polars.series.string.StringNameSpace.contains': ['(self,pattern:str|Expr,literal:bool=False,strict:bool=True)->Series'], 'polars.series.binary.BinaryNameSpace.contains |
-| ': ['(self,lit:bytes)->Series'], 'polars.series.list.ListNameSpace.contains': ['(self,item:float|str|bool|int|date|datetime)->Series']}                                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <static>: {'polars.expr.string.ExprStringNameSpace.contains': ['(self,pattern:str|Expr,*,literal:bool=False,strict:bool=True)->Expr'], 'polars.expr.bina |
-| ry.ExprBinaryNameSpace.contains': ['(self,literal:bytes)->Expr'], 'polars.expr.list.ExprListNameSpace.contains': ['(self,item:float|str|bool|int|date|datetime|time|Expr)-> |
-| Expr'], 'polars.series.string.StringNameSpace.contains': ['(self,pattern:str|Expr,*,literal:bool=False,strict:bool=True)->Series'], 'polars.series.binary.BinaryNameSpace.c |
-| ontains': ['(self,literal:bytes)->Series'], 'polars.series.list.ListNameSpace.contains': ['(self,item:float|str|bool|int|date|datetime)->Series']}                          |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Unknown>: a.str.contains('AA', literal=False)                                                                                                                       |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: polars.Expr.str.contains#3NN/containsNN.py has 2 Polars-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: pl.col('s')                                                                        |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.str.contains#3NN/containsNN.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: a.str.contains('AA', False)                                                        |
+|                                                                                                    |
+| Location: At Line 3 in polars.Expr.str.contains#3NN/containsNN.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <static>: {'polars.series.list.ListNameSpace.contains': ['(self,item:float|str |
+| |bool|int|date|datetime)->Series'], 'polars.series.string.StringNameSpace.contains': ['(self,patte |
+| rn:str|Expr,literal:bool=False,strict:bool=True)->Series'], 'polars.series.binary.BinaryNameSpace. |
+| contains': ['(self,lit:bytes)->Series'], 'polars.expr.list.ExprListNameSpace.contains': ['(self,it |
+| em:float|str|bool|int|date|datetime|time|Expr)->Expr'], 'polars.expr.string.ExprStringNameSpace.co |
+| ntains': ['(self,pattern:str|Expr,literal:bool=False,strict:bool=True)->Expr'], 'polars.expr.binar |
+| y.ExprBinaryNameSpace.contains': ['(self,lit:bytes)->Expr']}                                       |
+|                                                                                                    |
+| Definition @0.17.0 <static>: {'polars.series.list.ListNameSpace.contains': ['(self,item:float|str| |
+| bool|int|date|datetime)->Series'], 'polars.series.string.StringNameSpace.contains': ['(self,patter |
+| n:str|Expr,*,literal:bool=False,strict:bool=True)->Series'], 'polars.series.binary.BinaryNameSpace |
+| .contains': ['(self,literal:bytes)->Series'], 'polars.expr.list.ExprListNameSpace.contains': ['(se |
+| lf,item:float|str|bool|int|date|datetime|time|Expr)->Expr'], 'polars.expr.string.ExprStringNameSpa |
+| ce.contains': ['(self,pattern:str|Expr,*,literal:bool=False,strict:bool=True)->Expr'], 'polars.exp |
+| r.binary.ExprBinaryNameSpace.contains': ['(self,literal:bytes)->Expr']}                            |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Unknown>: a.str.contains('AA', literal=False)                                              |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

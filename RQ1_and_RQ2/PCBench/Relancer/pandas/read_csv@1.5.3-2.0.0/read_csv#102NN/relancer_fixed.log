@@ -1,5 +1,5 @@
 --- Running read_csv#102NN/read_csvNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#102NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'/home/zhang/Packages/tensorflow_file/dev.csv\', memory_map=False, true_values=None, delimiter=None, verbose=False, encoding=None, names=None, skipfooter=0, nrows=None, low_memory=True, index_col=None, compression=\'infer\', squeeze=None, comment=None, usecols=None, dtype=None, thousands=None, prefix=None, sep=\',\', parse_dates=None, iterator=False, decimal=\'.\', date_parser=None, engine=None, dialect=None, na_filter=True, delim_whitespace=False, infer_datetime_format=False, mangle_dupe_cols=True, encoding_errors=\'strict\', keep_default_na=True, quotechar=\'"\', skip_blank_lines=True, lineterminator=None, keep_date_col=False, on_bad_lines=None, float_precision=None, storage_options=None, skiprows=None, error_bad_lines=None, chunksize=None, doublequote=True, escapechar=None, dayfirst=False, cache_dates=True, false_values=None, skipinitialspace=False, warn_bad_lines=None, na_values=None, converters=None, header=\'infer\', quoting=0)\nTypeError: read_csv() got an unexpected keyword argument \'squeeze\'\n')])
+[ERR MSG]: OrderedDict([('project', 'read_csv#102NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'./dev.csv\', memory_map=False, true_values=None, delimiter=None, verbose=False, encoding=None, names=None, skipfooter=0, nrows=None, low_memory=True, index_col=None, compression=\'infer\', squeeze=None, comment=None, usecols=None, dtype=None, thousands=None, prefix=None, sep=\',\', parse_dates=None, iterator=False, decimal=\'.\', date_parser=None, engine=None, dialect=None, na_filter=True, delim_whitespace=False, infer_datetime_format=False, mangle_dupe_cols=True, encoding_errors=\'strict\', keep_default_na=True, quotechar=\'"\', skip_blank_lines=True, lineterminator=None, keep_date_col=False, on_bad_lines=None, float_precision=None, storage_options=None, skiprows=None, error_bad_lines=None, chunksize=None, doublequote=True, escapechar=None, dayfirst=False, cache_dates=True, false_values=None, skipinitialspace=False, warn_bad_lines=None, na_values=None, converters=None, header=\'infer\', quoting=0)\nTypeError: read_csv() got an unexpected keyword argument \'squeeze\'\n')])
   File "read_csvNN.py", line 2, in <module>
 Error inducing API short name: read_csv, line no: 2
 Error inducing API fqn: pandas.read_csv, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.681s
-user	0m1.573s
-sys	0m4.897s
+real	0m0.651s
+user	0m1.608s
+sys	0m5.139s

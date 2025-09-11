@@ -12,21 +12,24 @@ Incompatible Tornado Invoked API Number: 0/1
 -> Failed to Repair Tornado Invoked API Number: 0/0
 -> Unknown Repair Status Tornado Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                File #1: tornado.options.define#18YY/defineYY.py has 1 Tornado-Invoked API(s)                                                |
-===============================================================================================================================================================================
-| Invoked API #1: tornado.options.define('hello', None, type=str, help='Name of the user', metavar=None)                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tornado.options.define#18YY/defineYY.py                                                                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.1 <dynamic>: (name, default=None, type=None, help=None, metavar=None, multiple=False, group=None)                                                           |
-|                                                                                                                                                                             |
-| Definition @3.0 <dynamic>: (name, default=None, type=None, help=None, metavar=None, multiple=False, group=None, callback=None)                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|           File #1: tornado.options.define#18YY/defineYY.py has 1 Tornado-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: tornado.options.define('hello', None, type=str, help='Name of the user', metavar=N |
+| one)                                                                                               |
+|                                                                                                    |
+| Location: At Line 2 in tornado.options.define#18YY/defineYY.py                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.1 <dynamic>: (name, default=None, type=None, help=None, metavar=None, multiple=Fal |
+| se, group=None)                                                                                    |
+|                                                                                                    |
+| Definition @3.0 <dynamic>: (name, default=None, type=None, help=None, metavar=None, multiple=False |
+| , group=None, callback=None)                                                                       |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

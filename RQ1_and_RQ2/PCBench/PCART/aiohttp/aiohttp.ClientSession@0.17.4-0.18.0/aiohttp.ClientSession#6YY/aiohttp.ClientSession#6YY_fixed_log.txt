@@ -1,11 +1,11 @@
 session.get('http://httpbin.org/headers'), Failed to load pkl in current version0.17.4: Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
-TypeError: __new__() missing 3 required positional arguments: 'ob', 'callback', and 'key'
+EOFError: Ran out of input
 Exception ignored in: <object repr() failed>
 Traceback (most recent call last):
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
@@ -14,47 +14,31 @@ Traceback (most recent call last):
     return self._closed
 AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 
-[0.18.0]session.get('http://httpbin.org/headers'), load new pkl failed: Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
-    paraValueDict=dill.load(fr)
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
-    return Unpickler(file, ignore=ignore, **kwds).load()
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
-    obj = StockUnpickler.load(self)
-EOFError: Ran out of input
-Exception ignored in: <object repr() failed>
-Traceback (most recent call last):
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
-    if not self.is_closed():
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
-    return self._closed
-AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
-
 session.get('http://httpbin.org/headers'), addValueError: Traceback (most recent call last):
-  File "addValueForAPI.py", line 249, in <module>
+  File "addValueForAPI.py", line 282, in <module>
     paraValueDict=dill.load(fr)
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
 EOFError: Ran out of input
 Exception ignored in: <object repr() failed>
 Traceback (most recent call last):
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
     if not self.is_closed():
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
     return self._closed
 AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 
 
 session.close(), Failed to load pkl in current version0.17.4: Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+  File "dynamicMatch.py", line 177, in <module>
     paraValueDict=dill.load(fr)
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
-TypeError: __new__() missing 3 required positional arguments: 'ob', 'callback', and 'key'
+EOFError: Ran out of input
 Exception ignored in: <object repr() failed>
 Traceback (most recent call last):
   File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
@@ -63,35 +47,85 @@ Traceback (most recent call last):
     return self._closed
 AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 
-[0.18.0]session.close(), load new pkl failed: Traceback (most recent call last):
-  File "dynamicMatch.py", line 161, in <module>
+session.close(), addValueError: Traceback (most recent call last):
+  File "addValueForAPI.py", line 282, in <module>
     paraValueDict=dill.load(fr)
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
 EOFError: Ran out of input
 Exception ignored in: <object repr() failed>
 Traceback (most recent call last):
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
     if not self.is_closed():
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
+
+
+session.get('http://httpbin.org/headers'), Failed to load pkl in current version0.17.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
+
+session.get('http://httpbin.org/headers'), addValueError: Traceback (most recent call last):
+  File "addValueForAPI.py", line 282, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+    return self._closed
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
+
+
+session.close(), Failed to load pkl in current version0.17.4: Traceback (most recent call last):
+  File "dynamicMatch.py", line 177, in <module>
+    paraValueDict=dill.load(fr)
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+    return Unpickler(file, ignore=ignore, **kwds).load()
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+    obj = StockUnpickler.load(self)
+EOFError: Ran out of input
+Exception ignored in: <object repr() failed>
+Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+    if not self.is_closed():
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
     return self._closed
 AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 
 session.close(), addValueError: Traceback (most recent call last):
-  File "addValueForAPI.py", line 249, in <module>
+  File "addValueForAPI.py", line 282, in <module>
     paraValueDict=dill.load(fr)
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 313, in load
     return Unpickler(file, ignore=ignore, **kwds).load()
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/site-packages/dill/_dill.py", line 525, in load
     obj = StockUnpickler.load(self)
 EOFError: Ran out of input
 Exception ignored in: <object repr() failed>
 Traceback (most recent call last):
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 508, in __del__
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 508, in __del__
     if not self.is_closed():
-  File "/dataset/zhang/anaconda3/envs/aiohttp0.18.0/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
+  File "/dataset/zhang/anaconda3/envs/aiohttp0.17.4/lib/python3.5/asyncio/base_events.py", line 501, in is_closed
     return self._closed
 AttributeError: '_UnixSelectorEventLoop' object has no attribute '_closed'
 

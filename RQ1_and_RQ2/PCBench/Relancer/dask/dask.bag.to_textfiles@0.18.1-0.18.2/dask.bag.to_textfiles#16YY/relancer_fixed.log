@@ -1,8 +1,14 @@
 --- Running dask.bag.to_textfiles#16YY/to_textfilesYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'dask.bag.to_textfiles#16YY'), ('notebook', 'to_textfilesYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'dask.bag.to_textfiles#16YY'), ('notebook', 'to_textfilesYY'), ('text', '  File "to_textfilesYY.py", line 3, in <module>\n    b.to_textfiles(\'./txts/*.txt\',  None,  \'infer\',  \'utf-8\', compute=True)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/bag/core.py", line 703, in to_textfiles\n    last_endline=last_endline, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/bag/core.py", line 208, in to_textfiles\n    out.compute(**kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/base.py", line 156, in compute\n    (result,) = compute(self, traverse=False, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/base.py", line 402, in compute\n    results = schedule(dsk, keys, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/multiprocessing.py", line 177, in get\n    raise_exception=reraise, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/local.py", line 505, in get_async\n    raise_exception(exc, tb)\n  File "/dataset/zhang/anaconda3/envs/Rdask0.18.2/lib/python3.6/site-packages/dask/multiprocessing.py", line 113, in reraise\n    raise exc\ndask.multiprocessing.FileNotFoundError: [Errno 2] No such file or directory: \'/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/dask.bag.to_textfiles#16YY/./txts/0.txt\'\n')])
+  File "to_textfilesYY.py", line 3, in <module>
+Error inducing API short name: to_textfiles, line no: 3
+Error inducing API fqn: UNKNOWN, line no: 3
+*** dask.multiprocessing.FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.642s
-user	0m0.610s
-sys	0m0.383s
+real	0m0.706s
+user	0m0.699s
+sys	0m0.356s

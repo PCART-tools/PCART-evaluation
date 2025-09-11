@@ -12,38 +12,41 @@ Incompatible Plotly Invoked API Number: 0/2
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                    File #1: plotly.express.parallel_categories#49YY/parallel_categoriesYY.py has 2 Plotly-Invoked API(s)                                    |
-===============================================================================================================================================================================
-| Invoked API #1: px.data.tips()                                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in plotly.express.parallel_categories#49YY/parallel_categoriesYY.py                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.4.1 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @4.5.0 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: px.parallel_categories(df, ['sex', 'smoker', 'day'], 'size', {'sex': 'Payer sex', 'smoker': 'Smokers at the table', 'day': 'Day of week'}, px.colors.sequen |
-| tial.Inferno, range_color=None, color_continuous_midpoint=None, title=None, template=None)                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 3 in plotly.express.parallel_categories#49YY/parallel_categoriesYY.py                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.4.1 <dynamic>: (data_frame=None, dimensions=None, color=None, labels={}, color_continuous_scale=None, range_color=None, color_continuous_midpoint=None, title |
-| =None, template=None, width=None, height=None)                                                                                                                              |
-|                                                                                                                                                                             |
-| Definition @4.5.0 <dynamic>: (data_frame=None, dimensions=None, color=None, labels={}, color_continuous_scale=None, range_color=None, color_continuous_midpoint=None, title |
-| =None, template=None, width=None, height=None, dimensions_max_cardinality=50)                                                                                               |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: plotly.express.parallel_categories#49YY/parallel_categoriesYY.py has 2 Plotly-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: px.data.tips()                                                                     |
+|                                                                                                    |
+| Location: At Line 2 in plotly.express.parallel_categories#49YY/parallel_categoriesYY.py            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.4.1 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @4.5.0 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: px.parallel_categories(df, ['sex', 'smoker', 'day'], 'size', {'sex': 'Payer sex',  |
+| 'smoker': 'Smokers at the table', 'day': 'Day of week'}, px.colors.sequential.Inferno, range_color |
+| =None, color_continuous_midpoint=None, title=None, template=None)                                  |
+|                                                                                                    |
+| Location: At Line 3 in plotly.express.parallel_categories#49YY/parallel_categoriesYY.py            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.4.1 <dynamic>: (data_frame=None, dimensions=None, color=None, labels={}, color_conti |
+| nuous_scale=None, range_color=None, color_continuous_midpoint=None, title=None, template=None, wid |
+| th=None, height=None)                                                                              |
+|                                                                                                    |
+| Definition @4.5.0 <dynamic>: (data_frame=None, dimensions=None, color=None, labels={}, color_conti |
+| nuous_scale=None, range_color=None, color_continuous_midpoint=None, title=None, template=None, wid |
+| th=None, height=None, dimensions_max_cardinality=50)                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

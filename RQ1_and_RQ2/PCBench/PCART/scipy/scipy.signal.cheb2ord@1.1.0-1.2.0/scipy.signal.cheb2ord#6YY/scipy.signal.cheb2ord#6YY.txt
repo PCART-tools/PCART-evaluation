@@ -12,21 +12,21 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                 File #1: scipy.signal.cheb2ord#6YY/cheb2ordYY.py has 1 Scipy-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: scipy.signal.cheb2ord(wp, ws, gpass, gstop, analog)                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 7 in scipy.signal.cheb2ord#6YY/cheb2ordYY.py                                                                                                              |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.1.0 <dynamic>: (wp, ws, gpass, gstop, analog=False)                                                                                                           |
-|                                                                                                                                                                             |
-| Definition @1.2.0 <dynamic>: (wp, ws, gpass, gstop, analog=False, fs=None)                                                                                                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: scipy.signal.cheb2ord#6YY/cheb2ordYY.py has 1 Scipy-Invoked API(s)             |
+======================================================================================================
+| Invoked API #1: scipy.signal.cheb2ord(wp, ws, gpass, gstop, analog)                                |
+|                                                                                                    |
+| Location: At Line 7 in scipy.signal.cheb2ord#6YY/cheb2ordYY.py                                     |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.0 <dynamic>: (wp, ws, gpass, gstop, analog=False)                                  |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (wp, ws, gpass, gstop, analog=False, fs=None)                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -12,49 +12,49 @@ Incompatible Pil Invoked API Number: 0/3
 -> Failed to Repair Pil Invoked API Number: 0/0
 -> Unknown Repair Status Pil Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: PIL.Image.Image.resize#1YY/resizeYY.py has 3 Pil-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: Image.open('./example.jpg')                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in PIL.Image.Image.resize#1YY/resizeYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.2.1 <dynamic>: (fp, mode='r')                                                                                                                                 |
-|                                                                                                                                                                             |
-| Definition @4.3.0 <dynamic>: (fp, mode='r')                                                                                                                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: image.resize((300, 200))                                                                                                                                    |
-|                                                                                                                                                                             |
-| Location: At Line 3 in PIL.Image.Image.resize#1YY/resizeYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.2.1 <dynamic>: (size, resample=0)                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @4.3.0 <dynamic>: (size, resample=0, box=None)                                                                                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: resized_image.save('./resized_example.jpg')                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 4 in PIL.Image.Image.resize#1YY/resizeYY.py                                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.2.1 <dynamic>: (fp, format=None, **params)                                                                                                                    |
-|                                                                                                                                                                             |
-| Definition @4.3.0 <dynamic>: (fp, format=None, **params)                                                                                                                    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: PIL.Image.Image.resize#1YY/resizeYY.py has 3 Pil-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: Image.open('./example.jpg')                                                        |
+|                                                                                                    |
+| Location: At Line 2 in PIL.Image.Image.resize#1YY/resizeYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.2.1 <dynamic>: (fp, mode='r')                                                        |
+|                                                                                                    |
+| Definition @4.3.0 <dynamic>: (fp, mode='r')                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: image.resize((300, 200))                                                           |
+|                                                                                                    |
+| Location: At Line 3 in PIL.Image.Image.resize#1YY/resizeYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.2.1 <dynamic>: (size, resample=0)                                                    |
+|                                                                                                    |
+| Definition @4.3.0 <dynamic>: (size, resample=0, box=None)                                          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: resized_image.save('./resized_example.jpg')                                        |
+|                                                                                                    |
+| Location: At Line 4 in PIL.Image.Image.resize#1YY/resizeYY.py                                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.2.1 <dynamic>: (fp, format=None, **params)                                           |
+|                                                                                                    |
+| Definition @4.3.0 <dynamic>: (fp, format=None, **params)                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

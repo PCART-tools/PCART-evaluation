@@ -12,35 +12,39 @@ Incompatible Polars Invoked API Number: 0/2
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: polars.arg_where#1YY/arg_whereYY.py has 2 Polars-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: pl.col('a')                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.arg_where#1YY/arg_whereYY.py                                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pl.arg_where(pl.col('a') % 2 == 0)                                                                                                                          |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.arg_where#1YY/arg_whereYY.py                                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (condition: 'Expr | Series', eager: 'bool' = False) -> 'Expr | Series'                                                                       |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (condition: 'Expr | Series', *, eager: 'bool' = False) -> 'Expr | Series'                                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: polars.arg_where#1YY/arg_whereYY.py has 2 Polars-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: pl.col('a')                                                                        |
+|                                                                                                    |
+| Location: At Line 2 in polars.arg_where#1YY/arg_whereYY.py                                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pl.arg_where(pl.col('a') % 2 == 0)                                                 |
+|                                                                                                    |
+| Location: At Line 2 in polars.arg_where#1YY/arg_whereYY.py                                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (condition: 'Expr | Series', eager: 'bool' = False) -> 'Expr | Seri |
+| es'                                                                                                |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (condition: 'Expr | Series', *, eager: 'bool' = False) -> 'Expr | Se |
+| ries'                                                                                              |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

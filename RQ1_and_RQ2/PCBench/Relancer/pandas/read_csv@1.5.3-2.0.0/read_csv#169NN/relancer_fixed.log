@@ -1,5 +1,5 @@
 --- Running read_csv#169NN/read_csvNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#169NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(filepath_or_buffer=\'/home/zhang/Packages/tensorflow_file/dev.csv\', prefix=None, converters=None, dtype=None, squeeze=None, skiprows=None, index_col=None, mangle_dupe_cols=True, header=\'infer\', skipinitialspace=False, usecols=None, sep=\',\', names=None, true_values=None, engine=None, delimiter=None, false_values=None)\nTypeError: read_csv() got an unexpected keyword argument \'prefix\'\n')])
+[ERR MSG]: OrderedDict([('project', 'read_csv#169NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(filepath_or_buffer=\'./dev.csv\', prefix=None, converters=None, dtype=None, squeeze=None, skiprows=None, index_col=None, mangle_dupe_cols=True, header=\'infer\', skipinitialspace=False, usecols=None, sep=\',\', names=None, true_values=None, engine=None, delimiter=None, false_values=None)\nTypeError: read_csv() got an unexpected keyword argument \'prefix\'\n')])
   File "read_csvNN.py", line 2, in <module>
 Error inducing API short name: read_csv, line no: 2
 Error inducing API fqn: pandas.read_csv, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.633s
-user	0m1.686s
-sys	0m5.483s
+real	0m0.639s
+user	0m1.493s
+sys	0m4.933s

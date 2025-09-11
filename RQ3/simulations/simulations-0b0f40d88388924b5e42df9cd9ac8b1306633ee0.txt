@@ -152,15 +152,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -173,15 +173,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -194,15 +194,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -215,15 +215,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -236,15 +236,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -257,15 +257,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -278,15 +278,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.2.2 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None, |
-| **kwargs)'], 'plt.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes. |
-| Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.axes._axes.Ax |
-| es.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                             |
+| Definition @3.3.0 <static>: {'matplotlib.plt.plot': ['(*args,scalex=True,scaley=True,data=None,**k |
+| wargs)'], 'matplotlib.pyplot.plot': ['(*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matpl |
+| otlib.axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)'], 'matplotlib.ax |
+| es._axes.Axes.plot': ['(self,*args,scalex=True,scaley=True,data=None,**kwargs)']}                  |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -299,13 +299,13 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
-| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
-| ='both',**kwargs)"]}                                                                               |
+| Definition @3.2.2 <static>: {'matplotlib.plt.tick_params': ["(axis='both',**kwargs)"], 'matplotlib |
+| .pyplot.tick_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': [ |
+| "(self,axis='both',**kwargs)"]}                                                                    |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
-| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
-| ='both',**kwargs)"]}                                                                               |
+| Definition @3.3.0 <static>: {'matplotlib.plt.tick_params': ["(axis='both',**kwargs)"], 'matplotlib |
+| .pyplot.tick_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': [ |
+| "(self,axis='both',**kwargs)"]}                                                                    |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -394,13 +394,13 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
-| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
-| ='both',**kwargs)"]}                                                                               |
+| Definition @3.2.2 <static>: {'matplotlib.plt.tick_params': ["(axis='both',**kwargs)"], 'matplotlib |
+| .pyplot.tick_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': [ |
+| "(self,axis='both',**kwargs)"]}                                                                    |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.tick_params': ["(axis='both',**kwargs)"], 'plt.tic |
-| k_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': ["(self,axis |
-| ='both',**kwargs)"]}                                                                               |
+| Definition @3.3.0 <static>: {'matplotlib.plt.tick_params': ["(axis='both',**kwargs)"], 'matplotlib |
+| .pyplot.tick_params': ["(axis='both',**kwargs)"], 'matplotlib.axes._base._AxesBase.tick_params': [ |
+| "(self,axis='both',**kwargs)"]}                                                                    |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -459,15 +459,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.legend': ['(*args,**kwargs)'], 'plt.legend': ['(*a |
-| rgs,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes.Ax |
-| es.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*args,**kwargs |
-| )']}                                                                                               |
+| Definition @3.2.2 <static>: {'matplotlib.plt.legend': ['(*args,**kwargs)'], 'matplotlib.pyplot.leg |
+| end': ['(*args,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplot |
+| lib.axes.Axes.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*ar |
+| gs,**kwargs)']}                                                                                    |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.legend': ['(*args,**kwargs)'], 'plt.legend': ['(*a |
-| rgs,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes.Ax |
-| es.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*args,**kwargs |
-| )']}                                                                                               |
+| Definition @3.3.0 <static>: {'matplotlib.plt.legend': ['(*args,**kwargs)'], 'matplotlib.pyplot.leg |
+| end': ['(*args,**kwargs)'], 'matplotlib.figure.Figure.legend': ['(self,*args,**kwargs)'], 'matplot |
+| lib.axes.Axes.legend': ['(self,*args,**kwargs)'], 'matplotlib.axes._axes.Axes.legend': ['(self,*ar |
+| gs,**kwargs)']}                                                                                    |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -480,13 +480,13 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.axis': ['(*args,emit=True,**kwargs)'], 'plt.axis': |
-|  ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args,emit=True,* |
-| *kwargs)']}                                                                                        |
+| Definition @3.2.2 <static>: {'matplotlib.plt.axis': ['(*args,emit=True,**kwargs)'], 'matplotlib.py |
+| plot.axis': ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args, |
+| emit=True,**kwargs)']}                                                                             |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.axis': ['(*args,emit=True,**kwargs)'], 'plt.axis': |
-|  ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args,emit=True,* |
-| *kwargs)']}                                                                                        |
+| Definition @3.3.0 <static>: {'matplotlib.plt.axis': ['(*args,emit=True,**kwargs)'], 'matplotlib.py |
+| plot.axis': ['(*args,emit=True,**kwargs)'], 'matplotlib.axes._base._AxesBase.axis': ['(self,*args, |
+| emit=True,**kwargs)']}                                                                             |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -499,15 +499,15 @@ Incompatible Matplotlib Invoked API Number: 1/26
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @3.2.2 <static>: {'matplotlib.pyplot.savefig': ['(*args,**kwargs)'], 'plt.savefig': ['( |
-| *args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None,**kwargs)' |
-| ], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], 'matplotli |
-| b.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}                         |
+| Definition @3.2.2 <static>: {'matplotlib.plt.savefig': ['(*args,**kwargs)'], 'matplotlib.pyplot.sa |
+| vefig': ['(*args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None |
+| ,**kwargs)'], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], |
+|  'matplotlib.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}              |
 |                                                                                                    |
-| Definition @3.3.0 <static>: {'matplotlib.pyplot.savefig': ['(*args,**kwargs)'], 'plt.savefig': ['( |
-| *args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None,**kwargs)' |
-| ], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], 'matplotli |
-| b.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}                         |
+| Definition @3.3.0 <static>: {'matplotlib.plt.savefig': ['(*args,**kwargs)'], 'matplotlib.pyplot.sa |
+| vefig': ['(*args,**kwargs)'], 'matplotlib.figure.Figure.savefig': ['(self,fname,*,transparent=None |
+| ,**kwargs)'], 'matplotlib.backends.backend_pgf.PdfPages.savefig': ['(self,figure=None,**kwargs)'], |
+|  'matplotlib.backends.backend_pdf.PdfPages.savefig': ['(self,figure=None,**kwargs)']}              |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |

@@ -12,35 +12,35 @@ Incompatible Plotly Invoked API Number: 0/2
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                         File #1: plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py has 2 Plotly-Invoked API(s)                                         |
-===============================================================================================================================================================================
-| Invoked API #1: Dashboard()                                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.1 <dynamic>: (content=None)                                                                                                                                 |
-|                                                                                                                                                                             |
-| Definition @2.5.0 <dynamic>: (content=None)                                                                                                                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: my_dboard.insert(box_1)                                                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 4 in plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py                                                                                               |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.1 <dynamic>: (box, side='above', box_id=None)                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.5.0 <dynamic>: (box, side='above', box_id=None, fill_percent=50)                                                                                              |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|    File #1: plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py has 2 Plotly-Invoked API(s)     |
+======================================================================================================
+| Invoked API #1: Dashboard()                                                                        |
+|                                                                                                    |
+| Location: At Line 2 in plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.1 <dynamic>: (content=None)                                                        |
+|                                                                                                    |
+| Definition @2.5.0 <dynamic>: (content=None)                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: my_dboard.insert(box_1)                                                            |
+|                                                                                                    |
+| Location: At Line 4 in plotly.dashboard_objs.Dashboard.insert#1YY/insertYY.py                      |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.1 <dynamic>: (box, side='above', box_id=None)                                      |
+|                                                                                                    |
+| Definition @2.5.0 <dynamic>: (box, side='above', box_id=None, fill_percent=50)                     |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

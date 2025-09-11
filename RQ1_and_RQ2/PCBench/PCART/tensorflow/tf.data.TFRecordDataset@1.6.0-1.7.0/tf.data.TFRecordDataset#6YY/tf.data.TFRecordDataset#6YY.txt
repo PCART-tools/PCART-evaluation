@@ -12,21 +12,22 @@ Incompatible Tensorflow Invoked API Number: 0/1
 -> Failed to Repair Tensorflow Invoked API Number: 0/0
 -> Unknown Repair Status Tensorflow Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                          File #1: tf.data.TFRecordDataset#6YY/TFRecordDatasetYY.py has 1 Tensorflow-Invoked API(s)                                          |
-===============================================================================================================================================================================
-| Invoked API #1: tf.data.TFRecordDataset(['valid.tfrecord'], None, None)                                                                                                     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in tf.data.TFRecordDataset#6YY/TFRecordDatasetYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.6.0 <dynamic>: (filenames, compression_type=None, buffer_size=None)                                                                                           |
-|                                                                                                                                                                             |
-| Definition @1.7.0 <dynamic>: (filenames, compression_type=None, buffer_size=None, num_parallel_reads=None)                                                                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|     File #1: tf.data.TFRecordDataset#6YY/TFRecordDatasetYY.py has 1 Tensorflow-Invoked API(s)      |
+======================================================================================================
+| Invoked API #1: tf.data.TFRecordDataset(['valid.tfrecord'], None, None)                            |
+|                                                                                                    |
+| Location: At Line 2 in tf.data.TFRecordDataset#6YY/TFRecordDatasetYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.6.0 <dynamic>: (filenames, compression_type=None, buffer_size=None)                  |
+|                                                                                                    |
+| Definition @1.7.0 <dynamic>: (filenames, compression_type=None, buffer_size=None, num_parallel_rea |
+| ds=None)                                                                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

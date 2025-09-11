@@ -12,21 +12,22 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                       File #1: scipy.linalg.lu#4YY/luYY.py has 1 Scipy-Invoked API(s)                                                       |
-===============================================================================================================================================================================
-| Invoked API #1: scipy.linalg.lu(a, permute_l=False)                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 3 in scipy.linalg.lu#4YY/luYY.py                                                                                                                          |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.10.1 <dynamic>: (a, permute_l=False, overwrite_a=False, check_finite=True)                                                                                    |
-|                                                                                                                                                                             |
-| Definition @1.11.0 <dynamic>: (a, permute_l=False, overwrite_a=False, check_finite=True, p_indices=False)                                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                  File #1: scipy.linalg.lu#4YY/luYY.py has 1 Scipy-Invoked API(s)                   |
+======================================================================================================
+| Invoked API #1: scipy.linalg.lu(a, permute_l=False)                                                |
+|                                                                                                    |
+| Location: At Line 3 in scipy.linalg.lu#4YY/luYY.py                                                 |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.10.1 <dynamic>: (a, permute_l=False, overwrite_a=False, check_finite=True)           |
+|                                                                                                    |
+| Definition @1.11.0 <dynamic>: (a, permute_l=False, overwrite_a=False, check_finite=True, p_indices |
+| =False)                                                                                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

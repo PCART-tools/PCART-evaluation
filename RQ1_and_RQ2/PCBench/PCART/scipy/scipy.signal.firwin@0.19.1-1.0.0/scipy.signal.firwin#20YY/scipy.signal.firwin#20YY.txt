@@ -12,21 +12,23 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                  File #1: scipy.signal.firwin#20YY/firwinYY.py has 1 Scipy-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: scipy.signal.firwin(30, 0.3, 0.05, 'hamming', True, scale=True)                                                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 2 in scipy.signal.firwin#20YY/firwinYY.py                                                                                                                 |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.19.1 <dynamic>: (numtaps, cutoff, width=None, window='hamming', pass_zero=True, scale=True, nyq=1.0)                                                          |
-|                                                                                                                                                                             |
-| Definition @1.0.0 <dynamic>: (numtaps, cutoff, width=None, window='hamming', pass_zero=True, scale=True, nyq=None, fs=None)                                                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: scipy.signal.firwin#20YY/firwinYY.py has 1 Scipy-Invoked API(s)              |
+======================================================================================================
+| Invoked API #1: scipy.signal.firwin(30, 0.3, 0.05, 'hamming', True, scale=True)                    |
+|                                                                                                    |
+| Location: At Line 2 in scipy.signal.firwin#20YY/firwinYY.py                                        |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.19.1 <dynamic>: (numtaps, cutoff, width=None, window='hamming', pass_zero=True, scal |
+| e=True, nyq=1.0)                                                                                   |
+|                                                                                                    |
+| Definition @1.0.0 <dynamic>: (numtaps, cutoff, width=None, window='hamming', pass_zero=True, scale |
+| =True, nyq=None, fs=None)                                                                          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

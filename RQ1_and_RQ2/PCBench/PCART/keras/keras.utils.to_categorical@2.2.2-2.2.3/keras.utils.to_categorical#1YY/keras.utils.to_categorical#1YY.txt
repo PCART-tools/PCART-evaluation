@@ -12,21 +12,21 @@ Incompatible Keras Invoked API Number: 0/1
 -> Failed to Repair Keras Invoked API Number: 0/0
 -> Unknown Repair Status Keras Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                           File #1: keras.utils.to_categorical#1YY/to_categoricalYY.py has 1 Keras-Invoked API(s)                                            |
-===============================================================================================================================================================================
-| Invoked API #1: to_categorical(class_vector)                                                                                                                                |
-|                                                                                                                                                                             |
-| Location: At Line 4 in keras.utils.to_categorical#1YY/to_categoricalYY.py                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.2.2 <dynamic>: (y, num_classes=None)                                                                                                                          |
-|                                                                                                                                                                             |
-| Definition @2.2.3 <dynamic>: (y, num_classes=None, dtype='float32')                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|       File #1: keras.utils.to_categorical#1YY/to_categoricalYY.py has 1 Keras-Invoked API(s)       |
+======================================================================================================
+| Invoked API #1: to_categorical(class_vector)                                                       |
+|                                                                                                    |
+| Location: At Line 4 in keras.utils.to_categorical#1YY/to_categoricalYY.py                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.2.2 <dynamic>: (y, num_classes=None)                                                 |
+|                                                                                                    |
+| Definition @2.2.3 <dynamic>: (y, num_classes=None, dtype='float32')                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

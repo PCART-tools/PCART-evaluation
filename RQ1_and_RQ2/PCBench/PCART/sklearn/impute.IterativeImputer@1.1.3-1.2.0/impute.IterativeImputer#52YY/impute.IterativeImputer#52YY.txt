@@ -12,24 +12,29 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                          File #1: impute.IterativeImputer#52YY/IterativeImputerYY.py has 1 Sklearn-Invoked API(s)                                           |
-===============================================================================================================================================================================
-| Invoked API #1: IterativeImputer(None, n_nearest_features=None, add_indicator=False, initial_strategy='mean', verbose=0, missing_values=0, random_state=None, max_iter=10,  |
-| sample_posterior=False, min_value=-0, imputation_order='ascending', tol=0.001, max_value=0, skip_complete=False)                                                            |
-|                                                                                                                                                                             |
-| Location: At Line 4 in impute.IterativeImputer#52YY/IterativeImputerYY.py                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.1.3 <dynamic>: (estimator=None, *, missing_values=nan, sample_posterior=False, max_iter=10, tol=0.001, n_nearest_features=None, initial_strategy='mean', impu |
-| tation_order='ascending', skip_complete=False, min_value=-inf, max_value=inf, verbose=0, random_state=None, add_indicator=False)                                            |
-|                                                                                                                                                                             |
-| Definition @1.2.0 <dynamic>: (estimator=None, *, missing_values=nan, sample_posterior=False, max_iter=10, tol=0.001, n_nearest_features=None, initial_strategy='mean', impu |
-| tation_order='ascending', skip_complete=False, min_value=-inf, max_value=inf, verbose=0, random_state=None, add_indicator=False, keep_empty_features=False)                 |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|      File #1: impute.IterativeImputer#52YY/IterativeImputerYY.py has 1 Sklearn-Invoked API(s)      |
+======================================================================================================
+| Invoked API #1: IterativeImputer(None, n_nearest_features=None, add_indicator=False, initial_strat |
+| egy='mean', verbose=0, missing_values=0, random_state=None, max_iter=10, sample_posterior=False, m |
+| in_value=-0, imputation_order='ascending', tol=0.001, max_value=0, skip_complete=False)            |
+|                                                                                                    |
+| Location: At Line 4 in impute.IterativeImputer#52YY/IterativeImputerYY.py                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.1.3 <dynamic>: (estimator=None, *, missing_values=nan, sample_posterior=False, max_i |
+| ter=10, tol=0.001, n_nearest_features=None, initial_strategy='mean', imputation_order='ascending', |
+|  skip_complete=False, min_value=-inf, max_value=inf, verbose=0, random_state=None, add_indicator=F |
+| alse)                                                                                              |
+|                                                                                                    |
+| Definition @1.2.0 <dynamic>: (estimator=None, *, missing_values=nan, sample_posterior=False, max_i |
+| ter=10, tol=0.001, n_nearest_features=None, initial_strategy='mean', imputation_order='ascending', |
+|  skip_complete=False, min_value=-inf, max_value=inf, verbose=0, random_state=None, add_indicator=F |
+| alse, keep_empty_features=False)                                                                   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

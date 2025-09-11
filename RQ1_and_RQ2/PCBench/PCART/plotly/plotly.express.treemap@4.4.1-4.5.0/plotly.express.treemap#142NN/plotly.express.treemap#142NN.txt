@@ -12,42 +12,46 @@ Incompatible Plotly Invoked API Number: 1/2
 -> Failed to Repair Plotly Invoked API Number: 0/1
 -> Unknown Repair Status Plotly Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                               File #1: plotly.express.treemap#142NN/treemapNN.py has 2 Plotly-Invoked API(s)                                                |
-===============================================================================================================================================================================
-| Invoked API #1: px.data.tips()                                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in plotly.express.treemap#142NN/treemapNN.py                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.4.1 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @4.5.0 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: px.treemap(df, None, 'total_bill', None, None, None, None, None, None, None, {}, hover_name=None, hover_data=None, custom_data=None, labels={}, title=None) |
-|                                                                                                                                                                             |
-| Location: At Line 3 in plotly.express.treemap#142NN/treemapNN.py                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.4.1 <dynamic>: (data_frame=None, names=None, values=None, parents=None, ids=None, color=None, color_continuous_scale=None, range_color=None, color_continuous |
-| _midpoint=None, color_discrete_sequence=None, color_discrete_map={}, hover_name=None, hover_data=None, custom_data=None, labels={}, title=None, template=None, width=None,  |
-| height=None, branchvalues=None, maxdepth=None)                                                                                                                              |
-|                                                                                                                                                                             |
-| Definition @4.5.0 <dynamic>: (data_frame=None, names=None, values=None, parents=None, ids=None, path=None, color=None, color_continuous_scale=None, range_color=None, color |
-| _continuous_midpoint=None, color_discrete_sequence=None, color_discrete_map={}, hover_name=None, hover_data=None, custom_data=None, labels={}, title=None, template=None, w |
-| idth=None, height=None, branchvalues=None, maxdepth=None)                                                                                                                   |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: px.treemap(df, None, 'total_bill', None, None, None, None, None, None, None, None, {}, hover_name=None, hover_data=None, custom_data=None, labels={},  |
-| title=None)                                                                                                                                                                 |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|           File #1: plotly.express.treemap#142NN/treemapNN.py has 2 Plotly-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: px.data.tips()                                                                     |
+|                                                                                                    |
+| Location: At Line 2 in plotly.express.treemap#142NN/treemapNN.py                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.4.1 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @4.5.0 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: px.treemap(df, None, 'total_bill', None, None, None, None, None, None, None, {}, h |
+| over_name=None, hover_data=None, custom_data=None, labels={}, title=None)                          |
+|                                                                                                    |
+| Location: At Line 3 in plotly.express.treemap#142NN/treemapNN.py                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.4.1 <dynamic>: (data_frame=None, names=None, values=None, parents=None, ids=None, co |
+| lor=None, color_continuous_scale=None, range_color=None, color_continuous_midpoint=None, color_dis |
+| crete_sequence=None, color_discrete_map={}, hover_name=None, hover_data=None, custom_data=None, la |
+| bels={}, title=None, template=None, width=None, height=None, branchvalues=None, maxdepth=None)     |
+|                                                                                                    |
+| Definition @4.5.0 <dynamic>: (data_frame=None, names=None, values=None, parents=None, ids=None, pa |
+| th=None, color=None, color_continuous_scale=None, range_color=None, color_continuous_midpoint=None |
+| , color_discrete_sequence=None, color_discrete_map={}, hover_name=None, hover_data=None, custom_da |
+| ta=None, labels={}, title=None, template=None, width=None, height=None, branchvalues=None, maxdept |
+| h=None)                                                                                            |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: px.treemap(df, None, 'total_bill', None, None, None, None, None, None, None,  |
+| None, {}, hover_name=None, hover_data=None, custom_data=None, labels={}, title=None)               |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

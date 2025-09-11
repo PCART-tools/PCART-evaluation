@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.625s
-user	0m1.555s
-sys	0m5.161s
+real	0m0.616s
+user	0m1.739s
+sys	0m5.679s

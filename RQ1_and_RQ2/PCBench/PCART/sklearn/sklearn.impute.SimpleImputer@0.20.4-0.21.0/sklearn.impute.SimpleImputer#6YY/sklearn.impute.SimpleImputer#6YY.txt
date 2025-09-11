@@ -12,21 +12,23 @@ Incompatible Sklearn Invoked API Number: 0/1
 -> Failed to Repair Sklearn Invoked API Number: 0/0
 -> Unknown Repair Status Sklearn Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                          File #1: sklearn.impute.SimpleImputer#6YY/SimpleImputerYY.py has 1 Sklearn-Invoked API(s)                                          |
-===============================================================================================================================================================================
-| Invoked API #1: SimpleImputer(missing_values=np.nan, strategy='mean')                                                                                                       |
-|                                                                                                                                                                             |
-| Location: At Line 3 in sklearn.impute.SimpleImputer#6YY/SimpleImputerYY.py                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.20.4 <dynamic>: (missing_values=nan, strategy='mean', fill_value=None, verbose=0, copy=True)                                                                  |
-|                                                                                                                                                                             |
-| Definition @0.21.0 <dynamic>: (missing_values=nan, strategy='mean', fill_value=None, verbose=0, copy=True, add_indicator=False)                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|     File #1: sklearn.impute.SimpleImputer#6YY/SimpleImputerYY.py has 1 Sklearn-Invoked API(s)      |
+======================================================================================================
+| Invoked API #1: SimpleImputer(missing_values=np.nan, strategy='mean')                              |
+|                                                                                                    |
+| Location: At Line 3 in sklearn.impute.SimpleImputer#6YY/SimpleImputerYY.py                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.20.4 <dynamic>: (missing_values=nan, strategy='mean', fill_value=None, verbose=0, co |
+| py=True)                                                                                           |
+|                                                                                                    |
+| Definition @0.21.0 <dynamic>: (missing_values=nan, strategy='mean', fill_value=None, verbose=0, co |
+| py=True, add_indicator=False)                                                                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

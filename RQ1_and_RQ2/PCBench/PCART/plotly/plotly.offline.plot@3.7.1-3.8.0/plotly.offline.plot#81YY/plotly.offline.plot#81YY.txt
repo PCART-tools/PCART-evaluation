@@ -12,49 +12,58 @@ Incompatible Plotly Invoked API Number: 0/2
 -> Failed to Repair Plotly Invoked API Number: 0/0
 -> Unknown Repair Status Plotly Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                   File #1: plotly.offline.plot#81YY/plotYY.py has 2 Plotly-Invoked API(s)                                                   |
-===============================================================================================================================================================================
-| Invoked API #1: go.Scatter(x=[1, 2, 3], y=[4, 5, 6])                                                                                                                        |
-|                                                                                                                                                                             |
-| Location: At Line 3 in plotly.offline.plot#81YY/plotYY.py                                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.7.1 <dynamic>: (arg=None, cliponaxis=None, connectgaps=None, customdata=None, customdatasrc=None, dx=None, dy=None, error_x=None, error_y=None, fill=None, fi |
-| llcolor=None, groupnorm=None, hoverinfo=None, hoverinfosrc=None, hoverlabel=None, hoveron=None, hovertemplate=None, hovertemplatesrc=None, hovertext=None, hovertextsrc=Non |
-| e, ids=None, idssrc=None, legendgroup=None, line=None, marker=None, mode=None, name=None, opacity=None, orientation=None, r=None, rsrc=None, selected=None, selectedpoints= |
-| None, showlegend=None, stackgaps=None, stackgroup=None, stream=None, t=None, text=None, textfont=None, textposition=None, textpositionsrc=None, textsrc=None, tsrc=None, ui |
-| d=None, uirevision=None, unselected=None, visible=None, x=None, x0=None, xaxis=None, xcalendar=None, xsrc=None, y=None, y0=None, yaxis=None, ycalendar=None, ysrc=None, **k |
-| wargs)                                                                                                                                                                      |
-|                                                                                                                                                                             |
-| Definition @3.8.0 <dynamic>: (arg=None, cliponaxis=None, connectgaps=None, customdata=None, customdatasrc=None, dx=None, dy=None, error_x=None, error_y=None, fill=None, fi |
-| llcolor=None, groupnorm=None, hoverinfo=None, hoverinfosrc=None, hoverlabel=None, hoveron=None, hovertemplate=None, hovertemplatesrc=None, hovertext=None, hovertextsrc=Non |
-| e, ids=None, idssrc=None, legendgroup=None, line=None, marker=None, mode=None, name=None, opacity=None, orientation=None, r=None, rsrc=None, selected=None, selectedpoints= |
-| None, showlegend=None, stackgaps=None, stackgroup=None, stream=None, t=None, text=None, textfont=None, textposition=None, textpositionsrc=None, textsrc=None, tsrc=None, ui |
-| d=None, uirevision=None, unselected=None, visible=None, x=None, x0=None, xaxis=None, xcalendar=None, xsrc=None, y=None, y0=None, yaxis=None, ycalendar=None, ysrc=None, **k |
-| wargs)                                                                                                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pyo.plot(data, False, 'Export to plot.ly', True, 'file', True, 'temp-plot.html', True, None, image_filename='plot_image', image_width=800, image_height=600 |
-| )                                                                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 5 in plotly.offline.plot#81YY/plotYY.py                                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.7.1 <dynamic>: (figure_or_data, show_link=False, link_text='Export to plot.ly', validate=True, output_type='file', include_plotlyjs=True, filename='temp-plot |
-| .html', auto_open=True, image=None, image_filename='plot_image', image_width=800, image_height=600, config=None, include_mathjax=False, auto_play=True)                     |
-|                                                                                                                                                                             |
-| Definition @3.8.0 <dynamic>: (figure_or_data, show_link=False, link_text='Export to plot.ly', validate=True, output_type='file', include_plotlyjs=True, filename='temp-plot |
-| .html', auto_open=True, image=None, image_filename='plot_image', image_width=800, image_height=600, config=None, include_mathjax=False, auto_play=True, animation_opts=None |
-| )                                                                                                                                                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|              File #1: plotly.offline.plot#81YY/plotYY.py has 2 Plotly-Invoked API(s)               |
+======================================================================================================
+| Invoked API #1: go.Scatter(x=[1, 2, 3], y=[4, 5, 6])                                               |
+|                                                                                                    |
+| Location: At Line 3 in plotly.offline.plot#81YY/plotYY.py                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.7.1 <dynamic>: (arg=None, cliponaxis=None, connectgaps=None, customdata=None, custom |
+| datasrc=None, dx=None, dy=None, error_x=None, error_y=None, fill=None, fillcolor=None, groupnorm=N |
+| one, hoverinfo=None, hoverinfosrc=None, hoverlabel=None, hoveron=None, hovertemplate=None, hoverte |
+| mplatesrc=None, hovertext=None, hovertextsrc=None, ids=None, idssrc=None, legendgroup=None, line=N |
+| one, marker=None, mode=None, name=None, opacity=None, orientation=None, r=None, rsrc=None, selecte |
+| d=None, selectedpoints=None, showlegend=None, stackgaps=None, stackgroup=None, stream=None, t=None |
+| , text=None, textfont=None, textposition=None, textpositionsrc=None, textsrc=None, tsrc=None, uid= |
+| None, uirevision=None, unselected=None, visible=None, x=None, x0=None, xaxis=None, xcalendar=None, |
+|  xsrc=None, y=None, y0=None, yaxis=None, ycalendar=None, ysrc=None, **kwargs)                      |
+|                                                                                                    |
+| Definition @3.8.0 <dynamic>: (arg=None, cliponaxis=None, connectgaps=None, customdata=None, custom |
+| datasrc=None, dx=None, dy=None, error_x=None, error_y=None, fill=None, fillcolor=None, groupnorm=N |
+| one, hoverinfo=None, hoverinfosrc=None, hoverlabel=None, hoveron=None, hovertemplate=None, hoverte |
+| mplatesrc=None, hovertext=None, hovertextsrc=None, ids=None, idssrc=None, legendgroup=None, line=N |
+| one, marker=None, mode=None, name=None, opacity=None, orientation=None, r=None, rsrc=None, selecte |
+| d=None, selectedpoints=None, showlegend=None, stackgaps=None, stackgroup=None, stream=None, t=None |
+| , text=None, textfont=None, textposition=None, textpositionsrc=None, textsrc=None, tsrc=None, uid= |
+| None, uirevision=None, unselected=None, visible=None, x=None, x0=None, xaxis=None, xcalendar=None, |
+|  xsrc=None, y=None, y0=None, yaxis=None, ycalendar=None, ysrc=None, **kwargs)                      |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pyo.plot(data, False, 'Export to plot.ly', True, 'file', True, 'temp-plot.html', T |
+| rue, None, image_filename='plot_image', image_width=800, image_height=600)                         |
+|                                                                                                    |
+| Location: At Line 5 in plotly.offline.plot#81YY/plotYY.py                                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.7.1 <dynamic>: (figure_or_data, show_link=False, link_text='Export to plot.ly', vali |
+| date=True, output_type='file', include_plotlyjs=True, filename='temp-plot.html', auto_open=True, i |
+| mage=None, image_filename='plot_image', image_width=800, image_height=600, config=None, include_ma |
+| thjax=False, auto_play=True)                                                                       |
+|                                                                                                    |
+| Definition @3.8.0 <dynamic>: (figure_or_data, show_link=False, link_text='Export to plot.ly', vali |
+| date=True, output_type='file', include_plotlyjs=True, filename='temp-plot.html', auto_open=True, i |
+| mage=None, image_filename='plot_image', image_width=800, image_height=600, config=None, include_ma |
+| thjax=False, auto_play=True, animation_opts=None)                                                  |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

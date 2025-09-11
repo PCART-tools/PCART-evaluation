@@ -12,43 +12,52 @@ Incompatible Plotly Invoked API Number: 1/2
 -> Failed to Repair Plotly Invoked API Number: 0/1
 -> Unknown Repair Status Plotly Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                          File #1: plotly.express.line_ternary#288NY/line_ternaryNY.py has 2 Plotly-Invoked API(s)                                           |
-===============================================================================================================================================================================
-| Invoked API #1: px.data.election()                                                                                                                                          |
-|                                                                                                                                                                             |
-| Location: At Line 2 in plotly.express.line_ternary#288NY/line_ternaryNY.py                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @5.1.0 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Definition @5.2.1 <dynamic>: ()                                                                                                                                             |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: px.line_ternary(df, 'Joly', 'Coderre', 'Bergeron', None, None, None, None, None, None, None, None, animation_group=None, category_orders=None, labels=None, |
-|  color_discrete_sequence=None, color_discrete_map=None, line_dash_sequence=None, line_dash_map=None, line_shape=None, title=None, template=None, width=None)                |
-|                                                                                                                                                                             |
-| Location: At Line 3 in plotly.express.line_ternary#288NY/line_ternaryNY.py                                                                                                  |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @5.1.0 <dynamic>: (data_frame=None, a=None, b=None, c=None, color=None, line_dash=None, line_group=None, hover_name=None, hover_data=None, custom_data=None, tex |
-| t=None, animation_frame=None, animation_group=None, category_orders=None, labels=None, color_discrete_sequence=None, color_discrete_map=None, line_dash_sequence=None, line |
-| _dash_map=None, line_shape=None, title=None, template=None, width=None, height=None)                                                                                        |
-|                                                                                                                                                                             |
-| Definition @5.2.1 <dynamic>: (data_frame=None, a=None, b=None, c=None, color=None, line_dash=None, line_group=None, symbol=None, hover_name=None, hover_data=None, custom_d |
-| ata=None, text=None, animation_frame=None, animation_group=None, category_orders=None, labels=None, color_discrete_sequence=None, color_discrete_map=None, line_dash_sequen |
-| ce=None, line_dash_map=None, symbol_sequence=None, symbol_map=None, markers=False, line_shape=None, title=None, template=None, width=None, height=None)                     |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: px.line_ternary(df, 'Joly', 'Coderre', 'Bergeron', None, None, None, None, None, None, None, None, None, animation_group=None, category_orders=None, l |
-| abels=None, color_discrete_sequence=None, color_discrete_map=None, line_dash_sequence=None, line_dash_map=None, line_shape=None, title=None, template=None, width=None)     |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|      File #1: plotly.express.line_ternary#288NY/line_ternaryNY.py has 2 Plotly-Invoked API(s)      |
+======================================================================================================
+| Invoked API #1: px.data.election()                                                                 |
+|                                                                                                    |
+| Location: At Line 2 in plotly.express.line_ternary#288NY/line_ternaryNY.py                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @5.1.0 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Definition @5.2.1 <dynamic>: ()                                                                    |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: px.line_ternary(df, 'Joly', 'Coderre', 'Bergeron', None, None, None, None, None, N |
+| one, None, None, animation_group=None, category_orders=None, labels=None, color_discrete_sequence= |
+| None, color_discrete_map=None, line_dash_sequence=None, line_dash_map=None, line_shape=None, title |
+| =None, template=None, width=None)                                                                  |
+|                                                                                                    |
+| Location: At Line 3 in plotly.express.line_ternary#288NY/line_ternaryNY.py                         |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @5.1.0 <dynamic>: (data_frame=None, a=None, b=None, c=None, color=None, line_dash=None, |
+|  line_group=None, hover_name=None, hover_data=None, custom_data=None, text=None, animation_frame=N |
+| one, animation_group=None, category_orders=None, labels=None, color_discrete_sequence=None, color_ |
+| discrete_map=None, line_dash_sequence=None, line_dash_map=None, line_shape=None, title=None, templ |
+| ate=None, width=None, height=None)                                                                 |
+|                                                                                                    |
+| Definition @5.2.1 <dynamic>: (data_frame=None, a=None, b=None, c=None, color=None, line_dash=None, |
+|  line_group=None, symbol=None, hover_name=None, hover_data=None, custom_data=None, text=None, anim |
+| ation_frame=None, animation_group=None, category_orders=None, labels=None, color_discrete_sequence |
+| =None, color_discrete_map=None, line_dash_sequence=None, line_dash_map=None, symbol_sequence=None, |
+|  symbol_map=None, markers=False, line_shape=None, title=None, template=None, width=None, height=No |
+| ne)                                                                                                |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: px.line_ternary(df, 'Joly', 'Coderre', 'Bergeron', None, None, None, None, No |
+| ne, None, None, None, None, animation_group=None, category_orders=None, labels=None, color_discret |
+| e_sequence=None, color_discrete_map=None, line_dash_sequence=None, line_dash_map=None, line_shape= |
+| None, title=None, template=None, width=None)                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

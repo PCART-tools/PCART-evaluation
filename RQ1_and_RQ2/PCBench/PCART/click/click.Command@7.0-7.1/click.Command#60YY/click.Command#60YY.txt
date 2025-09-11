@@ -12,40 +12,45 @@ Incompatible Click Invoked API Number: 0/2
 -> Failed to Repair Click Invoked API Number: 0/0
 -> Unknown Repair Status Click Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                     File #1: click.Command#60YY/CommandYY.py has 2 Click-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: click.Option(['--param'], default=42)                                                                                                                       |
-|                                                                                                                                                                             |
-| Location: At Line 2 in click.Command#60YY/CommandYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @7.0 <dynamic>: (param_decls=None, show_default=False, prompt=False, confirmation_prompt=False, hide_input=False, is_flag=None, flag_value=None, multiple=False, |
-|  count=False, allow_from_autoenv=True, type=None, help=None, hidden=False, show_choices=True, show_envvar=False, **attrs)                                                   |
-|                                                                                                                                                                             |
-| Definition @7.1 <dynamic>: (param_decls=None, show_default=False, prompt=False, confirmation_prompt=False, hide_input=False, is_flag=None, flag_value=None, multiple=False, |
-|  count=False, allow_from_autoenv=True, type=None, help=None, hidden=False, show_choices=True, show_envvar=False, **attrs)                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: click.Command('my_command', None, None, [click.Option(['--param'], default=42)], None, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_ |
-| option=True, hidden=False)                                                                                                                                                  |
-|                                                                                                                                                                             |
-| Location: At Line 2 in click.Command#60YY/CommandYY.py                                                                                                                      |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @7.0 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option= |
-| True, hidden=False, deprecated=False)                                                                                                                                       |
-|                                                                                                                                                                             |
-| Definition @7.1 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option= |
-| True, no_args_is_help=False, hidden=False, deprecated=False)                                                                                                                |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: click.Command#60YY/CommandYY.py has 2 Click-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: click.Option(['--param'], default=42)                                              |
+|                                                                                                    |
+| Location: At Line 2 in click.Command#60YY/CommandYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @7.0 <dynamic>: (param_decls=None, show_default=False, prompt=False, confirmation_promp |
+| t=False, hide_input=False, is_flag=None, flag_value=None, multiple=False, count=False, allow_from_ |
+| autoenv=True, type=None, help=None, hidden=False, show_choices=True, show_envvar=False, **attrs)   |
+|                                                                                                    |
+| Definition @7.1 <dynamic>: (param_decls=None, show_default=False, prompt=False, confirmation_promp |
+| t=False, hide_input=False, is_flag=None, flag_value=None, multiple=False, count=False, allow_from_ |
+| autoenv=True, type=None, help=None, hidden=False, show_choices=True, show_envvar=False, **attrs)   |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: click.Command('my_command', None, None, [click.Option(['--param'], default=42)], N |
+| one, epilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option=True, hidden=False |
+| )                                                                                                  |
+|                                                                                                    |
+| Location: At Line 2 in click.Command#60YY/CommandYY.py                                             |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @7.0 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, ep |
+| ilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option=True, hidden=False, depre |
+| cated=False)                                                                                       |
+|                                                                                                    |
+| Definition @7.1 <dynamic>: (name, context_settings=None, callback=None, params=None, help=None, ep |
+| ilog=None, short_help=None, options_metavar='[OPTIONS]', add_help_option=True, no_args_is_help=Fal |
+| se, hidden=False, deprecated=False)                                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

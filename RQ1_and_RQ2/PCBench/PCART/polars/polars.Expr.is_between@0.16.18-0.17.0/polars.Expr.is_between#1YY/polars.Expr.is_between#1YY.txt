@@ -12,35 +12,39 @@ Incompatible Polars Invoked API Number: 0/2
 -> Failed to Repair Polars Invoked API Number: 0/0
 -> Unknown Repair Status Polars Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                               File #1: polars.Expr.is_between#1YY/is_betweenYY.py has 2 Polars-Invoked API(s)                                               |
-===============================================================================================================================================================================
-| Invoked API #1: pl.col('num')                                                                                                                                               |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.is_between#1YY/is_betweenYY.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                     |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataType]', *more_names: 'str | PolarsDataType') -> 'Expr'                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: pl.col('num').is_between(2, 4)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in polars.Expr.is_between#1YY/is_betweenYY.py                                                                                                           |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.16.18 <dynamic>: (start: 'IntoExpr', end: 'IntoExpr', closed: 'ClosedInterval' = 'both') -> 'Self'                                                            |
-|                                                                                                                                                                             |
-| Definition @0.17.0 <dynamic>: (lower_bound: 'IntoExpr', upper_bound: 'IntoExpr', closed: 'ClosedInterval' = 'both') -> 'Self'                                               |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|          File #1: polars.Expr.is_between#1YY/is_betweenYY.py has 2 Polars-Invoked API(s)           |
+======================================================================================================
+| Invoked API #1: pl.col('num')                                                                      |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.is_between#1YY/is_betweenYY.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataT |
+| ype]', *more_names: 'str | PolarsDataType') -> 'Expr'                                              |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (name: 'str | PolarsDataType | Iterable[str] | Iterable[PolarsDataTy |
+| pe]', *more_names: 'str | PolarsDataType') -> 'Expr'                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: pl.col('num').is_between(2, 4)                                                     |
+|                                                                                                    |
+| Location: At Line 2 in polars.Expr.is_between#1YY/is_betweenYY.py                                  |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.16.18 <dynamic>: (start: 'IntoExpr', end: 'IntoExpr', closed: 'ClosedInterval' = 'bo |
+| th') -> 'Self'                                                                                     |
+|                                                                                                    |
+| Definition @0.17.0 <dynamic>: (lower_bound: 'IntoExpr', upper_bound: 'IntoExpr', closed: 'ClosedIn |
+| terval' = 'both') -> 'Self'                                                                        |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

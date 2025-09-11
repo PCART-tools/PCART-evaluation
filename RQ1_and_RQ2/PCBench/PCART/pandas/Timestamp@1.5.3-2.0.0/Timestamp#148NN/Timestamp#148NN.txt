@@ -12,25 +12,29 @@ Incompatible Pandas Invoked API Number: 1/1
 -> Failed to Repair Pandas Invoked API Number: 0/1
 -> Unknown Repair Status Pandas Invoked API Number: 0/1
 
-===============================================================================================================================================================================
-|                                                     File #1: Timestamp#148NN/TimestampNN.py has 1 Pandas-Invoked API(s)                                                     |
-===============================================================================================================================================================================
-| Invoked API #1: pd.Timestamp('2017-01-01T12', None, None, hour=None, year=None, day=None, unit=None, microsecond=None, fold=None, minute=None, second=None, month=None)     |
-|                                                                                                                                                                             |
-| Location: At Line 2 in Timestamp#148NN/TimestampNN.py                                                                                                                       |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.5.3 <dynamic>: (ts_input=<object object at 0x7f0c7c007860>, freq=None, tz=None, unit=None, year=None, month=None, day=None, hour=None, minute=None, second=No |
-| ne, microsecond=None, nanosecond=None, tzinfo=None, *, fold=None)                                                                                                           |
-|                                                                                                                                                                             |
-| Definition @2.0.0 <dynamic>: (ts_input=<object object at 0x7f57b9c56650>, year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, tzinfo=No |
-| ne, *, nanosecond=None, tz=None, unit=None, fold=None)                                                                                                                      |
-|                                                                                                                                                                             |
-| Compatible: No                                                                                                                                                              |
-|                                                                                                                                                                             |
-| Repair <Successful>: pd.Timestamp('2017-01-01T12', tz=None, hour=None, year=None, day=None, unit=None, microsecond=None, fold=None, minute=None, second=None, month=None)   |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                File #1: Timestamp#148NN/TimestampNN.py has 1 Pandas-Invoked API(s)                 |
+======================================================================================================
+| Invoked API #1: pd.Timestamp('2017-01-01T12', None, None, hour=None, year=None, day=None, unit=Non |
+| e, microsecond=None, fold=None, minute=None, second=None, month=None)                              |
+|                                                                                                    |
+| Location: At Line 2 in Timestamp#148NN/TimestampNN.py                                              |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.5.3 <dynamic>: (ts_input=<object object at 0x7f4880d49860>, freq=None, tz=None, unit |
+| =None, year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, nan |
+| osecond=None, tzinfo=None, *, fold=None)                                                           |
+|                                                                                                    |
+| Definition @2.0.0 <dynamic>: (ts_input=<object object at 0x7fda65b72650>, year=None, month=None, d |
+| ay=None, hour=None, minute=None, second=None, microsecond=None, tzinfo=None, *, nanosecond=None, t |
+| z=None, unit=None, fold=None)                                                                      |
+|                                                                                                    |
+| Compatible: No                                                                                     |
+|                                                                                                    |
+| Repair <Successful>: pd.Timestamp('2017-01-01T12', tz=None, hour=None, year=None, day=None, unit=N |
+| one, microsecond=None, fold=None, minute=None, second=None, month=None)                            |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

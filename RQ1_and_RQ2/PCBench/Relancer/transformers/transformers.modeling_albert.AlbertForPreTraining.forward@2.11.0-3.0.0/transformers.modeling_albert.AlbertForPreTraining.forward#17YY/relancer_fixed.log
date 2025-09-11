@@ -1,8 +1,14 @@
 --- Running transformers.modeling_albert.AlbertForPreTraining.forward#17YY/forwardYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'transformers.modeling_albert.AlbertForPreTraining.forward#17YY'), ('notebook', 'forwardYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'transformers.modeling_albert.AlbertForPreTraining.forward#17YY'), ('notebook', 'forwardYY'), ('text', '  File "forwardYY.py", line 4, in <module>\n    model = AlbertForPreTraining.from_pretrained(\'./albert-base-v2\')\n  File "/dataset/zhang/anaconda3/envs/Rtransformers3.0.0/lib/python3.8/site-packages/transformers/modeling_utils.py", line 594, in from_pretrained\n    config, model_kwargs = cls.config_class.from_pretrained(\n  File "/dataset/zhang/anaconda3/envs/Rtransformers3.0.0/lib/python3.8/site-packages/transformers/configuration_utils.py", line 200, in from_pretrained\n    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)\n  File "/dataset/zhang/anaconda3/envs/Rtransformers3.0.0/lib/python3.8/site-packages/transformers/configuration_utils.py", line 251, in get_config_dict\n    raise EnvironmentError(msg)\nOSError: Can\'t load config for \'./albert-base-v2\'. Make sure that:\n')])
+  File "forwardYY.py", line 4, in <module>
+Error inducing API short name: from_pretrained, line no: 4
+Error inducing API fqn: transformers.AlbertForPreTraining.from_pretrained, line no: 4
+*** OSError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m1.682s
-user	0m4.877s
-sys	0m5.774s
+real	0m2.015s
+user	0m2.315s
+sys	0m5.808s

@@ -1,5 +1,5 @@
 G.add_edges_from([(1, 2), (2, 3)]), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 933, in add_edges_from
@@ -19,7 +19,40 @@ AttributeError: 'Graph' object has no attribute '_adj'
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 762, in set_edge_attributes
+    for u, v, data in G.edges(data=True):
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 1185, in edges
+    self.__dict__['edges'] = edges = EdgeView(self)
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/reportviews.py", line 905, in __init__
+    self._adjdict = G._succ if hasattr(G, "succ") else G._adj
+AttributeError: 'Graph' object has no attribute '_adj'
+
+
+G.add_edges_from([(1, 2), (2, 3)]), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 933, in add_edges_from
+    if u not in self._node:
+AttributeError: 'Graph' object has no attribute '_node'
+
+
+nx.set_edge_attributes(G, 'color', values), validate error: Traceback (most recent call last):
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 757, in set_edge_attributes
+    G[u][v][name] = value
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 438, in __getitem__
+    return self.adj[n]
+  File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/graph.py", line 333, in adj
+    return AdjacencyView(self._adj)
+AttributeError: 'Graph' object has no attribute '_adj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
   File "/dataset/zhang/anaconda3/envs/networkx2.0/lib/python3.8/site-packages/networkx/classes/function.py", line 762, in set_edge_attributes

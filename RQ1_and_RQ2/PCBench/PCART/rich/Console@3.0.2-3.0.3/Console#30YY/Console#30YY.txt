@@ -12,28 +12,35 @@ Incompatible Rich Invoked API Number: 0/1
 -> Failed to Repair Rich Invoked API Number: 0/0
 -> Unknown Repair Status Rich Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                        File #1: Console#30YY/ConsoleYY.py has 1 Rich-Invoked API(s)                                                         |
-===============================================================================================================================================================================
-| Invoked API #1: Console(record=False, file=None, highlight=True, log_time=True, color_system='auto', height=None, force_terminal=False, width=None, emoji=True, markup=True |
-| , tab_size=8, theme=None, force_jupyter=False)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 2 in Console#30YY/ConsoleYY.py                                                                                                                            |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @3.0.2 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = False, force_ju |
-| pyter: bool = False, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = T |
-| rue, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterTyp |
-| e'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fe66b116910>, legacy_windows: bool = None)                                                                  |
-|                                                                                                                                                                             |
-| Definition @3.0.3 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor', 'windows'], NoneType] = 'auto', force_terminal: bool = False, force_ju |
-| pyter: bool = False, theme: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: int = 8, record: bool = False, markup: bool = T |
-| rue, emoji: bool = True, highlight: bool = True, log_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[ForwardRef('HighlighterTyp |
-| e'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7f766523d910>, legacy_windows: bool = None, safe_box: bool = True)                                           |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                    File #1: Console#30YY/ConsoleYY.py has 1 Rich-Invoked API(s)                    |
+======================================================================================================
+| Invoked API #1: Console(record=False, file=None, highlight=True, log_time=True, color_system='auto |
+| ', height=None, force_terminal=False, width=None, emoji=True, markup=True, tab_size=8, theme=None, |
+|  force_jupyter=False)                                                                              |
+|                                                                                                    |
+| Location: At Line 2 in Console#30YY/ConsoleYY.py                                                   |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @3.0.2 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = False, force_jupyter: bool = False, them |
+| e: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: |
+|  int = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, l |
+| og_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[For |
+| wardRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fc48db40f40 |
+| >, legacy_windows: bool = None)                                                                    |
+|                                                                                                    |
+| Definition @3.0.3 <dynamic>: (*, color_system: Union[Literal['auto', 'standard', '256', 'truecolor |
+| ', 'windows'], NoneType] = 'auto', force_terminal: bool = False, force_jupyter: bool = False, them |
+| e: rich.theme.Theme = None, file: IO[str] = None, width: int = None, height: int = None, tab_size: |
+|  int = 8, record: bool = False, markup: bool = True, emoji: bool = True, highlight: bool = True, l |
+| og_time: bool = True, log_path: bool = True, log_time_format: str = '[%X]', highlighter: Union[For |
+| wardRef('HighlighterType'), NoneType] = <rich.highlighter.ReprHighlighter object at 0x7fefcabbef40 |
+| >, legacy_windows: bool = None, safe_box: bool = True)                                             |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

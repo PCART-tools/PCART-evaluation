@@ -1,8 +1,14 @@
 --- Running from_file#7YY/from_fileYY, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'from_file#7YY'), ('notebook', 'from_fileYY'), ('text', '')])
-[INFO] This case is fully fixed!
+[ERR MSG]: OrderedDict([('project', 'from_file#7YY'), ('notebook', 'from_fileYY'), ('text', '  File "from_fileYY.py", line 4, in <module>\n    app.config.from_file(filename=\'./test.json\', load=json.load, silent=False)\n  File "/dataset/zhang/anaconda3/envs/Rflask2.3.0/lib/python3.8/site-packages/flask/config.py", line 271, in from_file\n    with open(filename, "r" if text else "rb") as f:\nFileNotFoundError: [Errno 2] Unable to load configuration file (No such file or directory): \'/home/nuaa/Projects/PCART/ToolCompare/relancer/relancer-exp/fixed_notebooks/relancer/from_file#7YY/./test.json\'\n')])
+  File "from_fileYY.py", line 4, in <module>
+Error inducing API short name: from_file, line no: 4
+Error inducing API fqn: UNKNOWN, line no: 4
+*** FileNotFoundError: PLACEHOLDER
+Repair Action: unknown
+Unknown error occurs!
+[INFO] This case cannot be fixed!
 
 
-real	0m0.612s
-user	0m0.516s
-sys	0m0.097s
+real	0m0.434s
+user	0m0.388s
+sys	0m0.046s

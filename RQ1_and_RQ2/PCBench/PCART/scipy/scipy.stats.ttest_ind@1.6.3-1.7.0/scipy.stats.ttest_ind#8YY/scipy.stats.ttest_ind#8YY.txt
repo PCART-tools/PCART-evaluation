@@ -12,21 +12,23 @@ Incompatible Scipy Invoked API Number: 0/1
 -> Failed to Repair Scipy Invoked API Number: 0/0
 -> Unknown Repair Status Scipy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                File #1: scipy.stats.ttest_ind#8YY/ttest_indYY.py has 1 Scipy-Invoked API(s)                                                 |
-===============================================================================================================================================================================
-| Invoked API #1: stats.ttest_ind(a, b, 0, True)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 4 in scipy.stats.ttest_ind#8YY/ttest_indYY.py                                                                                                             |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.6.3 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate', alternative='two-sided')                                                                |
-|                                                                                                                                                                             |
-| Definition @1.7.0 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate', permutations=None, random_state=None, alternative='two-sided', trim=0)                  |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|            File #1: scipy.stats.ttest_ind#8YY/ttest_indYY.py has 1 Scipy-Invoked API(s)            |
+======================================================================================================
+| Invoked API #1: stats.ttest_ind(a, b, 0, True)                                                     |
+|                                                                                                    |
+| Location: At Line 4 in scipy.stats.ttest_ind#8YY/ttest_indYY.py                                    |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.6.3 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate', alternative='t |
+| wo-sided')                                                                                         |
+|                                                                                                    |
+| Definition @1.7.0 <dynamic>: (a, b, axis=0, equal_var=True, nan_policy='propagate', permutations=N |
+| one, random_state=None, alternative='two-sided', trim=0)                                           |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

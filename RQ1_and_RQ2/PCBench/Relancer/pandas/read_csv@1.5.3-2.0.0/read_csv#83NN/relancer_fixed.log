@@ -1,5 +1,5 @@
 --- Running read_csv#83NN/read_csvNN, strategy: relancer
-[ERR MSG]: OrderedDict([('project', 'read_csv#83NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'/home/zhang/Packages/tensorflow_file/dev.csv\', true_values=None, keep_default_na=True, index_col=None, sep=\',\', dayfirst=False, converters=None, compression=\'infer\', keep_date_col=False, usecols=None, date_parser=None, iterator=False, delimiter=None, skipfooter=0, parse_dates=None, chunksize=None, nrows=None, verbose=False, mangle_dupe_cols=True, skip_blank_lines=True, cache_dates=True, infer_datetime_format=False, na_filter=True, names=None, engine=None, false_values=None, prefix=None, na_values=None, skipinitialspace=False, squeeze=None, header=\'infer\', skiprows=None, dtype=None)\nTypeError: read_csv() got an unexpected keyword argument \'mangle_dupe_cols\'\n')])
+[ERR MSG]: OrderedDict([('project', 'read_csv#83NN'), ('notebook', 'read_csvNN'), ('text', '  File "read_csvNN.py", line 2, in <module>\n    pd.read_csv(\'./dev.csv\', true_values=None, keep_default_na=True, index_col=None, sep=\',\', dayfirst=False, converters=None, compression=\'infer\', keep_date_col=False, usecols=None, date_parser=None, iterator=False, delimiter=None, skipfooter=0, parse_dates=None, chunksize=None, nrows=None, verbose=False, mangle_dupe_cols=True, skip_blank_lines=True, cache_dates=True, infer_datetime_format=False, na_filter=True, names=None, engine=None, false_values=None, prefix=None, na_values=None, skipinitialspace=False, squeeze=None, header=\'infer\', skiprows=None, dtype=None)\nTypeError: read_csv() got an unexpected keyword argument \'mangle_dupe_cols\'\n')])
   File "read_csvNN.py", line 2, in <module>
 Error inducing API short name: read_csv, line no: 2
 Error inducing API fqn: pandas.read_csv, line no: 2
@@ -21,6 +21,6 @@ All Solution Candidates:
 [INFO] This case cannot be fixed!
 
 
-real	0m0.647s
-user	0m1.662s
-sys	0m5.609s
+real	0m0.631s
+user	0m1.800s
+sys	0m5.773s

@@ -110,15 +110,19 @@ Incompatible Polars Invoked API Number: 1/10
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @0.16.18 <static>: {'polars.dataframe.frame.DataFrame.reverse': ['(self)->Self'], 'pola |
-| rs.expr.expr.Expr.reverse': ['(self)->Self'], 'polars.expr.list.ExprListNameSpace.reverse': ['(sel |
-| f)->Expr'], 'polars.series.series.Series.reverse': ['(self)->Series'], 'polars.series.list.ListNam |
-| eSpace.reverse': ['(self)->Series'], 'polars.lazyframe.frame.LazyFrame.reverse': ['(self)->Self']} |
+| Definition @0.16.18 <static>: {'polars.DataFrame.reverse': ['(self)->Self'], 'polars.dataframe.fra |
+| me.DataFrame.reverse': ['(self)->Self'], 'polars.Series.reverse': ['(self)->Series'], 'polars.seri |
+| es.series.Series.reverse': ['(self)->Series'], 'polars.series.list.ListNameSpace.reverse': ['(self |
+| )->Series'], 'polars.LazyFrame.reverse': ['(self)->Self'], 'polars.lazyframe.frame.LazyFrame.rever |
+| se': ['(self)->Self'], 'polars.expr.list.ExprListNameSpace.reverse': ['(self)->Expr'], 'polars.Exp |
+| r.reverse': ['(self)->Self'], 'polars.expr.expr.Expr.reverse': ['(self)->Self']}                   |
 |                                                                                                    |
-| Definition @0.17.0 <static>: {'polars.dataframe.frame.DataFrame.reverse': ['(self)->Self'], 'polar |
-| s.expr.expr.Expr.reverse': ['(self)->Self'], 'polars.expr.list.ExprListNameSpace.reverse': ['(self |
-| )->Expr'], 'polars.series.series.Series.reverse': ['(self)->Series'], 'polars.series.list.ListName |
-| Space.reverse': ['(self)->Series'], 'polars.lazyframe.frame.LazyFrame.reverse': ['(self)->Self']}  |
+| Definition @0.17.0 <static>: {'polars.DataFrame.reverse': ['(self)->Self'], 'polars.dataframe.fram |
+| e.DataFrame.reverse': ['(self)->Self'], 'polars.Series.reverse': ['(self)->Series'], 'polars.serie |
+| s.series.Series.reverse': ['(self)->Series'], 'polars.series.list.ListNameSpace.reverse': ['(self) |
+| ->Series'], 'polars.LazyFrame.reverse': ['(self)->Self'], 'polars.lazyframe.frame.LazyFrame.revers |
+| e': ['(self)->Self'], 'polars.expr.list.ExprListNameSpace.reverse': ['(self)->Expr'], 'polars.Expr |
+| .reverse': ['(self)->Self'], 'polars.expr.expr.Expr.reverse': ['(self)->Self']}                    |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -130,23 +134,27 @@ Incompatible Polars Invoked API Number: 1/10
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @0.16.18 <static>: {'polars.dataframe.groupby.GroupBy.head': ['(self,n:int=5)->DF'], 'p |
-| olars.dataframe.frame.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.expr.expr.Expr.head': ['( |
-| self,n:int=10)->Self'], 'polars.expr.list.ExprListNameSpace.head': ['(self,n:int|str|Expr=5)->Expr |
-| '], 'polars.series.series.Series.head': ['(self,n:int=10)->Series'], 'polars.series.list.ListNameS |
-| pace.head': ['(self,n:int=5)->Series'], 'polars.functions.head': ['(column:str|Series,n:int=10)->E |
-| xpr|Series'], 'polars.functions.lazy.head': ['(column:str|Series,n:int=10)->Expr|Series'], 'polars |
-| .lazyframe.groupby.LazyGroupBy.head': ['(self,n:int=5)->LDF'], 'polars.lazyframe.frame.LazyFrame.h |
-| ead': ['(self,n:int=5)->Self']}                                                                    |
+| Definition @0.16.18 <static>: {'polars.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.datafram |
+| e.frame.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.dataframe.groupby.GroupBy.head': ['(sel |
+| f,n:int=5)->DF'], 'polars.Series.head': ['(self,n:int=10)->Series'], 'polars.series.series.Series. |
+| head': ['(self,n:int=10)->Series'], 'polars.series.list.ListNameSpace.head': ['(self,n:int=5)->Ser |
+| ies'], 'polars.LazyFrame.head': ['(self,n:int=5)->Self'], 'polars.lazyframe.frame.LazyFrame.head': |
+|  ['(self,n:int=5)->Self'], 'polars.lazyframe.groupby.LazyGroupBy.head': ['(self,n:int=5)->LDF'], ' |
+| polars.expr.list.ExprListNameSpace.head': ['(self,n:int|str|Expr=5)->Expr'], 'polars.Expr.head': [ |
+| '(self,n:int=10)->Self'], 'polars.expr.expr.Expr.head': ['(self,n:int=10)->Self'], 'polars.functio |
+| ns.head': ['(column:str|Series,n:int=10)->Expr|Series'], 'polars.functions.lazy.head': ['(column:s |
+| tr|Series,n:int=10)->Expr|Series']}                                                                |
 |                                                                                                    |
-| Definition @0.17.0 <static>: {'polars.dataframe.groupby.GroupBy.head': ['(self,n:int=5)->DF'], 'po |
-| lars.dataframe.frame.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.expr.expr.Expr.head': ['(s |
-| elf,n:int=10)->Self'], 'polars.expr.list.ExprListNameSpace.head': ['(self,n:int|str|Expr=5)->Expr' |
-| ], 'polars.series.series.Series.head': ['(self,n:int=10)->Series'], 'polars.series.list.ListNameSp |
-| ace.head': ['(self,n:int=5)->Series'], 'polars.functions.head': ['(column:str|Series,n:int=10)->Ex |
-| pr|Series'], 'polars.functions.lazy.head': ['(column:str|Series,n:int=10)->Expr|Series'], 'polars. |
-| lazyframe.groupby.LazyGroupBy.head': ['(self,n:int=5)->LDF'], 'polars.lazyframe.frame.LazyFrame.he |
-| ad': ['(self,n:int=5)->Self']}                                                                     |
+| Definition @0.17.0 <static>: {'polars.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.dataframe |
+| .frame.DataFrame.head': ['(self,n:int=5)->Self'], 'polars.dataframe.groupby.GroupBy.head': ['(self |
+| ,n:int=5)->DF'], 'polars.Series.head': ['(self,n:int=10)->Series'], 'polars.series.series.Series.h |
+| ead': ['(self,n:int=10)->Series'], 'polars.series.list.ListNameSpace.head': ['(self,n:int=5)->Seri |
+| es'], 'polars.LazyFrame.head': ['(self,n:int=5)->Self'], 'polars.lazyframe.frame.LazyFrame.head':  |
+| ['(self,n:int=5)->Self'], 'polars.lazyframe.groupby.LazyGroupBy.head': ['(self,n:int=5)->LDF'], 'p |
+| olars.expr.list.ExprListNameSpace.head': ['(self,n:int|str|Expr=5)->Expr'], 'polars.Expr.head': [' |
+| (self,n:int=10)->Self'], 'polars.expr.expr.Expr.head': ['(self,n:int=10)->Self'], 'polars.function |
+| s.head': ['(column:str|Series,n:int=10)->Expr|Series'], 'polars.functions.lazy.head': ['(column:st |
+| r|Series,n:int=10)->Expr|Series']}                                                                 |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |
@@ -158,11 +166,13 @@ Incompatible Polars Invoked API Number: 1/10
 |                                                                                                    |
 | Coverage: Yes                                                                                      |
 |                                                                                                    |
-| Definition @0.16.18 <static>: {'polars.expr.expr.Expr.alias': ['(self,name:str)->Self'], 'polars.s |
-| eries.series.Series.alias': ['(self,name:str)->Series']}                                           |
+| Definition @0.16.18 <static>: {'polars.Series.alias': ['(self,name:str)->Series'], 'polars.series. |
+| series.Series.alias': ['(self,name:str)->Series'], 'polars.Expr.alias': ['(self,name:str)->Self'], |
+|  'polars.expr.expr.Expr.alias': ['(self,name:str)->Self']}                                         |
 |                                                                                                    |
-| Definition @0.17.0 <static>: {'polars.expr.expr.Expr.alias': ['(self,name:str)->Self'], 'polars.se |
-| ries.series.Series.alias': ['(self,name:str)->Series']}                                            |
+| Definition @0.17.0 <static>: {'polars.Series.alias': ['(self,name:str)->Series'], 'polars.series.s |
+| eries.Series.alias': ['(self,name:str)->Series'], 'polars.Expr.alias': ['(self,name:str)->Self'],  |
+| 'polars.expr.expr.Expr.alias': ['(self,name:str)->Self']}                                          |
 |                                                                                                    |
 | Compatible: Yes                                                                                    |
 |                                                                                                    |

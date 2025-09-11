@@ -12,117 +12,162 @@ Incompatible Numpy Invoked API Number: 0/4
 -> Failed to Repair Numpy Invoked API Number: 0/0
 -> Unknown Repair Status Numpy Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                                      File #1: numpy.hstack#2YY/hstackYY.py has 4 Numpy-Invoked API(s)                                                       |
-===============================================================================================================================================================================
-| Invoked API #1: np.array([1, 2, 3])                                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 2 in numpy.hstack#2YY/hstackYY.py                                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArra |
-| yFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=.. |
-| .)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType' |
-| , '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarra |
-| y.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]', '(object:A |
-| ny,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SC |
-| T],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None= |
-| ...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyM |
-| ode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Su |
-| pportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Suppo |
-| rtsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFu |
-| nc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [Any]'], 'numpy.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=. |
-| ..)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDAr |
-| ray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(ob |
-| ject:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]']}                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: np.array([4, 5, 6])                                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 3 in numpy.hstack#2YY/hstackYY.py                                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArra |
-| yFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=.. |
-| .)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType' |
-| , '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarra |
-| y.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]', '(object:A |
-| ny,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SC |
-| T],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None= |
-| ...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyM |
-| ode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Su |
-| pportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Suppo |
-| rtsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFu |
-| nc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [Any]'], 'numpy.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=. |
-| ..)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDAr |
-| ray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(ob |
-| ject:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]']}                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #3: np.array([7, 8, 9])                                                                                                                                         |
-|                                                                                                                                                                             |
-| Location: At Line 4 in numpy.hstack#2YY/hstackYY.py                                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArra |
-| yFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=.. |
-| .)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType' |
-| , '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarra |
-| y.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]', '(object:A |
-| ny,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SC |
-| T],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None= |
-| ...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyM |
-| ode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                                                                     |
-|                                                                                                                                                                             |
-| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like |
-| :None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Su |
-| pportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Suppo |
-| rtsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFu |
-| nc=...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [Any]'], 'numpy.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=. |
-| ..)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDAr |
-| ray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray |
-| [_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(ob |
-| ject:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]']}                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #4: np.hstack(tup=(arr1, arr2, arr3))                                                                                                                           |
-|                                                                                                                                                                             |
-| Location: At Line 5 in numpy.hstack#2YY/hstackYY.py                                                                                                                         |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @1.23.5 <dynamic>: (tup)                                                                                                                                         |
-|                                                                                                                                                                             |
-| Definition @1.24.0 <dynamic>: (tup, *, dtype=None, casting='same_kind')                                                                                                     |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|                  File #1: numpy.hstack#2YY/hstackYY.py has 4 Numpy-Invoked API(s)                  |
+======================================================================================================
+| Invoked API #1: np.array([1, 2, 3])                                                                |
+|                                                                                                    |
+| Location: At Line 2 in numpy.hstack#2YY/hstackYY.py                                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: np.array([4, 5, 6])                                                                |
+|                                                                                                    |
+| Location: At Line 3 in numpy.hstack#2YY/hstackYY.py                                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #3: np.array([7, 8, 9])                                                                |
+|                                                                                                    |
+| Location: At Line 4 in numpy.hstack#2YY/hstackYY.py                                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)- |
+| >NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKACF=... |
+| ,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_S |
+| CT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,lik |
+| e:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMod |
+| e=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc=...)->_ArrayType',  |
+| '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin |
+| :int=...,like:_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray.array': ['(object:Any,dty |
+| pe:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_Sup |
+| portsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=..., |
+| order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '( |
+| object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=. |
+| ..,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=..., |
+| *,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:_SupportsArrayFunc=...)->NDArray[Any]']}                         |
+|                                                                                                    |
+| Definition @1.24.0 <static>: {'numpy.core.multiarray.array': ['(object:Any,dtype:DTypeLike,*,copy: |
+| bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc= |
+| ...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_SCT],*,copy:bool|_CopyMode=...,order:_OrderKAC |
+| F=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_Ar |
+| rayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:i |
+| nt=...,like:None|_SupportsArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayType,dtype:None=...,*,cop |
+| y:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[True],ndmin:int=...,like:None|_SupportsArrayFunc |
+| =...)->_ArrayType', '(object:object,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=..., |
+| subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]'], 'numpy.multiarray. |
+| array': ['(object:Any,dtype:DTypeLike,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=.. |
+| .,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[Any]', '(object:Any,dtype:_DTypeLike[_S |
+| CT],*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_Support |
+| sArrayFunc=...)->NDArray[_SCT]', '(object:_ArrayLike[_SCT],dtype:None=...,*,copy:bool|_CopyMode=.. |
+| .,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArrayFunc=...)->NDArray[_SC |
+| T]', '(object:_ArrayType,dtype:None=...,*,copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:L[Tru |
+| e],ndmin:int=...,like:None|_SupportsArrayFunc=...)->_ArrayType', '(object:object,dtype:None=...,*, |
+| copy:bool|_CopyMode=...,order:_OrderKACF=...,subok:bool=...,ndmin:int=...,like:None|_SupportsArray |
+| Func=...)->NDArray[Any]']}                                                                         |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #4: np.hstack(tup=(arr1, arr2, arr3))                                                  |
+|                                                                                                    |
+| Location: At Line 5 in numpy.hstack#2YY/hstackYY.py                                                |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @1.23.5 <dynamic>: (tup)                                                                |
+|                                                                                                    |
+| Definition @1.24.0 <dynamic>: (tup, *, dtype=None, casting='same_kind')                            |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

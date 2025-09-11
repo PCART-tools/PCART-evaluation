@@ -12,21 +12,21 @@ Incompatible Django Invoked API Number: 0/1
 -> Failed to Repair Django Invoked API Number: 0/0
 -> Unknown Repair Status Django Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                   File #1: django.views.static.was_modified_since#4YY/was_modified_sinceYY.py has 1 Django-Invoked API(s)                                   |
-===============================================================================================================================================================================
-| Invoked API #1: was_modified_since(None, 0)                                                                                                                                 |
-|                                                                                                                                                                             |
-| Location: At Line 2 in django.views.static.was_modified_since#4YY/was_modified_sinceYY.py                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @4.0.10 <dynamic>: (header=None, mtime=0, size=0)                                                                                                                |
-|                                                                                                                                                                             |
-| Definition @4.1.0 <dynamic>: (header=None, mtime=0)                                                                                                                         |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|File #1: django.views.static.was_modified_since#4YY/was_modified_sinceYY.py has 1 Django-Invoked API(s)|
+======================================================================================================
+| Invoked API #1: was_modified_since(None, 0)                                                        |
+|                                                                                                    |
+| Location: At Line 2 in django.views.static.was_modified_since#4YY/was_modified_sinceYY.py          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @4.0.10 <dynamic>: (header=None, mtime=0, size=0)                                       |
+|                                                                                                    |
+| Definition @4.1.0 <dynamic>: (header=None, mtime=0)                                                |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

@@ -1,5 +1,5 @@
 torch.randn(2, 3, 3), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
 TypeError: randn() received an invalid combination of arguments - got (), but expected one of:
@@ -8,7 +8,26 @@ TypeError: randn() received an invalid combination of arguments - got (), but ex
 
 
 torch.randn(2, 3, 3), validate error: Traceback (most recent call last):
-  File "verifySingle.py", line 12, in <module>
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+TypeError: randn() received an invalid combination of arguments - got (), but expected one of:
+ * (tuple of ints size, torch.Generator generator, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+
+
+torch.randn(2, 3, 3), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
+    eval(callAPI)
+  File "<string>", line 1, in <module>
+TypeError: randn() received an invalid combination of arguments - got (), but expected one of:
+ * (tuple of ints size, torch.Generator generator, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+
+torch.randn(2, 3, 3), validate error: Traceback (most recent call last):
+  File "verifySingle.py", line 20, in <module>
     eval(callAPI)
   File "<string>", line 1, in <module>
 TypeError: randn() received an invalid combination of arguments - got (), but expected one of:

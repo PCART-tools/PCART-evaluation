@@ -12,32 +12,36 @@ Incompatible Jax Invoked API Number: 0/1
 -> Failed to Repair Jax Invoked API Number: 0/0
 -> Unknown Repair Status Jax Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                             File #1: jax.experimental.jax2tf.convert#1YY/convertYY.py has 2 Jax-Invoked API(s)                                              |
-===============================================================================================================================================================================
-| Invoked API #1: jnp.sum(x ** 2)                                                                                                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 6 in jax.experimental.jax2tf.convert#1YY/convertYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: No                                                                                                                                                                |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: jax2tf.convert(sum_of_squares)                                                                                                                              |
-|                                                                                                                                                                             |
-| Location: At Line 7 in jax.experimental.jax2tf.convert#1YY/convertYY.py                                                                                                     |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @0.4.12 <dynamic>: (fun_jax: Callable, *, polymorphic_shapes=None, with_gradient=True, enable_xla=True, experimental_native_lowering='default', native_serializa |
-| tion='default', native_serialization_platforms=(), native_serialization_strict_checks=True) -> Callable                                                                     |
-|                                                                                                                                                                             |
-| Definition @0.4.13 <dynamic>: (fun_jax: Callable, *, polymorphic_shapes: Union[str, NoneType] = None, with_gradient: bool = True, enable_xla: bool = True, native_serializa |
-| tion: Union[bool, jax.experimental.jax2tf.jax2tf._DefaultNativeSerialization] = <jax.experimental.jax2tf.jax2tf._DefaultNativeSerialization object at 0x7f2e556f0490>, nati |
-| ve_serialization_platforms: Sequence[str] = (), native_serialization_disabled_checks: Sequence[jax.experimental.jax2tf.jax_export.DisabledSafetyCheck] = ()) -> Callable    |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|         File #1: jax.experimental.jax2tf.convert#1YY/convertYY.py has 2 Jax-Invoked API(s)         |
+======================================================================================================
+| Invoked API #1: jnp.sum(x ** 2)                                                                    |
+|                                                                                                    |
+| Location: At Line 6 in jax.experimental.jax2tf.convert#1YY/convertYY.py                            |
+|                                                                                                    |
+| Coverage: No                                                                                       |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: jax2tf.convert(sum_of_squares)                                                     |
+|                                                                                                    |
+| Location: At Line 7 in jax.experimental.jax2tf.convert#1YY/convertYY.py                            |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @0.4.12 <dynamic>: (fun_jax: Callable, *, polymorphic_shapes=None, with_gradient=True,  |
+| enable_xla=True, experimental_native_lowering='default', native_serialization='default', native_se |
+| rialization_platforms=(), native_serialization_strict_checks=True) -> Callable                     |
+|                                                                                                    |
+| Definition @0.4.13 <dynamic>: (fun_jax: Callable, *, polymorphic_shapes: Union[str, NoneType] = No |
+| ne, with_gradient: bool = True, enable_xla: bool = True, native_serialization: Union[bool, jax.exp |
+| erimental.jax2tf.jax2tf._DefaultNativeSerialization] = <jax.experimental.jax2tf.jax2tf._DefaultNat |
+| iveSerialization object at 0x7f4375bf7070>, native_serialization_platforms: Sequence[str] = (), na |
+| tive_serialization_disabled_checks: Sequence[jax.experimental.jax2tf.jax_export.DisabledSafetyChec |
+| k] = ()) -> Callable                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 

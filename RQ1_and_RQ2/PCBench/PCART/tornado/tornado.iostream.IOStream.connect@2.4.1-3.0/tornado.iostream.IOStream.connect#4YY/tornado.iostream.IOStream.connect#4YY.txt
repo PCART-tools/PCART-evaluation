@@ -12,35 +12,38 @@ Incompatible Tornado Invoked API Number: 0/2
 -> Failed to Repair Tornado Invoked API Number: 0/0
 -> Unknown Repair Status Tornado Invoked API Number: 0/0
 
-===============================================================================================================================================================================
-|                                          File #1: tornado.iostream.IOStream.connect#4YY/connectYY.py has 2 Tornado-Invoked API(s)                                           |
-===============================================================================================================================================================================
-| Invoked API #1: tornado.iostream.IOStream(sock)                                                                                                                             |
-|                                                                                                                                                                             |
-| Location: At Line 5 in tornado.iostream.IOStream.connect#4YY/connectYY.py                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.1 <static>: {'tornado.iostream.IOStream': ['(self,socket,io_loop=None,max_buffer_size=104857600,read_chunk_size=4096)']}                                    |
-|                                                                                                                                                                             |
-| Definition @3.0 <static>: {'tornado.iostream.IOStream': ['(self,socket,*args,**kwargs)']}                                                                                   |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                             |
-| Invoked API #2: stream.connect(address, callback=None)                                                                                                                      |
-|                                                                                                                                                                             |
-| Location: At Line 6 in tornado.iostream.IOStream.connect#4YY/connectYY.py                                                                                                   |
-|                                                                                                                                                                             |
-| Coverage: Yes                                                                                                                                                               |
-|                                                                                                                                                                             |
-| Definition @2.4.1 <static>: {'tornado.iostream.IOStream.connect': ['(self,address,callback=None)']}                                                                         |
-|                                                                                                                                                                             |
-| Definition @3.0 <static>: {'tornado.iostream.IOStream.connect': ['(self,address,callback=None,server_hostname=None)']}                                                      |
-|                                                                                                                                                                             |
-| Compatible: Yes                                                                                                                                                             |
-|                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+======================================================================================================
+|      File #1: tornado.iostream.IOStream.connect#4YY/connectYY.py has 2 Tornado-Invoked API(s)      |
+======================================================================================================
+| Invoked API #1: tornado.iostream.IOStream(sock)                                                    |
+|                                                                                                    |
+| Location: At Line 5 in tornado.iostream.IOStream.connect#4YY/connectYY.py                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.1 <static>: {'tornado.iostream.IOStream': ['(self,socket,io_loop=None,max_buffer_s |
+| ize=104857600,read_chunk_size=4096)']}                                                             |
+|                                                                                                    |
+| Definition @3.0 <static>: {'tornado.iostream.IOStream': ['(self,socket,*args,**kwargs)']}          |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
+|                                                                                                    |
+| Invoked API #2: stream.connect(address, callback=None)                                             |
+|                                                                                                    |
+| Location: At Line 6 in tornado.iostream.IOStream.connect#4YY/connectYY.py                          |
+|                                                                                                    |
+| Coverage: Yes                                                                                      |
+|                                                                                                    |
+| Definition @2.4.1 <static>: {'tornado.iostream.IOStream.connect': ['(self,address,callback=None)'] |
+| }                                                                                                  |
+|                                                                                                    |
+| Definition @3.0 <static>: {'tornado.iostream.IOStream.connect': ['(self,address,callback=None,serv |
+| er_hostname=None)']}                                                                               |
+|                                                                                                    |
+| Compatible: Yes                                                                                    |
+|                                                                                                    |
+|----------------------------------------------------------------------------------------------------|
 
 
