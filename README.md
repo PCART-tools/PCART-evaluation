@@ -7,7 +7,8 @@ This repository contains the evaluation results of **PCART**, assessing its **AP
 - **`RQ1_and_RQ2/`**  
   Evaluates PCART's performance on **API parameter compatibility detection and repair**.  
   - Uses the **PCBench** and **MLCatchUp** datasets.  
-  - Compares PCART against **MLCatchUp** and **Relancer**.  
+  - Compares PCART against **MLCatchUp** and **Relancer**.
+  - Evaluates PCART's ability to extract complex API invocation patterns 
 
 - **`RQ3/`**  
   Assesses PCART's effectiveness in **real-world Python projects**.  
