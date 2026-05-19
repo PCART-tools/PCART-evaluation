@@ -31,3 +31,8 @@ This repository contains the evaluation results of **PCART**, assessing its **AP
 
 :tada: **Happy Researching with PCART!** :rocket:
 
+
+## License
+
+PCART-evaluation is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See [LICENSE](./LICENSE) for details.
+
